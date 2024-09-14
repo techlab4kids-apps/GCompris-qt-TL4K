@@ -137,7 +137,7 @@ Image {
      * to the winSound.
      *
      * @param name Type of win image to show.
-     * Possible values are "flower", "gnu", "lion", "note", "smiley", "tux"
+     * Possible values are "flower", "gnu", "lion", "note", "smiley", "tux", "ruby"
      */
     function good(name) {
         source = url + "bonus/" + name + "_good.svg"
@@ -152,7 +152,7 @@ Image {
      * to the looseSound.
      *
      * @param name Type of win image to show.
-     * Possible values are "flower", "gnu", "lion", "note", "smiley", "tux"
+     * Possible values are "flower", "gnu", "lion", "note", "smiley", "tux", "ruby"
      */
     function bad(name, audioIndex) {
         source = url + "bonus/" + name + "_bad.svg"

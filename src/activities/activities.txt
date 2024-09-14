@@ -170,6 +170,10 @@ redraw_symmetrical
 renewable_energy
 reversecount
 roman_numerals
+ruby_clickgame
+ruby_erase
+ruby_path_encoding
+ruby_programmingMaze
 scalesboard
 scalesboard_weight
 scalesboard_weight_avoirdupois
