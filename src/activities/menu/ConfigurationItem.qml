@@ -54,7 +54,7 @@ Item {
 
             Row {
                 id: starsRow
-                width: filterSlider.availableWidth - filterSlider.first.handle.width
+                width: filterSlider.childrenRect.width - filterSlider.first.handle.width
                 spacing: 0
                 anchors.top: difficultyLabel.bottom
                 anchors.horizontalCenter: filterSlider.horizontalCenter
@@ -83,15 +83,16 @@ Item {
                 width: Math.min(300 * ApplicationInfo.ratio, dialogConfig.contentWidth)
                 from: 1
                 to: 7
-                first.value: minFilter
-                second.value: maxFilter + 1
-                first.onValueChanged: {
+                // Binding minFilter directly to first.value doesn't work right, so we set its value in loadFromConfig(), and do the same on second.value for consistency
+                first.value: 1
+                second.value: 7
+                first.onMoved: {
                     if(first.value >= second.value)
                         first.value = second.value - 1;
                         else
                             minFilter = first.value;
                 }
-                second.onValueChanged: {
+                second.onMoved: {
                     if(second.value <= first.value)
                         second.value = first.value + 1;
                         else
@@ -453,7 +454,7 @@ Item {
     property int minFilter
     property int maxFilter
 
-    function extractMusicNameFromPath(musicPath: string) {
+    function extractMusicNameFromPath(musicPath: string): string {
         var musicDirectoryPath = ApplicationInfo.getAudioFilePath("backgroundMusic/")
         var musicName = String(musicPath)
         musicName = musicName.slice(musicDirectoryPath.length, musicName.length)
@@ -482,6 +483,8 @@ Item {
 
         minFilter = ApplicationSettings.filterLevelMin
         maxFilter = ApplicationSettings.filterLevelMax
+        filterSlider.first.value = minFilter
+        filterSlider.second.value = maxFilter + 1
 
         sectionVisible = ApplicationSettings.sectionVisible
         sectionVisibleBox.checked = sectionVisible
@@ -514,8 +517,8 @@ Item {
         }
 
         // Set font capitalization
-        for(i = 0 ; i < fontCapitalizationModel.length ; i ++) {
-            if(fontCapitalizationModel[i].value === ApplicationSettings.fontCapitalization) {
+        for(i = 0 ; i < fontCapitalizationModel.count ; i ++) {
+            if(fontCapitalizationModel.get(i).value === ApplicationSettings.fontCapitalization) {
                 fontCapitalizationBox.currentIndex = i;
                 break;
             }
@@ -539,7 +542,7 @@ Item {
         ApplicationSettings.exitConfirmation = exitConfirmation
         ApplicationSettings.isEmbeddedFont = fonts.get(fontBox.currentIndex).isLocalResource;
         ApplicationSettings.font = fonts.get(fontBox.currentIndex).text
-        ApplicationSettings.fontCapitalization = fontCapitalizationModel[fontCapitalizationBox.currentIndex].value
+        ApplicationSettings.fontCapitalization = fontCapitalizationModel.get(fontCapitalizationBox.currentIndex).value
 
         if(ApplicationSettings.filterLevelMin !== minFilter ||
            ApplicationSettings.filterLevelMax !== maxFilter) {
@@ -565,6 +568,8 @@ Item {
                 DownloadManager.updateResource(GCompris.VOICES, {"locale": ApplicationInfo.getVoicesLocale(ApplicationSettings.locale)});
             }
         }
+        languageBox.restoreBinding();
+        fontCapitalizationBox.restoreBinding();
     }
 
     ListModel {
@@ -611,11 +616,21 @@ Item {
         }
     }
 
-    property var fontCapitalizationModel: [
-        { text: qsTr("Mixed case (default)"), value: Font.MixedCase },
-        { text: qsTr("All uppercase"), value: Font.AllUppercase },
-        { text: qsTr("All lowercase"), value: Font.AllLowercase }
-    ]
+    ListModel {
+        id: fontCapitalizationModel
+        ListElement {
+            text: qsTr("Mixed case (default)")
+            value: Font.MixedCase
+        }
+        ListElement {
+            text: qsTr("All uppercase")
+            value: Font.AllUppercase
+        }
+        ListElement {
+            text: qsTr("All lowercase")
+            value: Font.AllLowercase
+        }
+    }
 
     function isFilteredBackgroundMusicChanged(): bool {
         initialFilteredMusic = ApplicationSettings.filteredBackgroundMusic
@@ -635,7 +650,7 @@ Item {
         (ApplicationSettings.font = fonts.get(fontBox.currentIndex).text) ||
         (ApplicationSettings.isEmbeddedFont !== fonts.get(fontBox.currentIndex).isLocalResource) ||
         (ApplicationSettings.isEmbeddedFont !== fonts.get(fontBox.currentIndex).isLocalResource) ||
-        (ApplicationSettings.fontCapitalization !== fontCapitalizationModel[(fontcapitalizationBox.currentIndex)].value) ||
+        (ApplicationSettings.fontCapitalization !== fontCapitalizationModel.get(fontcapitalizationBox.currentIndex).value) ||
         (ApplicationSettings.fontLetterSpacing != fontLetterSpacing) ||
         (ApplicationSettings.isAudioVoicesEnabled != isAudioVoicesEnabled) ||
         (ApplicationSettings.isAudioEffectsEnabled != isAudioEffectsEnabled) ||

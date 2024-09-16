@@ -221,8 +221,8 @@ msgstr ""
 #: activities/algebra_minus/ActivityInfo.qml:25
 #: activities/algebra_plus/ActivityInfo.qml:25
 #: activities/algorithm/ActivityInfo.qml:23
-#: activities/align4/ActivityInfo.qml:24
-#: activities/align4_2players/ActivityInfo.qml:23
+#: activities/align4/ActivityInfo.qml:25
+#: activities/align4_2players/ActivityInfo.qml:24
 #: activities/alphabet-sequence/ActivityInfo.qml:25
 #: activities/baby_wordprocessor/ActivityInfo.qml:25
 #: activities/braille_alphabets/ActivityInfo.qml:25
@@ -1475,14 +1475,10 @@ msgstr "நான்கு காசுகளை ஒரு வரிசையி
 #: activities/align4_2players/ActivityInfo.qml:20
 #, fuzzy
 #| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Create a line of 4 pieces either horizontally (lying down), vertically "
-#| "(standing up) or diagonally."
+#| msgid "Fine motor coordination"
 msgctxt "ActivityInfo|"
-msgid ""
-"Create a line of 4 tokens either horizontally (lying down), vertically "
-"(standing up), or diagonally."
-msgstr "நான்கு துண்டுகளை கிடைமட்டமாகவோ நெடு மட்டமாகவோ குறுக்காகவோ அமையுங்க."
+msgid "Develop anticipation and strategy skills."
+msgstr "நுண் இயக்க ஒருங்கிணைவு"
 
 #. Help manual
 #: activities/align4/ActivityInfo.qml:22
@@ -1500,7 +1496,20 @@ msgstr ""
 "கோட்டில் ஒரு துண்டை போட விரும்பும் இடத்தில் சொடுக்குங்க. நீங்க மேல் கீழ் வலது இடது அம்பு "
 "விசைகளாலக் கூட அதை செய்யலாம்."
 
-#: activities/align4/ActivityInfo.qml:23 activities/bargame/ActivityInfo.qml:25
+#: activities/align4/ActivityInfo.qml:23
+#: activities/align4_2players/ActivityInfo.qml:23
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Create a line of 4 pieces either horizontally (lying down), vertically "
+#| "(standing up) or diagonally."
+msgctxt "ActivityInfo|"
+msgid ""
+"You can create a line of 4 tokens either horizontally (lying down), "
+"vertically (standing up), or diagonally."
+msgstr "நான்கு துண்டுகளை கிடைமட்டமாகவோ நெடு மட்டமாகவோ குறுக்காகவோ அமையுங்க."
+
+#: activities/align4/ActivityInfo.qml:24 activities/bargame/ActivityInfo.qml:25
 #: activities/checkers/ActivityInfo.qml:26
 #: activities/nine_men_morris/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
@@ -1509,14 +1518,14 @@ msgid ""
 "will play better when you increase the level."
 msgstr ""
 
-#: activities/align4/ActivityInfo.qml:25
-#: activities/align4_2players/ActivityInfo.qml:24
+#: activities/align4/ActivityInfo.qml:26
+#: activities/align4_2players/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Left arrow: move the token to the left"
 msgstr ""
 
-#: activities/align4/ActivityInfo.qml:26
-#: activities/align4_2players/ActivityInfo.qml:25
+#: activities/align4/ActivityInfo.qml:27
+#: activities/align4_2players/ActivityInfo.qml:26
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Draw the picture by clicking on each numbers in the right order."
@@ -1524,8 +1533,8 @@ msgctxt "ActivityInfo|"
 msgid "Right arrow: move the token to the right"
 msgstr "ஒவ்வொரு எண்னையும் சரியான வரிசைல சொடுக்கி படத்தை வரைங்க."
 
-#: activities/align4/ActivityInfo.qml:27
-#: activities/align4_2players/ActivityInfo.qml:26
+#: activities/align4/ActivityInfo.qml:28
+#: activities/align4_2players/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Space or Down arrow: drop the token"
 msgstr ""
@@ -15173,17 +15182,17 @@ msgctxt "Admin|"
 msgid "Level %1"
 msgstr ""
 
-#: activities/guesscount/guesscount.js:142
+#: activities/guesscount/guesscount.js:140
 msgctxt "guesscount|"
 msgid "result is not positive integer"
 msgstr ""
 
-#: activities/guesscount/guesscount.js:144
+#: activities/guesscount/guesscount.js:142
 msgctxt "guesscount|"
 msgid "result is not an integer"
 msgstr ""
 
-#: activities/guesscount/Guesscount.qml:161
+#: activities/guesscount/Guesscount.qml:160
 #, qt-format
 msgctxt "Guesscount|"
 msgid "Guesscount: %1"
@@ -15251,8 +15260,7 @@ msgstr ""
 "டக்ஸ் குகையிலிருந்து தப்பிக்க உதவி பண்ணுங்க. அது நீங்க கண்டுபிடிக்க வேண்டிய எண் ஒன்றை "
 "மறைத்து வைத்திருக்கு."
 
-#. Help prerequisite
-#: activities/guessnumber/ActivityInfo.qml:21
+#: activities/guessnumber/ActivityInfo.qml:19
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Practice the addition operation"
@@ -15400,18 +15408,18 @@ msgid ""
 "attempts are remaining."
 msgstr ""
 
-#: activities/hangman/hangman.js:208
+#: activities/hangman/hangman.js:212
 #, qt-format
 msgctxt "hangman|"
 msgid "Attempted: %1"
 msgstr ""
 
-#: activities/hangman/Hangman.qml:409
+#: activities/hangman/Hangman.qml:410
 msgctxt "Hangman|"
 msgid "We are sorry, we don't have yet a translation for your language."
 msgstr ""
 
-#: activities/hangman/Hangman.qml:410
+#: activities/hangman/Hangman.qml:411
 #, qt-format
 msgctxt "Hangman|"
 msgid ""
@@ -15419,7 +15427,7 @@ msgid ""
 "joining a translation team on <a href=\"%2\">%2</a>"
 msgstr ""
 
-#: activities/hangman/Hangman.qml:412
+#: activities/hangman/Hangman.qml:413
 msgctxt "Hangman|"
 msgid ""
 "We switched to English for this activity but you can select another language "
@@ -19541,83 +19549,83 @@ msgctxt "ConfigurationItem|"
 msgid "Difficulty filter"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:108
+#: activities/menu/ConfigurationItem.qml:109
 msgctxt "ConfigurationItem|"
 msgid "Language selector"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:115
+#: activities/menu/ConfigurationItem.qml:116
 msgctxt "ConfigurationItem|"
 msgid "Enable automatic downloads/updates of external assets"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:145
+#: activities/menu/ConfigurationItem.qml:146
 msgctxt "ConfigurationItem|"
 msgid "Localized voices"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:154
+#: activities/menu/ConfigurationItem.qml:155
 msgctxt "ConfigurationItem|"
 msgid "Check for updates"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:155
+#: activities/menu/ConfigurationItem.qml:156
 msgctxt "ConfigurationItem|"
 msgid "Download"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:171
+#: activities/menu/ConfigurationItem.qml:172
 msgctxt "ConfigurationItem|"
 msgid "Enable audio voices"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:181
+#: activities/menu/ConfigurationItem.qml:182
 msgctxt "ConfigurationItem|"
 msgid "Enable audio effects"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:190
+#: activities/menu/ConfigurationItem.qml:191
 msgctxt "ConfigurationItem|"
 msgid "Audio effects volume"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:211
+#: activities/menu/ConfigurationItem.qml:212
 msgctxt "ConfigurationItem|"
 msgid "Download background music"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:222
+#: activities/menu/ConfigurationItem.qml:223
 msgctxt "ConfigurationItem|"
 msgid "Enable background music"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:231
+#: activities/menu/ConfigurationItem.qml:232
 msgctxt "ConfigurationItem|"
 msgid "Background Music"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:247
+#: activities/menu/ConfigurationItem.qml:248
 msgctxt "ConfigurationItem|"
 msgid "Not playing"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:249
+#: activities/menu/ConfigurationItem.qml:250
 #, qt-format
 msgctxt "ConfigurationItem|"
 msgid "Title: %1  Artist: %2"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:251
+#: activities/menu/ConfigurationItem.qml:252
 msgctxt "ConfigurationItem|"
 msgid "Introduction music"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:274
+#: activities/menu/ConfigurationItem.qml:275
 msgctxt "ConfigurationItem|"
 msgid "Background music volume"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:305
+#: activities/menu/ConfigurationItem.qml:306
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the coral butterfly"
@@ -19625,12 +19633,12 @@ msgctxt "ConfigurationItem|"
 msgid "Full word image set is installed"
 msgstr "பவழம் பட்டாம் பூச்சி கண்டு பிடி "
 
-#: activities/menu/ConfigurationItem.qml:305
+#: activities/menu/ConfigurationItem.qml:306
 msgctxt "ConfigurationItem|"
 msgid "Full word image set is not installed"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:319
+#: activities/menu/ConfigurationItem.qml:320
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the coral butterfly"
@@ -19638,7 +19646,7 @@ msgctxt "ConfigurationItem|"
 msgid "Download full word image set"
 msgstr "பவழம் பட்டாம் பூச்சி கண்டு பிடி "
 
-#: activities/menu/ConfigurationItem.qml:330
+#: activities/menu/ConfigurationItem.qml:331
 #, fuzzy
 #| msgctxt "DialogConfig|"
 #| msgid "Fullscreen"
@@ -19646,110 +19654,110 @@ msgctxt "ConfigurationItem|"
 msgid "Fullscreen"
 msgstr "முழுத்திரை"
 
-#: activities/menu/ConfigurationItem.qml:341
+#: activities/menu/ConfigurationItem.qml:342
 msgctxt "ConfigurationItem|"
 msgid "Virtual Keyboard"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:352
+#: activities/menu/ConfigurationItem.qml:353
 msgctxt "ConfigurationItem|"
 msgid "The activity section menu is visible"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:362
+#: activities/menu/ConfigurationItem.qml:363
 msgctxt "ConfigurationItem|"
 msgid "Ask for confirmation to exit"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:373
+#: activities/menu/ConfigurationItem.qml:374
 msgctxt "ConfigurationItem|"
 msgid "Font selector"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:378
+#: activities/menu/ConfigurationItem.qml:379
 msgctxt "ConfigurationItem|"
 msgid "Font size"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:398
-#: activities/menu/ConfigurationItem.qml:432
+#: activities/menu/ConfigurationItem.qml:399
+#: activities/menu/ConfigurationItem.qml:433
 msgctxt "ConfigurationItem|"
 msgid "Default"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:407
+#: activities/menu/ConfigurationItem.qml:408
 msgctxt "ConfigurationItem|"
 msgid "Font Capitalization"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:412
+#: activities/menu/ConfigurationItem.qml:413
 msgctxt "ConfigurationItem|"
 msgid "Font letter spacing"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:615
+#: activities/menu/ConfigurationItem.qml:622
 msgctxt "ConfigurationItem|"
 msgid "Mixed case (default)"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:616
+#: activities/menu/ConfigurationItem.qml:626
 msgctxt "ConfigurationItem|"
 msgid "All uppercase"
 msgstr ""
 
-#: activities/menu/ConfigurationItem.qml:617
+#: activities/menu/ConfigurationItem.qml:630
 msgctxt "ConfigurationItem|"
 msgid "All lowercase"
 msgstr ""
 
-#: activities/menu/Menu.qml:90
+#: activities/menu/Menu.qml:93
 msgctxt "Menu|"
 msgid ""
-"You selected a new locale, you need to restart GCompris to use it.<br/>Do "
-"you want to download the corresponding sound files now?"
+"You selected a new locale, do you want to download the corresponding sound "
+"files now?"
 msgstr ""
 
-#: activities/menu/Menu.qml:91
+#: activities/menu/Menu.qml:94
 msgctxt "Menu|"
 msgid "Yes"
 msgstr ""
 
-#: activities/menu/Menu.qml:98
+#: activities/menu/Menu.qml:101
 msgctxt "Menu|"
 msgid "No"
 msgstr ""
 
-#: activities/menu/Menu.qml:117
+#: activities/menu/Menu.qml:120
 msgctxt "Menu|"
 msgid "Logic"
 msgstr ""
 
-#: activities/menu/Menu.qml:118
+#: activities/menu/Menu.qml:121
 msgctxt "Menu|"
 msgid "Fine Arts"
 msgstr ""
 
-#: activities/menu/Menu.qml:119
+#: activities/menu/Menu.qml:122
 msgctxt "Menu|"
 msgid "Music"
 msgstr ""
 
-#: activities/menu/Menu.qml:125
+#: activities/menu/Menu.qml:128
 msgctxt "Menu|"
 msgid "Experiment"
 msgstr ""
 
-#: activities/menu/Menu.qml:126
+#: activities/menu/Menu.qml:129
 msgctxt "Menu|"
 msgid "History"
 msgstr ""
 
-#: activities/menu/Menu.qml:127
+#: activities/menu/Menu.qml:130
 msgctxt "Menu|"
 msgid "Geography"
 msgstr ""
 
-#: activities/menu/Menu.qml:137
+#: activities/menu/Menu.qml:140
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Numeration training"
@@ -19757,17 +19765,17 @@ msgctxt "Menu|"
 msgid "Numeration"
 msgstr "எண்ணுதல் பயிற்சி"
 
-#: activities/menu/Menu.qml:138
+#: activities/menu/Menu.qml:141
 msgctxt "Menu|"
 msgid "Arithmetic"
 msgstr ""
 
-#: activities/menu/Menu.qml:139
+#: activities/menu/Menu.qml:142
 msgctxt "Menu|"
 msgid "Measures"
 msgstr ""
 
-#: activities/menu/Menu.qml:149
+#: activities/menu/Menu.qml:152
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Simple Letters"
@@ -19775,12 +19783,12 @@ msgctxt "Menu|"
 msgid "Letters"
 msgstr "எளிய எழுத்துக்கள்"
 
-#: activities/menu/Menu.qml:150
+#: activities/menu/Menu.qml:153
 msgctxt "Menu|"
 msgid "Words"
 msgstr ""
 
-#: activities/menu/Menu.qml:151
+#: activities/menu/Menu.qml:154
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Word reading"
@@ -19788,19 +19796,19 @@ msgctxt "Menu|"
 msgid "Vocabulary"
 msgstr "சொற்களை படித்தல்."
 
-#: activities/menu/Menu.qml:362
+#: activities/menu/Menu.qml:372
 msgctxt "Menu|"
 msgid ""
 "Put your favorite activities here by clicking on the sun at the top right of "
 "that activity."
 msgstr ""
 
-#: activities/menu/Menu.qml:770
+#: activities/menu/Menu.qml:792
 msgctxt "Menu|"
 msgid "Search specific activities"
 msgstr ""
 
-#: activities/menu/Menu.qml:797
+#: activities/menu/Menu.qml:819
 msgctxt "Menu|"
 msgid "Activity Settings"
 msgstr ""
@@ -19873,7 +19881,7 @@ msgctxt "ActivityInfo|"
 msgid "metalpaint.wav - remixed and used when a gold nugget is collected"
 msgstr ""
 
-#: activities/mining/Mining.qml:432
+#: activities/mining/Mining.qml:434
 msgctxt "Mining|"
 msgid ""
 "Find the sparkle and zoom in around it. If you have a mouse, point the "
@@ -19883,39 +19891,39 @@ msgid ""
 "sparkle, one in each direction."
 msgstr ""
 
-#: activities/mining/Mining.qml:448
+#: activities/mining/Mining.qml:450
 msgctxt "Mining|"
 msgid "Perfect you are zooming. Continue until you see the nugget."
 msgstr ""
 
-#: activities/mining/Mining.qml:456
+#: activities/mining/Mining.qml:458
 msgctxt "Mining|"
 msgid "Hum, take care, you are zooming too far from the sparkle."
 msgstr ""
 
-#: activities/mining/Mining.qml:464
+#: activities/mining/Mining.qml:466
 msgctxt "Mining|"
 msgid "Now you see the nugget, click on it to catch it."
 msgstr ""
 
-#: activities/mining/Mining.qml:472
+#: activities/mining/Mining.qml:474
 msgctxt "Mining|"
 msgid ""
 "Hum, you are too far from the nugget to see it. Unzoom then zoom again as "
 "close as you can from the sparkle."
 msgstr ""
 
-#: activities/mining/Mining.qml:480
+#: activities/mining/Mining.qml:482
 msgctxt "Mining|"
 msgid "Now unzoom and try to find another sparkle."
 msgstr ""
 
-#: activities/mining/Mining.qml:488
+#: activities/mining/Mining.qml:490
 msgctxt "Mining|"
 msgid "Continue to unzoom until you see the sparkle."
 msgstr ""
 
-#: activities/mining/Mining.qml:496
+#: activities/mining/Mining.qml:498
 msgctxt "Mining|"
 msgid "Now you see the sparkle, go ahead, you can zoom on it."
 msgstr ""
@@ -20960,7 +20968,7 @@ msgid ""
 "Arrange the given numbers in ascending or descending order as requested."
 msgstr "ஒவ்வொரு எண்னையும் சரியான வரிசைல சொடுக்கி படத்தை வரைங்க."
 
-#. intro: "Arrange the numbers in the correct order." Help goal
+#. Help goal
 #: activities/ordering_numbers/ActivityInfo.qml:25
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -26935,27 +26943,33 @@ msgctxt "ActivityInfo|"
 msgid "Type the complete word as it falls, before it reaches the ground."
 msgstr "வார்த்தைகள் நிலத்தில் விழு முன் அதை உள்ளிடுங்க"
 
-#: core/ChangeLog.qml:30 core/ChangeLog.qml:36 core/ChangeLog.qml:65
-#: core/ChangeLog.qml:100 core/ChangeLog.qml:103 core/ChangeLog.qml:109
+#: core/ChangeLog.qml:30
+msgctxt "ChangeLog|"
+msgid "Translation added for Latvian"
+msgstr ""
+
+#: core/ChangeLog.qml:31 core/ChangeLog.qml:36 core/ChangeLog.qml:42
+#: core/ChangeLog.qml:71 core/ChangeLog.qml:106 core/ChangeLog.qml:109
+#: core/ChangeLog.qml:115
 msgctxt "ChangeLog|"
 msgid "Many usability improvements"
 msgstr ""
 
-#: core/ChangeLog.qml:31 core/ChangeLog.qml:38 core/ChangeLog.qml:47
-#: core/ChangeLog.qml:54 core/ChangeLog.qml:67 core/ChangeLog.qml:105
-#: core/ChangeLog.qml:111
+#: core/ChangeLog.qml:32 core/ChangeLog.qml:37 core/ChangeLog.qml:44
+#: core/ChangeLog.qml:53 core/ChangeLog.qml:60 core/ChangeLog.qml:73
+#: core/ChangeLog.qml:111 core/ChangeLog.qml:117
 msgctxt "ChangeLog|"
 msgid "Many bug fixes"
 msgstr ""
 
-#: core/ChangeLog.qml:35
+#: core/ChangeLog.qml:41
 msgctxt "ChangeLog|"
 msgid "Translations added for Bulgarian, Galician and Swahili"
 msgstr ""
 
-#: core/ChangeLog.qml:37 core/ChangeLog.qml:46 core/ChangeLog.qml:53
-#: core/ChangeLog.qml:66 core/ChangeLog.qml:84 core/ChangeLog.qml:99
-#: core/ChangeLog.qml:104 core/ChangeLog.qml:110
+#: core/ChangeLog.qml:43 core/ChangeLog.qml:52 core/ChangeLog.qml:59
+#: core/ChangeLog.qml:72 core/ChangeLog.qml:90 core/ChangeLog.qml:105
+#: core/ChangeLog.qml:110 core/ChangeLog.qml:116
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the coral butterfly"
@@ -26963,96 +26977,96 @@ msgctxt "ChangeLog|"
 msgid "Many new images"
 msgstr "பவழம் பட்டாம் பூச்சி கண்டு பிடி "
 
-#: core/ChangeLog.qml:39
+#: core/ChangeLog.qml:45
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to directly start an activity at a specific level (--"
 "start-level level, to be used with --launch activity)"
 msgstr ""
 
-#: core/ChangeLog.qml:44
+#: core/ChangeLog.qml:50
 msgctxt "ChangeLog|"
 msgid "Translations added for Arabic and Esperanto"
 msgstr ""
 
-#: core/ChangeLog.qml:45 core/ChangeLog.qml:52
+#: core/ChangeLog.qml:51 core/ChangeLog.qml:58
 msgctxt "ChangeLog|"
 msgid "Many translation updates"
 msgstr ""
 
-#: core/ChangeLog.qml:51
+#: core/ChangeLog.qml:57
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option (--difficulty {value|min-max}) to start GCompris at "
 "specific difficulty"
 msgstr ""
 
-#: core/ChangeLog.qml:58
+#: core/ChangeLog.qml:64
 msgctxt "ChangeLog|"
 msgid "Fix issue in comparator activity"
 msgstr ""
 
-#: core/ChangeLog.qml:62
+#: core/ChangeLog.qml:68
 msgctxt "ChangeLog|"
 msgid "Map of Spain added for geography activity"
 msgstr ""
 
-#: core/ChangeLog.qml:63
+#: core/ChangeLog.qml:69
 msgctxt "ChangeLog|"
 msgid "Voices added for Ukrainian"
 msgstr ""
 
-#: core/ChangeLog.qml:64
+#: core/ChangeLog.qml:70
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to list all the activities and start on a specific "
 "one"
 msgstr ""
 
-#: core/ChangeLog.qml:71
+#: core/ChangeLog.qml:77
 msgctxt "ChangeLog|"
 msgid ""
 "Reduce the size of the packages for all platforms and of the external word "
 "images set"
 msgstr ""
 
-#: core/ChangeLog.qml:72
+#: core/ChangeLog.qml:78
 msgctxt "ChangeLog|"
 msgid "Improve images quality in several activities"
 msgstr ""
 
-#: core/ChangeLog.qml:73
+#: core/ChangeLog.qml:79
 msgctxt "ChangeLog|"
 msgid "Fix some transitions in renewable_energy/watercycle on some platforms"
 msgstr ""
 
-#: core/ChangeLog.qml:74
+#: core/ChangeLog.qml:80
 msgctxt "ChangeLog|"
 msgid "Fix dead keys ignored on Linux for typing activities"
 msgstr ""
 
-#: core/ChangeLog.qml:75
+#: core/ChangeLog.qml:81
 msgctxt "ChangeLog|"
 msgid "Fix level reset when changing level manually in Logical associations"
 msgstr ""
 
-#: core/ChangeLog.qml:79
+#: core/ChangeLog.qml:85
 msgctxt "ChangeLog|"
 msgid ""
 "Fix Alphabet sequence, Even and odd numbers and Numbers in order activities"
 msgstr ""
 
-#: core/ChangeLog.qml:83 core/ChangeLog.qml:91
+#: core/ChangeLog.qml:89 core/ChangeLog.qml:97
 msgctxt "ChangeLog|"
 msgid "Several bug fixes"
 msgstr ""
 
-#: core/ChangeLog.qml:85
+#: core/ChangeLog.qml:91
 msgctxt "ChangeLog|"
 msgid "Translation updated for Russian"
 msgstr ""
 
-#: core/ChangeLog.qml:86
+#: core/ChangeLog.qml:92
 #, fuzzy
 #| msgctxt "DialogConfig|"
 #| msgid "Norwegian Nynorsk"
@@ -27060,186 +27074,186 @@ msgctxt "ChangeLog|"
 msgid "New voices for Norwegian Nynorsk"
 msgstr "நார்விஜியன் நைநோர்ஸ்க்"
 
-#: core/ChangeLog.qml:90
+#: core/ChangeLog.qml:96
 msgctxt "ChangeLog|"
 msgid "Translations added for Breton, Czech and Macedonian"
 msgstr ""
 
-#: core/ChangeLog.qml:95
+#: core/ChangeLog.qml:101
 msgctxt "ChangeLog|"
 msgid "Translation added for Azerbaijani"
 msgstr ""
 
-#: core/ChangeLog.qml:96
+#: core/ChangeLog.qml:102
 msgctxt "ChangeLog|"
 msgid "New maps and update of the maps for geography activities"
 msgstr ""
 
-#: core/ChangeLog.qml:97
+#: core/ChangeLog.qml:103
 msgctxt "ChangeLog|"
 msgid ""
 "New dataset containing loops operations for programming maze, and make "
 "tutorial images translated"
 msgstr ""
 
-#: core/ChangeLog.qml:98
+#: core/ChangeLog.qml:104
 msgctxt "ChangeLog|"
 msgid ""
 "Addition of a level to teach voltage source loop in analog electricity "
 "activity"
 msgstr ""
 
-#: core/ChangeLog.qml:108
+#: core/ChangeLog.qml:114
 msgctxt "ChangeLog|"
 msgid "New Activity Settings menu, with dataset selection"
 msgstr ""
 
-#: core/ChangeLog.qml:114
+#: core/ChangeLog.qml:120
 msgctxt "ChangeLog|"
 msgid "New sub-categories to organize activities"
 msgstr ""
 
-#: core/ChangeLog.qml:115
+#: core/ChangeLog.qml:121
 msgctxt "ChangeLog|"
 msgid "Translation added for Macedonian."
 msgstr ""
 
-#: core/ChangeLog.qml:116
+#: core/ChangeLog.qml:122
 msgctxt "ChangeLog|"
 msgid "New activities Programming Maze and Baby Tangram"
 msgstr ""
 
-#: core/ChangeLog.qml:117
+#: core/ChangeLog.qml:123
 msgctxt "ChangeLog|"
 msgid "New background music and volume settings."
 msgstr ""
 
-#: core/ChangeLog.qml:118
+#: core/ChangeLog.qml:124
 msgctxt "ChangeLog|"
 msgid "New speed setting in several activities."
 msgstr ""
 
-#: core/ChangeLog.qml:119
+#: core/ChangeLog.qml:125
 msgctxt "ChangeLog|"
 msgid "New option in chess to display captured pieces."
 msgstr ""
 
-#: core/ChangeLog.qml:120
+#: core/ChangeLog.qml:126
 msgctxt "ChangeLog|"
 msgid "New images in Colors, Advanced colors and Target game."
 msgstr ""
 
-#: core/ChangeLog.qml:121
+#: core/ChangeLog.qml:127
 msgctxt "ChangeLog|"
 msgid "New voices for US English."
 msgstr ""
 
-#: core/ChangeLog.qml:122 core/ChangeLog.qml:130
+#: core/ChangeLog.qml:128 core/ChangeLog.qml:136
 msgctxt "ChangeLog|"
 msgid "Many little fixes and improvements."
 msgstr ""
 
-#: core/ChangeLog.qml:123
+#: core/ChangeLog.qml:129
 msgctxt "ChangeLog|"
 msgid ""
 "Translation updated for multiple languages (Breton, Brazilian Portuguese, "
 "Finnish...)."
 msgstr ""
 
-#: core/ChangeLog.qml:124
+#: core/ChangeLog.qml:130
 msgctxt "ChangeLog|"
 msgid "Add Russian dataset for Click on letter activity."
 msgstr ""
 
-#: core/ChangeLog.qml:125
+#: core/ChangeLog.qml:131
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Dutch."
 msgstr ""
 
-#: core/ChangeLog.qml:126
+#: core/ChangeLog.qml:132
 msgctxt "ChangeLog|"
 msgid ""
 "Merge Norwegian counties Nord-Trøndelag and Sør-Trøndelag into Trøndelag in "
 "geo-country activity."
 msgstr ""
 
-#: core/ChangeLog.qml:127
+#: core/ChangeLog.qml:133
 msgctxt "ChangeLog|"
 msgid "Fix in braille activities where the cells start at 1, not 0."
 msgstr ""
 
-#: core/ChangeLog.qml:128
+#: core/ChangeLog.qml:134
 msgctxt "ChangeLog|"
 msgid "Translation added for Basque, Hungarian and Malayalam."
 msgstr ""
 
-#: core/ChangeLog.qml:129
+#: core/ChangeLog.qml:135
 msgctxt "ChangeLog|"
 msgid ""
 "Loading/saving of creations (Baby Wordprocessor, Balance Box and Piano "
 "Composition)."
 msgstr ""
 
-#: core/ChangeLog.qml:130
+#: core/ChangeLog.qml:136
 msgctxt "ChangeLog|"
 msgid "Translations added for Scottish Gaelic."
 msgstr ""
 
-#: core/ChangeLog.qml:131
+#: core/ChangeLog.qml:137
 msgctxt "ChangeLog|"
 msgid "License page added in configuration."
 msgstr ""
 
-#: core/ChangeLog.qml:131
+#: core/ChangeLog.qml:137
 msgctxt "ChangeLog|"
 msgid "Multiple changes on layouts to improve the ergonomy."
 msgstr ""
 
-#: core/ChangeLog.qml:132
+#: core/ChangeLog.qml:138
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Polish, Swedish and Ukrainian."
 msgstr ""
 
-#: core/ChangeLog.qml:133
+#: core/ChangeLog.qml:139
 msgctxt "ChangeLog|"
 msgid "Search feature."
 msgstr ""
 
-#: core/ChangeLog.qml:134
+#: core/ChangeLog.qml:140
 msgctxt "ChangeLog|"
 msgid "A Changelog."
 msgstr ""
 
-#: core/ChangeLog.qml:135
+#: core/ChangeLog.qml:141
 msgctxt "ChangeLog|"
 msgid "Many little fixes."
 msgstr ""
 
-#: core/ChangeLog.qml:135
+#: core/ChangeLog.qml:141
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in French."
 msgstr ""
 
-#: core/ChangeLog.qml:136
+#: core/ChangeLog.qml:142
 msgctxt "ChangeLog|"
 msgid ""
 "Adding a loading overlay to let the user know that some actions are taking "
 "place (loading an activity for example) and can take some seconds."
 msgstr ""
 
-#: core/ChangeLog.qml:136
+#: core/ChangeLog.qml:142
 msgctxt "ChangeLog|"
 msgid ""
 "Translations added for: Catalan (Valencian), Chinese Traditional, Finnish "
 "(92% translated), Russian (98% translated), Slovak (92% translated), Turkish."
 msgstr ""
 
-#: core/ChangeLog.qml:137
+#: core/ChangeLog.qml:143
 msgctxt "ChangeLog|"
 msgid "Translations added for: Slovenian, German, Galician."
 msgstr ""
 
-#: core/ChangeLog.qml:191
+#: core/ChangeLog.qml:197
 #, qt-format
 msgctxt "ChangeLog|"
 msgid "Version %1:"
@@ -27718,37 +27732,37 @@ msgctxt "LanguageList|"
 msgid "GCompris' language"
 msgstr "ஜிகாம்ப்ரி முதன்மை பட்டி"
 
-#: core/main.cpp:166
+#: core/main.cpp:72
 msgctxt "QObject|"
 msgid "Run GCompris with the default system cursor."
 msgstr ""
 
-#: core/main.cpp:170
+#: core/main.cpp:76
 msgctxt "QObject|"
 msgid "Run GCompris without cursor (touch screen mode)."
 msgstr ""
 
-#: core/main.cpp:174
+#: core/main.cpp:80
 msgctxt "QObject|"
 msgid "Run GCompris in fullscreen mode."
 msgstr ""
 
-#: core/main.cpp:178
+#: core/main.cpp:84
 msgctxt "QObject|"
 msgid "Run GCompris in window mode."
 msgstr ""
 
-#: core/main.cpp:182
+#: core/main.cpp:88
 msgctxt "QObject|"
 msgid "Run GCompris with sound enabled."
 msgstr ""
 
-#: core/main.cpp:186
+#: core/main.cpp:92
 msgctxt "QObject|"
 msgid "Run GCompris without sound."
 msgstr ""
 
-#: core/main.cpp:189
+#: core/main.cpp:95
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the sage butterfly"
@@ -27756,7 +27770,7 @@ msgctxt "QObject|"
 msgid "Disable the kiosk mode (default)."
 msgstr "சேஜ் பட்டாம் பூச்சி கண்டு பிடி "
 
-#: core/main.cpp:192
+#: core/main.cpp:98
 #, fuzzy
 #| msgctxt "advanced_colors|"
 #| msgid "Find the sage butterfly"
@@ -27764,38 +27778,38 @@ msgctxt "QObject|"
 msgid "Enable the kiosk mode."
 msgstr "சேஜ் பட்டாம் பூச்சி கண்டு பிடி "
 
-#: core/main.cpp:196
+#: core/main.cpp:102
 msgctxt "QObject|"
 msgid ""
 "Use software renderer instead of openGL (slower but should run with any "
 "graphical card)."
 msgstr ""
 
-#: core/main.cpp:199
+#: core/main.cpp:105
 msgctxt "QObject|"
 msgid ""
 "Use openGL renderer instead of software (faster but crash potentially "
 "depending on your graphical card)."
 msgstr ""
 
-#: core/main.cpp:203
+#: core/main.cpp:109
 msgctxt "QObject|"
 msgid "Specify the activity when starting GCompris."
 msgstr ""
 
-#: core/main.cpp:208
+#: core/main.cpp:114
 msgctxt "QObject|"
 msgid "Outputs all the available activities on the standard output."
 msgstr ""
 
-#: core/main.cpp:212
+#: core/main.cpp:118
 msgctxt "QObject|"
 msgid ""
 "Specify the range of activity difficulty to display for the session. Either "
 "a single value (2), or a range (3-6). Values must be between 1 and 6."
 msgstr ""
 
-#: core/main.cpp:216
+#: core/main.cpp:122
 msgctxt "QObject|"
 msgid ""
 "Specify on which level to start the activity. Only used when --launch option "

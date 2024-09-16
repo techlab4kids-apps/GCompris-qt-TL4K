@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-06-02 15:01+0200\n"
+"PO-Revision-Date: 2024-09-09 09:36+0200\n"
 "Last-Translator: Freek de Kruijf <freekdekruijf@kde.nl>\n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Language: nl\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.08.0\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
 #: activities/clickanddraw/ActivityConfig.qml:21
@@ -177,8 +177,8 @@ msgstr ""
 #: activities/algebra_minus/ActivityInfo.qml:25
 #: activities/algebra_plus/ActivityInfo.qml:25
 #: activities/algorithm/ActivityInfo.qml:23
-#: activities/align4/ActivityInfo.qml:24
-#: activities/align4_2players/ActivityInfo.qml:23
+#: activities/align4/ActivityInfo.qml:25
+#: activities/align4_2players/ActivityInfo.qml:24
 #: activities/alphabet-sequence/ActivityInfo.qml:25
 #: activities/baby_wordprocessor/ActivityInfo.qml:25
 #: activities/braille_alphabets/ActivityInfo.qml:25
@@ -1330,12 +1330,8 @@ msgstr "Zet vier tekens op een rij."
 #: activities/align4/ActivityInfo.qml:20
 #: activities/align4_2players/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
-msgid ""
-"Create a line of 4 tokens either horizontally (lying down), vertically "
-"(standing up), or diagonally."
-msgstr ""
-"Maak een lijn met 4 stukken of horizontaal (liggend), of verticaal (staand) "
-"of diagonaal (schuin)."
+msgid "Develop anticipation and strategy skills."
+msgstr "Anticipatie en strategie vaardigheden ontwikkelen."
 
 #. Help manual
 #: activities/align4/ActivityInfo.qml:22
@@ -1347,7 +1343,17 @@ msgstr ""
 "Speel met Tux. Klik om beurten op een lijn waarin je een teken wilt stoppen. "
 "De eerste speler die er vier op een rij heeft wint."
 
-#: activities/align4/ActivityInfo.qml:23 activities/bargame/ActivityInfo.qml:25
+#: activities/align4/ActivityInfo.qml:23
+#: activities/align4_2players/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid ""
+"You can create a line of 4 tokens either horizontally (lying down), "
+"vertically (standing up), or diagonally."
+msgstr ""
+"Je kunt een lijn met 4 stenen of horizontaal (liggend), of verticaal "
+"(staand) of diagonaal (schuin) maken."
+
+#: activities/align4/ActivityInfo.qml:24 activities/bargame/ActivityInfo.qml:25
 #: activities/checkers/ActivityInfo.qml:26
 #: activities/nine_men_morris/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
@@ -1358,20 +1364,20 @@ msgstr ""
 "U kunt de pijltjesknoppen gebruiken om handmatig de moeilijkheidsgraad te "
 "verhogen. Tux zal beter spelen wanneer je het niveau verhoogt."
 
-#: activities/align4/ActivityInfo.qml:25
-#: activities/align4_2players/ActivityInfo.qml:24
+#: activities/align4/ActivityInfo.qml:26
+#: activities/align4_2players/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Left arrow: move the token to the left"
 msgstr "Pijl links: verplaats het teken naar links"
 
-#: activities/align4/ActivityInfo.qml:26
-#: activities/align4_2players/ActivityInfo.qml:25
+#: activities/align4/ActivityInfo.qml:27
+#: activities/align4_2players/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Right arrow: move the token to the right"
 msgstr "Pijl rechts: verplaats het teken naar rechts"
 
-#: activities/align4/ActivityInfo.qml:27
-#: activities/align4_2players/ActivityInfo.qml:26
+#: activities/align4/ActivityInfo.qml:28
+#: activities/align4_2players/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Space or Down arrow: drop the token"
 msgstr "Spatie of Pijl omlaag: het teken laten vallen"
@@ -14971,17 +14977,17 @@ msgctxt "Admin|"
 msgid "Level %1"
 msgstr "Niveau %1"
 
-#: activities/guesscount/guesscount.js:142
+#: activities/guesscount/guesscount.js:140
 msgctxt "guesscount|"
 msgid "result is not positive integer"
 msgstr "resultaat is geen positief geheel getal"
 
-#: activities/guesscount/guesscount.js:144
+#: activities/guesscount/guesscount.js:142
 msgctxt "guesscount|"
 msgid "result is not an integer"
 msgstr "resultaat is geen geheel getal"
 
-#: activities/guesscount/Guesscount.qml:161
+#: activities/guesscount/Guesscount.qml:160
 #, qt-format
 msgctxt "Guesscount|"
 msgid "Guesscount: %1"
@@ -15029,8 +15035,7 @@ msgctxt "ActivityInfo|"
 msgid "Help Tux escape the cave by finding the hidden number."
 msgstr "Help Tux uit de grot ontsnappen door het verborgen gatal te vinden."
 
-#. Help prerequisite
-#: activities/guessnumber/ActivityInfo.qml:21
+#: activities/guessnumber/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Practice comparing numbers."
 msgstr "Oefenen met vergelijken van getallen."
@@ -15170,18 +15175,18 @@ msgstr ""
 "bijbehorende stem beschikbaar is, zul je het te vinden woord horen wanneer "
 "drie pogingen overblijven."
 
-#: activities/hangman/hangman.js:208
+#: activities/hangman/hangman.js:212
 #, qt-format
 msgctxt "hangman|"
 msgid "Attempted: %1"
 msgstr "Geprobeerd: %1"
 
-#: activities/hangman/Hangman.qml:409
+#: activities/hangman/Hangman.qml:410
 msgctxt "Hangman|"
 msgid "We are sorry, we don't have yet a translation for your language."
 msgstr "Helaas, we hebben nog geen vertaling voor jouw taal."
 
-#: activities/hangman/Hangman.qml:410
+#: activities/hangman/Hangman.qml:411
 #, qt-format
 msgctxt "Hangman|"
 msgid ""
@@ -15191,7 +15196,7 @@ msgstr ""
 "GCompris is ontwikkeld door de KDE gemeenschap, je kunt GCompris vertalen "
 "door mee te doen met een vertaalteam op <a href=\"%2\">%2</a>"
 
-#: activities/hangman/Hangman.qml:412
+#: activities/hangman/Hangman.qml:413
 msgctxt "Hangman|"
 msgid ""
 "We switched to English for this activity but you can select another language "
@@ -18922,239 +18927,238 @@ msgctxt "ConfigurationItem|"
 msgid "Difficulty filter"
 msgstr "Filter voor moeilijkheidsgraad"
 
-#: activities/menu/ConfigurationItem.qml:108
+#: activities/menu/ConfigurationItem.qml:109
 msgctxt "ConfigurationItem|"
 msgid "Language selector"
 msgstr "Taal selectie"
 
-#: activities/menu/ConfigurationItem.qml:115
+#: activities/menu/ConfigurationItem.qml:116
 msgctxt "ConfigurationItem|"
 msgid "Enable automatic downloads/updates of external assets"
 msgstr "Automatisch downloaden/bijwerken van externe zaken inschakelen"
 
-#: activities/menu/ConfigurationItem.qml:145
+#: activities/menu/ConfigurationItem.qml:146
 msgctxt "ConfigurationItem|"
 msgid "Localized voices"
 msgstr "Stemmen(geluid) in eigen taal"
 
-#: activities/menu/ConfigurationItem.qml:154
+#: activities/menu/ConfigurationItem.qml:155
 msgctxt "ConfigurationItem|"
 msgid "Check for updates"
 msgstr "Controleren op bijwerken"
 
-#: activities/menu/ConfigurationItem.qml:155
+#: activities/menu/ConfigurationItem.qml:156
 msgctxt "ConfigurationItem|"
 msgid "Download"
 msgstr "Downloaden"
 
-#: activities/menu/ConfigurationItem.qml:171
+#: activities/menu/ConfigurationItem.qml:172
 msgctxt "ConfigurationItem|"
 msgid "Enable audio voices"
 msgstr "Stemmen(geluid) inschakelen"
 
-#: activities/menu/ConfigurationItem.qml:181
+#: activities/menu/ConfigurationItem.qml:182
 msgctxt "ConfigurationItem|"
 msgid "Enable audio effects"
 msgstr "Geluidseffecten inschakelen"
 
-#: activities/menu/ConfigurationItem.qml:190
+#: activities/menu/ConfigurationItem.qml:191
 msgctxt "ConfigurationItem|"
 msgid "Audio effects volume"
 msgstr "Volume geluidseffecten"
 
-#: activities/menu/ConfigurationItem.qml:211
+#: activities/menu/ConfigurationItem.qml:212
 msgctxt "ConfigurationItem|"
 msgid "Download background music"
 msgstr "Achtergrondmuziek downloaden"
 
-#: activities/menu/ConfigurationItem.qml:222
+#: activities/menu/ConfigurationItem.qml:223
 msgctxt "ConfigurationItem|"
 msgid "Enable background music"
 msgstr "Achtergrondmuziek inschakelen"
 
-#: activities/menu/ConfigurationItem.qml:231
+#: activities/menu/ConfigurationItem.qml:232
 msgctxt "ConfigurationItem|"
 msgid "Background Music"
 msgstr "Achtergrondmuziek"
 
-#: activities/menu/ConfigurationItem.qml:247
+#: activities/menu/ConfigurationItem.qml:248
 msgctxt "ConfigurationItem|"
 msgid "Not playing"
 msgstr "Speelt niet"
 
-#: activities/menu/ConfigurationItem.qml:249
+#: activities/menu/ConfigurationItem.qml:250
 #, qt-format
 msgctxt "ConfigurationItem|"
 msgid "Title: %1  Artist: %2"
 msgstr "Titel: %1  Artiest: %2"
 
-#: activities/menu/ConfigurationItem.qml:251
+#: activities/menu/ConfigurationItem.qml:252
 msgctxt "ConfigurationItem|"
 msgid "Introduction music"
 msgstr "Introductiemuziek"
 
-#: activities/menu/ConfigurationItem.qml:274
+#: activities/menu/ConfigurationItem.qml:275
 msgctxt "ConfigurationItem|"
 msgid "Background music volume"
 msgstr "Volume achtergrondmuziek"
 
-#: activities/menu/ConfigurationItem.qml:305
+#: activities/menu/ConfigurationItem.qml:306
 msgctxt "ConfigurationItem|"
 msgid "Full word image set is installed"
 msgstr "De volledige set met woordafbeeldingen is geïnstalleerd"
 
-#: activities/menu/ConfigurationItem.qml:305
+#: activities/menu/ConfigurationItem.qml:306
 msgctxt "ConfigurationItem|"
 msgid "Full word image set is not installed"
 msgstr "De volledige set met woordafbeeldingen is niet geïnstalleerd"
 
-#: activities/menu/ConfigurationItem.qml:319
+#: activities/menu/ConfigurationItem.qml:320
 msgctxt "ConfigurationItem|"
 msgid "Download full word image set"
 msgstr "De volledige set met woordafbeeldingen downloaden"
 
-#: activities/menu/ConfigurationItem.qml:330
+#: activities/menu/ConfigurationItem.qml:331
 msgctxt "ConfigurationItem|"
 msgid "Fullscreen"
 msgstr "Volledig scherm"
 
-#: activities/menu/ConfigurationItem.qml:341
+#: activities/menu/ConfigurationItem.qml:342
 msgctxt "ConfigurationItem|"
 msgid "Virtual Keyboard"
 msgstr "Virtueel toetsenbord"
 
-#: activities/menu/ConfigurationItem.qml:352
+#: activities/menu/ConfigurationItem.qml:353
 msgctxt "ConfigurationItem|"
 msgid "The activity section menu is visible"
 msgstr "Het menu van de activiteitensectie is zichtbaar"
 
-#: activities/menu/ConfigurationItem.qml:362
+#: activities/menu/ConfigurationItem.qml:363
 msgctxt "ConfigurationItem|"
 msgid "Ask for confirmation to exit"
 msgstr "Om bevestiging vragen bij afsluiten"
 
-#: activities/menu/ConfigurationItem.qml:373
+#: activities/menu/ConfigurationItem.qml:374
 msgctxt "ConfigurationItem|"
 msgid "Font selector"
 msgstr "Lettertype selecteren"
 
-#: activities/menu/ConfigurationItem.qml:378
+#: activities/menu/ConfigurationItem.qml:379
 msgctxt "ConfigurationItem|"
 msgid "Font size"
 msgstr "Tekengrootte"
 
-#: activities/menu/ConfigurationItem.qml:398
-#: activities/menu/ConfigurationItem.qml:432
+#: activities/menu/ConfigurationItem.qml:399
+#: activities/menu/ConfigurationItem.qml:433
 msgctxt "ConfigurationItem|"
 msgid "Default"
 msgstr "Standaard"
 
-#: activities/menu/ConfigurationItem.qml:407
+#: activities/menu/ConfigurationItem.qml:408
 msgctxt "ConfigurationItem|"
 msgid "Font Capitalization"
 msgstr "Hoofdletters maken"
 
-#: activities/menu/ConfigurationItem.qml:412
+#: activities/menu/ConfigurationItem.qml:413
 msgctxt "ConfigurationItem|"
 msgid "Font letter spacing"
 msgstr "Ruimte tussen letters"
 
-#: activities/menu/ConfigurationItem.qml:615
+#: activities/menu/ConfigurationItem.qml:622
 msgctxt "ConfigurationItem|"
 msgid "Mixed case (default)"
 msgstr "Gemengde hoofd- en kleine letters (standaard)"
 
-#: activities/menu/ConfigurationItem.qml:616
+#: activities/menu/ConfigurationItem.qml:626
 msgctxt "ConfigurationItem|"
 msgid "All uppercase"
 msgstr "Alles hoofdletters"
 
-#: activities/menu/ConfigurationItem.qml:617
+#: activities/menu/ConfigurationItem.qml:630
 msgctxt "ConfigurationItem|"
 msgid "All lowercase"
 msgstr "Alles kleine letters"
 
-#: activities/menu/Menu.qml:90
+#: activities/menu/Menu.qml:93
 msgctxt "Menu|"
 msgid ""
-"You selected a new locale, you need to restart GCompris to use it.<br/>Do "
-"you want to download the corresponding sound files now?"
+"You selected a new locale, do you want to download the corresponding sound "
+"files now?"
 msgstr ""
-"Je hebt een nieuwe taalcode geselecteerd, je moet GCompris opnieuw starten "
-"om deze te gebruiken.<br/>Wil je de overeenkomstige geluidsbestanden nu "
-"downloaden?"
+"U hebt een nieuwe taaldefinitie geselecteerd, wilt u de bijbehorende "
+"geluidsbestanden nu downloaden?"
 
-#: activities/menu/Menu.qml:91
+#: activities/menu/Menu.qml:94
 msgctxt "Menu|"
 msgid "Yes"
 msgstr "Ja"
 
-#: activities/menu/Menu.qml:98
+#: activities/menu/Menu.qml:101
 msgctxt "Menu|"
 msgid "No"
 msgstr "Nee"
 
-#: activities/menu/Menu.qml:117
+#: activities/menu/Menu.qml:120
 msgctxt "Menu|"
 msgid "Logic"
 msgstr "Logica"
 
-#: activities/menu/Menu.qml:118
+#: activities/menu/Menu.qml:121
 msgctxt "Menu|"
 msgid "Fine Arts"
 msgstr "Kunst"
 
-#: activities/menu/Menu.qml:119
+#: activities/menu/Menu.qml:122
 msgctxt "Menu|"
 msgid "Music"
 msgstr "Muziek"
 
-#: activities/menu/Menu.qml:125
+#: activities/menu/Menu.qml:128
 msgctxt "Menu|"
 msgid "Experiment"
 msgstr "Experiment"
 
-#: activities/menu/Menu.qml:126
+#: activities/menu/Menu.qml:129
 msgctxt "Menu|"
 msgid "History"
 msgstr "Geschiedenis"
 
-#: activities/menu/Menu.qml:127
+#: activities/menu/Menu.qml:130
 msgctxt "Menu|"
 msgid "Geography"
 msgstr "Geografie"
 
-#: activities/menu/Menu.qml:137
+#: activities/menu/Menu.qml:140
 msgctxt "Menu|"
 msgid "Numeration"
 msgstr "Nummering"
 
-#: activities/menu/Menu.qml:138
+#: activities/menu/Menu.qml:141
 msgctxt "Menu|"
 msgid "Arithmetic"
 msgstr "Rekenen"
 
-#: activities/menu/Menu.qml:139
+#: activities/menu/Menu.qml:142
 msgctxt "Menu|"
 msgid "Measures"
 msgstr "Maten"
 
-#: activities/menu/Menu.qml:149
+#: activities/menu/Menu.qml:152
 msgctxt "Menu|"
 msgid "Letters"
 msgstr "Letters"
 
-#: activities/menu/Menu.qml:150
+#: activities/menu/Menu.qml:153
 msgctxt "Menu|"
 msgid "Words"
 msgstr "Woorden"
 
-#: activities/menu/Menu.qml:151
+#: activities/menu/Menu.qml:154
 msgctxt "Menu|"
 msgid "Vocabulary"
 msgstr "Woordenschat"
 
-#: activities/menu/Menu.qml:362
+#: activities/menu/Menu.qml:372
 msgctxt "Menu|"
 msgid ""
 "Put your favorite activities here by clicking on the sun at the top right of "
@@ -19163,12 +19167,12 @@ msgstr ""
 "Zet je favoriete activiteiten hier neer door op de zon van de activiteit "
 "rechtsboven te klikken."
 
-#: activities/menu/Menu.qml:770
+#: activities/menu/Menu.qml:792
 msgctxt "Menu|"
 msgid "Search specific activities"
 msgstr "Specifieke activiteiten zoeken"
 
-#: activities/menu/Menu.qml:797
+#: activities/menu/Menu.qml:819
 msgctxt "Menu|"
 msgid "Activity Settings"
 msgstr "Instellingen voor activiteiten"
@@ -19261,7 +19265,7 @@ msgid "metalpaint.wav - remixed and used when a gold nugget is collected"
 msgstr ""
 "metalpaint.wav - remixed en gebruikt wanneer een goudklompje wordt gepakt"
 
-#: activities/mining/Mining.qml:432
+#: activities/mining/Mining.qml:434
 msgctxt "Mining|"
 msgid ""
 "Find the sparkle and zoom in around it. If you have a mouse, point the "
@@ -19276,22 +19280,22 @@ msgstr ""
 "gebied of met twee vingers naar het midden. Op een aanraakscherm veeg je "
 "twee vingers weg van de glinstering, elk in tegenovergestelde richting."
 
-#: activities/mining/Mining.qml:448
+#: activities/mining/Mining.qml:450
 msgctxt "Mining|"
 msgid "Perfect you are zooming. Continue until you see the nugget."
 msgstr "Perfect je bent aan zoomen. Ga door totdat je het goudklompje ziet."
 
-#: activities/mining/Mining.qml:456
+#: activities/mining/Mining.qml:458
 msgctxt "Mining|"
 msgid "Hum, take care, you are zooming too far from the sparkle."
 msgstr "Hum, opgelet, je bent te ver van de glinstering aan het zoomen."
 
-#: activities/mining/Mining.qml:464
+#: activities/mining/Mining.qml:466
 msgctxt "Mining|"
 msgid "Now you see the nugget, click on it to catch it."
 msgstr "Je ziet nu het goudklompje, klik er op om het te vangen."
 
-#: activities/mining/Mining.qml:472
+#: activities/mining/Mining.qml:474
 msgctxt "Mining|"
 msgid ""
 "Hum, you are too far from the nugget to see it. Unzoom then zoom again as "
@@ -19300,17 +19304,17 @@ msgstr ""
 "Hum, je bent te ver van het goudklompje om het te zien. Zoom uit en weer in "
 "dichter bij de glinstering."
 
-#: activities/mining/Mining.qml:480
+#: activities/mining/Mining.qml:482
 msgctxt "Mining|"
 msgid "Now unzoom and try to find another sparkle."
 msgstr "Zoom nu uit en probeer een andere glinstering te vinden."
 
-#: activities/mining/Mining.qml:488
+#: activities/mining/Mining.qml:490
 msgctxt "Mining|"
 msgid "Continue to unzoom until you see the sparkle."
 msgstr "Ga door met uitzoomen totdat je de glinstering ziet."
 
-#: activities/mining/Mining.qml:496
+#: activities/mining/Mining.qml:498
 msgctxt "Mining|"
 msgid "Now you see the sparkle, go ahead, you can zoom on it."
 msgstr "Nu zie je de glinstering, ga verder, je kunt er op inzoomen."
@@ -20317,7 +20321,7 @@ msgid ""
 msgstr ""
 "Zet de gegeven getallen in oplopende of aflopende volgorde zoals gevraagd."
 
-#. intro: "Arrange the numbers in the correct order." Help goal
+#. Help goal
 #: activities/ordering_numbers/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Practice ordering numbers."
@@ -26290,32 +26294,38 @@ msgctxt "ActivityInfo|"
 msgid "Type the complete word as it falls, before it reaches the ground."
 msgstr "Typ het hele woord terwijl het valt, voor het de grond raakt."
 
-#: core/ChangeLog.qml:30 core/ChangeLog.qml:36 core/ChangeLog.qml:65
-#: core/ChangeLog.qml:100 core/ChangeLog.qml:103 core/ChangeLog.qml:109
+#: core/ChangeLog.qml:30
+msgctxt "ChangeLog|"
+msgid "Translation added for Latvian"
+msgstr "Vertalingen voor Lets toegevoegd."
+
+#: core/ChangeLog.qml:31 core/ChangeLog.qml:36 core/ChangeLog.qml:42
+#: core/ChangeLog.qml:71 core/ChangeLog.qml:106 core/ChangeLog.qml:109
+#: core/ChangeLog.qml:115
 msgctxt "ChangeLog|"
 msgid "Many usability improvements"
 msgstr "Veel nuttige verbeteringen"
 
-#: core/ChangeLog.qml:31 core/ChangeLog.qml:38 core/ChangeLog.qml:47
-#: core/ChangeLog.qml:54 core/ChangeLog.qml:67 core/ChangeLog.qml:105
-#: core/ChangeLog.qml:111
+#: core/ChangeLog.qml:32 core/ChangeLog.qml:37 core/ChangeLog.qml:44
+#: core/ChangeLog.qml:53 core/ChangeLog.qml:60 core/ChangeLog.qml:73
+#: core/ChangeLog.qml:111 core/ChangeLog.qml:117
 msgctxt "ChangeLog|"
 msgid "Many bug fixes"
 msgstr "Vele fouten gerepareerd"
 
-#: core/ChangeLog.qml:35
+#: core/ChangeLog.qml:41
 msgctxt "ChangeLog|"
 msgid "Translations added for Bulgarian, Galician and Swahili"
 msgstr "Vertalingen toegevoegd voor Bulgaars, Gallisch en Swahili."
 
-#: core/ChangeLog.qml:37 core/ChangeLog.qml:46 core/ChangeLog.qml:53
-#: core/ChangeLog.qml:66 core/ChangeLog.qml:84 core/ChangeLog.qml:99
-#: core/ChangeLog.qml:104 core/ChangeLog.qml:110
+#: core/ChangeLog.qml:43 core/ChangeLog.qml:52 core/ChangeLog.qml:59
+#: core/ChangeLog.qml:72 core/ChangeLog.qml:90 core/ChangeLog.qml:105
+#: core/ChangeLog.qml:110 core/ChangeLog.qml:116
 msgctxt "ChangeLog|"
 msgid "Many new images"
 msgstr "Veel nieuwe afbeeldingen"
 
-#: core/ChangeLog.qml:39
+#: core/ChangeLog.qml:45
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to directly start an activity at a specific level (--"
@@ -26324,17 +26334,17 @@ msgstr ""
 "Nieuwe optie voor de opdrachtregel om direct een activiteit te starten op "
 "een specifiek niveau (--start-level, te gebruiken met --launch activiteit)"
 
-#: core/ChangeLog.qml:44
+#: core/ChangeLog.qml:50
 msgctxt "ChangeLog|"
 msgid "Translations added for Arabic and Esperanto"
 msgstr "Vertalingen voor Arabisch en Esperanto toegevoegd"
 
-#: core/ChangeLog.qml:45 core/ChangeLog.qml:52
+#: core/ChangeLog.qml:51 core/ChangeLog.qml:58
 msgctxt "ChangeLog|"
 msgid "Many translation updates"
 msgstr "Vele vertalingen bijgewerkt"
 
-#: core/ChangeLog.qml:51
+#: core/ChangeLog.qml:57
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option (--difficulty {value|min-max}) to start GCompris at "
@@ -26343,22 +26353,22 @@ msgstr ""
 "Nieuwe optie voor de opdrachtregel (--difficulty {waarde|min-max}) om "
 "GCompris te starten met een specifieke moeilijkheidsgraad"
 
-#: core/ChangeLog.qml:58
+#: core/ChangeLog.qml:64
 msgctxt "ChangeLog|"
 msgid "Fix issue in comparator activity"
 msgstr "Probleem repareren in activiteit vergelijken"
 
-#: core/ChangeLog.qml:62
+#: core/ChangeLog.qml:68
 msgctxt "ChangeLog|"
 msgid "Map of Spain added for geography activity"
 msgstr "Kaart van Spanje toegevoegd voor geografische activiteit"
 
-#: core/ChangeLog.qml:63
+#: core/ChangeLog.qml:69
 msgctxt "ChangeLog|"
 msgid "Voices added for Ukrainian"
 msgstr "Stemmen voor Oekraïens toegevoegd"
 
-#: core/ChangeLog.qml:64
+#: core/ChangeLog.qml:70
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to list all the activities and start on a specific "
@@ -26367,7 +26377,7 @@ msgstr ""
 "Nieuwe optie voor de opdrachtregel om een lijst te tonen van alle "
 "activiteiten en een specifieke te starten"
 
-#: core/ChangeLog.qml:71
+#: core/ChangeLog.qml:77
 msgctxt "ChangeLog|"
 msgid ""
 "Reduce the size of the packages for all platforms and of the external word "
@@ -26376,30 +26386,30 @@ msgstr ""
 "Verminder de grootte van de pakketten voor alle platformen en van de externe "
 "set woordafbeeldingen"
 
-#: core/ChangeLog.qml:72
+#: core/ChangeLog.qml:78
 msgctxt "ChangeLog|"
 msgid "Improve images quality in several activities"
 msgstr "Kwaliteit van afbeeldingen verbeteren in verscheidene activiteiten."
 
-#: core/ChangeLog.qml:73
+#: core/ChangeLog.qml:79
 msgctxt "ChangeLog|"
 msgid "Fix some transitions in renewable_energy/watercycle on some platforms"
 msgstr ""
 "Enige transities in hernieuwbare_energie/watercyclus op sommige platformen"
 
-#: core/ChangeLog.qml:74
+#: core/ChangeLog.qml:80
 msgctxt "ChangeLog|"
 msgid "Fix dead keys ignored on Linux for typing activities"
 msgstr "Negeren van dode toetsen op Linux voor typ-activiteiten repareren"
 
-#: core/ChangeLog.qml:75
+#: core/ChangeLog.qml:81
 msgctxt "ChangeLog|"
 msgid "Fix level reset when changing level manually in Logical associations"
 msgstr ""
 "Reset van level repareren bij wijzigen van handmatig level wijzigen in "
 "Logische associaties"
 
-#: core/ChangeLog.qml:79
+#: core/ChangeLog.qml:85
 msgctxt "ChangeLog|"
 msgid ""
 "Fix Alphabet sequence, Even and odd numbers and Numbers in order activities"
@@ -26407,37 +26417,37 @@ msgstr ""
 "Volgorde van alfabet, even en oneven getallen en getallen in volgorde-"
 "activiteiten"
 
-#: core/ChangeLog.qml:83 core/ChangeLog.qml:91
+#: core/ChangeLog.qml:89 core/ChangeLog.qml:97
 msgctxt "ChangeLog|"
 msgid "Several bug fixes"
 msgstr "Verschillende bugs gerepareerd"
 
-#: core/ChangeLog.qml:85
+#: core/ChangeLog.qml:91
 msgctxt "ChangeLog|"
 msgid "Translation updated for Russian"
 msgstr "Vertalingen voor Russisch bijgewerkt."
 
-#: core/ChangeLog.qml:86
+#: core/ChangeLog.qml:92
 msgctxt "ChangeLog|"
 msgid "New voices for Norwegian Nynorsk"
 msgstr "Nieuwe stemmen voor Noors Nynorsk"
 
-#: core/ChangeLog.qml:90
+#: core/ChangeLog.qml:96
 msgctxt "ChangeLog|"
 msgid "Translations added for Breton, Czech and Macedonian"
 msgstr "Vertalingen voor Bretons, Tsjechisch en Macedonisch toegevoegd"
 
-#: core/ChangeLog.qml:95
+#: core/ChangeLog.qml:101
 msgctxt "ChangeLog|"
 msgid "Translation added for Azerbaijani"
 msgstr "Vertalingen voor Azerbeidzjan toegevoegd."
 
-#: core/ChangeLog.qml:96
+#: core/ChangeLog.qml:102
 msgctxt "ChangeLog|"
 msgid "New maps and update of the maps for geography activities"
 msgstr "Nieuwe kaarten en de kaarten voor geografische activiteiten bijgewerkt"
 
-#: core/ChangeLog.qml:97
+#: core/ChangeLog.qml:103
 msgctxt "ChangeLog|"
 msgid ""
 "New dataset containing loops operations for programming maze, and make "
@@ -26446,7 +26456,7 @@ msgstr ""
 "Nieuwe gegevensset met lusbewerkingen voor programmeren van maze en zorgt "
 "dat afbeeldingen in inleiding vertaald zijn"
 
-#: core/ChangeLog.qml:98
+#: core/ChangeLog.qml:104
 msgctxt "ChangeLog|"
 msgid ""
 "Addition of a level to teach voltage source loop in analog electricity "
@@ -26455,57 +26465,57 @@ msgstr ""
 "Toevoeging van een niveau om loop van batterijbron in activiteit voor "
 "analoge elektriciteit te onderwijzen"
 
-#: core/ChangeLog.qml:108
+#: core/ChangeLog.qml:114
 msgctxt "ChangeLog|"
 msgid "New Activity Settings menu, with dataset selection"
 msgstr "Nieuw menu Activiteiteninstellingen, met selectie van gegevensset"
 
-#: core/ChangeLog.qml:114
+#: core/ChangeLog.qml:120
 msgctxt "ChangeLog|"
 msgid "New sub-categories to organize activities"
 msgstr "Nieuwe subcategorieën om activiteiten te organiseren"
 
-#: core/ChangeLog.qml:115
+#: core/ChangeLog.qml:121
 msgctxt "ChangeLog|"
 msgid "Translation added for Macedonian."
 msgstr "Vertalingen voor Macedonisch toegevoegd."
 
-#: core/ChangeLog.qml:116
+#: core/ChangeLog.qml:122
 msgctxt "ChangeLog|"
 msgid "New activities Programming Maze and Baby Tangram"
 msgstr "Nieuwe activiteiten Doolhof programmeren en Kleine tangram"
 
-#: core/ChangeLog.qml:117
+#: core/ChangeLog.qml:123
 msgctxt "ChangeLog|"
 msgid "New background music and volume settings."
 msgstr "Nieuwe achtergrondmuziek en instellingen volume."
 
-#: core/ChangeLog.qml:118
+#: core/ChangeLog.qml:124
 msgctxt "ChangeLog|"
 msgid "New speed setting in several activities."
 msgstr "Nieuwe instelling voor snelheid in verschillende activiteiten."
 
-#: core/ChangeLog.qml:119
+#: core/ChangeLog.qml:125
 msgctxt "ChangeLog|"
 msgid "New option in chess to display captured pieces."
 msgstr "Nieuwe optie in schaken om geslagen stukken te tonen."
 
-#: core/ChangeLog.qml:120
+#: core/ChangeLog.qml:126
 msgctxt "ChangeLog|"
 msgid "New images in Colors, Advanced colors and Target game."
 msgstr "Nieuwe afbeeldingen in kleuren, geavanceerde kleuren en doelspel."
 
-#: core/ChangeLog.qml:121
+#: core/ChangeLog.qml:127
 msgctxt "ChangeLog|"
 msgid "New voices for US English."
 msgstr "Nieuwe stemmen voor VS Engels."
 
-#: core/ChangeLog.qml:122 core/ChangeLog.qml:130
+#: core/ChangeLog.qml:128 core/ChangeLog.qml:136
 msgctxt "ChangeLog|"
 msgid "Many little fixes and improvements."
 msgstr "Veel kleine reparaties en verbeteringen."
 
-#: core/ChangeLog.qml:123
+#: core/ChangeLog.qml:129
 msgctxt "ChangeLog|"
 msgid ""
 "Translation updated for multiple languages (Breton, Brazilian Portuguese, "
@@ -26514,17 +26524,17 @@ msgstr ""
 "Vertalingen bijgewerkt voor meerdere talen (Bretons, Braziliaans Portugees, "
 "Fins...)."
 
-#: core/ChangeLog.qml:124
+#: core/ChangeLog.qml:130
 msgctxt "ChangeLog|"
 msgid "Add Russian dataset for Click on letter activity."
 msgstr "Russische gegevensset toegevoegd voor activiteit Klikken op letter."
 
-#: core/ChangeLog.qml:125
+#: core/ChangeLog.qml:131
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Dutch."
 msgstr "Taalactiviteit nu beschikbaar in het Nederlands."
 
-#: core/ChangeLog.qml:126
+#: core/ChangeLog.qml:132
 msgctxt "ChangeLog|"
 msgid ""
 "Merge Norwegian counties Nord-Trøndelag and Sør-Trøndelag into Trøndelag in "
@@ -26533,19 +26543,19 @@ msgstr ""
 "Voeg Noorse landen Nord-Trøndelag en Sør-Trøndelag samen in Trøndelag in "
 "activiteit geo-landen samen."
 
-#: core/ChangeLog.qml:127
+#: core/ChangeLog.qml:133
 msgctxt "ChangeLog|"
 msgid "Fix in braille activities where the cells start at 1, not 0."
 msgstr ""
 "Reparatie in de activiteiten met braille waar de cellen beginnen op 1, niet "
 "0."
 
-#: core/ChangeLog.qml:128
+#: core/ChangeLog.qml:134
 msgctxt "ChangeLog|"
 msgid "Translation added for Basque, Hungarian and Malayalam."
 msgstr "Vertalingen toegevoegd voor Baskisch, Hongaars en Maleis."
 
-#: core/ChangeLog.qml:129
+#: core/ChangeLog.qml:135
 msgctxt "ChangeLog|"
 msgid ""
 "Loading/saving of creations (Baby Wordprocessor, Balance Box and Piano "
@@ -26554,47 +26564,47 @@ msgstr ""
 "Wat gemaakt is wordt geladen/opgeslagen (Simpele tekstverwerker, "
 "Balanceerdoos en Pianocompositie)."
 
-#: core/ChangeLog.qml:130
+#: core/ChangeLog.qml:136
 msgctxt "ChangeLog|"
 msgid "Translations added for Scottish Gaelic."
 msgstr "Vertalingen voor Scottish Gaelic toegevoegd."
 
-#: core/ChangeLog.qml:131
+#: core/ChangeLog.qml:137
 msgctxt "ChangeLog|"
 msgid "License page added in configuration."
 msgstr "Licentie pagina toegevoegd in de configuratie."
 
-#: core/ChangeLog.qml:131
+#: core/ChangeLog.qml:137
 msgctxt "ChangeLog|"
 msgid "Multiple changes on layouts to improve the ergonomy."
 msgstr "Meerdere layout wijzigingen om de ergonomie te verbeteren."
 
-#: core/ChangeLog.qml:132
+#: core/ChangeLog.qml:138
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Polish, Swedish and Ukrainian."
 msgstr "Taalactiviteit nu beschikbaar in Pools, Zweeds en Oekraïens."
 
-#: core/ChangeLog.qml:133
+#: core/ChangeLog.qml:139
 msgctxt "ChangeLog|"
 msgid "Search feature."
 msgstr "Zoekfunctie."
 
-#: core/ChangeLog.qml:134
+#: core/ChangeLog.qml:140
 msgctxt "ChangeLog|"
 msgid "A Changelog."
 msgstr "Een log met wijzigingen."
 
-#: core/ChangeLog.qml:135
+#: core/ChangeLog.qml:141
 msgctxt "ChangeLog|"
 msgid "Many little fixes."
 msgstr "Veel kleine reparaties."
 
-#: core/ChangeLog.qml:135
+#: core/ChangeLog.qml:141
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in French."
 msgstr "Taalactiviteit nu beschikbaar in het Frans."
 
-#: core/ChangeLog.qml:136
+#: core/ChangeLog.qml:142
 msgctxt "ChangeLog|"
 msgid ""
 "Adding a loading overlay to let the user know that some actions are taking "
@@ -26604,7 +26614,7 @@ msgstr ""
 "sommige acties bezig zijn (het laden van een activiteit bijvoorbeeld) en dat "
 "het enige seconden kan duren."
 
-#: core/ChangeLog.qml:136
+#: core/ChangeLog.qml:142
 msgctxt "ChangeLog|"
 msgid ""
 "Translations added for: Catalan (Valencian), Chinese Traditional, Finnish "
@@ -26613,12 +26623,12 @@ msgstr ""
 "Toegevoegde vertalingen voor: Catalaans (Valensiaans), Chinees Traditioneel, "
 "Fins (92% vertaald), Russisch (98% vertaald), Slovaaks (92% vertaald), Turks."
 
-#: core/ChangeLog.qml:137
+#: core/ChangeLog.qml:143
 msgctxt "ChangeLog|"
 msgid "Translations added for: Slovenian, German, Galician."
 msgstr "Vertalingen toegevoegd voor: Sloveens, Duits, Gallisch."
 
-#: core/ChangeLog.qml:191
+#: core/ChangeLog.qml:197
 #, qt-format
 msgctxt "ChangeLog|"
 msgid "Version %1:"
@@ -27112,47 +27122,47 @@ msgctxt "LanguageList|"
 msgid "GCompris' language"
 msgstr "Taal van GCompris"
 
-#: core/main.cpp:166
+#: core/main.cpp:72
 msgctxt "QObject|"
 msgid "Run GCompris with the default system cursor."
 msgstr "GCompris uitvoeren met de standaard systeemcursor."
 
-#: core/main.cpp:170
+#: core/main.cpp:76
 msgctxt "QObject|"
 msgid "Run GCompris without cursor (touch screen mode)."
 msgstr "GCompris uitvoeren zonder cursor (modus aanraakscherm)."
 
-#: core/main.cpp:174
+#: core/main.cpp:80
 msgctxt "QObject|"
 msgid "Run GCompris in fullscreen mode."
 msgstr "GCompris uitvoeren in volledig scherm."
 
-#: core/main.cpp:178
+#: core/main.cpp:84
 msgctxt "QObject|"
 msgid "Run GCompris in window mode."
 msgstr "GCompris uitvoeren in een venster."
 
-#: core/main.cpp:182
+#: core/main.cpp:88
 msgctxt "QObject|"
 msgid "Run GCompris with sound enabled."
 msgstr "GCompris uitvoeren met het geluid aan."
 
-#: core/main.cpp:186
+#: core/main.cpp:92
 msgctxt "QObject|"
 msgid "Run GCompris without sound."
 msgstr "GCompris uitvoeren zonder geluid."
 
-#: core/main.cpp:189
+#: core/main.cpp:95
 msgctxt "QObject|"
 msgid "Disable the kiosk mode (default)."
 msgstr "De kioskmodus uitschakelen (standaard)."
 
-#: core/main.cpp:192
+#: core/main.cpp:98
 msgctxt "QObject|"
 msgid "Enable the kiosk mode."
 msgstr "De kioskmodus inschakelen."
 
-#: core/main.cpp:196
+#: core/main.cpp:102
 msgctxt "QObject|"
 msgid ""
 "Use software renderer instead of openGL (slower but should run with any "
@@ -27161,7 +27171,7 @@ msgstr ""
 "Software renderer gebruiken in plaats van openGL (langzamer maar zou met "
 "elke grafische kaart moeten werken)."
 
-#: core/main.cpp:199
+#: core/main.cpp:105
 msgctxt "QObject|"
 msgid ""
 "Use openGL renderer instead of software (faster but crash potentially "
@@ -27170,17 +27180,17 @@ msgstr ""
 "Renderen met openGL gebruiken in plaats van software (sneller maar kan "
 "crashen afhankelijk van uw grafische kaart)."
 
-#: core/main.cpp:203
+#: core/main.cpp:109
 msgctxt "QObject|"
 msgid "Specify the activity when starting GCompris."
 msgstr "De activiteit specificeren bij starten van GCompris."
 
-#: core/main.cpp:208
+#: core/main.cpp:114
 msgctxt "QObject|"
 msgid "Outputs all the available activities on the standard output."
 msgstr "Voert alle beschikbare activiteiten uit op de standaard uitvoer."
 
-#: core/main.cpp:212
+#: core/main.cpp:118
 msgctxt "QObject|"
 msgid ""
 "Specify the range of activity difficulty to display for the session. Either "
@@ -27190,7 +27200,7 @@ msgstr ""
 "specificeren. Ofwel een enkele waarde (2) of een reeks (3-6). Waarden moeten "
 "liggen tussen 1 en 6."
 
-#: core/main.cpp:216
+#: core/main.cpp:122
 msgctxt "QObject|"
 msgid ""
 "Specify on which level to start the activity. Only used when --launch option "
@@ -27311,6 +27321,15 @@ msgstr "Overslaan"
 msgctxt "Tutorial|"
 msgid "Start"
 msgstr "Begin"
+
+#~ msgctxt "Menu|"
+#~ msgid ""
+#~ "You selected a new locale, you need to restart GCompris to use it.<br/>Do "
+#~ "you want to download the corresponding sound files now?"
+#~ msgstr ""
+#~ "Je hebt een nieuwe taalcode geselecteerd, je moet GCompris opnieuw "
+#~ "starten om deze te gebruiken.<br/>Wil je de overeenkomstige "
+#~ "geluidsbestanden nu downloaden?"
 
 #~ msgctxt "ActivityInfo|"
 #~ msgid "Logic training activity."
@@ -31562,10 +31581,6 @@ msgstr "Begin"
 #~ msgctxt "main|"
 #~ msgid "Do you want to download it now?"
 #~ msgstr "Wil je het nu downloaden?"
-
-#~ msgctxt "main|"
-#~ msgid "Do you want to download the corresponding sound files now?"
-#~ msgstr "Wilt u de overeenkomstige geluidsbestanden nu downloaden?"
 
 #~ msgctxt "Data|"
 #~ msgid "Countries of Australia."

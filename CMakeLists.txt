@@ -19,8 +19,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # enable qml debugging for DEBUG builds:
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -DQT_QML_DEBUG")
 
-set(GCOMPRIS_MAJOR_VERSION 4)
-set(GCOMPRIS_MINOR_VERSION 1)
+set(GCOMPRIS_MAJOR_VERSION 25)
+set(GCOMPRIS_MINOR_VERSION 0)
 set(GCOMPRIS_PATCH_VERSION 0)
 
 if("${CMAKE_ANDROID_ARCH}" STREQUAL "arm64")
@@ -87,7 +87,7 @@ endif()
 
 set(QT_MAJOR Qt6)
 
-set(QT_COMPONENTS Qml Quick Gui Multimedia Core Svg Network LinguistTools Sensors QuickControls2 QuickTemplates2 Charts Widgets Core5Compat QmlWorkerScript)
+set(QT_COMPONENTS Qml Quick Gui Multimedia Core Svg Network LinguistTools Sensors QuickControls2 QuickTemplates2 Charts Widgets QmlWorkerScript)
 
 find_package(${QT_MAJOR} ${QT_REQUIRED_VERSION} COMPONENTS
     ${QT_COMPONENTS})

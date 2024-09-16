@@ -223,8 +223,8 @@ msgstr ""
 #: activities/algebra_minus/ActivityInfo.qml:25
 #: activities/algebra_plus/ActivityInfo.qml:25
 #: activities/algorithm/ActivityInfo.qml:23
-#: activities/align4/ActivityInfo.qml:24
-#: activities/align4_2players/ActivityInfo.qml:23
+#: activities/align4/ActivityInfo.qml:25
+#: activities/align4_2players/ActivityInfo.qml:24
 #: activities/alphabet-sequence/ActivityInfo.qml:25
 #: activities/baby_wordprocessor/ActivityInfo.qml:25
 #: activities/braille_alphabets/ActivityInfo.qml:25
@@ -1406,16 +1406,10 @@ msgstr "Dörd düyməni bir cərgəyə düzün."
 #: activities/align4_2players/ActivityInfo.qml:20
 #, fuzzy
 #| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Create a line of 4 tokens either horizontally (lying down), vertically "
-#| "(standing up) or diagonally."
+#| msgid "Fine motor coordination."
 msgctxt "ActivityInfo|"
-msgid ""
-"Create a line of 4 tokens either horizontally (lying down), vertically "
-"(standing up), or diagonally."
-msgstr ""
-"Üfüqi (uzanaraq), şaquli (ayaq üstə) və ya çapraz olaraq 4 düymədən ibarət "
-"bir xətt yaradın."
+msgid "Develop anticipation and strategy skills."
+msgstr "Hərəkətləriniz məşq etdirin."
 
 #. Help manual
 #: activities/align4/ActivityInfo.qml:22
@@ -1427,7 +1421,22 @@ msgstr ""
 "Tuks ilə oyna. Düymə atmaq istədiyiniz sətirə növbə ilə vurun. 4 düymədən "
 "ibarət sətir yaradan ilk oyunçu qalib gəlir."
 
-#: activities/align4/ActivityInfo.qml:23 activities/bargame/ActivityInfo.qml:25
+#: activities/align4/ActivityInfo.qml:23
+#: activities/align4_2players/ActivityInfo.qml:23
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid ""
+#| "Create a line of 4 tokens either horizontally (lying down), vertically "
+#| "(standing up) or diagonally."
+msgctxt "ActivityInfo|"
+msgid ""
+"You can create a line of 4 tokens either horizontally (lying down), "
+"vertically (standing up), or diagonally."
+msgstr ""
+"Üfüqi (uzanaraq), şaquli (ayaq üstə) və ya çapraz olaraq 4 düymədən ibarət "
+"bir xətt yaradın."
+
+#: activities/align4/ActivityInfo.qml:24 activities/bargame/ActivityInfo.qml:25
 #: activities/checkers/ActivityInfo.qml:26
 #: activities/nine_men_morris/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
@@ -1438,20 +1447,20 @@ msgstr ""
 "Çətinlik səviyyəsini əl ilə seçmək üçün oxlardan istifadə edə bilərsiniz. "
 "Səviyyəni artırtığınızda Tuks daha yaxşı oynayacaq."
 
-#: activities/align4/ActivityInfo.qml:25
-#: activities/align4_2players/ActivityInfo.qml:24
+#: activities/align4/ActivityInfo.qml:26
+#: activities/align4_2players/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Left arrow: move the token to the left"
 msgstr "Sola ox: üyməni sola hərəkət etdirir"
 
-#: activities/align4/ActivityInfo.qml:26
-#: activities/align4_2players/ActivityInfo.qml:25
+#: activities/align4/ActivityInfo.qml:27
+#: activities/align4_2players/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Right arrow: move the token to the right"
 msgstr "Sağa ox: düymənia sağa hərəkət etdirir"
 
-#: activities/align4/ActivityInfo.qml:27
-#: activities/align4_2players/ActivityInfo.qml:26
+#: activities/align4/ActivityInfo.qml:28
+#: activities/align4_2players/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Space or Down arrow: drop the token"
 msgstr "Boşluq və ya Aşağı ox: düyməni atır"
@@ -15243,17 +15252,17 @@ msgctxt "Admin|"
 msgid "Level %1"
 msgstr "Səviyyə %1"
 
-#: activities/guesscount/guesscount.js:142
+#: activities/guesscount/guesscount.js:140
 msgctxt "guesscount|"
 msgid "result is not positive integer"
 msgstr "nəticə müsbət tam ədəd deyil"
 
-#: activities/guesscount/guesscount.js:144
+#: activities/guesscount/guesscount.js:142
 msgctxt "guesscount|"
 msgid "result is not an integer"
 msgstr "nəticə tam ədəd deyil"
 
-#: activities/guesscount/Guesscount.qml:161
+#: activities/guesscount/Guesscount.qml:160
 #, qt-format
 msgctxt "Guesscount|"
 msgid "Guesscount: %1"
@@ -15301,8 +15310,7 @@ msgctxt "ActivityInfo|"
 msgid "Help Tux escape the cave by finding the hidden number."
 msgstr "Gizli ədədi tapmaqla Tuksa mağaradan qaçmağa kömək edin."
 
-#. Help prerequisite
-#: activities/guessnumber/ActivityInfo.qml:21
+#: activities/guessnumber/ActivityInfo.qml:19
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Practice the addition of numbers."
@@ -15441,18 +15449,18 @@ msgstr ""
 "Əgər \"Tapılacaq sözü səsləndirin\" seçimi aktivdirsə və uyğun səs "
 "mövcuddursa, üç cəhd qaldıqda tapılacaq sözü eşidəcəksiniz."
 
-#: activities/hangman/hangman.js:208
+#: activities/hangman/hangman.js:212
 #, qt-format
 msgctxt "hangman|"
 msgid "Attempted: %1"
 msgstr "Cəhd edildi: %1"
 
-#: activities/hangman/Hangman.qml:409
+#: activities/hangman/Hangman.qml:410
 msgctxt "Hangman|"
 msgid "We are sorry, we don't have yet a translation for your language."
 msgstr "Üzr istəyirik, diliniz üçün hələlik tərcümə tapılmadı."
 
-#: activities/hangman/Hangman.qml:410
+#: activities/hangman/Hangman.qml:411
 #, qt-format
 msgctxt "Hangman|"
 msgid ""
@@ -15463,7 +15471,7 @@ msgstr ""
 "etmək üçün <a href=\"%2\">%2</a> səhifəsində tərcümə komandasına qoşula "
 "bilərsiniz."
 
-#: activities/hangman/Hangman.qml:412
+#: activities/hangman/Hangman.qml:413
 msgctxt "Hangman|"
 msgid ""
 "We switched to English for this activity but you can select another language "
@@ -19294,12 +19302,12 @@ msgctxt "ConfigurationItem|"
 msgid "Difficulty filter"
 msgstr "Çətinlik süzgəci"
 
-#: activities/menu/ConfigurationItem.qml:108
+#: activities/menu/ConfigurationItem.qml:109
 msgctxt "ConfigurationItem|"
 msgid "Language selector"
 msgstr "Dil seçimi"
 
-#: activities/menu/ConfigurationItem.qml:115
+#: activities/menu/ConfigurationItem.qml:116
 #, fuzzy
 #| msgctxt "ConfigurationItem|"
 #| msgid "Enable automatic downloads/updates of sound files"
@@ -19307,228 +19315,233 @@ msgctxt "ConfigurationItem|"
 msgid "Enable automatic downloads/updates of external assets"
 msgstr "Səs fayllarının avtomatik endirilməsini/yenilkənməsini açın"
 
-#: activities/menu/ConfigurationItem.qml:145
+#: activities/menu/ConfigurationItem.qml:146
 msgctxt "ConfigurationItem|"
 msgid "Localized voices"
 msgstr "Dilə uyğun səslər"
 
-#: activities/menu/ConfigurationItem.qml:154
+#: activities/menu/ConfigurationItem.qml:155
 msgctxt "ConfigurationItem|"
 msgid "Check for updates"
 msgstr "Yenilənmələri yoxlamaq"
 
-#: activities/menu/ConfigurationItem.qml:155
+#: activities/menu/ConfigurationItem.qml:156
 msgctxt "ConfigurationItem|"
 msgid "Download"
 msgstr "Endirmək"
 
-#: activities/menu/ConfigurationItem.qml:171
+#: activities/menu/ConfigurationItem.qml:172
 msgctxt "ConfigurationItem|"
 msgid "Enable audio voices"
 msgstr "Audio səsləri açın"
 
-#: activities/menu/ConfigurationItem.qml:181
+#: activities/menu/ConfigurationItem.qml:182
 msgctxt "ConfigurationItem|"
 msgid "Enable audio effects"
 msgstr "Səs effektlərini açın"
 
-#: activities/menu/ConfigurationItem.qml:190
+#: activities/menu/ConfigurationItem.qml:191
 msgctxt "ConfigurationItem|"
 msgid "Audio effects volume"
 msgstr "Səs effektlərinin yüksəkliyi"
 
-#: activities/menu/ConfigurationItem.qml:211
+#: activities/menu/ConfigurationItem.qml:212
 msgctxt "ConfigurationItem|"
 msgid "Download background music"
 msgstr "Arxa fon musiqisini endirin"
 
-#: activities/menu/ConfigurationItem.qml:222
+#: activities/menu/ConfigurationItem.qml:223
 msgctxt "ConfigurationItem|"
 msgid "Enable background music"
 msgstr "Arxa fon musiqisini açın"
 
-#: activities/menu/ConfigurationItem.qml:231
+#: activities/menu/ConfigurationItem.qml:232
 msgctxt "ConfigurationItem|"
 msgid "Background Music"
 msgstr "Arxa fon musiqisi"
 
-#: activities/menu/ConfigurationItem.qml:247
+#: activities/menu/ConfigurationItem.qml:248
 msgctxt "ConfigurationItem|"
 msgid "Not playing"
 msgstr "Heç nə səslənmir"
 
-#: activities/menu/ConfigurationItem.qml:249
+#: activities/menu/ConfigurationItem.qml:250
 #, qt-format
 msgctxt "ConfigurationItem|"
 msgid "Title: %1  Artist: %2"
 msgstr "Başlıq: %1  İfaçı: %2"
 
-#: activities/menu/ConfigurationItem.qml:251
+#: activities/menu/ConfigurationItem.qml:252
 msgctxt "ConfigurationItem|"
 msgid "Introduction music"
 msgstr "Giriş musiqisi"
 
-#: activities/menu/ConfigurationItem.qml:274
+#: activities/menu/ConfigurationItem.qml:275
 msgctxt "ConfigurationItem|"
 msgid "Background music volume"
 msgstr "Fon musiqisi səs səviyyəsi"
 
-#: activities/menu/ConfigurationItem.qml:305
+#: activities/menu/ConfigurationItem.qml:306
 msgctxt "ConfigurationItem|"
 msgid "Full word image set is installed"
 msgstr "Tam sözlü şəkil dəsti quraşdırıldı"
 
-#: activities/menu/ConfigurationItem.qml:305
+#: activities/menu/ConfigurationItem.qml:306
 msgctxt "ConfigurationItem|"
 msgid "Full word image set is not installed"
 msgstr "Tam sözlü şəkil dəsti quraşdırılmadı"
 
-#: activities/menu/ConfigurationItem.qml:319
+#: activities/menu/ConfigurationItem.qml:320
 msgctxt "ConfigurationItem|"
 msgid "Download full word image set"
 msgstr "Tam sözlü şəkil dəstini endirin"
 
-#: activities/menu/ConfigurationItem.qml:330
+#: activities/menu/ConfigurationItem.qml:331
 msgctxt "ConfigurationItem|"
 msgid "Fullscreen"
 msgstr "Tam ekran"
 
-#: activities/menu/ConfigurationItem.qml:341
+#: activities/menu/ConfigurationItem.qml:342
 msgctxt "ConfigurationItem|"
 msgid "Virtual Keyboard"
 msgstr "Virtual Klaviatura"
 
-#: activities/menu/ConfigurationItem.qml:352
+#: activities/menu/ConfigurationItem.qml:353
 msgctxt "ConfigurationItem|"
 msgid "The activity section menu is visible"
 msgstr "Çalışma bölmələri menyusunu göstərmək"
 
-#: activities/menu/ConfigurationItem.qml:362
+#: activities/menu/ConfigurationItem.qml:363
 msgctxt "ConfigurationItem|"
 msgid "Ask for confirmation to exit"
 msgstr "Çıxışın təsdiqlənməsini soruşmaq"
 
-#: activities/menu/ConfigurationItem.qml:373
+#: activities/menu/ConfigurationItem.qml:374
 msgctxt "ConfigurationItem|"
 msgid "Font selector"
 msgstr "Şrift seçici"
 
-#: activities/menu/ConfigurationItem.qml:378
+#: activities/menu/ConfigurationItem.qml:379
 msgctxt "ConfigurationItem|"
 msgid "Font size"
 msgstr "Şrift ölçüsü"
 
-#: activities/menu/ConfigurationItem.qml:398
-#: activities/menu/ConfigurationItem.qml:432
+#: activities/menu/ConfigurationItem.qml:399
+#: activities/menu/ConfigurationItem.qml:433
 msgctxt "ConfigurationItem|"
 msgid "Default"
 msgstr "İlkin"
 
-#: activities/menu/ConfigurationItem.qml:407
+#: activities/menu/ConfigurationItem.qml:408
 msgctxt "ConfigurationItem|"
 msgid "Font Capitalization"
 msgstr "Böyük Hərfli Yazı Mətni"
 
-#: activities/menu/ConfigurationItem.qml:412
+#: activities/menu/ConfigurationItem.qml:413
 msgctxt "ConfigurationItem|"
 msgid "Font letter spacing"
 msgstr "Yazı işarələrinin ara məsafəsi"
 
-#: activities/menu/ConfigurationItem.qml:615
+#: activities/menu/ConfigurationItem.qml:622
 msgctxt "ConfigurationItem|"
 msgid "Mixed case (default)"
 msgstr "Adi cümlədə olduğu kimi"
 
-#: activities/menu/ConfigurationItem.qml:616
+#: activities/menu/ConfigurationItem.qml:626
 msgctxt "ConfigurationItem|"
 msgid "All uppercase"
 msgstr "Bütün böyük hərflər"
 
-#: activities/menu/ConfigurationItem.qml:617
+#: activities/menu/ConfigurationItem.qml:630
 msgctxt "ConfigurationItem|"
 msgid "All lowercase"
 msgstr "Bütün kiçik hərflər"
 
-#: activities/menu/Menu.qml:90
+#: activities/menu/Menu.qml:93
+#, fuzzy
+#| msgctxt "Menu|"
+#| msgid ""
+#| "You selected a new locale, you need to restart GCompris to use it.<br/>Do "
+#| "you want to download the corresponding sound files now?"
 msgctxt "Menu|"
 msgid ""
-"You selected a new locale, you need to restart GCompris to use it.<br/>Do "
-"you want to download the corresponding sound files now?"
+"You selected a new locale, do you want to download the corresponding sound "
+"files now?"
 msgstr ""
 "Siz yeni dil seçdiniz, tətbiq olunması üçün GCompris'i yenidən başladın.<br/"
 ">Siz dilə uyğun səsləri indi endirmək istəyirsiniz?"
 
-#: activities/menu/Menu.qml:91
+#: activities/menu/Menu.qml:94
 msgctxt "Menu|"
 msgid "Yes"
 msgstr "Bəli"
 
-#: activities/menu/Menu.qml:98
+#: activities/menu/Menu.qml:101
 msgctxt "Menu|"
 msgid "No"
 msgstr "Xeyr"
 
-#: activities/menu/Menu.qml:117
+#: activities/menu/Menu.qml:120
 msgctxt "Menu|"
 msgid "Logic"
 msgstr "Məntiqi"
 
-#: activities/menu/Menu.qml:118
+#: activities/menu/Menu.qml:121
 msgctxt "Menu|"
 msgid "Fine Arts"
 msgstr "İncəsənət"
 
-#: activities/menu/Menu.qml:119
+#: activities/menu/Menu.qml:122
 msgctxt "Menu|"
 msgid "Music"
 msgstr "Musiqi"
 
-#: activities/menu/Menu.qml:125
+#: activities/menu/Menu.qml:128
 msgctxt "Menu|"
 msgid "Experiment"
 msgstr "Təcrübə"
 
-#: activities/menu/Menu.qml:126
+#: activities/menu/Menu.qml:129
 msgctxt "Menu|"
 msgid "History"
 msgstr "Tarix"
 
-#: activities/menu/Menu.qml:127
+#: activities/menu/Menu.qml:130
 msgctxt "Menu|"
 msgid "Geography"
 msgstr "Coğrafiya"
 
-#: activities/menu/Menu.qml:137
+#: activities/menu/Menu.qml:140
 msgctxt "Menu|"
 msgid "Numeration"
 msgstr "Say"
 
-#: activities/menu/Menu.qml:138
+#: activities/menu/Menu.qml:141
 msgctxt "Menu|"
 msgid "Arithmetic"
 msgstr "Arifmetika"
 
-#: activities/menu/Menu.qml:139
+#: activities/menu/Menu.qml:142
 msgctxt "Menu|"
 msgid "Measures"
 msgstr "Ölçülər"
 
-#: activities/menu/Menu.qml:149
+#: activities/menu/Menu.qml:152
 msgctxt "Menu|"
 msgid "Letters"
 msgstr "Hərflər"
 
-#: activities/menu/Menu.qml:150
+#: activities/menu/Menu.qml:153
 msgctxt "Menu|"
 msgid "Words"
 msgstr "Sözlər"
 
-#: activities/menu/Menu.qml:151
+#: activities/menu/Menu.qml:154
 msgctxt "Menu|"
 msgid "Vocabulary"
 msgstr "Söz ehtiyyatı"
 
-#: activities/menu/Menu.qml:362
+#: activities/menu/Menu.qml:372
 msgctxt "Menu|"
 msgid ""
 "Put your favorite activities here by clicking on the sun at the top right of "
@@ -19537,12 +19550,12 @@ msgstr ""
 "Çalışmanı buraya əlavə etmək üçün onun yuxarı, sağındakı günəş işarəsinə "
 "vurun."
 
-#: activities/menu/Menu.qml:770
+#: activities/menu/Menu.qml:792
 msgctxt "Menu|"
 msgid "Search specific activities"
 msgstr "Çalışmaları axtarmaq"
 
-#: activities/menu/Menu.qml:797
+#: activities/menu/Menu.qml:819
 msgctxt "Menu|"
 msgid "Activity Settings"
 msgstr "Çalışma ayarları"
@@ -19634,7 +19647,7 @@ msgstr ""
 "metalpaint.wav - qarışdırılıb və yeni qızıl külçələri toplandıqda istifadə "
 "olunur"
 
-#: activities/mining/Mining.qml:432
+#: activities/mining/Mining.qml:434
 msgctxt "Mining|"
 msgid ""
 "Find the sparkle and zoom in around it. If you have a mouse, point the "
@@ -19651,22 +19664,22 @@ msgstr ""
 "sürüşdürün. Sensor ekranda barmaqlarınızı parıltı üzərindən ək istiamətlərdə "
 "sürüşdürün."
 
-#: activities/mining/Mining.qml:448
+#: activities/mining/Mining.qml:450
 msgctxt "Mining|"
 msgid "Perfect you are zooming. Continue until you see the nugget."
 msgstr "Əla, bu sizdə alınır, Külçə görünənə qədər davam edin."
 
-#: activities/mining/Mining.qml:456
+#: activities/mining/Mining.qml:458
 msgctxt "Mining|"
 msgid "Hum, take care, you are zooming too far from the sparkle."
 msgstr "Hmm, diqqət edin, parıltıdan çox uzaqda yaxınlaşdırırsınız."
 
-#: activities/mining/Mining.qml:464
+#: activities/mining/Mining.qml:466
 msgctxt "Mining|"
 msgid "Now you see the nugget, click on it to catch it."
 msgstr "İndi siz külçəni görürsünüz, onu götürmək üçün vurun."
 
-#: activities/mining/Mining.qml:472
+#: activities/mining/Mining.qml:474
 msgctxt "Mining|"
 msgid ""
 "Hum, you are too far from the nugget to see it. Unzoom then zoom again as "
@@ -19675,17 +19688,17 @@ msgstr ""
 "Hmm, siz belə görünür ki, siz külçədən çox uzaqdasınız. Uzaqlaşın və "
 "parıltını gördükdə ona doğru təkrar yaxınlaşın."
 
-#: activities/mining/Mining.qml:480
+#: activities/mining/Mining.qml:482
 msgctxt "Mining|"
 msgid "Now unzoom and try to find another sparkle."
 msgstr "İndi uzaqlaşın və başqa parıltını tapmağa çalışın."
 
-#: activities/mining/Mining.qml:488
+#: activities/mining/Mining.qml:490
 msgctxt "Mining|"
 msgid "Continue to unzoom until you see the sparkle."
 msgstr "Parıltı görünənə qədər uzaqlaşın."
 
-#: activities/mining/Mining.qml:496
+#: activities/mining/Mining.qml:498
 msgctxt "Mining|"
 msgid "Now you see the sparkle, go ahead, you can zoom on it."
 msgstr "İndi siz parıltını görürsünüz, ona yaxınlaşmağa başlayın."
@@ -20736,7 +20749,7 @@ msgstr ""
 "Verilmiş sayları tələb olunduğu kimi onların artma və ya azalma ardıcıllığı "
 "ilə düzün."
 
-#. intro: "Arrange the numbers in the correct order." Help goal
+#. Help goal
 #: activities/ordering_numbers/ActivityInfo.qml:25
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -26808,20 +26821,29 @@ msgctxt "ActivityInfo|"
 msgid "Type the complete word as it falls, before it reaches the ground."
 msgstr "Yerə çatana qədər sözü tam şəkildə yazmağa çalışın."
 
-#: core/ChangeLog.qml:30 core/ChangeLog.qml:36 core/ChangeLog.qml:65
-#: core/ChangeLog.qml:100 core/ChangeLog.qml:103 core/ChangeLog.qml:109
+#: core/ChangeLog.qml:30
+#, fuzzy
+#| msgctxt "ChangeLog|"
+#| msgid "Translation added for Azerbaijani"
+msgctxt "ChangeLog|"
+msgid "Translation added for Latvian"
+msgstr "Azərbaycan dilində tərcümə əlavə olundu"
+
+#: core/ChangeLog.qml:31 core/ChangeLog.qml:36 core/ChangeLog.qml:42
+#: core/ChangeLog.qml:71 core/ChangeLog.qml:106 core/ChangeLog.qml:109
+#: core/ChangeLog.qml:115
 msgctxt "ChangeLog|"
 msgid "Many usability improvements"
 msgstr "Rahat istifadəsi üçün bir çox yaxşılaşdırmalar"
 
-#: core/ChangeLog.qml:31 core/ChangeLog.qml:38 core/ChangeLog.qml:47
-#: core/ChangeLog.qml:54 core/ChangeLog.qml:67 core/ChangeLog.qml:105
-#: core/ChangeLog.qml:111
+#: core/ChangeLog.qml:32 core/ChangeLog.qml:37 core/ChangeLog.qml:44
+#: core/ChangeLog.qml:53 core/ChangeLog.qml:60 core/ChangeLog.qml:73
+#: core/ChangeLog.qml:111 core/ChangeLog.qml:117
 msgctxt "ChangeLog|"
 msgid "Many bug fixes"
 msgstr "Çoxsaylı xəta düzəlişləri"
 
-#: core/ChangeLog.qml:35
+#: core/ChangeLog.qml:41
 #, fuzzy
 #| msgctxt "ChangeLog|"
 #| msgid "Translations added for: Slovenian, German, Galician."
@@ -26829,14 +26851,14 @@ msgctxt "ChangeLog|"
 msgid "Translations added for Bulgarian, Galician and Swahili"
 msgstr "Əlavə olunan tərcümələr: Sloveniya, Alman, Qalisiya."
 
-#: core/ChangeLog.qml:37 core/ChangeLog.qml:46 core/ChangeLog.qml:53
-#: core/ChangeLog.qml:66 core/ChangeLog.qml:84 core/ChangeLog.qml:99
-#: core/ChangeLog.qml:104 core/ChangeLog.qml:110
+#: core/ChangeLog.qml:43 core/ChangeLog.qml:52 core/ChangeLog.qml:59
+#: core/ChangeLog.qml:72 core/ChangeLog.qml:90 core/ChangeLog.qml:105
+#: core/ChangeLog.qml:110 core/ChangeLog.qml:116
 msgctxt "ChangeLog|"
 msgid "Many new images"
 msgstr "Çoxlu yeni dillər"
 
-#: core/ChangeLog.qml:39
+#: core/ChangeLog.qml:45
 #, fuzzy
 #| msgctxt "ChangeLog|"
 #| msgid ""
@@ -26850,17 +26872,17 @@ msgstr ""
 "Yeni əmr sətri parametri (--difficulty {value|min-max}) GCompris-i verilmiş "
 "çətinlik səviyyəsi ilə başlatmaq üçündür"
 
-#: core/ChangeLog.qml:44
+#: core/ChangeLog.qml:50
 msgctxt "ChangeLog|"
 msgid "Translations added for Arabic and Esperanto"
 msgstr "Ərəb və Esperanto dillərinə tərcümələr əlavə olundu"
 
-#: core/ChangeLog.qml:45 core/ChangeLog.qml:52
+#: core/ChangeLog.qml:51 core/ChangeLog.qml:58
 msgctxt "ChangeLog|"
 msgid "Many translation updates"
 msgstr "Daha çox tərcümə yenilənmələri"
 
-#: core/ChangeLog.qml:51
+#: core/ChangeLog.qml:57
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option (--difficulty {value|min-max}) to start GCompris at "
@@ -26869,22 +26891,22 @@ msgstr ""
 "Yeni əmr sətri parametri (--difficulty {value|min-max}) GCompris-i verilmiş "
 "çətinlik səviyyəsi ilə başlatmaq üçündür"
 
-#: core/ChangeLog.qml:58
+#: core/ChangeLog.qml:64
 msgctxt "ChangeLog|"
 msgid "Fix issue in comparator activity"
 msgstr "Müqayisə edərək problemi həll edin"
 
-#: core/ChangeLog.qml:62
+#: core/ChangeLog.qml:68
 msgctxt "ChangeLog|"
 msgid "Map of Spain added for geography activity"
 msgstr "Coğrafiya çalışmaları üçün İspaniya xəritəsi əlavə olundu"
 
-#: core/ChangeLog.qml:63
+#: core/ChangeLog.qml:69
 msgctxt "ChangeLog|"
 msgid "Voices added for Ukrainian"
 msgstr "Ukrayna dili üçün səslər əlavə olundu"
 
-#: core/ChangeLog.qml:64
+#: core/ChangeLog.qml:70
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to list all the activities and start on a specific "
@@ -26893,7 +26915,7 @@ msgstr ""
 "Bütün çalışmaların siyahısını göstərmək verilmiş bir əmri başlatmaq üçün "
 "yeni əmr sətri parametri"
 
-#: core/ChangeLog.qml:71
+#: core/ChangeLog.qml:77
 msgctxt "ChangeLog|"
 msgid ""
 "Reduce the size of the packages for all platforms and of the external word "
@@ -26902,68 +26924,68 @@ msgstr ""
 "Bütün platformalar və sözlərin xarici şəkil dəstləri üçün paketlərin "
 "ölçüsünü azaldın"
 
-#: core/ChangeLog.qml:72
+#: core/ChangeLog.qml:78
 msgctxt "ChangeLog|"
 msgid "Improve images quality in several activities"
 msgstr "Bəzi çalışmalarda şəkillərin keyfiyyətinin yaxşılaşdırılması"
 
-#: core/ChangeLog.qml:73
+#: core/ChangeLog.qml:79
 msgctxt "ChangeLog|"
 msgid "Fix some transitions in renewable_energy/watercycle on some platforms"
 msgstr ""
 "Bəzi platformalarda bərpa olunan enerjidəki/su dövriyyəsindəki keçidlərin "
 "düzəldilməsi"
 
-#: core/ChangeLog.qml:74
+#: core/ChangeLog.qml:80
 msgctxt "ChangeLog|"
 msgid "Fix dead keys ignored on Linux for typing activities"
 msgstr "Linuxda yazı çalışması üçün ölü düymələrin buraxılmasının düzəldilməsi"
 
-#: core/ChangeLog.qml:75
+#: core/ChangeLog.qml:81
 msgctxt "ChangeLog|"
 msgid "Fix level reset when changing level manually in Logical associations"
 msgstr ""
 "\"Məntiqi birliklər\"də səviyyə əl ilə dəyişdirildikdə səviyyənin "
 "sıfırlanmasının düzəldilməsi"
 
-#: core/ChangeLog.qml:79
+#: core/ChangeLog.qml:85
 msgctxt "ChangeLog|"
 msgid ""
 "Fix Alphabet sequence, Even and odd numbers and Numbers in order activities"
 msgstr ""
 "Çalışmada əlifba ardıcıllığını, Cüt və tək sayları və Nömrələri düzəldin"
 
-#: core/ChangeLog.qml:83 core/ChangeLog.qml:91
+#: core/ChangeLog.qml:89 core/ChangeLog.qml:97
 msgctxt "ChangeLog|"
 msgid "Several bug fixes"
 msgstr "Bir sıra səhvlərin aradan qaldırılması"
 
-#: core/ChangeLog.qml:85
+#: core/ChangeLog.qml:91
 msgctxt "ChangeLog|"
 msgid "Translation updated for Russian"
 msgstr "Rus dili üçün tərcümə yeniləndi"
 
-#: core/ChangeLog.qml:86
+#: core/ChangeLog.qml:92
 msgctxt "ChangeLog|"
 msgid "New voices for Norwegian Nynorsk"
 msgstr "Norveç Ninorsk üçün yeni səslər."
 
-#: core/ChangeLog.qml:90
+#: core/ChangeLog.qml:96
 msgctxt "ChangeLog|"
 msgid "Translations added for Breton, Czech and Macedonian"
 msgstr "Breton, Çex və Makedoniya dilləri üçün tərcümələr əlavə olundu"
 
-#: core/ChangeLog.qml:95
+#: core/ChangeLog.qml:101
 msgctxt "ChangeLog|"
 msgid "Translation added for Azerbaijani"
 msgstr "Azərbaycan dilində tərcümə əlavə olundu"
 
-#: core/ChangeLog.qml:96
+#: core/ChangeLog.qml:102
 msgctxt "ChangeLog|"
 msgid "New maps and update of the maps for geography activities"
 msgstr "Coğrafiya çalışmaları üçün yeni və yenilənmiş xəritələr"
 
-#: core/ChangeLog.qml:97
+#: core/ChangeLog.qml:103
 msgctxt "ChangeLog|"
 msgid ""
 "New dataset containing loops operations for programming maze, and make "
@@ -26972,7 +26994,7 @@ msgstr ""
 "Labirintin proqramlaşdırılması və təlimat şəkillərinin hazırlanması üçün "
 "əməliyyatlar dövriyyəsindən ibarət yeni məlumat dəsti"
 
-#: core/ChangeLog.qml:98
+#: core/ChangeLog.qml:104
 msgctxt "ChangeLog|"
 msgid ""
 "Addition of a level to teach voltage source loop in analog electricity "
@@ -26981,57 +27003,57 @@ msgstr ""
 "Analoji elektrik çalışmasında gərginlik mənbəyi dövriyyəsinin öyrənilməsi "
 "üçün səviyyələrin əlavə olunması"
 
-#: core/ChangeLog.qml:108
+#: core/ChangeLog.qml:114
 msgctxt "ChangeLog|"
 msgid "New Activity Settings menu, with dataset selection"
 msgstr "Məlumat dəsti ilə yeni çalışma ayarları menyusu"
 
-#: core/ChangeLog.qml:114
+#: core/ChangeLog.qml:120
 msgctxt "ChangeLog|"
 msgid "New sub-categories to organize activities"
 msgstr "Çalışmaların təşkili üçün yeni alt kateqoriyalar"
 
-#: core/ChangeLog.qml:115
+#: core/ChangeLog.qml:121
 msgctxt "ChangeLog|"
 msgid "Translation added for Macedonian."
 msgstr "Makedoniya dili üçün tərcümə əlavə olundu."
 
-#: core/ChangeLog.qml:116
+#: core/ChangeLog.qml:122
 msgctxt "ChangeLog|"
 msgid "New activities Programming Maze and Baby Tangram"
 msgstr "Yeni çalışmalar: labirint proqramlaşdırılması və uşaqlar üçün Tanqram"
 
-#: core/ChangeLog.qml:117
+#: core/ChangeLog.qml:123
 msgctxt "ChangeLog|"
 msgid "New background music and volume settings."
 msgstr "Yeni arxa don musiqisi və səs ayarları."
 
-#: core/ChangeLog.qml:118
+#: core/ChangeLog.qml:124
 msgctxt "ChangeLog|"
 msgid "New speed setting in several activities."
 msgstr "Bəzi çalışmalarda sürətin ayarlanması."
 
-#: core/ChangeLog.qml:119
+#: core/ChangeLog.qml:125
 msgctxt "ChangeLog|"
 msgid "New option in chess to display captured pieces."
 msgstr "Şahmat oyununda vurulan fiqurların görüntülənməsi üçün yeni seçim."
 
-#: core/ChangeLog.qml:120
+#: core/ChangeLog.qml:126
 msgctxt "ChangeLog|"
 msgid "New images in Colors, Advanced colors and Target game."
 msgstr "Rənglərdə, çoxçeşidli rənglərdə və ox atışı oyunu üçün yeni şəkillər."
 
-#: core/ChangeLog.qml:121
+#: core/ChangeLog.qml:127
 msgctxt "ChangeLog|"
 msgid "New voices for US English."
 msgstr "Amerikan ingiliscəsi üçün yeni səslər."
 
-#: core/ChangeLog.qml:122 core/ChangeLog.qml:130
+#: core/ChangeLog.qml:128 core/ChangeLog.qml:136
 msgctxt "ChangeLog|"
 msgid "Many little fixes and improvements."
 msgstr "Bir çox kiçik xəta düzəlişlər və yaxşılaşdırılmalar."
 
-#: core/ChangeLog.qml:123
+#: core/ChangeLog.qml:129
 msgctxt "ChangeLog|"
 msgid ""
 "Translation updated for multiple languages (Breton, Brazilian Portuguese, "
@@ -27040,19 +27062,19 @@ msgstr ""
 "Bir neçə dillərə (breton, Braziliya, Portuqaliya, Fin...) tərcümələrin "
 "yenilənməsi."
 
-#: core/ChangeLog.qml:124
+#: core/ChangeLog.qml:130
 msgctxt "ChangeLog|"
 msgid "Add Russian dataset for Click on letter activity."
 msgstr ""
 "\"Hərflərə vurmaq\" çalışmasının rus dilinə tərcüməsi üçün yeni məlumatlar "
 "dəsti əlavə olundu."
 
-#: core/ChangeLog.qml:125
+#: core/ChangeLog.qml:131
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Dutch."
 msgstr "Söz ehtiyyatı şalışması indi Holland dilində əlçatandır."
 
-#: core/ChangeLog.qml:126
+#: core/ChangeLog.qml:132
 msgctxt "ChangeLog|"
 msgid ""
 "Merge Norwegian counties Nord-Trøndelag and Sør-Trøndelag into Trøndelag in "
@@ -27061,18 +27083,18 @@ msgstr ""
 "Coğrafi ölkələr çalışmasında Norveçdəki Nord-Tröndelaq və Sör-Tröndelaq "
 "ölkələri haqqında bbiliklər Tröndelaq bölgəsində birləşdirildi."
 
-#: core/ChangeLog.qml:127
+#: core/ChangeLog.qml:133
 msgctxt "ChangeLog|"
 msgid "Fix in braille activities where the cells start at 1, not 0."
 msgstr ""
 "Brayla çalışmasında düzəliş edildi, indi xanalar 0-dan deyil 1-dən başlayır."
 
-#: core/ChangeLog.qml:128
+#: core/ChangeLog.qml:134
 msgctxt "ChangeLog|"
 msgid "Translation added for Basque, Hungarian and Malayalam."
 msgstr "BasqŞ Macar və Mlayalam dilləri üçün tərcümə əlavə olundu."
 
-#: core/ChangeLog.qml:129
+#: core/ChangeLog.qml:135
 msgctxt "ChangeLog|"
 msgid ""
 "Loading/saving of creations (Baby Wordprocessor, Balance Box and Piano "
@@ -27081,49 +27103,49 @@ msgstr ""
 "Çalışmaların yüklənməsi/saxlanılması (\"Uşaqlar üçün mətn prosessoru\" "
 "\"Tarazlıq qutusu\" və \"Pianino üçün bəstələmə\" çalışmaları)"
 
-#: core/ChangeLog.qml:130
+#: core/ChangeLog.qml:136
 msgctxt "ChangeLog|"
 msgid "Translations added for Scottish Gaelic."
 msgstr "Qel (Şotland) dilinə tərcümə əlavə olundu."
 
-#: core/ChangeLog.qml:131
+#: core/ChangeLog.qml:137
 msgctxt "ChangeLog|"
 msgid "License page added in configuration."
 msgstr "Ayarlar dialoqu pəncərəsinə lisenziya səhifəsi əlavə olundu."
 
-#: core/ChangeLog.qml:131
+#: core/ChangeLog.qml:137
 msgctxt "ChangeLog|"
 msgid "Multiple changes on layouts to improve the ergonomy."
 msgstr "Rahat istifadə üçün elementlərin düzülüşündə bir sıra dəyişiklər."
 
-#: core/ChangeLog.qml:132
+#: core/ChangeLog.qml:138
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Polish, Swedish and Ukrainian."
 msgstr ""
 "\"Söz ehtiyyatı\" çalışması indi Polyak, İsveç və Ukrayna dillərinə tərcümə "
 "olunub."
 
-#: core/ChangeLog.qml:133
+#: core/ChangeLog.qml:139
 msgctxt "ChangeLog|"
 msgid "Search feature."
 msgstr "Axtarış imkanları."
 
-#: core/ChangeLog.qml:134
+#: core/ChangeLog.qml:140
 msgctxt "ChangeLog|"
 msgid "A Changelog."
 msgstr "Dəyişikliklər siyahısı"
 
-#: core/ChangeLog.qml:135
+#: core/ChangeLog.qml:141
 msgctxt "ChangeLog|"
 msgid "Many little fixes."
 msgstr "Bir sıra kiçik xəta düzəlişləri."
 
-#: core/ChangeLog.qml:135
+#: core/ChangeLog.qml:141
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in French."
 msgstr "\"Söz ehtiyyatı\" çalışması indi Fransız dilinə tərcümə olunub."
 
-#: core/ChangeLog.qml:136
+#: core/ChangeLog.qml:142
 msgctxt "ChangeLog|"
 msgid ""
 "Adding a loading overlay to let the user know that some actions are taking "
@@ -27132,7 +27154,7 @@ msgstr ""
 "İstifadəçiyə tapçırıqların real gedişatını göstərmək üçün vəziyyət çubuğu "
 "əlavə olunur. (məsələn bir çalışma yüklənən zaman)."
 
-#: core/ChangeLog.qml:136
+#: core/ChangeLog.qml:142
 msgctxt "ChangeLog|"
 msgid ""
 "Translations added for: Catalan (Valencian), Chinese Traditional, Finnish "
@@ -27141,12 +27163,12 @@ msgstr ""
 "Əlavə olunan tərcümələr: Katalanca (Valensiya), Çincə (ənənəvi), Fincə (92% "
 "tərcümə), Rusca (98%tərcümə), Slovakca (92% tərcümə), Türkcə."
 
-#: core/ChangeLog.qml:137
+#: core/ChangeLog.qml:143
 msgctxt "ChangeLog|"
 msgid "Translations added for: Slovenian, German, Galician."
 msgstr "Əlavə olunan tərcümələr: Sloveniya, Alman, Qalisiya."
 
-#: core/ChangeLog.qml:191
+#: core/ChangeLog.qml:197
 #, qt-format
 msgctxt "ChangeLog|"
 msgid "Version %1:"
@@ -27640,47 +27662,47 @@ msgctxt "LanguageList|"
 msgid "GCompris' language"
 msgstr "GCompris dili"
 
-#: core/main.cpp:166
+#: core/main.cpp:72
 msgctxt "QObject|"
 msgid "Run GCompris with the default system cursor."
 msgstr "GCompris-i ilkin sistem kursoru ilə başladın."
 
-#: core/main.cpp:170
+#: core/main.cpp:76
 msgctxt "QObject|"
 msgid "Run GCompris without cursor (touch screen mode)."
 msgstr "GComprisi kursorsuz başladın (sensor ekran rejimi)."
 
-#: core/main.cpp:174
+#: core/main.cpp:80
 msgctxt "QObject|"
 msgid "Run GCompris in fullscreen mode."
 msgstr "GComprisi tam ekran rejimində başladın."
 
-#: core/main.cpp:178
+#: core/main.cpp:84
 msgctxt "QObject|"
 msgid "Run GCompris in window mode."
 msgstr "GComprisi pəncərə rejimində başladın."
 
-#: core/main.cpp:182
+#: core/main.cpp:88
 msgctxt "QObject|"
 msgid "Run GCompris with sound enabled."
 msgstr "GCompris-i səs effektləri ilə başladın."
 
-#: core/main.cpp:186
+#: core/main.cpp:92
 msgctxt "QObject|"
 msgid "Run GCompris without sound."
 msgstr "GComprisi səssiz başladın."
 
-#: core/main.cpp:189
+#: core/main.cpp:95
 msgctxt "QObject|"
 msgid "Disable the kiosk mode (default)."
 msgstr "Köşk rejimini söndürün (standart)."
 
-#: core/main.cpp:192
+#: core/main.cpp:98
 msgctxt "QObject|"
 msgid "Enable the kiosk mode."
 msgstr "Köşk rejimini aktiv edin."
 
-#: core/main.cpp:196
+#: core/main.cpp:102
 msgctxt "QObject|"
 msgid ""
 "Use software renderer instead of openGL (slower but should run with any "
@@ -27689,7 +27711,7 @@ msgstr ""
 "OpenGL əvəzəinə proqram təminatının görüntünü işləmə imkanından istifadə "
 "edin (zəif işləyir, lakin əksəriyyət video kartkar ilə uyğundur)."
 
-#: core/main.cpp:199
+#: core/main.cpp:105
 msgctxt "QObject|"
 msgid ""
 "Use openGL renderer instead of software (faster but crash potentially "
@@ -27698,17 +27720,17 @@ msgstr ""
 "Proqram təminatının görüntünü işləmə imkanı əvəzinə OpenGL istifadə etmək "
 "(cəld işləyir, lakin iş keyfiyyəti qrafik kartdan asılıdr)."
 
-#: core/main.cpp:203
+#: core/main.cpp:109
 msgctxt "QObject|"
 msgid "Specify the activity when starting GCompris."
 msgstr "GCompris açıldıqda çalışma göstərilsin."
 
-#: core/main.cpp:208
+#: core/main.cpp:114
 msgctxt "QObject|"
 msgid "Outputs all the available activities on the standard output."
 msgstr "Standart çıxışda bütün əlçatan çalışmaların siyahısını çıxarır."
 
-#: core/main.cpp:212
+#: core/main.cpp:118
 msgctxt "QObject|"
 msgid ""
 "Specify the range of activity difficulty to display for the session. Either "
@@ -27717,7 +27739,7 @@ msgstr ""
 "Sesiyada göstəriləcək çalışmanın çətinlik səviyyəsini təyin et. Ya tək vahid "
 "(2), ya da aralıq (3-6). Dəyərlər 1 və 6 arasında olmalıdır."
 
-#: core/main.cpp:216
+#: core/main.cpp:122
 msgctxt "QObject|"
 msgid ""
 "Specify on which level to start the activity. Only used when --launch option "

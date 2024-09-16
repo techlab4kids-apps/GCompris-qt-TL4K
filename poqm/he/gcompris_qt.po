@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: GCompris\n"
 "POT-Creation-Date: 2019-09-04 13:03+0000\n"
-"PO-Revision-Date: 2024-07-02 14:52+0300\n"
+"PO-Revision-Date: 2024-09-09 21:32+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
 "n % 10 == 0) ? 2 : 3));\n"
-"X-Generator: Lokalize 24.05.1\n"
+"X-Generator: Lokalize 24.05.2\n"
 "X-Qt-Contexts: true\n"
 "X-Poedit-Bookmarks: -1,2919,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
@@ -57,135 +57,87 @@ msgstr "אימות התשובות"
 
 #. Activity title
 #: activities/adjacent_numbers/ActivityInfo.qml:14
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Find both numbers."
 msgctxt "ActivityInfo|"
 msgid "Find the adjacent numbers"
-msgstr "למצוא את שני המספרים."
+msgstr "איתור המספרים הסמוכים"
 
 #. Help title
 #: activities/adjacent_numbers/ActivityInfo.qml:16
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Find both numbers."
 msgctxt "ActivityInfo|"
 msgid "Find the missing adjacent numbers."
-msgstr "למצוא את שני המספרים."
+msgstr "איתור המספרים הסמוכים החסרים"
 
 #. Help goal
 #: activities/adjacent_numbers/ActivityInfo.qml:19
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn about prime numbers."
 msgctxt "ActivityInfo|"
 msgid "Learn to order numbers."
-msgstr "ללמוד על מספרים ראשוניים."
+msgstr "ללמוד לסדר מספרים."
 
 #. Help manual
 #: activities/adjacent_numbers/ActivityInfo.qml:22
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Compare the numbers and choose the corresponding sign."
 msgctxt "ActivityInfo|"
 msgid "Find the requested numbers and drag them to the corresponding spot."
-msgstr "השוו את המספרים ובחרו את הסימן המתאים."
+msgstr "לאתר את המספרים המבוקשים ולגרור אותם למקומות המתאימים."
 
 #: activities/adjacent_numbers/resource/1/Data.qml:9
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Numbers between %1 and %2."
 msgctxt "Data|"
 msgid "Find numbers between 1 and 10."
-msgstr "מספרים בין %1 ו %2."
+msgstr "לאתר מספרים בין 1 ל־10."
 
 #: activities/adjacent_numbers/resource/2/Data.qml:9
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Numbers between %1 and %2."
 msgctxt "Data|"
 msgid "Find numbers between 0 and 20."
-msgstr "מספרים בין %1 ו %2."
+msgstr "לאתר מספרים בין 0 ל־20."
 
 #: activities/adjacent_numbers/resource/3/Data.qml:9
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Numbers between %1 and %2."
 msgctxt "Data|"
 msgid "Find numbers between 0 and 100."
-msgstr "מספרים בין %1 ו %2."
+msgstr "לאתר מספרים בין 0 ל־100."
 
 #: activities/adjacent_numbers/resource/3/Data.qml:14
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Find both numbers."
 msgctxt "Data|"
 msgid "Find the next number."
-msgstr "למצוא את שני המספרים."
+msgstr "לאתר את המספר הבא."
 
 #: activities/adjacent_numbers/resource/3/Data.qml:27
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Find both numbers."
 msgctxt "Data|"
 msgid "Find the previous number."
-msgstr "למצוא את שני המספרים."
+msgstr "לאתר את המספר הקודם."
 
 #: activities/adjacent_numbers/resource/3/Data.qml:40
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Find both numbers."
 msgctxt "Data|"
 msgid "Find the in-between number."
-msgstr "למצוא את שני המספרים."
+msgstr "לאתר את המספר שבין לבין."
 
 #: activities/adjacent_numbers/resource/3/Data.qml:53
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Find both numbers."
 msgctxt "Data|"
 msgid "Find the missing numbers."
-msgstr "למצוא את שני המספרים."
+msgstr "לאתר את המספרים החסרים."
 
 #: activities/adjacent_numbers/resource/3/Data.qml:66
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Find both numbers."
 msgctxt "Data|"
 msgid "Find the next numbers."
-msgstr "למצוא את שני המספרים."
+msgstr "לאתר את המספרים הבאים."
 
 #: activities/adjacent_numbers/resource/3/Data.qml:79
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Find both numbers."
 msgctxt "Data|"
 msgid "Find the previous numbers."
-msgstr "למצוא את שני המספרים."
+msgstr "לאתר את המספרים הקודמים."
 
 #: activities/adjacent_numbers/resource/3/Data.qml:105
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Find both numbers."
 msgctxt "Data|"
 msgid "Find the in-between numbers."
-msgstr "למצוא את שני המספרים."
+msgstr "לאתר את המספרים שבין לבין."
 
 #: activities/adjacent_numbers/resource/4/Data.qml:9
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Numbers between %1 and %2."
 msgctxt "Data|"
 msgid "Find numbers between -10 and -1."
-msgstr "מספרים בין %1 ו %2."
+msgstr "לאתר מספרים בין ‎-10 ל־‎-1."
 
 #: activities/adjacent_numbers/resource/5/Data.qml:9
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Numbers between %1 and %2."
 msgctxt "Data|"
 msgid "Find numbers between -10 and 10."
-msgstr "מספרים בין %1 ו %2."
+msgstr "לאתר מספרים בין ‎-10 ל־10."
 
 #. Activity title
 #: activities/advanced_colors/ActivityInfo.qml:15
@@ -228,8 +180,8 @@ msgstr ""
 #: activities/algebra_minus/ActivityInfo.qml:25
 #: activities/algebra_plus/ActivityInfo.qml:25
 #: activities/algorithm/ActivityInfo.qml:23
-#: activities/align4/ActivityInfo.qml:24
-#: activities/align4_2players/ActivityInfo.qml:23
+#: activities/align4/ActivityInfo.qml:25
+#: activities/align4_2players/ActivityInfo.qml:24
 #: activities/alphabet-sequence/ActivityInfo.qml:25
 #: activities/baby_wordprocessor/ActivityInfo.qml:25
 #: activities/braille_alphabets/ActivityInfo.qml:25
@@ -990,12 +942,9 @@ msgid "Learn multiplication table of 10."
 msgstr "טבלאות כפל של 10."
 
 #: activities/algebra_by/resource/11/Data.qml:13
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Multiplication tables from 1 to 10."
 msgctxt "Data|"
 msgid "Practice multiplication tables from 1 to 10."
-msgstr "טבלאות כפל מ1 עד 10."
+msgstr "לתרגל את לוח הכפל מ־1 עד 10."
 
 #: activities/algebra_by/resource/2/Data.qml:13
 msgctxt "Data|"
@@ -1084,12 +1033,9 @@ msgid "Learn division table of 10."
 msgstr "ללמוד טבלאות חילוק של 10."
 
 #: activities/algebra_div/resource/11/Data.qml:13
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Multiplication tables from 1 to 10."
 msgctxt "Data|"
 msgid "Practice division tables from 1 to 10."
-msgstr "טבלאות כפל מ1 עד 10."
+msgstr "לתרגל לוח חילוק מ־1 עד 10."
 
 #: activities/algebra_div/resource/2/Data.qml:13
 msgctxt "Data|"
@@ -1180,28 +1126,19 @@ msgid "Learn subtraction table of 10."
 msgstr "ללמוד טבלאות חיסור של 10."
 
 #: activities/algebra_minus/resource/11/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Subtract decimal numbers up to 1."
 msgctxt "Data|"
 msgid "Subtractions from number up to 10."
-msgstr "לחסר מספרים עשרוניים עד 1."
+msgstr "לחסר ממספרים עד 10."
 
 #: activities/algebra_minus/resource/12/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Subtract decimal numbers up to 1."
 msgctxt "Data|"
 msgid "Subtractions from number up to 20."
-msgstr "לחסר מספרים עשרוניים עד 1."
+msgstr "לחסר ממספרים עד 20."
 
 #: activities/algebra_minus/resource/13/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Subtract decimal numbers up to 1."
 msgctxt "Data|"
 msgid "Subtractions from number up to 100."
-msgstr "לחסר מספרים עשרוניים עד 1."
+msgstr "לחסר ממספרים עד 100."
 
 #: activities/algebra_minus/resource/2/Data.qml:13
 msgctxt "Data|"
@@ -1290,28 +1227,19 @@ msgid "Learn addition table of 10."
 msgstr "ללמוד טבלאות חיבּור של 10."
 
 #: activities/algebra_plus/resource/11/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Add decimal numbers up to 1."
 msgctxt "Data|"
 msgid "Additions with numbers up to 10."
-msgstr "לחבר מספרים עשרוניים עד 1."
+msgstr "להוסיף למספרים עד 10."
 
 #: activities/algebra_plus/resource/12/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Add decimal numbers up to 1."
 msgctxt "Data|"
 msgid "Additions with numbers up to 15."
-msgstr "לחבר מספרים עשרוניים עד 1."
+msgstr "להוסיף למספרים עד 15."
 
 #: activities/algebra_plus/resource/13/Data.qml:13
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Add stars up to 10."
 msgctxt "Data|"
 msgid "Additions with result up to 100."
-msgstr "לחבר כוכבים עד 10."
+msgstr "להוסיף למספרים עם תוצאה עד 100."
 
 #: activities/algebra_plus/resource/2/Data.qml:13
 msgctxt "Data|"
@@ -1361,21 +1289,15 @@ msgstr "הקשרים לוגיים"
 
 #. Help title
 #: activities/algorithm/ActivityInfo.qml:17
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Complete the arrangement of fruit."
 msgctxt "ActivityInfo|"
 msgid "Complete the arrangement of fruits."
 msgstr "להשלים את סידור הפירות."
 
 #. Help goal
 #: activities/algorithm/ActivityInfo.qml:20
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Logical associations"
 msgctxt "ActivityInfo|"
 msgid "Logical association practice."
-msgstr "הקשרים לוגיים"
+msgstr "לתרגל הקשרי חשיבה."
 
 #. Help manual
 #: activities/algorithm/ActivityInfo.qml:22
@@ -1397,28 +1319,16 @@ msgstr "ארבעה בשורה (נגד טוקס)"
 #. Help title
 #: activities/align4/ActivityInfo.qml:17
 #: activities/align4_2players/ActivityInfo.qml:17
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Arrange four tokens in a row."
 msgctxt "ActivityInfo|"
 msgid "Line up four tokens."
-msgstr "סדר ארבעה אסימונים בשורה."
+msgstr "לסדר ארבעה אסימונים בשורה."
 
 #. Help goal
 #: activities/align4/ActivityInfo.qml:20
 #: activities/align4_2players/ActivityInfo.qml:20
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Create a line of 4 tokens either horizontally (lying down), vertically "
-#| "(standing up) or diagonally."
 msgctxt "ActivityInfo|"
-msgid ""
-"Create a line of 4 tokens either horizontally (lying down), vertically "
-"(standing up), or diagonally."
-msgstr ""
-"צור שורה של ארבעה אסימונים בצורה אופקית (מצד לצד), אנכית (מלמטה למעלה) או "
-"באלכסון."
+msgid "Develop anticipation and strategy skills."
+msgstr "פיתוח מיומנויות ציפייה ואסטרטגיה."
 
 #. Help manual
 #: activities/align4/ActivityInfo.qml:22
@@ -1430,7 +1340,17 @@ msgstr ""
 "לשחק עם המחשב. בתורות להקיש על השורה שאליה את/ה רוצה להפיל את האסימון. "
 "הראשון/ה ליצור שורה של 4 אסימונים זוכה."
 
-#: activities/align4/ActivityInfo.qml:23 activities/bargame/ActivityInfo.qml:25
+#: activities/align4/ActivityInfo.qml:23
+#: activities/align4_2players/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid ""
+"You can create a line of 4 tokens either horizontally (lying down), "
+"vertically (standing up), or diagonally."
+msgstr ""
+"אפשר ליצור שורה של ארבעה אסימונים בצורה אופקית (מצד לצד), אנכית (מלמטה "
+"למעלה) או באלכסון."
+
+#: activities/align4/ActivityInfo.qml:24 activities/bargame/ActivityInfo.qml:25
 #: activities/checkers/ActivityInfo.qml:26
 #: activities/nine_men_morris/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
@@ -1441,20 +1361,20 @@ msgstr ""
 "אפשר לבחור רמת קושי ידנית עם החיצים. ברמות קושי גבוהות יותר טאקס ישחק טוב "
 "יותר."
 
-#: activities/align4/ActivityInfo.qml:25
-#: activities/align4_2players/ActivityInfo.qml:24
+#: activities/align4/ActivityInfo.qml:26
+#: activities/align4_2players/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Left arrow: move the token to the left"
 msgstr "חץ שמאלה: להזיז את האסימון שמאלה"
 
-#: activities/align4/ActivityInfo.qml:26
-#: activities/align4_2players/ActivityInfo.qml:25
+#: activities/align4/ActivityInfo.qml:27
+#: activities/align4_2players/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Right arrow: move the token to the right"
 msgstr "חץ ימינה: להעביר את האסימון לימין"
 
-#: activities/align4/ActivityInfo.qml:27
-#: activities/align4_2players/ActivityInfo.qml:26
+#: activities/align4/ActivityInfo.qml:28
+#: activities/align4_2players/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Space or Down arrow: drop the token"
 msgstr "רווח או חץ למטה: להפיל את האסימון"
@@ -2118,12 +2038,9 @@ msgstr "ליצור מעגל כך שמפל המתח בשתי הנורות שוו�
 
 #. Activity title
 #: activities/baby_keyboard/ActivityInfo.qml:15
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Baby keyboard"
 msgctxt "ActivityInfo|"
 msgid "My first keyboard"
-msgstr "מקלדת תינוקות"
+msgstr "המקלדת הראשונה שלי"
 
 #. Help title
 #: activities/baby_keyboard/ActivityInfo.qml:17
@@ -2228,12 +2145,9 @@ msgstr "לחיצה (קליק) פשוט באזור המרכזי מציג סימן
 
 #. Activity title
 #: activities/baby_tangram/ActivityInfo.qml:15
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Complete the puzzle"
 msgctxt "ActivityInfo|"
 msgid "Simple puzzle"
-msgstr "השלם את ההרכבה"
+msgstr "פאזל פשוט"
 
 #. Help title
 #: activities/baby_tangram/ActivityInfo.qml:17
@@ -2267,12 +2181,9 @@ msgstr "להשמיע את הצלילים של הסימנים כשהם מוקלד
 
 #. Activity title
 #: activities/baby_wordprocessor/ActivityInfo.qml:15
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "A baby word processor"
 msgctxt "ActivityInfo|"
 msgid "My first word processor"
-msgstr "מעבד תמלילים לתינוקות"
+msgstr "מעבד התמלילים הראשון שלי"
 
 #. Help title
 #: activities/baby_wordprocessor/ActivityInfo.qml:17
@@ -4360,22 +4271,16 @@ msgstr "לשחק שחמט (נגד טוקס)"
 #. Help title
 #: activities/chess/ActivityInfo.qml:17
 #: activities/chess_2players/ActivityInfo.qml:17
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Discover the braille system"
 msgctxt "ActivityInfo|"
 msgid "Discover and practice chess."
-msgstr "לגלות את מערכת הברייל"
+msgstr "לגלות ולתרגל שחמט."
 
 #. Help goal
 #: activities/chess/ActivityInfo.qml:20
 #: activities/chess_2players/ActivityInfo.qml:20
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn the water cycle."
 msgctxt "ActivityInfo|"
 msgid "Learn to play chess."
-msgstr "ללמוד את מחזור המים."
+msgstr "ללמוד לשחק שחמט."
 
 #. Help manual Much of this string is shared across the three activities "chess", "chess_partyend", and "chess_2players".
 #: activities/chess/ActivityInfo.qml:24
@@ -4550,12 +4455,9 @@ msgstr "לשחק סיומים במשחק שחמט נגד טוקס."
 
 #. Help goal
 #: activities/chess_partyend/ActivityInfo.qml:20
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "End of chess game"
 msgctxt "ActivityInfo|"
 msgid "Finish a chess game."
-msgstr "סיום משחק שחמט"
+msgstr "סיום משחק שחמט."
 
 #. Help manual Much of this string is shared across the three activities "chess", "chess_partyend", and "chess_2players".
 #: activities/chess_partyend/ActivityInfo.qml:24
@@ -5765,7 +5667,7 @@ msgstr "לגרור ולשחרר את הצורות על המטרה שמתאימה
 #: activities/paintings/ActivityInfo.qml:25
 msgctxt "ActivityInfo|"
 msgid "Develop observation and spatial visualization skills."
-msgstr ""
+msgstr "פיתוח מיומנויות הבחנה וייצוג חזותי במרחב."
 
 #. Help manual
 #: activities/details/ActivityInfo.qml:26
@@ -9042,7 +8944,7 @@ msgstr "להזיז כל חלק כדי ליצור מחדש את התמונה."
 #: activities/traffic/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop anticipation and spatial visualization skills."
-msgstr ""
+msgstr "פיתוח מיומנויות ציפייה וייצוג חזותי במרחב."
 
 #. Help manual
 #: activities/fifteen/ActivityInfo.qml:23
@@ -9267,7 +9169,7 @@ msgstr "לבעוט את הכדור לתוך השער."
 #: activities/football/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Understand direction and speed."
-msgstr ""
+msgstr "הבנת כיוון ומהירות."
 
 #. Help manual
 #: activities/football/ActivityInfo.qml:23
@@ -14453,7 +14355,7 @@ msgstr "מחק לאחור (בקספּייס): למחוק את הסיפרה הא�
 #: activities/grammar_analysis/grammar_analysis.js:37
 msgctxt "grammar_analysis|"
 msgid "Grammatical analysis"
-msgstr ""
+msgstr "ניתוח דקדוקי"
 
 #: activities/grammar_analysis/grammar_analysis.js:38
 #: activities/grammar_analysis/grammar_analysis.js:48
@@ -14676,13 +14578,13 @@ msgstr ""
 #: activities/guess24/ActivityInfo.qml:14
 msgctxt "ActivityInfo|"
 msgid "Guess 24"
-msgstr ""
+msgstr "ניחוש 24"
 
 #. Help title
 #: activities/guess24/ActivityInfo.qml:16
 msgctxt "ActivityInfo|"
 msgid "Calculate to find 24."
-msgstr ""
+msgstr "חישוב למציאת 24."
 
 #. Help goal
 #: activities/guess24/ActivityInfo.qml:19
@@ -14708,7 +14610,7 @@ msgstr "תרגול חיבור, חיסור כפל וחילוק."
 #: activities/guess24/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Use the four numbers with given operators to find 24."
-msgstr ""
+msgstr "יש להשתמש בארבעת המספרים עם הפעולות שסופקו כדי למצוא 24."
 
 #: activities/guess24/ActivityInfo.qml:25
 #, fuzzy
@@ -14729,7 +14631,7 @@ msgstr "רווח או אנטר: לבחור או למקם פריט"
 #: activities/guess24/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Operator keys (+, -, *, /): select operator"
-msgstr ""
+msgstr "מקשי פעולות (+, -, *, /): נא לבחור פעולה"
 
 #: activities/guess24/ActivityInfo.qml:28
 #, fuzzy
@@ -14752,20 +14654,17 @@ msgstr ""
 #: activities/guess24/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Solvable with + and -."
-msgstr ""
+msgstr "פתיר בעזרת + ו־-."
 
 #: activities/guess24/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Solvable with +, - and ×."
-msgstr ""
+msgstr "פתיר בעזרת +, - ו־×."
 
 #: activities/guess24/resource/3/Data.qml:13
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Multiplications."
 msgctxt "Data|"
 msgid "Multiplication required."
-msgstr "כפל."
+msgstr "צריך כפל."
 
 #: activities/guess24/resource/4/Data.qml:13
 #, fuzzy
@@ -14776,12 +14675,9 @@ msgid "Solvable with all operators."
 msgstr "רשת קטנה."
 
 #: activities/guess24/resource/5/Data.qml:13
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Divisions."
 msgctxt "Data|"
 msgid "Division required."
-msgstr "חילוק."
+msgstr "צריך חילוק."
 
 #: activities/guesscount/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
@@ -14813,7 +14709,7 @@ msgstr "ספירת ניחושים"
 #: activities/guesscount/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Find the operations to get the required result."
-msgstr ""
+msgstr "יש למצוא את הפעולות כדי לקבל את התוצאה המבוקשת."
 
 #. Help goal
 #: activities/guesscount/ActivityInfo.qml:24
@@ -14851,17 +14747,17 @@ msgctxt "Admin|"
 msgid "Level %1"
 msgstr "שלב %1"
 
-#: activities/guesscount/guesscount.js:142
+#: activities/guesscount/guesscount.js:140
 msgctxt "guesscount|"
 msgid "result is not positive integer"
 msgstr "התוצאה היא לא משתנה חיובי"
 
-#: activities/guesscount/guesscount.js:144
+#: activities/guesscount/guesscount.js:142
 msgctxt "guesscount|"
 msgid "result is not an integer"
 msgstr "התוצאה אינה מִשתנֵה"
 
-#: activities/guesscount/Guesscount.qml:161
+#: activities/guesscount/Guesscount.qml:160
 #, qt-format
 msgctxt "Guesscount|"
 msgid "Guesscount: %1"
@@ -14909,8 +14805,7 @@ msgctxt "ActivityInfo|"
 msgid "Help Tux escape the cave by finding the hidden number."
 msgstr "לעזור לטוקס לברוח מהמערה באמצעות גילוי של המספרים החבויים."
 
-#. Help prerequisite
-#: activities/guessnumber/ActivityInfo.qml:21
+#: activities/guessnumber/ActivityInfo.qml:19
 #, fuzzy
 #| msgctxt "ActivityInfo|"
 #| msgid "Practice the addition of numbers."
@@ -15016,7 +14911,7 @@ msgstr "לנחש את האותיות של מילה נתונה."
 #: activities/hangman/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Improve your spelling and vocabulary."
-msgstr ""
+msgstr "שיפור האיות ואוצר המילים שלך."
 
 #. Help manual
 #: activities/hangman/ActivityInfo.qml:23
@@ -15046,18 +14941,18 @@ msgstr ""
 "אם האפשרות 'להגיד את המילים כדי למצוא...' פעילה ואם הקולות המתאימים זמינים, "
 "אפשר לשמוע את המילים כדי לדעת מתי נשאר שלושה נסיונות."
 
-#: activities/hangman/hangman.js:208
+#: activities/hangman/hangman.js:212
 #, qt-format
 msgctxt "hangman|"
 msgid "Attempted: %1"
 msgstr "נסיון: %1"
 
-#: activities/hangman/Hangman.qml:409
+#: activities/hangman/Hangman.qml:410
 msgctxt "Hangman|"
 msgid "We are sorry, we don't have yet a translation for your language."
 msgstr "אנו מצטערים, אין לנו עדיין תרגום לשפה שלך."
 
-#: activities/hangman/Hangman.qml:410
+#: activities/hangman/Hangman.qml:411
 #, qt-format
 msgctxt "Hangman|"
 msgid ""
@@ -15067,7 +14962,7 @@ msgstr ""
 "התוכנה GCompris מפותחת על ידי קהילת KDE, תוכל/י להצטרף לצוות המתרגמים/ות ב "
 "<a href=\"%2\">%2</a>"
 
-#: activities/hangman/Hangman.qml:412
+#: activities/hangman/Hangman.qml:413
 msgctxt "Hangman|"
 msgid ""
 "We switched to English for this activity but you can select another language "
@@ -15095,7 +14990,7 @@ msgstr "ליצור מחדש את המגדל בצד ימין באזור הריק.
 #: activities/hanoi_real/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop strategic thinking."
-msgstr ""
+msgstr "פיתוח חשיבה אסטרטגית."
 
 #. Help manual
 #: activities/hanoi/ActivityInfo.qml:24
@@ -16110,7 +16005,7 @@ msgstr "ללמוד מספרים עשרוניים"
 #: activities/learn_decimals/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Associate the decimal form of a number with its graphic representation."
-msgstr ""
+msgstr "שיוך הצורה העשרונית של מספר לייצוג החזותי שלו."
 
 #. Help manual
 #: activities/learn_decimals/ActivityInfo.qml:22
@@ -16777,7 +16672,7 @@ msgstr "לבחור את המילים שמכילות את האות הנתונה."
 #: activities/letter-in-word/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Train to find a given letter in words."
-msgstr ""
+msgstr "אימון למציאת אות מסוימת במילים."
 
 #. Help prerequisite
 #: activities/letter-in-word/ActivityInfo.qml:22
@@ -16837,7 +16732,7 @@ msgstr "המטרה היא לכבות את כל האורות."
 #: activities/lightsoff/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop anticipation, strategy and spatial visualization skills."
-msgstr ""
+msgstr "פיתוח מיומנויות ציפייה, אסטרטגיה וייצוג חזותי במרחב."
 
 #. Help manual
 #: activities/lightsoff/ActivityInfo.qml:23
@@ -16917,6 +16812,8 @@ msgid ""
 "Read about some key events in the life of the braille system inventor, and "
 "remember their chronological order."
 msgstr ""
+"קריאה על אירועי מפתח בחייו של ממציא מערכת הברייל ולזכור את הסדר שלהם על ציר "
+"הזמן."
 
 #. Help goal
 #: activities/louis-braille/ActivityInfo.qml:20
@@ -16924,7 +16821,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Remember the order of an event sequence. Learn about the life of Louis "
 "Braille."
-msgstr ""
+msgstr "לזכור את סדר רצף האירועים. ללמוד על החיים של לואי ברייל."
 
 #. Help manual
 #: activities/louis-braille/ActivityInfo.qml:23
@@ -17224,7 +17121,7 @@ msgstr "לעזור לטוקס להחלץ מהמבוך."
 #: activities/mazerelative/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop spatial visualization and pathfinding skills."
-msgstr ""
+msgstr "פיתוח מיומנויות ייצוג חזותי במרחב והתמצאות."
 
 #. Help manual
 #: activities/maze/ActivityInfo.qml:23
@@ -17302,7 +17199,7 @@ msgstr "להוביל את טוקס מחוץ למבוך הבלתי-נראה."
 #: activities/mazeinvisible/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop spatial visualization, pathfinding and visual memory skills."
-msgstr ""
+msgstr "פיתוח מיומנויות ייצוג חזותי במרחב, התמצאות וזיכרון חזותי."
 
 #. Help manual
 #: activities/mazeinvisible/ActivityInfo.qml:23
@@ -18630,12 +18527,12 @@ msgstr "חיצים- להציג את השלב הנוכחי. ללחוץ כדי ל�
 #: activities/menu/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Lips - Repeat the question"
-msgstr "שפתיים- לחזור על השאלה"
+msgstr "שפתיים - לחזור על השאלה"
 
 #: activities/menu/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "Question Mark - Help"
-msgstr "סימן שאלה- עזרה"
+msgstr "סימן שאלה - עזרה"
 
 #: activities/menu/ActivityInfo.qml:29
 msgctxt "ActivityInfo|"
@@ -18645,22 +18542,22 @@ msgstr "לטעון מחדש - להתחיל שוב את הפעילות מהתחל
 #: activities/menu/ActivityInfo.qml:30
 msgctxt "ActivityInfo|"
 msgid "Tool - The configuration menu"
-msgstr "כלי- תפריט ההגדרות"
+msgstr "כלי - תפריט ההגדרות"
 
 #: activities/menu/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
 msgid "Three lines - The activity settings menu"
-msgstr "שלושה קוים- תפריט הגדרות הפעילות"
+msgstr "שלושה קווים - תפריט הגדרות הפעילות"
 
 #: activities/menu/ActivityInfo.qml:32
 msgctxt "ActivityInfo|"
 msgid "G - About GCompris"
-msgstr "על אודות GCompris"
+msgstr "על GCompris"
 
 #: activities/menu/ActivityInfo.qml:33
 msgctxt "ActivityInfo|"
 msgid "Quit - Quit GCompris (Ctrl+Q)"
-msgstr "לצאת- לעזוב את GCompris (קטרל+/) "
+msgstr "לצאת - לעזוב את GCompris ‏(Ctrl+/‎)"
 
 #: activities/menu/ActivityInfo.qml:34
 msgctxt "ActivityInfo|"
@@ -18670,7 +18567,7 @@ msgstr "הכוכבים מסמלים את קבוצת הגיל המתאימה לכ
 #: activities/menu/ActivityInfo.qml:35
 msgctxt "ActivityInfo|"
 msgid "1, 2 or 3 yellow stars - from 2 to 6 years old"
-msgstr "1, 2 או 3 כוכבים תהובים - גילאי 2 עד 6"
+msgstr "1, 2 או 3 כוכבים צהובים - גילאי 2 עד 6"
 
 #: activities/menu/ActivityInfo.qml:36
 msgctxt "ActivityInfo|"
@@ -18683,15 +18580,16 @@ msgid ""
 "If there are two different star icons on an activity, the first one shows "
 "the minimum difficulty, and the second one the maximum difficulty."
 msgstr ""
-"אם ישנם שני סימנים שונים של כוכבים ליד הפעילות, הראשון מציג את הקושי הנמוך "
-"ביותר והשני את הקושי המירבי."
+"אם יש שני סימנים שונים של כוכבים ליד הפעילות, הראשון מציג את דרגת הקושי "
+"הנמוכה ביותר והשני את המרבית."
 
 #: activities/menu/ActivityInfo.qml:38
 msgctxt "ActivityInfo|"
 msgid "<b>Keyboard shortcuts:</b>"
-msgstr "<b> קיצורי מקשים:</b>"
+msgstr "<b>קיצורי מקשים:</b>"
 
 #: activities/menu/ActivityInfo.qml:39
+#, fuzzy
 msgctxt "ActivityInfo|"
 msgid "Ctrl+B: Show or Hide the control bar"
 msgstr "קטרל+נ (ctrl+b) להראות או להסתיר את סרגל השליטה"
@@ -18714,13 +18612,13 @@ msgstr "מוזיקת רקע"
 #: activities/menu/BackgroundMusicList.qml:129
 msgctxt "BackgroundMusicList|"
 msgid "Disable the background music if you don't want to play them."
-msgstr "לכבות את מוזיקת הרקע עם לא רוצים לנגן אותה."
+msgstr "לכבות את מוזיקת הרקע כדי שלא שתתנגן."
 
 #. Current background music playing
 #: activities/menu/BackgroundMusicList.qml:169
 msgctxt "BackgroundMusicList|"
 msgid "Now Playing:"
-msgstr "עכשיו מנגן:"
+msgstr "עכשיו מתנגן:"
 
 #. Title of the current background music playing
 #: activities/menu/BackgroundMusicList.qml:178
@@ -18734,7 +18632,7 @@ msgstr "כותרת: %1"
 #, qt-format
 msgctxt "BackgroundMusicList|"
 msgid "Artist: %1"
-msgstr "אמן: %1"
+msgstr "אומן: %1"
 
 #. Year of the current background music playing
 #: activities/menu/BackgroundMusicList.qml:196
@@ -18755,12 +18653,12 @@ msgctxt "ConfigurationItem|"
 msgid "Difficulty filter"
 msgstr "מסנן דרגת קושי"
 
-#: activities/menu/ConfigurationItem.qml:108
+#: activities/menu/ConfigurationItem.qml:109
 msgctxt "ConfigurationItem|"
 msgid "Language selector"
-msgstr "בוחר השפה"
+msgstr "בורר השפה"
 
-#: activities/menu/ConfigurationItem.qml:115
+#: activities/menu/ConfigurationItem.qml:116
 #, fuzzy
 #| msgctxt "ConfigurationItem|"
 #| msgid "Enable automatic downloads/updates of sound files"
@@ -18768,242 +18666,247 @@ msgctxt "ConfigurationItem|"
 msgid "Enable automatic downloads/updates of external assets"
 msgstr "להפעיל הורדה/עידכון אוטומטי של קובצי קולות"
 
-#: activities/menu/ConfigurationItem.qml:145
+#: activities/menu/ConfigurationItem.qml:146
 msgctxt "ConfigurationItem|"
 msgid "Localized voices"
 msgstr "קולות מקומיים"
 
-#: activities/menu/ConfigurationItem.qml:154
+#: activities/menu/ConfigurationItem.qml:155
 msgctxt "ConfigurationItem|"
 msgid "Check for updates"
-msgstr "בדוק אם יש עדכונים"
+msgstr "איתור עדכונים"
 
-#: activities/menu/ConfigurationItem.qml:155
+#: activities/menu/ConfigurationItem.qml:156
 msgctxt "ConfigurationItem|"
 msgid "Download"
 msgstr "להוריד"
 
-#: activities/menu/ConfigurationItem.qml:171
+#: activities/menu/ConfigurationItem.qml:172
 msgctxt "ConfigurationItem|"
 msgid "Enable audio voices"
-msgstr "אפשר קולות אודיו"
+msgstr "הפעלת קולות שמע"
 
-#: activities/menu/ConfigurationItem.qml:181
+#: activities/menu/ConfigurationItem.qml:182
 msgctxt "ConfigurationItem|"
 msgid "Enable audio effects"
-msgstr "הפעל אפקטים קוליים"
+msgstr "הפעלת אפקטים קוליים"
 
-#: activities/menu/ConfigurationItem.qml:190
+#: activities/menu/ConfigurationItem.qml:191
 msgctxt "ConfigurationItem|"
 msgid "Audio effects volume"
 msgstr "עוצמה של אפקטים קוליים"
 
-#: activities/menu/ConfigurationItem.qml:211
+#: activities/menu/ConfigurationItem.qml:212
 msgctxt "ConfigurationItem|"
 msgid "Download background music"
-msgstr "לטעון מוזיקת רקע"
+msgstr "הורדת מוזיקת רקע"
 
-#: activities/menu/ConfigurationItem.qml:222
+#: activities/menu/ConfigurationItem.qml:223
 msgctxt "ConfigurationItem|"
 msgid "Enable background music"
-msgstr "הפעל מוזיקת רקע"
+msgstr "הפעלת מוזיקת רקע"
 
-#: activities/menu/ConfigurationItem.qml:231
+#: activities/menu/ConfigurationItem.qml:232
 msgctxt "ConfigurationItem|"
 msgid "Background Music"
 msgstr "מוזיקת רקע"
 
-#: activities/menu/ConfigurationItem.qml:247
+#: activities/menu/ConfigurationItem.qml:248
 msgctxt "ConfigurationItem|"
 msgid "Not playing"
-msgstr "אינו מנגן"
+msgstr "לא מתנגנת"
 
-#: activities/menu/ConfigurationItem.qml:249
+#: activities/menu/ConfigurationItem.qml:250
 #, qt-format
 msgctxt "ConfigurationItem|"
 msgid "Title: %1  Artist: %2"
-msgstr "שם: %1 אמן: %2"
+msgstr "כותרת: %1 אומן: %2"
 
-#: activities/menu/ConfigurationItem.qml:251
+#: activities/menu/ConfigurationItem.qml:252
 msgctxt "ConfigurationItem|"
 msgid "Introduction music"
 msgstr "מוזיקת פתיחה"
 
-#: activities/menu/ConfigurationItem.qml:274
+#: activities/menu/ConfigurationItem.qml:275
 msgctxt "ConfigurationItem|"
 msgid "Background music volume"
 msgstr "עוצמת מוזיקת רקע"
 
-#: activities/menu/ConfigurationItem.qml:305
+#: activities/menu/ConfigurationItem.qml:306
 msgctxt "ConfigurationItem|"
 msgid "Full word image set is installed"
 msgstr "ערכת דמות מילה מותקנת במלואה"
 
-#: activities/menu/ConfigurationItem.qml:305
+#: activities/menu/ConfigurationItem.qml:306
 msgctxt "ConfigurationItem|"
 msgid "Full word image set is not installed"
 msgstr "ערכת דמות מילה אינה מותקנת"
 
-#: activities/menu/ConfigurationItem.qml:319
+#: activities/menu/ConfigurationItem.qml:320
 msgctxt "ConfigurationItem|"
 msgid "Download full word image set"
-msgstr "להוריד מערכת דמות מילה מלאה"
+msgstr "להוריד ערכת דמות מילה מלאה"
 
-#: activities/menu/ConfigurationItem.qml:330
+#: activities/menu/ConfigurationItem.qml:331
 msgctxt "ConfigurationItem|"
 msgid "Fullscreen"
 msgstr "מסך מלא"
 
-#: activities/menu/ConfigurationItem.qml:341
+#: activities/menu/ConfigurationItem.qml:342
 msgctxt "ConfigurationItem|"
 msgid "Virtual Keyboard"
 msgstr "מקלדת וירטואלית"
 
-#: activities/menu/ConfigurationItem.qml:352
+#: activities/menu/ConfigurationItem.qml:353
 msgctxt "ConfigurationItem|"
 msgid "The activity section menu is visible"
 msgstr "תפריט חלקי הפעילות מוצג"
 
-#: activities/menu/ConfigurationItem.qml:362
+#: activities/menu/ConfigurationItem.qml:363
 msgctxt "ConfigurationItem|"
 msgid "Ask for confirmation to exit"
 msgstr "לבקש אישור לצאת"
 
-#: activities/menu/ConfigurationItem.qml:373
+#: activities/menu/ConfigurationItem.qml:374
 msgctxt "ConfigurationItem|"
 msgid "Font selector"
 msgstr "בחירת גוֹפָן"
 
-#: activities/menu/ConfigurationItem.qml:378
+#: activities/menu/ConfigurationItem.qml:379
 msgctxt "ConfigurationItem|"
 msgid "Font size"
-msgstr "גודל הגופן"
+msgstr "גודל הכתב"
 
-#: activities/menu/ConfigurationItem.qml:398
-#: activities/menu/ConfigurationItem.qml:432
+#: activities/menu/ConfigurationItem.qml:399
+#: activities/menu/ConfigurationItem.qml:433
 msgctxt "ConfigurationItem|"
 msgid "Default"
 msgstr "ברירת מחדל"
 
-#: activities/menu/ConfigurationItem.qml:407
+#: activities/menu/ConfigurationItem.qml:408
 msgctxt "ConfigurationItem|"
 msgid "Font Capitalization"
 msgstr "אותיות גדולות וקטנות"
 
-#: activities/menu/ConfigurationItem.qml:412
+#: activities/menu/ConfigurationItem.qml:413
 msgctxt "ConfigurationItem|"
 msgid "Font letter spacing"
-msgstr "ריווח גופן האותיות"
+msgstr "ריווח אותיות הגופן"
 
-#: activities/menu/ConfigurationItem.qml:615
+#: activities/menu/ConfigurationItem.qml:622
 msgctxt "ConfigurationItem|"
 msgid "Mixed case (default)"
 msgstr "אותיות גדולות וקטנות (ברירת מחדל)"
 
-#: activities/menu/ConfigurationItem.qml:616
+#: activities/menu/ConfigurationItem.qml:626
 msgctxt "ConfigurationItem|"
 msgid "All uppercase"
-msgstr "הכל באותיות גדולות"
+msgstr "הכול באותיות גדולות"
 
-#: activities/menu/ConfigurationItem.qml:617
+#: activities/menu/ConfigurationItem.qml:630
 msgctxt "ConfigurationItem|"
 msgid "All lowercase"
-msgstr "הכל באותיות קטנות"
+msgstr "הכול באותיות קטנות"
 
-#: activities/menu/Menu.qml:90
+#: activities/menu/Menu.qml:93
+#, fuzzy
+#| msgctxt "Menu|"
+#| msgid ""
+#| "You selected a new locale, you need to restart GCompris to use it.<br/>Do "
+#| "you want to download the corresponding sound files now?"
 msgctxt "Menu|"
 msgid ""
-"You selected a new locale, you need to restart GCompris to use it.<br/>Do "
-"you want to download the corresponding sound files now?"
+"You selected a new locale, do you want to download the corresponding sound "
+"files now?"
 msgstr ""
-"נבחר מיקום חדש. צריך לאתחל את GCompris כדי לשחק לפי המיקום החדש.<br/>האם "
-"להוריד את קובצי הקול המתאימים עכשיו?"
+"נבחר מקום חדש. צריך לאתחל את GCompris כדי להשתמש בו.<br/> להוריד את קובצי "
+"הקול המתאימים עכשיו?"
 
-#: activities/menu/Menu.qml:91
+#: activities/menu/Menu.qml:94
 msgctxt "Menu|"
 msgid "Yes"
 msgstr "כן"
 
-#: activities/menu/Menu.qml:98
+#: activities/menu/Menu.qml:101
 msgctxt "Menu|"
 msgid "No"
 msgstr "לא"
 
-#: activities/menu/Menu.qml:117
+#: activities/menu/Menu.qml:120
 msgctxt "Menu|"
 msgid "Logic"
-msgstr "הגיון"
+msgstr "היגיון"
 
-#: activities/menu/Menu.qml:118
+#: activities/menu/Menu.qml:121
 msgctxt "Menu|"
 msgid "Fine Arts"
 msgstr "אומנות יפה"
 
-#: activities/menu/Menu.qml:119
+#: activities/menu/Menu.qml:122
 msgctxt "Menu|"
 msgid "Music"
-msgstr "מוסיקה"
+msgstr "מוזיקה"
 
-#: activities/menu/Menu.qml:125
+#: activities/menu/Menu.qml:128
 msgctxt "Menu|"
 msgid "Experiment"
 msgstr "ניסוי"
 
-#: activities/menu/Menu.qml:126
+#: activities/menu/Menu.qml:129
 msgctxt "Menu|"
 msgid "History"
 msgstr "היסטוריה"
 
-#: activities/menu/Menu.qml:127
+#: activities/menu/Menu.qml:130
 msgctxt "Menu|"
 msgid "Geography"
 msgstr "גאוגרפיה"
 
-#: activities/menu/Menu.qml:137
+#: activities/menu/Menu.qml:140
 msgctxt "Menu|"
 msgid "Numeration"
 msgstr "ספירה"
 
-#: activities/menu/Menu.qml:138
+#: activities/menu/Menu.qml:141
 msgctxt "Menu|"
 msgid "Arithmetic"
 msgstr "חשבון"
 
-#: activities/menu/Menu.qml:139
+#: activities/menu/Menu.qml:142
 msgctxt "Menu|"
 msgid "Measures"
 msgstr "מדידות"
 
-#: activities/menu/Menu.qml:149
+#: activities/menu/Menu.qml:152
 msgctxt "Menu|"
 msgid "Letters"
 msgstr "אותיות"
 
-#: activities/menu/Menu.qml:150
+#: activities/menu/Menu.qml:153
 msgctxt "Menu|"
 msgid "Words"
 msgstr "מילים"
 
-#: activities/menu/Menu.qml:151
+#: activities/menu/Menu.qml:154
 msgctxt "Menu|"
 msgid "Vocabulary"
 msgstr "אוצר מילים"
 
-#: activities/menu/Menu.qml:362
+#: activities/menu/Menu.qml:372
 msgctxt "Menu|"
 msgid ""
 "Put your favorite activities here by clicking on the sun at the top right of "
 "that activity."
 msgstr ""
-"לשים את הפעילויות הכי אהובות כאן באמצעות לחיצה על השמש בצד הימני העליון של "
-"הפעילות הזו."
+"אפשר להציב את הפעילויות האהובות ביותר כאן על ידי לחיצה על השמש בצד הימני "
+"העליון של הפעילות הזו."
 
-#: activities/menu/Menu.qml:770
+#: activities/menu/Menu.qml:792
 msgctxt "Menu|"
 msgid "Search specific activities"
-msgstr "לחפש פעילות מסויימת"
+msgstr "לחפש פעילות מסוימת"
 
-#: activities/menu/Menu.qml:797
+#: activities/menu/Menu.qml:819
 msgctxt "Menu|"
 msgid "Activity Settings"
 msgstr "הגדרות הפעילות"
@@ -19018,7 +18921,7 @@ msgstr "כריית זהב"
 #: activities/mining/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Use the mousewheel to approach the rockwall and look for gold nuggets."
-msgstr "השתמש בגלגלת העכבר על מנת להתקרב אל הקיר ולמצוא את גוש הזהב."
+msgstr "נא להשתמש בגלגלת העכבר כדי להתקרב לקיר ולאתר את גוש הזהב."
 
 #. Help goal
 #: activities/mining/ActivityInfo.qml:20
@@ -19026,14 +18929,14 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Learn to use the mousewheel or the zoom / pinch gesture to zoom in and out."
 msgstr ""
-"ללמוד להשתמש בגלגל העכבר או מחוות מיקוד (זום) / צביטה כדי לעשות זום אין וזום "
-"אאוט."
+"ללמוד להשתמש בגלגל העכבר או מחוות מרחק תצוגה (זום) / צביטה כדי להתקרב "
+"ולהתרחק."
 
 #. Help prerequisite
 #: activities/mining/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "You should be familiar with moving the mouse and clicking."
-msgstr "נדרשת הכרות עם הזזת העכבר ולחיצה בלחצני עכבר."
+msgstr "נדרשת היכרות עם הזזת העכבר ולחיצה בלחצני עכבר."
 
 #. Help manual
 #: activities/mining/ActivityInfo.qml:24
@@ -19086,7 +18989,7 @@ msgctxt "ActivityInfo|"
 msgid "metalpaint.wav - remixed and used when a gold nugget is collected"
 msgstr "כשנאסף גוש זהב מתנגן metalpaint.wav שנכתב מחדש"
 
-#: activities/mining/Mining.qml:432
+#: activities/mining/Mining.qml:434
 msgctxt "Mining|"
 msgid ""
 "Find the sparkle and zoom in around it. If you have a mouse, point the "
@@ -19100,22 +19003,22 @@ msgstr ""
 "ולגרור אצבע אחת על האזור הימני או שתי אצבעות במרכז. על משטח מגע, לגרור שתי "
 "אצבעות מהניצנוץ והחוצה, אחת בכל כיוון."
 
-#: activities/mining/Mining.qml:448
+#: activities/mining/Mining.qml:450
 msgctxt "Mining|"
 msgid "Perfect you are zooming. Continue until you see the nugget."
 msgstr "מיקוד נהדר. להמשיך עד שרואים גוש זהב."
 
-#: activities/mining/Mining.qml:456
+#: activities/mining/Mining.qml:458
 msgctxt "Mining|"
 msgid "Hum, take care, you are zooming too far from the sparkle."
 msgstr "אה, לשים לב, ההתמקדות רחוקה מדי מהניצנוץ."
 
-#: activities/mining/Mining.qml:464
+#: activities/mining/Mining.qml:466
 msgctxt "Mining|"
 msgid "Now you see the nugget, click on it to catch it."
 msgstr "עכשיו רואים את גוש הזהב, להקיש עליו כדי לתפוס אותו."
 
-#: activities/mining/Mining.qml:472
+#: activities/mining/Mining.qml:474
 msgctxt "Mining|"
 msgid ""
 "Hum, you are too far from the nugget to see it. Unzoom then zoom again as "
@@ -19124,17 +19027,17 @@ msgstr ""
 "אה, זה רחוק מדי מגוש הזהב בשביל לראות אותו. לצאת מההתמקדות ואז להתמקד מחדש "
 "הכי קרוב שאפשר לניצנוץ."
 
-#: activities/mining/Mining.qml:480
+#: activities/mining/Mining.qml:482
 msgctxt "Mining|"
 msgid "Now unzoom and try to find another sparkle."
 msgstr "עכשיו להרחיב את המבט ולנסות למצוא ניצנוץ אחר."
 
-#: activities/mining/Mining.qml:488
+#: activities/mining/Mining.qml:490
 msgctxt "Mining|"
 msgid "Continue to unzoom until you see the sparkle."
 msgstr "להמשיך להרחיב את המבט עד שרואים את הניצנוץ."
 
-#: activities/mining/Mining.qml:496
+#: activities/mining/Mining.qml:498
 msgctxt "Mining|"
 msgid "Now you see the sparkle, go ahead, you can zoom on it."
 msgstr "עכשיו רואים את הניצנוץ, קדימה, אפשר להתמקד עליו."
@@ -19623,7 +19526,7 @@ msgstr "טחנות (נגד טוקס)."
 #: activities/nine_men_morris_2players/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Develop strategic and spatial visualization skills."
-msgstr ""
+msgstr "פיתוח מיומנויות אסטרטגיה וייצוג חזותי במרחב."
 
 #. Help manual
 #: activities/nine_men_morris/ActivityInfo.qml:23
@@ -19823,7 +19726,7 @@ msgstr ""
 #: activities/number_sequence/ActivityConfig.qml:36
 msgctxt "ActivityConfig|"
 msgid "Highlight next point"
-msgstr ""
+msgstr "הדגשת הנקודה הבאה"
 
 #. Activity title
 #: activities/number_sequence/ActivityInfo.qml:15
@@ -19836,7 +19739,7 @@ msgstr "רצף מספרים"
 msgctxt "ActivityInfo|"
 msgid ""
 "Select the numbers one after the other according to the numerical sequence."
-msgstr ""
+msgstr "נא לבחור את המספרים בזה אחר זה לפי הרצף המספרי."
 
 #. Help goal
 #: activities/number_sequence/ActivityInfo.qml:20
@@ -19873,7 +19776,7 @@ msgstr "להזיז את המסוק כדי לתפוס את העננים שיש ל
 #: activities/numbers-odd-even/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Learn to recognize even and odd numbers and their numerical order."
-msgstr ""
+msgstr "למידה לזהות מספרים זוגיים ואו־זוגיים ואת הסדר המספרים שלהם."
 
 #. Help manual
 #: activities/numbers-odd-even/ActivityInfo.qml:23
@@ -20160,7 +20063,7 @@ msgid ""
 "Arrange the given numbers in ascending or descending order as requested."
 msgstr "לסדר את המספרים הנתונים בסדר עולה או יורד לפי הנדרש."
 
-#. intro: "Arrange the numbers in the correct order." Help goal
+#. Help goal
 #: activities/ordering_numbers/ActivityInfo.qml:25
 #, fuzzy
 #| msgctxt "ActivityInfo|"
@@ -20377,7 +20280,7 @@ msgstr "לשחק את משחק האסטרטגיה אוֹוַּרֵה עם טוק
 #: activities/oware_2players/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Develop strategic thinking skills."
-msgstr ""
+msgstr "פיתוח מיומנויות חשיבה אסטרטגית."
 
 #. Help manual
 #: activities/oware/ActivityInfo.qml:22
@@ -22694,11 +22597,11 @@ msgid ""
 "possible units, tens or hundreds, you must use differences too. On the other "
 "hand, it limits the maximum roman number to 3999 (MMMCMXCIX)."
 msgstr ""
-"סכומים של M משמשים לבניה של אלפים: M, MM, MMM.\n"
-"לשים לב שאי אפשר לחבר יותר משלושה סמלים זהים. ההשלכה הראשונה של החוק הזה היא "
-"שלא ניתן להשתמש בסכומים בלבד כדי לבנות את כל האחרות האפשריות, עשרות או מאות. "
-"צריך להשתמש גם בהפרשים. מצד שני, זה מגביל את המספר המירבי בספרות רומיות "
-"ל3999 (MMMCMXCIX)."
+"סכומים של M משמשים לבנייה של אלפים: M, MM, MMM.\n"
+"נא לשים לב שאי אפשר לחבר יותר משלושה סמלים זהים. ההשלכה הראשונה של החוק הזה "
+"היא שלא ניתן להשתמש בסכומים בלבד כדי לבנות את כל האחרות האפשריות, עשרות או "
+"מאות. צריך להשתמש גם בהפרשים. מצד שני, זה מגביל את המספר המרבי בספרות רומיות "
+"ל־3999 (MMMCMXCIX)."
 
 #: activities/roman_numerals/RomanNumerals.qml:139
 msgctxt "RomanNumerals|"
@@ -23754,7 +23657,7 @@ msgstr "אי אפשר לשים יותר מ %1 חתיכות של סוכריות �
 #: activities/simplepaint/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Draw in a grid"
-msgstr ""
+msgstr "ציור ברשת"
 
 #. Help title
 #: activities/simplepaint/ActivityInfo.qml:17
@@ -23766,7 +23669,7 @@ msgstr "ליצור את הציור שלך."
 #: activities/simplepaint/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Express your creativity through drawing."
-msgstr ""
+msgstr "להביע את היצירתיות שלך בציור."
 
 #. Help manual
 #: activities/simplepaint/ActivityInfo.qml:23
@@ -23795,12 +23698,9 @@ msgstr "לספור את הנקודות שעל הקוביה לפני שהיא מ�
 #. Help goal
 #: activities/smallnumbers/ActivityInfo.qml:20
 #: activities/smallnumbers2/ActivityInfo.qml:20
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Practice addition with a target game"
 msgctxt "ActivityInfo|"
 msgid "Practice counting with a time limit."
-msgstr "תרגל חיבור בעזרת משחק קליעה למטרה"
+msgstr "תרגול ספירה עם מגבלת זמן."
 
 #. Help prerequisite
 #: activities/smallnumbers/ActivityInfo.qml:22
@@ -23916,21 +23816,15 @@ msgstr "מספרים עם דומינו"
 
 #. Help title
 #: activities/smallnumbers2/ActivityInfo.qml:17
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Count the number of dots on the dice before it reaches the ground."
 msgctxt "ActivityInfo|"
 msgid "Count the number of dots on the domino before it reaches the ground."
-msgstr "לספור את הנקודות שעל הקוביה לפני שהיא מגיעה לקרקע."
+msgstr "לספור את הנקודות שעל הדומינו לפני שהוא פוגע בקרקע."
 
 #. Help manual
 #: activities/smallnumbers2/ActivityInfo.qml:24
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Type the number of dots you see on each falling dice."
 msgctxt "ActivityInfo|"
 msgid "Type the number of dots you see on each falling domino."
-msgstr "להקיש את מספר הנקודות שרואים על כל קוביה שנופלת."
+msgstr "להקליד את מספר הנקודות שרואים על כל דומינו שנופל."
 
 #: activities/smallnumbers2/resource/1/Data.qml:18
 msgctxt "Data|"
@@ -23995,12 +23889,9 @@ msgstr "מערכת השמש"
 
 #. Help title
 #: activities/solar_system/ActivityInfo.qml:20
-#, fuzzy
-#| msgctxt "SolarSystem|"
-#| msgid "View the solar system"
 msgctxt "ActivityInfo|"
 msgid "Learn about the solar system."
-msgstr "לצפות במערכת השמש"
+msgstr "מידע על מערכת השמש."
 
 #. Help goal
 #: activities/solar_system/ActivityInfo.qml:23
@@ -25545,12 +25436,9 @@ msgstr "לקלוע חיצים למטרה וספור את התוצאה שלך."
 
 #. Help goal
 #: activities/target/ActivityInfo.qml:20
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Practice the addition of numbers."
 msgctxt "ActivityInfo|"
 msgid "Practice addition of several numbers."
-msgstr "להתאמן בחיבור של מספרים."
+msgstr "להתאמן בחיבור של כמה מספרים."
 
 #. Help prerequisite
 #: activities/target/ActivityInfo.qml:22
@@ -25573,60 +25461,52 @@ msgstr ""
 #: activities/target/resource/1/Data.qml:13
 msgctxt "Data|"
 msgid "Maximum value: 10."
-msgstr "ערך מירבי: 10."
+msgstr "ערך מרבי: 10."
 
 #: activities/target/resource/2/Data.qml:13
 msgctxt "Data|"
 msgid "Maximum value: 50."
-msgstr "ערך מירבי: 50."
+msgstr "ערך מרבי: 50."
 
 #: activities/target/resource/3/Data.qml:13
 msgctxt "Data|"
 msgid "Maximum value: 500."
-msgstr "ערך מירבי: 500."
+msgstr "ערך מרבי: 500."
 
 #: activities/target/resource/4/Data.qml:13
 msgctxt "Data|"
 msgid "Maximum value: 50000."
-msgstr "ערך מירבי: 50000."
+msgstr "ערך מרבי: 50000."
 
 #: activities/target/resource/5/Data.qml:13
 msgctxt "Data|"
 msgid "Maximum value: 500000."
-msgstr "ערך מירבי: 500000."
+msgstr "ערך מרבי: 500000."
 
 #. Activity title
 #: activities/tens_complement_calculate/ActivityInfo.qml:14
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Use ten's complement"
 msgctxt "ActivityInfo|"
 msgid "Calculate with ten's complement"
-msgstr "שימוש במשלים ל־‏10"
+msgstr "חישוב עם משלים ל־‏10"
 
 #. Help title
 #: activities/tens_complement_calculate/ActivityInfo.qml:16
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Swap the numbers to create pairs equal to ten."
 msgctxt "ActivityInfo|"
 msgid ""
 "Swap the numbers to create pairs equal to ten and input the answer of the "
 "final sum."
-msgstr "החליפו מספרים זה עם זה כדי ליצור זוגות שסכומם 10."
+msgstr ""
+"יש להחליף בין המספרים כדי ליצור צמדים ששווים לעשר ולהקליד את התשובה של הסכום "
+"הסופי."
 
 #. Help goal
 #: activities/tens_complement_calculate/ActivityInfo.qml:19
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid ""
-#| "Learn to use ten's complement to optimize the order of numbers in an "
-#| "operation."
 msgctxt "ActivityInfo|"
 msgid ""
 "Learn to use ten's complement to optimize the order of numbers in an "
 "operation and calculate the result."
-msgstr "ללמוד להשתמש במשלים ל־10 כדי לסדר הכי טוב את המספרים בפעולה."
+msgstr ""
+"ללמוד להשתמש במשלים ל־10 כדי לסדר הכי טוב את המספרים בהפעלה ולחשב את התוצאה."
 
 #. Help prerequisite
 #: activities/tens_complement_calculate/ActivityInfo.qml:21
@@ -25693,12 +25573,9 @@ msgstr "ללמוד למצוא משלים ל־10."
 
 #. Help prerequisite
 #: activities/tens_complement_find/ActivityInfo.qml:21
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Numbers from 1 to 10 and additions."
 msgctxt "ActivityInfo|"
 msgid "Numbers from 1 to 10 and addition."
-msgstr "מספרים מ־0 עד 10 וחיבור."
+msgstr "מספרים מ־1 עד 10 וחיבור."
 
 #: activities/tens_complement_find/ActivityInfo.qml:23
 #: activities/tens_complement_use/ActivityInfo.qml:24
@@ -25760,12 +25637,9 @@ msgstr "ללמוד להשתמש במשלים ל־10 כדי לסדר הכי טו�
 
 #. Help prerequisite
 #: activities/tens_complement_swap/ActivityInfo.qml:21
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Numbers from 1 to 30 and additions."
 msgctxt "ActivityInfo|"
 msgid "Numbers from 1 to 30 and addition."
-msgstr "מספרים מ־0 עד 30 וחיבור."
+msgstr "מספרים מ־1 עד 30 וחיבור."
 
 #. Help manual
 #: activities/tens_complement_swap/ActivityInfo.qml:23
@@ -25812,12 +25686,9 @@ msgstr "ללמוד שימוש מעשׂי במשלים ל־10."
 
 #. Help prerequisite
 #: activities/tens_complement_use/ActivityInfo.qml:21
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Numbers from 1 to 50 and additions."
 msgctxt "ActivityInfo|"
 msgid "Numbers from 1 to 50 and addition."
-msgstr "מספרים מ־0 עד 50 וחיבור."
+msgstr "מספרים מ־1 עד 50 וחיבור."
 
 #. Help manual
 #: activities/tens_complement_use/ActivityInfo.qml:23
@@ -25864,7 +25735,7 @@ msgstr "להציב שלשה סימנים בשורה."
 #: activities/tic_tac_toe_2players/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Develop your strategy skills."
-msgstr ""
+msgstr "פיתוח המיומנויות האסטרטגיות שלך."
 
 #. Help manual
 #: activities/tic_tac_toe/ActivityInfo.qml:26
@@ -25938,12 +25809,9 @@ msgstr ""
 
 #. Help goal
 #: activities/watercycle/ActivityInfo.qml:20
-#, fuzzy
-#| msgctxt "ActivityInfo|"
-#| msgid "Learn the water cycle."
 msgctxt "ActivityInfo|"
 msgid "Learn about the water cycle."
-msgstr "ללמוד את מחזור המים."
+msgstr "ללמוד על מחזור המים."
 
 #. Help manual
 #: activities/watercycle/ActivityInfo.qml:23
@@ -26065,12 +25933,9 @@ msgstr "להקליד את המילים לפני שהן מגיעות לקרקע."
 
 #. Help goal
 #: activities/wordsgame/ActivityInfo.qml:20
-#, fuzzy
-#| msgctxt "Data|"
-#| msgid "Practice division equality."
 msgctxt "ActivityInfo|"
 msgid "Practice using a keyboard."
-msgstr "להתאמן במשוואת חילוק."
+msgstr "להתאמן בעזרת המקלדת."
 
 #. Help prerequisite
 #: activities/wordsgame/ActivityInfo.qml:22
@@ -26084,35 +25949,38 @@ msgctxt "ActivityInfo|"
 msgid "Type the complete word as it falls, before it reaches the ground."
 msgstr "להקליד את המילים לפני שהן מגיעות לקרקע."
 
-#: core/ChangeLog.qml:30 core/ChangeLog.qml:36 core/ChangeLog.qml:65
-#: core/ChangeLog.qml:100 core/ChangeLog.qml:103 core/ChangeLog.qml:109
+#: core/ChangeLog.qml:30
+msgctxt "ChangeLog|"
+msgid "Translation added for Latvian"
+msgstr "נוסף תרגום ללטבית"
+
+#: core/ChangeLog.qml:31 core/ChangeLog.qml:36 core/ChangeLog.qml:42
+#: core/ChangeLog.qml:71 core/ChangeLog.qml:106 core/ChangeLog.qml:109
+#: core/ChangeLog.qml:115
 msgctxt "ChangeLog|"
 msgid "Many usability improvements"
 msgstr "הרבה שיפורים בשימושיות"
 
-#: core/ChangeLog.qml:31 core/ChangeLog.qml:38 core/ChangeLog.qml:47
-#: core/ChangeLog.qml:54 core/ChangeLog.qml:67 core/ChangeLog.qml:105
-#: core/ChangeLog.qml:111
+#: core/ChangeLog.qml:32 core/ChangeLog.qml:37 core/ChangeLog.qml:44
+#: core/ChangeLog.qml:53 core/ChangeLog.qml:60 core/ChangeLog.qml:73
+#: core/ChangeLog.qml:111 core/ChangeLog.qml:117
 msgctxt "ChangeLog|"
 msgid "Many bug fixes"
 msgstr "הרבה תיקוני שגיאות"
 
-#: core/ChangeLog.qml:35
-#, fuzzy
-#| msgctxt "ChangeLog|"
-#| msgid "Translations added for: Slovenian, German, Galician."
+#: core/ChangeLog.qml:41
 msgctxt "ChangeLog|"
 msgid "Translations added for Bulgarian, Galician and Swahili"
-msgstr "נוסף תרגום לסלובנית, גרמנית וגליציאנית."
+msgstr "נוספו תרגומים לבולגרית, גליסית וסווהילי"
 
-#: core/ChangeLog.qml:37 core/ChangeLog.qml:46 core/ChangeLog.qml:53
-#: core/ChangeLog.qml:66 core/ChangeLog.qml:84 core/ChangeLog.qml:99
-#: core/ChangeLog.qml:104 core/ChangeLog.qml:110
+#: core/ChangeLog.qml:43 core/ChangeLog.qml:52 core/ChangeLog.qml:59
+#: core/ChangeLog.qml:72 core/ChangeLog.qml:90 core/ChangeLog.qml:105
+#: core/ChangeLog.qml:110 core/ChangeLog.qml:116
 msgctxt "ChangeLog|"
 msgid "Many new images"
 msgstr "הרבה תמונות חדשות"
 
-#: core/ChangeLog.qml:39
+#: core/ChangeLog.qml:45
 #, fuzzy
 #| msgctxt "ChangeLog|"
 #| msgid ""
@@ -26124,20 +25992,17 @@ msgid ""
 "start-level level, to be used with --launch activity)"
 msgstr "אפשרות חדשה בשורת-הפקודה לרשום את כל הפעילויות ולהתחיל באחת ספציפית."
 
-#: core/ChangeLog.qml:44
-#, fuzzy
-#| msgctxt "ChangeLog|"
-#| msgid "Translation added for Azerbaijani"
+#: core/ChangeLog.qml:50
 msgctxt "ChangeLog|"
 msgid "Translations added for Arabic and Esperanto"
-msgstr "נוסף תירגום לאזרביז'נית! מי היה מאמין."
+msgstr "נוסף תרגום לערבית ולאספרנטו"
 
-#: core/ChangeLog.qml:45 core/ChangeLog.qml:52
+#: core/ChangeLog.qml:51 core/ChangeLog.qml:58
 msgctxt "ChangeLog|"
 msgid "Many translation updates"
 msgstr "מגוון תרגומים עודכנו"
 
-#: core/ChangeLog.qml:51
+#: core/ChangeLog.qml:57
 #, fuzzy
 #| msgctxt "ChangeLog|"
 #| msgid ""
@@ -26149,175 +26014,175 @@ msgid ""
 "specific difficulty"
 msgstr "אפשרות חדשה בשורת-הפקודה לרשום את כל הפעילויות ולהתחיל באחת ספציפית."
 
-#: core/ChangeLog.qml:58
+#: core/ChangeLog.qml:64
 msgctxt "ChangeLog|"
 msgid "Fix issue in comparator activity"
-msgstr ""
+msgstr "תוקנה תקלה בפעילות ההשוואות"
 
-#: core/ChangeLog.qml:62
+#: core/ChangeLog.qml:68
 msgctxt "ChangeLog|"
 msgid "Map of Spain added for geography activity"
 msgstr "מפת ספרד נוספה לפעילויות הגאוגרפיה."
 
-#: core/ChangeLog.qml:63
+#: core/ChangeLog.qml:69
 msgctxt "ChangeLog|"
 msgid "Voices added for Ukrainian"
 msgstr "הוספו קולות לתרגום האוקראיני"
 
-#: core/ChangeLog.qml:64
+#: core/ChangeLog.qml:70
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to list all the activities and start on a specific "
 "one"
 msgstr "אפשרות חדשה בשורת-הפקודה לרשום את כל הפעילויות ולהתחיל באחת ספציפית."
 
-#: core/ChangeLog.qml:71
+#: core/ChangeLog.qml:77
 msgctxt "ChangeLog|"
 msgid ""
 "Reduce the size of the packages for all platforms and of the external word "
 "images set"
 msgstr "החבילות בכל הפלטפורמות וערכות התמונות החיצוניות הוקטנו"
 
-#: core/ChangeLog.qml:72
+#: core/ChangeLog.qml:78
 msgctxt "ChangeLog|"
 msgid "Improve images quality in several activities"
 msgstr "שופרה איכות התמונה במספר פעילויות"
 
-#: core/ChangeLog.qml:73
+#: core/ChangeLog.qml:79
 msgctxt "ChangeLog|"
 msgid "Fix some transitions in renewable_energy/watercycle on some platforms"
 msgstr "תוקנו מספר מעברים באנרגיה מתחדשת ומחזור המים במספר פלטפורמות"
 
-#: core/ChangeLog.qml:74
+#: core/ChangeLog.qml:80
 msgctxt "ChangeLog|"
 msgid "Fix dead keys ignored on Linux for typing activities"
 msgstr "תוקנו מספר מקשים מתים שמושתקים בלינוקס לפעילויות ההקלדה"
 
-#: core/ChangeLog.qml:75
+#: core/ChangeLog.qml:81
 msgctxt "ChangeLog|"
 msgid "Fix level reset when changing level manually in Logical associations"
 msgstr "תוקן איפוס השלב כשמחליפים שלבים ידנית ב'קישורים לוגים'"
 
-#: core/ChangeLog.qml:79
+#: core/ChangeLog.qml:85
 msgctxt "ChangeLog|"
 msgid ""
 "Fix Alphabet sequence, Even and odd numbers and Numbers in order activities"
 msgstr "תוקנו פעילויות סדר הא-ב, מספרים זוגיים ואי-זוגיים ומספרים לפי הסדר"
 
-#: core/ChangeLog.qml:83 core/ChangeLog.qml:91
+#: core/ChangeLog.qml:89 core/ChangeLog.qml:97
 msgctxt "ChangeLog|"
 msgid "Several bug fixes"
 msgstr "מספר תיקוני שגיאות"
 
-#: core/ChangeLog.qml:85
+#: core/ChangeLog.qml:91
 msgctxt "ChangeLog|"
 msgid "Translation updated for Russian"
 msgstr "עודכן התרגום לרוסית"
 
-#: core/ChangeLog.qml:86
+#: core/ChangeLog.qml:92
 msgctxt "ChangeLog|"
 msgid "New voices for Norwegian Nynorsk"
 msgstr "קולות חדשים לנורווגית נינורסק"
 
-#: core/ChangeLog.qml:90
+#: core/ChangeLog.qml:96
 msgctxt "ChangeLog|"
 msgid "Translations added for Breton, Czech and Macedonian"
 msgstr "נוספו תרגומים לבְּרֶטוֹנית, צ'כית ומקדונית."
 
-#: core/ChangeLog.qml:95
+#: core/ChangeLog.qml:101
 msgctxt "ChangeLog|"
 msgid "Translation added for Azerbaijani"
-msgstr "נוסף תירגום לאזרביז'נית! מי היה מאמין."
+msgstr "נוסף תרגום לאזרית! מי היה מאמין."
 
-#: core/ChangeLog.qml:96
+#: core/ChangeLog.qml:102
 msgctxt "ChangeLog|"
 msgid "New maps and update of the maps for geography activities"
 msgstr "מפות חדשות ועידכונים למפות בפעילויות הגאוגרפיה"
 
-#: core/ChangeLog.qml:97
+#: core/ChangeLog.qml:103
 msgctxt "ChangeLog|"
 msgid ""
 "New dataset containing loops operations for programming maze, and make "
 "tutorial images translated"
 msgstr ""
-"ערכת נתונים חדשה המכילה לולאות והליכים למבוך התיכנות ותירגום של תמונות "
-"הוראות היצירה"
+"ערכת נתונים חדשה המכילה לולאות והליכים למבוך התיכנות ותרגום של תמונות הוראות "
+"היצירה"
 
-#: core/ChangeLog.qml:98
+#: core/ChangeLog.qml:104
 msgctxt "ChangeLog|"
 msgid ""
 "Addition of a level to teach voltage source loop in analog electricity "
 "activity"
 msgstr "תוספת של שלב ללימוד לולאה במקור מתח בפעילות חשמל אנלוגי"
 
-#: core/ChangeLog.qml:108
+#: core/ChangeLog.qml:114
 msgctxt "ChangeLog|"
 msgid "New Activity Settings menu, with dataset selection"
 msgstr "תפריט הגדרות פעילות חדש, עם בחירת ערכת נתונים"
 
-#: core/ChangeLog.qml:114
+#: core/ChangeLog.qml:120
 msgctxt "ChangeLog|"
 msgid "New sub-categories to organize activities"
 msgstr "תת-קטגוריה חדשה לאירגון הפעילויות"
 
-#: core/ChangeLog.qml:115
+#: core/ChangeLog.qml:121
 msgctxt "ChangeLog|"
 msgid "Translation added for Macedonian."
-msgstr "נוסף תירגום למקדונית!"
+msgstr "נוסף תרגום למקדונית!"
 
-#: core/ChangeLog.qml:116
+#: core/ChangeLog.qml:122
 msgctxt "ChangeLog|"
 msgid "New activities Programming Maze and Baby Tangram"
 msgstr "פעילויות חדשות מבוך תיכנות וטנגרם לקטנטנים"
 
-#: core/ChangeLog.qml:117
+#: core/ChangeLog.qml:123
 msgctxt "ChangeLog|"
 msgid "New background music and volume settings."
 msgstr "מוזיקת רגע חדשה והגדרות קול."
 
-#: core/ChangeLog.qml:118
+#: core/ChangeLog.qml:124
 msgctxt "ChangeLog|"
 msgid "New speed setting in several activities."
 msgstr "הגדרות מהירות חדשות במספר פעילויות."
 
-#: core/ChangeLog.qml:119
+#: core/ChangeLog.qml:125
 msgctxt "ChangeLog|"
 msgid "New option in chess to display captured pieces."
 msgstr "אפשרות חדשה בשחמט להצגת כלים שנאכלו."
 
-#: core/ChangeLog.qml:120
+#: core/ChangeLog.qml:126
 msgctxt "ChangeLog|"
 msgid "New images in Colors, Advanced colors and Target game."
 msgstr "תמונות חדשות בצבע, צבעים מתקדמים ומשחק מטרה."
 
-#: core/ChangeLog.qml:121
+#: core/ChangeLog.qml:127
 msgctxt "ChangeLog|"
 msgid "New voices for US English."
 msgstr "קולות חדשים לאנגלית ארצות-הברית."
 
-#: core/ChangeLog.qml:122 core/ChangeLog.qml:130
+#: core/ChangeLog.qml:128 core/ChangeLog.qml:136
 msgctxt "ChangeLog|"
 msgid "Many little fixes and improvements."
 msgstr "תיקונים ושיפורים קטנים."
 
-#: core/ChangeLog.qml:123
+#: core/ChangeLog.qml:129
 msgctxt "ChangeLog|"
 msgid ""
 "Translation updated for multiple languages (Breton, Brazilian Portuguese, "
 "Finnish...)."
-msgstr "עודכן התירגום לכמה שפות (ברטון, פורטוגזית ברזילאית, פינית, עברית...)"
+msgstr "עודכן התרגום לכמה שפות (ברטונית, פורטוגלית ברזילאית, פינית, עברית…)."
 
-#: core/ChangeLog.qml:124
+#: core/ChangeLog.qml:130
 msgctxt "ChangeLog|"
 msgid "Add Russian dataset for Click on letter activity."
 msgstr "להוסיף נתונים ברוסית לפעילות לחץ על האות."
 
-#: core/ChangeLog.qml:125
+#: core/ChangeLog.qml:131
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Dutch."
 msgstr "פעילויות שפה אפשריות בגרמנית."
 
-#: core/ChangeLog.qml:126
+#: core/ChangeLog.qml:132
 msgctxt "ChangeLog|"
 msgid ""
 "Merge Norwegian counties Nord-Trøndelag and Sør-Trøndelag into Trøndelag in "
@@ -26326,17 +26191,17 @@ msgstr ""
 "בפעילות על גאוגרפיה של ארצות אוחדו המחוזות הנורווגים Nord-Trøndelag וSør-"
 "Trøndelag לTrøndelag! מי היה מאמין."
 
-#: core/ChangeLog.qml:127
+#: core/ChangeLog.qml:133
 msgctxt "ChangeLog|"
 msgid "Fix in braille activities where the cells start at 1, not 0."
 msgstr "תיקון בפעילויות הברייל כשהתאים מתחילים ב־1 ולא 0."
 
-#: core/ChangeLog.qml:128
+#: core/ChangeLog.qml:134
 msgctxt "ChangeLog|"
 msgid "Translation added for Basque, Hungarian and Malayalam."
 msgstr "נוסף תרגום לבאסקית\\ הונגרית ומלאית. חשוב מאוד."
 
-#: core/ChangeLog.qml:129
+#: core/ChangeLog.qml:135
 msgctxt "ChangeLog|"
 msgid ""
 "Loading/saving of creations (Baby Wordprocessor, Balance Box and Piano "
@@ -26344,47 +26209,47 @@ msgid ""
 msgstr ""
 "טעינה/שמירה של יצירות (מעבד תמלילים לתינוקות, קופסת איזון והלחנה לפסנתר)."
 
-#: core/ChangeLog.qml:130
+#: core/ChangeLog.qml:136
 msgctxt "ChangeLog|"
 msgid "Translations added for Scottish Gaelic."
 msgstr "נוסף תרגום לגאלית סקוטית. כן."
 
-#: core/ChangeLog.qml:131
+#: core/ChangeLog.qml:137
 msgctxt "ChangeLog|"
 msgid "License page added in configuration."
 msgstr "דף רשיון נוסף בהגדרות."
 
-#: core/ChangeLog.qml:131
+#: core/ChangeLog.qml:137
 msgctxt "ChangeLog|"
 msgid "Multiple changes on layouts to improve the ergonomy."
 msgstr "שינויים רבים בממשק כדי לשפר את הנוחות."
 
-#: core/ChangeLog.qml:132
+#: core/ChangeLog.qml:138
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Polish, Swedish and Ukrainian."
 msgstr "פעילויות שפה קיימות עכשיו בפולניתף, שוודית ואוקראינית (בקרוב בעברית)."
 
-#: core/ChangeLog.qml:133
+#: core/ChangeLog.qml:139
 msgctxt "ChangeLog|"
 msgid "Search feature."
 msgstr "אפשרויות חיפוש."
 
-#: core/ChangeLog.qml:134
+#: core/ChangeLog.qml:140
 msgctxt "ChangeLog|"
 msgid "A Changelog."
 msgstr "יומן שינויים."
 
-#: core/ChangeLog.qml:135
+#: core/ChangeLog.qml:141
 msgctxt "ChangeLog|"
 msgid "Many little fixes."
 msgstr "שינויים קטנים רבים."
 
-#: core/ChangeLog.qml:135
+#: core/ChangeLog.qml:141
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in French."
 msgstr "פעילויות שפה אפשריות בצרפתית."
 
-#: core/ChangeLog.qml:136
+#: core/ChangeLog.qml:142
 msgctxt "ChangeLog|"
 msgid ""
 "Adding a loading overlay to let the user know that some actions are taking "
@@ -26393,7 +26258,7 @@ msgstr ""
 "הוספת שכבת \"טוען\" כדי לאפשר למשתמש/ת לדעת כשפעולה מתרחשת (טעינה של פעילות "
 "לדוגמא) ועלולה לקחת מספר שניות."
 
-#: core/ChangeLog.qml:136
+#: core/ChangeLog.qml:142
 msgctxt "ChangeLog|"
 msgid ""
 "Translations added for: Catalan (Valencian), Chinese Traditional, Finnish "
@@ -26402,12 +26267,12 @@ msgstr ""
 "נוסף תרגום ל: קולנית (ולנסיאנית), סינית מסורתית, פינית, רוסית, סלובקית "
 "ותורכית."
 
-#: core/ChangeLog.qml:137
+#: core/ChangeLog.qml:143
 msgctxt "ChangeLog|"
 msgid "Translations added for: Slovenian, German, Galician."
 msgstr "נוסף תרגום לסלובנית, גרמנית וגליציאנית."
 
-#: core/ChangeLog.qml:191
+#: core/ChangeLog.qml:197
 #, qt-format
 msgctxt "ChangeLog|"
 msgid "Version %1:"
@@ -26621,7 +26486,7 @@ msgstr "<b>תודה גדולה לצוות הפיתוח:</b> %1"
 #, qt-format
 msgctxt "DialogAbout|"
 msgid "<b>A big thanks to the translation team:</b> %1"
-msgstr "<b>תודה גדולה לצוות התירגום:</b> %1"
+msgstr "<b>תודה גדולה לצוות התרגום:</b> %1"
 
 #: core/DialogActivityConfig.qml:84
 #, qt-format
@@ -26894,47 +26759,47 @@ msgctxt "LanguageList|"
 msgid "GCompris' language"
 msgstr "השפה של GCompris"
 
-#: core/main.cpp:166
+#: core/main.cpp:72
 msgctxt "QObject|"
 msgid "Run GCompris with the default system cursor."
 msgstr "להריץ את GCompris עם סמן ברירת המחדל של המערכת."
 
-#: core/main.cpp:170
+#: core/main.cpp:76
 msgctxt "QObject|"
 msgid "Run GCompris without cursor (touch screen mode)."
 msgstr "להריץ את GCompris ללא סמן (מצב מסך-מגע)."
 
-#: core/main.cpp:174
+#: core/main.cpp:80
 msgctxt "QObject|"
 msgid "Run GCompris in fullscreen mode."
 msgstr "להריץ את GCompris במצב מסך-מלא."
 
-#: core/main.cpp:178
+#: core/main.cpp:84
 msgctxt "QObject|"
 msgid "Run GCompris in window mode."
 msgstr "להריץ את GCompris במצב חלון."
 
-#: core/main.cpp:182
+#: core/main.cpp:88
 msgctxt "QObject|"
 msgid "Run GCompris with sound enabled."
 msgstr "להריץ את GCompris כשהקולות מאופשרים."
 
-#: core/main.cpp:186
+#: core/main.cpp:92
 msgctxt "QObject|"
 msgid "Run GCompris without sound."
 msgstr "להריץ את GCompris ללא קולות."
 
-#: core/main.cpp:189
+#: core/main.cpp:95
 msgctxt "QObject|"
 msgid "Disable the kiosk mode (default)."
 msgstr "לבטל את מצב הקיוסק (ברירת מחדל)."
 
-#: core/main.cpp:192
+#: core/main.cpp:98
 msgctxt "QObject|"
 msgid "Enable the kiosk mode."
 msgstr "להפעיל את מצב הקיוסק."
 
-#: core/main.cpp:196
+#: core/main.cpp:102
 msgctxt "QObject|"
 msgid ""
 "Use software renderer instead of openGL (slower but should run with any "
@@ -26942,7 +26807,7 @@ msgid ""
 msgstr ""
 "להשתמש במחולל תוכנה במקום בopenׂGL (יותר איטי אבל אמור לרוץ עם כל כרטיס גרפי)."
 
-#: core/main.cpp:199
+#: core/main.cpp:105
 msgctxt "QObject|"
 msgid ""
 "Use openGL renderer instead of software (faster but crash potentially "
@@ -26951,24 +26816,24 @@ msgstr ""
 "להשתמש במחולל openGL במקום בתוכנה (מהיר יותר אבל עשוי להתרסק, תלוי בכרטיס "
 "הגרפי שלך)."
 
-#: core/main.cpp:203
+#: core/main.cpp:109
 msgctxt "QObject|"
 msgid "Specify the activity when starting GCompris."
 msgstr "לציין פעילות שתפתח כשמתחילים את ג'יקומפריס."
 
-#: core/main.cpp:208
+#: core/main.cpp:114
 msgctxt "QObject|"
 msgid "Outputs all the available activities on the standard output."
 msgstr "מציג את כל הפעילויות האפשריות בפלט סטנדרטי."
 
-#: core/main.cpp:212
+#: core/main.cpp:118
 msgctxt "QObject|"
 msgid ""
 "Specify the range of activity difficulty to display for the session. Either "
 "a single value (2), or a range (3-6). Values must be between 1 and 6."
 msgstr ""
 
-#: core/main.cpp:216
+#: core/main.cpp:122
 msgctxt "QObject|"
 msgid ""
 "Specify on which level to start the activity. Only used when --launch option "

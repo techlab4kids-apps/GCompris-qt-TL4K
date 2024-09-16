@@ -12,7 +12,6 @@
  */
 
 import QtQuick 2.12
-import Qt5Compat.GraphicalEffects 1.0
 import GCompris 1.0
 
 import "../../core"
@@ -135,11 +134,11 @@ ActivityBase {
             property int startY;
             enabled: !items.buttonsBlocked
 
-            onPressed: {
+            onPressed: (mouse) => {
                 startX = mouse.x;
                 startY = mouse.y;
             }
-            onReleased: Activity.gesture(mouse.x - startX, mouse.y - startY)
+            onReleased: (mouse) => Activity.gesture(mouse.x - startX, mouse.y - startY)
         }
 
         Rectangle {
@@ -176,10 +175,6 @@ ActivityBase {
             rows: items.rows
             z: 1
             anchors.centerIn: board
-            layer.enabled: ApplicationInfo.useOpenGL
-            layer.effect: OpacityMask {
-                maskSource: board
-            }
             Repeater {
                 id: gridRepeater
 
@@ -244,13 +239,14 @@ ActivityBase {
                         property int startX;
                         property int startY;
 
-                        onPressed: {
+                        onPressed: (mouse) => {
                             startX = mouse.x;
                             startY = mouse.y;
                         }
 
-                        onReleased:
+                        onReleased: (mouse) => {
                             Activity.gesture(mouse.x - startX, mouse.y - startY)
+                        }
 
                         // Select a figure with mouse/touch
                         onClicked: {
@@ -371,10 +367,6 @@ ActivityBase {
             z: 1
             opacity: showGrid1.opacity
             anchors.centerIn: modelBoard
-            layer.enabled: ApplicationInfo.useOpenGL
-            layer.effect: OpacityMask {
-                maskSource: modelBoard
-            }
             Repeater {
                 id: gridRepeater2
                 model: gridRepeater.model

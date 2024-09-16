@@ -1062,6 +1062,10 @@ Files: src/activities/click_on_letter/resource/levels-lt.json
 Copyright: 2015 Mantas Kriaučiūnas
 License: CC0-1.0
 
+Files: src/activities/click_on_letter/resource/levels-lv.json
+Copyright: 2024 Toms Trasūns
+License: CC0-1.0
+
 Files: src/activities/click_on_letter/resource/levels-ml.json
 Copyright: 2020 Aiswarya Kaitheri Kandoth
 License: CC0-1.0
@@ -2159,7 +2163,7 @@ Copyright: 2013 gunchleoc
 License: CC0-1.0
 
 Files: src/activities/gletters/resource/default-lv.json
-Copyright: 2013 gunchleoc
+Copyright: 2024 Toms Trasūns
 License: CC0-1.0
 
 Files: src/activities/gletters/resource/default-mk.json
@@ -2323,6 +2327,10 @@ Copyright: 2024 Rolandas Jakštys
            2024 Bernardas Liukaitis
 License: CC-BY-SA-4.0
 
+Files: src/activities/grammar_analysis/resource/grammar_analysis-lv.json
+Copyright: 2024 Toms Trasūns
+License: CC0-1.0
+
 Files: src/activities/grammar_analysis/resource/grammar_analysis-ml.json
 Copyright: 2024 Divakaran Payyan Kandanchirakkal
            2024 Aiswarya Kaitheri Kandoth
@@ -2377,6 +2385,10 @@ Files: src/activities/grammar_classes/resource/grammar_classes-lt.json
 Copyright: 2024 Rolandas Jakštys
            2024 Bernardas Liukaitis
 License: CC-BY-SA-4.0
+
+Files: src/activities/grammar_classes/resource/grammar_classes-lv.json
+Copyright: 2024 Toms Trasūns
+License: CC0-1.0
 
 Files: src/activities/grammar_classes/resource/grammar_classes-ml.json
 Copyright: 2024 Divakaran Payyan Kandanchirakkal
@@ -2459,7 +2471,7 @@ Files: src/activities/hexagon/hexagon.svg
 Copyright: 2017 Timothée Giet
 License: CC-BY-SA-4.0
 
-Files: src/activities/hexagon/resource/hexagon.svg src/activities/hexagon/resource/hexagon_border.svg
+Files: src/activities/hexagon/resource/hexagon_border.svg
 Copyright: 2000-2008 Bruno Coudoin and others
 License: GPL-3.0-only
 
@@ -2523,6 +2535,12 @@ Copyright: 2013 lennartgreen
 License: CC0-1.0
 Comment: extract of https://freesound.org/people/lennartgreen/sounds/203646/
 
+Files:
+  src/activities/instruments/resource/horn.ogg
+Copyright: 2023 Tatu Palo & Henri Kahkonen
+License: CC0-1.0
+Comment: source link is https://freesound.org/people/HenKonen/sounds/682227/
+
 Files: src/activities/instruments/resource/accordion.ogg
  src/activities/instruments/resource/bongo.ogg
  src/activities/instruments/resource/castanets.ogg
@@ -2531,7 +2549,6 @@ Files: src/activities/instruments/resource/accordion.ogg
  src/activities/instruments/resource/cymbal.ogg
  src/activities/instruments/resource/flute_traversiere.ogg
  src/activities/instruments/resource/harp.ogg
- src/activities/instruments/resource/horn.ogg
  src/activities/instruments/resource/maracas.ogg
  src/activities/instruments/resource/saxophone.ogg
  src/activities/instruments/resource/snare_drum.ogg
@@ -2726,6 +2743,10 @@ License: CC0-1.0
 
 Files: src/activities/lang/resource/content-lt.json
 Copyright: 2021 Rolandas Jakštys
+License: CC0-1.0
+
+Files: src/activities/lang/resource/content-lv.json
+Copyright: 2024 Toms Trasūns
 License: CC0-1.0
 
 Files: src/activities/lang/resource/content-mk.json
@@ -3501,6 +3522,10 @@ License: CC0-1.0
 
 Files: src/activities/wordsgame/resource/default-lt.json
 Copyright: 2007 Bruno Coudoin
+License: CC0-1.0
+
+Files: src/activities/wordsgame/resource/default-lv.json
+Copyright: 2024 Toms Trasūns
 License: CC0-1.0
 
 Files: src/activities/wordsgame/resource/default-mk.json

@@ -10,7 +10,7 @@
 import QtQuick 2.12
 import "../../core"
 import GCompris 1.0
-import Qt5Compat.GraphicalEffects
+import QtQuick.Effects
 import "qrc:/gcompris/src/core/core.js" as Core
 
 // For TextField
@@ -49,7 +49,10 @@ ActivityBase {
     }
 
     onHome: {
-        if(pageView.depth === 1 && !ApplicationSettings.isKioskMode) {
+        if(pageView.depth === 1 && ApplicationSettings.isKioskMode) {
+            return;
+        }
+        else if(pageView.depth === 1) {
             Core.quit(activity);
         }
         else {
@@ -87,7 +90,7 @@ ActivityBase {
     }
     function newVoicesDialog() {
         Core.showMessageDialog(activity,
-                qsTr("You selected a new locale, you need to restart GCompris to use it.<br/>Do you want to download the corresponding sound files now?"),
+                qsTr("You selected a new locale, do you want to download the corresponding sound files now?"),
                 qsTr("Yes"), function() {
                     // yes -> start download
                     if (DownloadManager.downloadResource(
@@ -220,8 +223,11 @@ ActivityBase {
                 }
             } else if(currentTag === "search") {
                 // forward to the virtual keyboard the pressed keys
+                event.accepted = true;
                 if(event.key === Qt.Key_Backspace)
                     keyboard.keypress(keyboard.backspace);
+                else if(event.key === Qt.Key_Escape)
+                    home();
                 else
                     keyboard.keypress(event.text);
             } else if(event.key === Qt.Key_Space && currentActiveGrid.currentItem) {
@@ -267,6 +273,7 @@ ActivityBase {
             keyNavigationWraps: true
             property int initialX: 4
             property int initialY: 4
+            property int currentSectionSelected: 0
 
             Component {
                 id: sectionDelegate
@@ -295,6 +302,8 @@ ActivityBase {
                     }
 
                     function selectCurrentItem() {
+                        if(section.currentSectionSelected === index)
+                            return
                         section.currentIndex = index
                         activity.currentTag = modelData.tag
                         activity.currentTagCategories = modelData.categories
@@ -309,9 +318,10 @@ ActivityBase {
                             ActivityInfoTree.filterBySearch(searchTextField.text);
                         }
                         else {
-                            ActivityInfoTree.filterByTag(modelData.tag, currentCategory)
-                            ActivityInfoTree.filterEnabledActivities()
+                            ActivityInfoTree.filterByTag(modelData.tag, currentCategory, false)
+                            ActivityInfoTree.filterEnabledActivities(true)
                         }
+                        section.currentSectionSelected = index
                     }
                 }
             }
@@ -388,6 +398,7 @@ ActivityBase {
             visible: activity.currentTag !== "search"
             cellWidth: currentTagCategories ? categoriesGrid.width / currentTagCategories.length : 0
             cellHeight: height
+            property int currentCategorySelected: 0
 
             delegate: GCButton {
                 id: button
@@ -404,10 +415,13 @@ ActivityBase {
                 }
 
                 function selectCurrentItem() {
+                    if(categoriesGrid.currentCategorySelected === index)
+                        return
                     categoriesGrid.currentIndex = index
                     currentCategory = Object.keys(modelData)[0]
-                    ActivityInfoTree.filterByTag(currentTag, currentCategory)
-                    ActivityInfoTree.filterEnabledActivities()
+                    ActivityInfoTree.filterByTag(currentTag, currentCategory, false)
+                    ActivityInfoTree.filterEnabledActivities(true)
+                    categoriesGrid.currentCategorySelected = index
                 }
                 Image {
                     id: rightIcon
@@ -434,6 +448,29 @@ ActivityBase {
                 visible: true
                 Behavior on x { SpringAnimation { spring: 2; damping: 0.2 } }
                 Behavior on y { SpringAnimation { spring: 2; damping: 0.2 } }
+            }
+        }
+
+        Rectangle {
+            id: activitiesMask
+            visible: false
+            layer.enabled: true
+            anchors.fill: activitiesGrid
+            // Dynamic position of the gradient used for OpacityMask
+            // If the hidden bottom part of the grid is > to the maximum height of the gradient,
+            // we use the maximum height.
+            // Else we set the gradient start position proportionnally to the hidden bottom part,
+            // until it disappears.
+            // And if not using OpenGL, the mask is disabled, so we save the calculation and set it to 1
+            property real gradientStartValue:
+            ApplicationInfo.useOpenGL ?
+            (activitiesGrid.hiddenBottom > activitiesGrid.height * 0.08 ?
+            0.92 : 1 - (activitiesGrid.hiddenBottom / activitiesGrid.height)) :
+            1
+            gradient: Gradient {
+                GradientStop { position: 0.0; color: "#FFFFFFFF" }
+                GradientStop { position: activitiesMask.gradientStartValue; color: "#FFFFFFFF" }
+                GradientStop { position: activitiesMask.gradientStartValue + 0.04; color: "#00FFFFFF"}
             }
         }
 
@@ -629,34 +666,13 @@ ActivityBase {
                 Behavior on x { SpringAnimation { spring: 2; damping: 0.2 } }
                 Behavior on y { SpringAnimation { spring: 2; damping: 0.2 } }
             }
-
-            Rectangle {
-                id: activitiesMask
-                visible: false
-                anchors.fill: activitiesGrid
-                // Dynamic position of the gradient used for OpacityMask
-                // If the hidden bottom part of the grid is > to the maximum height of the gradient,
-                // we use the maximum height.
-                // Else we set the gradient start position proportionnally to the hidden bottom part,
-                // until it disappears.
-                // And if not using OpenGL, the mask is disabled, so we save the calculation and set it to 1
-                property real gradientStartValue:
-                    ApplicationInfo.useOpenGL ?
-                    (activitiesGrid.hiddenBottom > activitiesGrid.height * 0.08 ?
-                        0.92 : 1 - (activitiesGrid.hiddenBottom / activitiesGrid.height)) :
-                        1
-                gradient: Gradient {
-                  GradientStop { position: 0.0; color: "#FFFFFFFF" }
-                  GradientStop { position: activitiesMask.gradientStartValue; color: "#FFFFFFFF" }
-                  GradientStop { position: activitiesMask.gradientStartValue + 0.04; color: "#00FFFFFF"}
-                }
-            }
             layer.enabled: ApplicationInfo.useOpenGL
-            layer.effect: OpacityMask {
+            layer.effect: MultiEffect {
                 id: activitiesOpacity
-                source: activitiesGrid
+                maskEnabled: true
                 maskSource: activitiesMask
-                anchors.fill: activitiesGrid
+                maskThresholdMin: 0.5
+                maskSpreadAtMin: 1.0
             }
         }
 
@@ -722,10 +738,16 @@ ActivityBase {
 
                 function onStartActivity(activityName: string, level: int) {
                     ActivityInfoTree.setCurrentActivityFromName(activityName)
-                    var currentLevels = ApplicationSettings.currentLevels(ActivityInfoTree.currentActivity.name)
+                    var currentLevels
+                    if (ApplicationSettings.filterLevelOverridedByCommandLineOption)
+                        currentLevels = ActivityInfoTree.currentActivity.currentLevels
+                    else
+                        currentLevels = ApplicationSettings.currentLevels(ActivityInfoTree.currentActivity.name)
                     activityLoader.setSource("qrc:/gcompris/src/activities/" + ActivityInfoTree.currentActivity.name,
                     {
                         'menu': activity,
+                        'audioVoices': audioVoices,
+                        'loading': loading,
                         'activityInfo': ActivityInfoTree.currentActivity,
                         'levelFolder': currentLevels
                     })
@@ -1143,8 +1165,8 @@ ActivityBase {
             }
             onClose: {
                 if(activity.currentTag != "search") {
-                    ActivityInfoTree.filterByTag(activity.currentTag, currentCategory)
-                    ActivityInfoTree.filterEnabledActivities()
+                    ActivityInfoTree.filterByTag(activity.currentTag, currentCategory, false)
+                    ActivityInfoTree.filterEnabledActivities(true)
                 } else
                     ActivityInfoTree.filterBySearch(searchTextField.text);
 

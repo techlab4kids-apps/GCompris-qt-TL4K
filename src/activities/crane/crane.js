@@ -73,6 +73,9 @@ function initSubLevel() {
     // reset the arrays
     names = []
     names2 = []
+    items.answerRepeater.model = 1
+    items.modelRepeater.model = 1
+    items.gridRepeater.model = 1
 
     // set models for repeaters
     if (!levels[items.currentLevel][items.score.currentSubLevel].isWord)
