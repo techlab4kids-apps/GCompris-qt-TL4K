@@ -18,6 +18,19 @@ Data {
         {
             "map": [
                 {'x': 1, 'y': 2},
+                {'x': 2, 'y': 2}
+            ],
+            "fish": {'x': 2, 'y': 2},
+            "instructions": [
+                Activity.MOVE_FORWARD,
+                Activity.TURN_LEFT,
+                Activity.TURN_RIGHT
+            ],
+            "maxNumberOfInstructions": 100
+        },
+        {
+            "map": [
+                {'x': 1, 'y': 2},
                 {'x': 2, 'y': 2},
                 {'x': 3, 'y': 2}
             ],
@@ -27,9 +40,22 @@ Data {
                 Activity.TURN_LEFT,
                 Activity.TURN_RIGHT
             ],
-            "maxNumberOfInstructions": 4
+            "maxNumberOfInstructions": 100
         },
-        // Level two
+        {
+            "map": [
+                {'x': 2, 'y': 1},
+                {'x': 2, 'y': 2},
+                {'x': 2, 'y': 3}
+            ],
+            "fish": {'x': 2, 'y': 3},
+            "instructions": [
+                Activity.MOVE_FORWARD,
+                Activity.TURN_LEFT,
+                Activity.TURN_RIGHT
+            ],
+            "maxNumberOfInstructions": 100
+        },        // Level two
         {
             "map": [
                 {'x': 1, 'y': 3},
