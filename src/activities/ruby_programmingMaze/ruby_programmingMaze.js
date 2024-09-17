@@ -84,6 +84,7 @@ var LoopEnumValues = {
  * To add a new instruction, add its component here and add the instruction name in "instructionList" inside createInstructionObjects() along with the other instructions.
  */
 var instructionComponents = {
+    //"move-forward": Qt.createComponent(url + "instructions/MoveForward.qml"),
     "move-forward": Qt.createComponent(url + "instructions/MoveForward.qml"),
     "turn-left": Qt.createComponent(url + "instructions/TurnLeftOrRight.qml"),
     "turn-right": Qt.createComponent(url + "instructions/TurnLeftOrRight.qml"),
