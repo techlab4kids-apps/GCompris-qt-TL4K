@@ -49,3 +49,30 @@ Bug reports should be created in the [KDE bug tracker](https://bugs.kde.org/ente
 ## Licence
 
 GCompris is free software released under the [AGPL v3](https://www.gnu.org/licenses/agpl-3.0.html). All the internal code is under [GPL V3+](https://www.gnu.org/licenses/gpl-3.0.html) but we use a library for [analog electricity activity](https://github.com/edx/edx-platform/blob/master/common/lib/xmodule/xmodule/js/src/capa/schematic.js) under AGPL 3.0 causing the whole software to be licenced under it.
+
+
+# TL4K
+
+## Build
+
+export PATH=/home/kubuntu/Qt/Tools/CMake/bin/:$PATH
+make clean && cmake -DBUILD_STANDALONE=ON ../GCompris-qt && make
+
+cmake ..  -DQt6_DIR=/home/kubuntu/Qt/6.7.2/gcc_64 -DCMAKE_PREFIX_PATH=/home/kubuntu/Qt/6.7.2/gcc_64/lib/cmake -DCMAKE_MODULE_PATH=/home/kubuntu/Qt/6.7.2/gcc_64/lib/cmake -DQML_BOX2D_MODULE=disabled
+
+### QT
+
+
+### Command Line
+https://gcompris.net/wiki/Qt_Quick_development_process
+
+cmake -DBUILD_STANDALONE=ON ../GCompris-qt && make
+
+## Deploy
+
+mkdir -p AppDir/usr/bin
+cp bin/gcompris-qt AppDir/usr/bin/
+
+cd /home/kubuntu/Develop/GCompris-qt-build/
+
+LD_LIBRARY_PATH=/home/kubuntu/Qt/6.7.2/gcc_64/lib QMAKE=/home/kubuntu/Qt/6.7.2/gcc_64/bin/qmake QML_SOURCES_PATHS=/home/kubuntu/Develop/GCompris-qt/src/ ./linuxdeploy-x86_64.AppImage --appdir AppDir --output appimage --plugin qt

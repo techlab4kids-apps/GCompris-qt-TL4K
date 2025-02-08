@@ -7,6 +7,8 @@ cmake_minimum_required(VERSION 3.16)
 
 project(gcompris-qt C CXX)
 
+set(CMAKE_FIND_LIBRARY_SUFFIXES ".a" “.so”)
+
 # get all the redist dll needed for windows when compiling with vc
 set(CMAKE_INSTALL_UCRT_LIBRARIES 1)
 include(InstallRequiredSystemLibraries)
@@ -36,6 +38,7 @@ include(GNUInstallDirs)
 # cmake modules setup
 find_package(ECM 1.4.0 QUIET NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake/)
+set(CMAKE_PREFIX_PATH "${Qt6_DIR}/")
 
 # KDE po to qm tools
 if(ECM_FOUND)
@@ -170,9 +173,11 @@ set(GRAPHICAL_RENDERER "auto" CACHE STRING "Policy for choosing the renderer bac
 # Set output directory
 if(CMAKE_HOST_APPLE)
   set(_bundle_bin gcompris-qt.app/Contents/MacOS)
-  set(_data_dest_dir ${CMAKE_INSTALL_BINDIR}/${_bundle_bin}/../Resources)
+  set(_data_dest_dir bin/${_bundle_bin}/../Resources)
+elseif(HAIKU)
+  set(_data_dest_dir data/Qt6/${GCOMPRIS_EXECUTABLE_NAME})
 else()
-  set(_data_dest_dir ${CMAKE_INSTALL_DATADIR}/${GCOMPRIS_EXECUTABLE_NAME})
+  set(_data_dest_dir share/${GCOMPRIS_EXECUTABLE_NAME})
 endif()
 if(ANDROID)
   # Android .so output

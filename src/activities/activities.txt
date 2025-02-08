@@ -172,6 +172,8 @@ reversecount
 roman_numerals
 ruby_clickgame
 ruby_erase
+ruby_erase_2clic
+ruby_erase_clic
 ruby_path_encoding
 ruby_programmingMaze
 scalesboard
