@@ -217,7 +217,7 @@ Item {
                 verticalAlignment: TextInput.AlignVCenter
                 font.pointSize: hintText.pointSize
                 font.weight: Font.DemiBold
-                font.family: GCSingletonFontLoader.fontLoader.name
+                font.family: GCSingletonFontLoader.fontName
                 font.capitalization: ApplicationSettings.fontCapitalization
                 font.letterSpacing: ApplicationSettings.fontLetterSpacing
                 maximumLength: maximumLengthAnswer
@@ -261,7 +261,7 @@ Item {
     BarButton {
         id: repeatItem
         source: "qrc:/gcompris/src/core/resource/bar_repeat.svg";
-        sourceSize.width: Math.min(hintTextbg.x, 84 * ApplicationInfo.ratio) - 2 * anchors.margins
+        width: Math.min(hintTextbg.x, 84 * ApplicationInfo.ratio) - 2 * anchors.margins
         z: 12
         anchors {
             top: parent.top

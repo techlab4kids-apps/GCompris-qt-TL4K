@@ -27,7 +27,6 @@ import QtQuick.Controls.Basic
  *
  * The list of available activities depends on the following settings:
  *
- * * ApplicationSettings.showLockedActivities
  * * ApplicationSettings.filterLevelMin
  * * ApplicationSettings.filterLevelMax
  *
@@ -66,8 +65,6 @@ ActivityBase {
             }
         }
     }
-
-    enabled: ActivityInfoTree.startingActivity === ""
 
     onDisplayDialog: (dialog) => pageView.pushElement(dialog)
 
@@ -239,7 +236,10 @@ ActivityBase {
             event.accepted = false
         }
         Keys.onTabPressed: (event) => {
-            if(currentActiveGrid == section) {
+            if(!ApplicationSettings.sectionVisible) {
+                currentActiveGrid = activitiesGrid;
+            }
+            else if(currentActiveGrid == section) {
                 if(currentTagCategories && currentTagCategories.length != 0) {
                     currentActiveGrid = categoriesGrid;
                 }
@@ -271,6 +271,7 @@ ActivityBase {
             cellHeight: sectionCellWidth
             interactive: false
             keyNavigationWraps: true
+            highlightMoveDuration: 0
             property int initialX: 4
             property int initialY: 4
             property int currentSectionSelected: 0
@@ -281,6 +282,17 @@ ActivityBase {
                     id: backgroundSection
                     width: sectionCellWidth
                     height: sectionCellWidth
+
+                    Rectangle {
+                        visible: section.currentSectionSelected === index
+                        anchors.fill: parent
+                        gradient: Gradient {
+                            GradientStop { position: 0.0; color: "#80FFFFFF" }
+                            GradientStop { position: 1.0; color: "#40FFFFFF" }
+                        }
+                        border.width: 2
+                        border.color: "white"
+                    }
 
                     Image {
                         source: modelData.icon
@@ -302,8 +314,10 @@ ActivityBase {
                     }
 
                     function selectCurrentItem() {
-                        if(section.currentSectionSelected === index)
+                        if(section.currentSectionSelected === index) {
+                            section.currentIndex = index // in case it was moved with keyboard
                             return
+                        }
                         section.currentIndex = index
                         activity.currentTag = modelData.tag
                         activity.currentTagCategories = modelData.categories
@@ -326,20 +340,10 @@ ActivityBase {
                 }
             }
             delegate: sectionDelegate
-            highlight: Item {
-                width: sectionCellWidth
-                height: sectionCellWidth
-
-                Rectangle {
-                    anchors.fill: parent
-                    color:  "#5AFFFFFF"
-                }
-                Image {
-                    source: "qrc:/gcompris/src/core/resource/button.svg"
-                    anchors.fill: parent
-                }
-                Behavior on x { SpringAnimation { spring: 2; damping: 0.2 } }
-                Behavior on y { SpringAnimation { spring: 2; damping: 0.2 } }
+            highlight: Rectangle {
+                    color: "transparent"
+                    border.width: 4
+                    border.color: "white"
             }
         }
 
@@ -395,18 +399,22 @@ ActivityBase {
             topMargin: 5
             interactive: false
             keyNavigationWraps: true
+            highlightFollowsCurrentItem: false
             visible: activity.currentTag !== "search"
             cellWidth: currentTagCategories ? categoriesGrid.width / currentTagCategories.length : 0
             cellHeight: height
             property int currentCategorySelected: 0
 
+            onModelChanged: currentCategorySelected = 0;
+
             delegate: GCButton {
                 id: button
-                selected: currentCategory === button.category
+                selected: categoriesGrid.currentIndex === index
+                down: currentCategory === button.category
                 theme: "categories"
                 textSize: "regular"
                 rightIconSize: rightIcon.width + rightIcon.anchors.rightMargin
-                width: categoriesGrid.width / (currentTagCategories.length + 1)
+                width: categoriesGrid.cellWidth - 10
                 height: categoriesGrid.cellHeight
                 text: modelData[category]
                 property string category: Object.keys(modelData)[0]
@@ -415,14 +423,17 @@ ActivityBase {
                 }
 
                 function selectCurrentItem() {
-                    if(categoriesGrid.currentCategorySelected === index)
+                    if(categoriesGrid.currentCategorySelected === index) {
+                        categoriesGrid.currentIndex = index // in case it was moved with keyboard
                         return
+                    }
                     categoriesGrid.currentIndex = index
                     currentCategory = Object.keys(modelData)[0]
                     ActivityInfoTree.filterByTag(currentTag, currentCategory, false)
                     ActivityInfoTree.filterEnabledActivities(true)
                     categoriesGrid.currentCategorySelected = index
                 }
+
                 Image {
                     id: rightIcon
                     visible: horizontal
@@ -437,18 +448,7 @@ ActivityBase {
                     }
                 }
             }
-            highlight: Rectangle {
-                z: 10
-                width: activityCellWidth - activitiesGrid.spacing
-                height: activityCellHeight - activitiesGrid.spacing
-                color:  "#00FFFFFF"
-                radius: 10
-                border.width: 5
-                border.color: "#FF87A6DD"
-                visible: true
-                Behavior on x { SpringAnimation { spring: 2; damping: 0.2 } }
-                Behavior on y { SpringAnimation { spring: 2; damping: 0.2 } }
-            }
+            highlight: Item {}
         }
 
         Rectangle {
@@ -461,9 +461,9 @@ ActivityBase {
             // we use the maximum height.
             // Else we set the gradient start position proportionnally to the hidden bottom part,
             // until it disappears.
-            // And if not using OpenGL, the mask is disabled, so we save the calculation and set it to 1
+            // And if using software renderer, the mask is disabled, so we save the calculation and set it to 1
             property real gradientStartValue:
-            ApplicationInfo.useOpenGL ?
+            !ApplicationInfo.useSoftwareRenderer ?
             (activitiesGrid.hiddenBottom > activitiesGrid.height * 0.08 ?
             0.92 : 1 - (activitiesGrid.hiddenBottom / activitiesGrid.height)) :
             1
@@ -497,8 +497,8 @@ ActivityBase {
             boundsBehavior: Flickable.StopAtBounds
             property int spacing: 10
             // Needed to calculate the OpacityMask offset
-            // If not using OpenGL, this value is not used, so we save the calculation and set it to 1
-            property real hiddenBottom: ApplicationInfo.useOpenGL ? contentHeight - height - contentY : 1
+            // If using software renderer, this value is not used, so we save the calculation and set it to 1
+            property real hiddenBottom: ApplicationInfo.useSoftwareRenderer ? 1 : contentHeight - height - contentY
 
             delegate: Item {
                 id: delegateItem
@@ -661,12 +661,12 @@ ActivityBase {
                 height: activityCellHeight - activitiesGrid.spacing
                 color:  "#AAFFFFFF"
                 border.width: 3
-                border.color: "black"
+                border.color: "#FFF"
                 visible: background.keyboardMode
                 Behavior on x { SpringAnimation { spring: 2; damping: 0.2 } }
                 Behavior on y { SpringAnimation { spring: 2; damping: 0.2 } }
             }
-            layer.enabled: ApplicationInfo.useOpenGL
+            layer.enabled: !ApplicationInfo.useSoftwareRenderer
             layer.effect: MultiEffect {
                 id: activitiesOpacity
                 maskEnabled: true
@@ -678,7 +678,7 @@ ActivityBase {
 
         // The scroll buttons
         GCButtonScroll {
-            visible: !ApplicationInfo.useOpenGL
+            visible: ApplicationInfo.useSoftwareRenderer
             anchors.right: parent.right
             anchors.rightMargin: 5 * activity.applicationInfoRatio
             anchors.bottom: activitiesGrid.bottom
@@ -765,7 +765,7 @@ ActivityBase {
                 opacity: 0.5
                 horizontalAlignment: TextInput.AlignHCenter
                 verticalAlignment: TextInput.AlignVCenter
-                font.family: GCSingletonFontLoader.fontLoader.name
+                font.family: GCSingletonFontLoader.fontName
                 inputMethodHints: Qt.ImhNoPredictiveText
                 // Note: we give focus to the textfield also in case
                 // isMobile && !ApplicationSettings.isVirtualKeyboard
@@ -844,7 +844,7 @@ ActivityBase {
                     categoriesGrid {
                         width: main.width
                         height: categoriesHeight * 0.5
-                        x: currentTagCategories ? categoriesGrid.width / (4 * (currentTagCategories.length + 1)) : 0
+                        x: 5
                     }
                 }
                 PropertyChanges {
@@ -917,7 +917,7 @@ ActivityBase {
                     categoriesGrid {
                         width: main.width - section.width
                         height: categoriesHeight
-                        x: currentTagCategories ? categoriesGrid.width / (4 * (currentTagCategories.length + 1)) + section.width : 0
+                        x: section.width + 5
                     }
                 }
                 PropertyChanges {
@@ -990,7 +990,7 @@ ActivityBase {
                     categoriesGrid {
                         width: main.width - section.width
                         height: categoriesHeight
-                        x: currentTagCategories ? categoriesGrid.width / (4 * (currentTagCategories.length + 1)) + section.width : 0
+                        x: section.width + 5
                     }
                 }
                 PropertyChanges {
@@ -1209,21 +1209,6 @@ ActivityBase {
                     dialogActivityConfig.configItem.visible = true
                 }
             }
-        }
-    }
-    // splash screen when using --launch <activity> option
-    Rectangle {
-        visible: ActivityInfoTree.startingActivity != ""
-        anchors.fill: parent
-        color: "#16B8EA"
-        Image {
-            source: "qrc:/gcompris/src/core/resource/gcompris-logo-full.svg"
-            anchors.bottom: parent.bottom
-            anchors.right: parent.right
-            anchors.margins: 20 * activity.applicationInfoRatio
-            width: parent.width * 0.3
-            sourceSize.width: width
-            fillMode: Image.PreserveAspectFit
         }
     }
 }

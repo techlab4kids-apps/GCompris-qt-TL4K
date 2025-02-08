@@ -51,7 +51,7 @@ f_cmake()
 	  -DCMAKE_BUILD_TYPE=Release \
 	  -DANDROID_ABI=$1 \
 	  -DCMAKE_FIND_ROOT_PATH=${Qt6_BaseDIR}/${QtTarget}/lib/ \
-	  -DQt6_DIR=${Qt6_BaseDIR}/${QtTarget}/lib/cmake/Qt6 \
+	  -DCMAKE_PREFIX_PATH=${Qt6_BaseDIR}/${QtTarget}/lib/cmake/Qt6 \
 	  -Wno-dev \
 	  -DQML_BOX2D_MODULE=submodule \
 	  -DWITH_DOWNLOAD=$2 \
@@ -78,7 +78,7 @@ minor=${a[1]}
 patch=${a[2]}
 
 f_cmake armeabi-v7a ON OFF
-make -j 4
+make -j 16
 make apk_aligned_signed
 
 # Remove extra apk

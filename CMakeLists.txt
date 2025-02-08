@@ -31,11 +31,11 @@ endif()
 string(TIMESTAMP BUILD_DATE %Y%m)
 
 include(FeatureSummary)
+include(GNUInstallDirs)
 
 # cmake modules setup
 find_package(ECM 1.4.0 QUIET NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${CMAKE_SOURCE_DIR}/cmake/)
-set(CMAKE_PREFIX_PATH "${Qt6_DIR}/")
 
 # KDE po to qm tools
 if(ECM_FOUND)
@@ -97,10 +97,8 @@ foreach(COMPONENT ${QT_COMPONENTS})
   set_package_properties(${QT_MAJOR}${COMPONENT} PROPERTIES TYPE REQUIRED)
 endforeach()
 
-if(UNIX AND NOT ANDROID)
-  # It seems to only be present on some Linux distributions, not FreeBSD for example
-find_package(${QT_MAJOR}QuickControls2Basic QUIET)
-endif()
+# It seems to only be present on some Linux distributions, not FreeBSD for example and starting Qt6.6 so not enforcing it
+find_package(${QT_MAJOR} ${QT_REQUIRED_VERSION} OPTIONAL_COMPONENTS QuickControls2Basic)
 
 # Starting C++20, emit() is a function in standard library. To avoid using Qt keywords like signals, slots, emit, we define this variable
 add_definitions(
@@ -111,9 +109,21 @@ add_definitions(
     -DQT_NO_FOREACH
 )
 
+if(UNIX AND NOT APPLE AND NOT ANDROID)
+  find_package(${QT_MAJOR} ${QT_REQUIRED_VERSION} OPTIONAL_COMPONENTS WaylandClient)
+endif()
+
+# For systems where ICU is not packaged with Qt installer
+# And we want to package it from system
+option(SHIP_SYSTEM_ICU "Ship system ICU in packages and not the one packaged by Qt" OFF)
+if(SHIP_SYSTEM_ICU)
+  find_package(ICU COMPONENTS data uc i18n)
+  set_package_properties(ICU PROPERTIES TYPE REQUIRED)
+endif()
+
 if((UNIX AND NOT APPLE AND NOT ANDROID) OR WIN32)
-    find_package(OpenSSL)
-    set_package_properties(OpenSSL PROPERTIES TYPE REQUIRED)
+  find_package(OpenSSL)
+  set_package_properties(OpenSSL PROPERTIES TYPE REQUIRED)
 endif()
 
 option(COMPILE_DOC "Enable compilation of GCompris docbook" OFF)
@@ -160,11 +170,9 @@ set(GRAPHICAL_RENDERER "auto" CACHE STRING "Policy for choosing the renderer bac
 # Set output directory
 if(CMAKE_HOST_APPLE)
   set(_bundle_bin gcompris-qt.app/Contents/MacOS)
-  set(_data_dest_dir bin/${_bundle_bin}/../Resources)
-elseif(HAIKU)
-  set(_data_dest_dir data/Qt6/${GCOMPRIS_EXECUTABLE_NAME})
+  set(_data_dest_dir ${CMAKE_INSTALL_BINDIR}/${_bundle_bin}/../Resources)
 else()
-  set(_data_dest_dir share/${GCOMPRIS_EXECUTABLE_NAME})
+  set(_data_dest_dir ${CMAKE_INSTALL_DATADIR}/${GCOMPRIS_EXECUTABLE_NAME})
 endif()
 if(ANDROID)
   # Android .so output
@@ -253,27 +261,21 @@ if(NOT SKIP_TRANSLATIONS)
       # Convert the po into ts
       COMMAND ${QT_MAJOR}::lconvert -if po -of ts -i ${OutTsFile} -o ${OutTsFile}
       # Convert the ts in qm removing non finished translations
-      COMMAND ${QT_MAJOR}::lrelease -compress -nounfinished ${OutTsFile} -qm ${GCOMPRIS_TRANSLATIONS_DIR}/${QmOutput}
+      COMMAND ${QT_MAJOR}::lrelease -removeidentical -nounfinished ${OutTsFile} -qm ${GCOMPRIS_TRANSLATIONS_DIR}/${QmOutput}
       )
     list(APPEND QM_FILES ${QmOutput})
   endforeach()
 endif()
   
 # Install translations
-if(WIN32)
-    add_custom_target(BuildTranslations
-        DEPENDS ${QM_FILES}
-    )
-else()
-    add_custom_target(BuildTranslations ALL
-        DEPENDS ${QM_FILES}
-    )
-endif()
+add_custom_target(BuildTranslations ALL
+    DEPENDS ${QM_FILES}
+)
 
 if(CMAKE_HOST_APPLE)
   install(DIRECTORY ${GCOMPRIS_TRANSLATIONS_DIR} DESTINATION ${_bundle_bin})
 elseif(ANDROID)
-  install(DIRECTORY ${GCOMPRIS_TRANSLATIONS_DIR} DESTINATION "share")
+  install(DIRECTORY ${GCOMPRIS_TRANSLATIONS_DIR} DESTINATION ${CMAKE_INSTALL_DATADIR})
 else()
   install(DIRECTORY ${GCOMPRIS_TRANSLATIONS_DIR} DESTINATION ${_data_dest_dir})
 endif()
@@ -286,6 +288,11 @@ if(UNIX AND NOT ANDROID AND NOT APPLE)
   option(BUILD_STANDALONE "Build a standalone package when typing 'make package'" OFF)
 else()
   option(BUILD_STANDALONE "Build a standalone package when typing 'make package'" ON)
+endif()
+
+# Default to Release if we build a package
+if(BUILD_STANDALONE)
+  set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Choose the type of build." FORCE)
 endif()
 
 option(WITH_KIOSK_MODE "Set the kiosk mode by default" OFF)

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-31 00:36+0000\n"
-"PO-Revision-Date: 2024-06-02 11:33+0100\n"
+"POT-Creation-Date: 2025-02-07 00:38+0000\n"
+"PO-Revision-Date: 2024-10-18 17:20+0100\n"
 "Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
 "Language-Team: British English\n"
 "Language: en_GB\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Lokalize 24.02.2\n"
+"X-Generator: Lokalize 24.08.2\n"
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "adjacent_numbers"
 #: activities/adjacent_numbers/ActivityInfo.qml:17
@@ -1170,6 +1170,12 @@ msgid ""
 msgstr ""
 "Select a colour and paint the rectangles as you like to create a drawing."
 
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"
+#: activities/sketch/ActivityInfo.qml:21
+#, kde-format
+msgid "Use the tools to draw images."
+msgstr "Use the tools to draw images."
+
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "smallnumbers"
 #: activities/smallnumbers/ActivityInfo.qml:18
 #, kde-format
@@ -1309,6 +1315,20 @@ msgid ""
 "Slide the cars to make a space so that the red car can go out of the box."
 msgstr ""
 "Slide the cars to make a space so that the red car can go out of the box."
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_addition"
+#: activities/vertical_addition/ActivityInfo.qml:18
+#, kde-format
+msgid "Solve the given addition."
+msgstr ""
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_subtraction_compensation"
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_subtraction"
+#: activities/vertical_subtraction/ActivityInfo.qml:18
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:18
+#, kde-format
+msgid "Solve the given subtraction."
+msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "watercycle"
 #: activities/watercycle/ActivityInfo.qml:18

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris_voices\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-31 00:36+0000\n"
+"POT-Creation-Date: 2025-02-07 00:38+0000\n"
 "PO-Revision-Date: 2023-07-13 00:29+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
@@ -1196,6 +1196,12 @@ msgid ""
 msgstr ""
 "Seleccione uma cor e pinte os rectângulos como desejar para criar um desenho."
 
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"
+#: activities/sketch/ActivityInfo.qml:21
+#, kde-format
+msgid "Use the tools to draw images."
+msgstr ""
+
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "smallnumbers"
 #: activities/smallnumbers/ActivityInfo.qml:18
 #, kde-format
@@ -1343,6 +1349,20 @@ msgid ""
 msgstr ""
 "Deslize os carros para criar um espaço para que o carro vermelho saia da "
 "caixa."
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_addition"
+#: activities/vertical_addition/ActivityInfo.qml:18
+#, kde-format
+msgid "Solve the given addition."
+msgstr ""
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_subtraction_compensation"
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_subtraction"
+#: activities/vertical_subtraction/ActivityInfo.qml:18
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:18
+#, kde-format
+msgid "Solve the given subtraction."
+msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "watercycle"
 #: activities/watercycle/ActivityInfo.qml:18

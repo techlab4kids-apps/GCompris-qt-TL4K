@@ -115,8 +115,8 @@ Text {
 
     font.pointSize: ((fixFontSize ? 0 : ApplicationSettings.baseFontSize)
                       + fontSize) * ApplicationInfo.fontRatio
-    font.family: GCSingletonFontLoader.fontLoader.name
+    font.family: GCSingletonFontLoader.fontName
     font.capitalization: ApplicationSettings.fontCapitalization
     font.letterSpacing: ApplicationSettings.fontLetterSpacing
-    color: "#191919"
+    color: GCStyle.darkerText
 }

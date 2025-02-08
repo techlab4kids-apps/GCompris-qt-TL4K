@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-31 00:36+0000\n"
-"PO-Revision-Date: 2024-01-21 18:43+0100\n"
+"POT-Creation-Date: 2025-02-07 00:38+0000\n"
+"PO-Revision-Date: 2025-01-25 21:48+0100\n"
 "Last-Translator: Igor Dobrača <igor.dobraca@gmail.com>\n"
 "Language-Team: Croatian <kde-i18n-doc@kde.org>\n"
 "Language: hr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.3.2\n"
+"X-Generator: Poedit 3.5\n"
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "adjacent_numbers"
 #: activities/adjacent_numbers/ActivityInfo.qml:17
@@ -80,16 +80,13 @@ msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "align4"
 #: activities/align4/ActivityInfo.qml:18
-#, fuzzy, kde-format
-#| msgid ""
-#| "Click on the column where you wish your token to fall and try to align of "
-#| "4 tokens before Tux."
+#, kde-format
 msgid ""
 "Click on the column where you wish your token to fall and try to align 4 "
 "tokens before Tux."
 msgstr ""
-"Klikni na stupac gdje želiš da ubaciš tvoj žeton i pokušaj poravnati 4 "
-"žetona prije Tuxa."
+"Klikni na stupac gdje želiš da ubaciš žeton i pokušaj poravnati 4 žetona "
+"prije Tuxa."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "align4_2players"
 #: activities/align4_2players/ActivityInfo.qml:18
@@ -1167,6 +1164,12 @@ msgid ""
 "Select a color and paint the rectangles as you like to create a drawing."
 msgstr "Odaberi boju i oboji pravokutnike kako želiš da bi napravio crtež."
 
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"
+#: activities/sketch/ActivityInfo.qml:21
+#, kde-format
+msgid "Use the tools to draw images."
+msgstr "Koristi alate za crtanje slika."
+
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "smallnumbers"
 #: activities/smallnumbers/ActivityInfo.qml:18
 #, kde-format
@@ -1242,17 +1245,15 @@ msgstr ""
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "tens_complement_calculate"
 #: activities/tens_complement_calculate/ActivityInfo.qml:17
-#, fuzzy, kde-format
-#| msgid ""
-#| "Create pairs of numbers equal to ten. Select a number, then select "
-#| "another number of the same operation to swap their position."
+#, kde-format
 msgid ""
 "Create pairs of numbers equal to ten. Select a number, then select another "
 "number of the same operation to swap their position. Then, select the result "
 "box to type the result."
 msgstr ""
-"Sastavi parove brojeva čiji je zbroj deset. Odaberi broj, zatim odaberi "
-"drugi broj iste operacije da bi zamijenio njihove položaje."
+"Sastavi parove brojeva tako da im je zbroj deset. Da bi zamijenio položaje "
+"brojeva, prvo odaberi jedan a zatim drugi broj. Odabirom okvira nakon znaka "
+"jednakosti moći ćeš upisati rezultat."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "tens_complement_find"
 #: activities/tens_complement_find/ActivityInfo.qml:17
@@ -1306,6 +1307,20 @@ msgid ""
 msgstr ""
 "Pomakni automobile kako bi napravio prostor da crveni automobil može izaći "
 "iz kutije."
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_addition"
+#: activities/vertical_addition/ActivityInfo.qml:18
+#, kde-format
+msgid "Solve the given addition."
+msgstr "Riješi zadatak zbrajanja."
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_subtraction_compensation"
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_subtraction"
+#: activities/vertical_subtraction/ActivityInfo.qml:18
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:18
+#, kde-format
+msgid "Solve the given subtraction."
+msgstr "Riješi zadatak oduzimanja."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "watercycle"
 #: activities/watercycle/ActivityInfo.qml:18

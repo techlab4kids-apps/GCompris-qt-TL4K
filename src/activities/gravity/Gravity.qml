@@ -57,6 +57,8 @@ ActivityBase {
             property alias arrow: arrow
             property alias crashSound: crashSound
             property double gravity: 0
+            property double gravityFactor: 50 * ApplicationInfo.ratio
+            property double moveFactor: 0.5 * ApplicationInfo.ratio
             property int planetFrequency: 0
             property int spaceSpeed: planetFrequency * 4
             property alias spaceship: spaceship
@@ -66,6 +68,7 @@ ActivityBase {
             property double spaceshipX
             property double spaceshipY: parent.height  * 0.5
             property int borderMargin: spaceship.width * 0.5
+            property int rightMargin: background.width - borderMargin
             property bool onScreenControls: ApplicationInfo.isMobile
             property alias explosion: explosion
         }
@@ -230,14 +233,6 @@ ActivityBase {
                     +" and direction of the arrow.")
             ]
             z: 110
-            anchors {
-                top: parent.top
-                topMargin: 10
-                right: parent.right
-                rightMargin: 5
-                left: parent.left
-                leftMargin: 5
-            }
         }
 
         Planet {
@@ -347,7 +342,7 @@ ActivityBase {
             y: spaceship.y - height * 1.1
             z: 101
             sourceSize.height: height
-            width: Math.abs(items.gravity * 2000)
+            width: Math.abs(items.gravity * 1000 * ApplicationInfo.ratio)
             height: 40 * ApplicationInfo.ratio
             source: Activity.url + "arrow.svg"
             rotation: items.gravity < 0 ? 0 : 180

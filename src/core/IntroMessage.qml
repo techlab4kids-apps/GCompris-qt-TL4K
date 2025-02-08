@@ -24,13 +24,14 @@ import GCompris 1.0
  * The introDone signal is emitted when the introduction has finished and can
  * be used to prepare the start of the activity.
  *
+ * To set a specific area for the text, set the customIntroArea item.
+ *
  * @ingroup components
  * @inherit QtQuick.Item
  */
 
 Item {
     id: message
-
     focus: true
     anchors.fill: parent
     visible: index == -1 ? false : true
@@ -55,8 +56,7 @@ Item {
      */
     property var intro
 
-    property int textContainerWidth: 0.9 * parent.width
-    property int textContainerHeight: 0.75 * parent.height - nextButton.height
+    property Item customIntroArea: null
 
     Keys.onPressed: (event) => {
         if(event.key === Qt.Key_Left && previousButton.visible) {
@@ -87,6 +87,19 @@ Item {
         }
     }
 
+    Rectangle {
+        anchors.fill: parent
+        color: GCStyle.grayedBg
+    }
+
+    Item {
+        id: introArea
+        x: customIntroArea ? customIntroArea.x : GCStyle.baseMargins
+        y: customIntroArea ? customIntroArea.y : GCStyle.baseMargins
+        width: customIntroArea ? customIntroArea.width : parent.width - 2 * GCStyle.baseMargins
+        height: customIntroArea ? customIntroArea.height : parent.height - GCStyle.baseMargins - bar.height * 2
+    }
+
     // to avoid clicking on the activity
     MouseArea {
         anchors.fill: parent
@@ -94,44 +107,36 @@ Item {
 
     Rectangle {
         id: introTextContainer
-        width: introText.width + 20
-        height: introText.height + 2
-        anchors.top: introText.top
-        anchors.horizontalCenter: introText.horizontalCenter
-        opacity: 0.9
-        color: "white"
-        border.color: "#87A6DD"
-        border.width: 6
-        radius: 10
+        width: introArea.width
+        height: introArea.height - nextButton.height - GCStyle.baseMargins
+        anchors.top: introArea.top
+        anchors.horizontalCenter: introArea.horizontalCenter
+        color: GCStyle.whiteBg
+        border.color: GCStyle.blueBorder
+        border.width: GCStyle.midBorder
+        radius: GCStyle.halfMargins
     }
 
     GCText {
         id: introText
-        anchors {
-            horizontalCenter: parent.horizontalCenter
-            top: parent.top
-            topMargin: 10
-        }
-        width: textContainerWidth
-        height: textContainerHeight
+        anchors.fill: introTextContainer
+        anchors.margins: GCStyle.baseMargins
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
-        color: "black"
-        minimumPixelSize: 10
+        minimumPixelSize: 7
         wrapMode: Text.WordWrap
         fontSizeMode: Text.Fit
-        text: parent.index == -1 ? "" : parent.intro[parent.index]
+        text: parent.index != -1 && parent.intro[parent.index] ? parent.intro[parent.index] : ""
     }
 
     IntroButton {
         id: previousButton
-        width: parent.width / 4
-        height: 90
+        width: nextButton.width
+        height: nextButton.height
         z: 5
-        anchors.right: nextButton.left
-        anchors.topMargin: 15
-        anchors.rightMargin: 15
-	    anchors.top: introTextContainer.bottom
+        anchors.left: introTextContainer.left
+        anchors.top: introTextContainer.bottom
+        anchors.topMargin: introText.anchors.margins
         visible: index != 0
 
         text: qsTr("Previous")
@@ -141,13 +146,12 @@ Item {
 
     IntroButton {
         id: nextButton
-        width: parent.width / 4
-        height: 90
+        width: (introArea.width - 2 * GCStyle.baseMargins) * 0.33
+        height: Math.min(60 * ApplicationInfo.ratio, parent.height * 0.2)
         z: 5
-        anchors.right: skipButton.left
-        anchors.topMargin: 15
-        anchors.rightMargin: 15
-	    anchors.top: introTextContainer.bottom
+        anchors.horizontalCenter: introTextContainer.horizontalCenter
+        anchors.top: introTextContainer.bottom
+        anchors.topMargin: introText.anchors.margins
         visible: index != (intro.length - 1)
 
         text: qsTr("Next")
@@ -157,19 +161,18 @@ Item {
 
     IntroButton {
         id: skipButton
-        width: parent.width / 4
-        height: 90
+        width: nextButton.width
+        height: nextButton.height
         z: 5
-        anchors.right: parent.right
-        anchors.rightMargin: 15
-        anchors.topMargin: 15
-	    anchors.top: introTextContainer.bottom
+        anchors.right: introTextContainer.right
+        anchors.top: introTextContainer.bottom
+        anchors.topMargin: introText.anchors.margins
 
         text: nextButton.visible ? qsTr("Skip") : qsTr("Start")
 
         onClicked: {
             index = -1;
             message.introDone();
-	    }
+        }
     }
 }

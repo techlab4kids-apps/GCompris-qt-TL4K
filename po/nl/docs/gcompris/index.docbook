@@ -60,13 +60,13 @@ Don't forget to include this last date.
 Please respect the format of the date (YYYY-MM-DD),it is used by scripts.
 -->
 <date
->2024-09-20</date>
+>2025-01-30</date>
 
 <!--version information of the application and kde this documentation is valid for.
 for example 'xx.yy.zz'
 -->
 <releaseinfo
->4.2</releaseinfo>
+>25.0</releaseinfo>
 
 <!-- Abstract about this handbook -->
 
@@ -574,15 +574,22 @@ for example 'xx.yy.zz'
 </row>
 <row>
 <entry
+>--renderer={renderer}</entry>
+<entry
+>Specificeer welke grafische renderer te gebruiken. Op alle platforms zijn opengl en software beschikbaar. Op Windows kunt u direct3d11 of direct3d12 gebruiken (als het is gecompileerd met Qt
+>=6.6). Op MacOS kunt u metal gebruiken.</entry>
+</row>
+<row>
+<entry
 >--software-renderer</entry>
 <entry
->Software renderer gebruiken in plaats van openGL (zou met elke grafische kaart moeten werken).</entry>
+>Software renderer gebruiken in plaats van openGL (zou met elke grafische kaart moeten werken). Afgekeurd, in plaats daarvan --renderer=software gebruiken.</entry>
 </row>
 <row>
 <entry
 >--opengl-renderer</entry>
 <entry
->Renderen met openGL gebruiken in plaats van software (sneller en meer grafische effecten maar kan crashen bij sommige grafische kaarten).</entry>
+>Renderen met openGL gebruiken in plaats van software (sneller en meer grafische effecten maar kan crashen bij sommige grafische kaarten). Afgekeurd, in plaats daarvan --renderer=opengl gebruiken.</entry>
 </row>
 </tbody>
 </tgroup>
@@ -626,7 +633,7 @@ for example 'xx.yy.zz'
 <para
 >&gcompris; </para>
 <para
->Programma copyright 2000-2024 Timothée Giet en anderen </para>
+>Programma copyright 2000-2025 Timothée Giet en anderen </para>
 
 &meld.fouten;&vertaling.freek; &underFDL; &underGPL; </chapter>
 

@@ -3,14 +3,14 @@
 # This file is distributed under the license LGPL version 2.1 or
 # version 3 or later versions approved by the membership of KDE e.V.
 #
+# SPDX-FileCopyrightText: 2017, 2019, 2021, 2022, 2023, 2024 Josep M. Ferrer <txemaq@gmail.com>
 # Antoni Bella Pérez <antonibella5@yahoo.com>, 2017, 2018, 2019, 2020, 2021.
-# Josep M. Ferrer <txemaq@gmail.com>, 2017, 2019, 2021, 2022, 2023, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: gcompris\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-31 00:36+0000\n"
-"PO-Revision-Date: 2024-05-31 10:49+0200\n"
+"POT-Creation-Date: 2025-02-07 00:38+0000\n"
+"PO-Revision-Date: 2024-12-10 10:45+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca\n"
@@ -1222,6 +1222,12 @@ msgstr ""
 "Selecciona un color i pinta els rectangles com més t'agradi per a crear un "
 "dibuix."
 
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"
+#: activities/sketch/ActivityInfo.qml:21
+#, kde-format
+msgid "Use the tools to draw images."
+msgstr "Fes servir les eines per a dibuixar imatges."
+
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "smallnumbers"
 #: activities/smallnumbers/ActivityInfo.qml:18
 #, kde-format
@@ -1369,6 +1375,20 @@ msgid ""
 msgstr ""
 "Fes lliscar els cotxes per a fer espai, de manera que el cotxe vermell pugui "
 "sortir del pàrquing."
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_addition"
+#: activities/vertical_addition/ActivityInfo.qml:18
+#, kde-format
+msgid "Solve the given addition."
+msgstr "Resol la suma indicada."
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_subtraction_compensation"
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_subtraction"
+#: activities/vertical_subtraction/ActivityInfo.qml:18
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:18
+#, kde-format
+msgid "Solve the given subtraction."
+msgstr "Resol la resta indicada."
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "watercycle"
 #: activities/watercycle/ActivityInfo.qml:18

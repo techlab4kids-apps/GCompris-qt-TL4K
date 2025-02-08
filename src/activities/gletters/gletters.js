@@ -140,7 +140,6 @@ function initLevel() {
     items.score.currentSubLevel = 0;
     if(items.levels)
         items.instructionText = items.levels[items.currentLevel].objective
-    items.audioVoices.clearQueue()
     items.inputLocked = false;
     wgMaxFallingItems = 3
     successRate = 1.0
@@ -312,6 +311,7 @@ function processKeyPress(text) {
         currentWord = null
         nextSubLevel();
     }
+    focusTextInput();
 }
 
 function setSpeed()
@@ -489,7 +489,7 @@ function nextSubLevel() {
 
 function playLetter(letter) {
     var locale = GCompris.ApplicationInfo.getVoicesLocale(items.locale)
-
+    items.audioVoices.stop()
     items.audioVoices.append(GCompris.ApplicationInfo.getAudioFilePath("voices-$CA/"+locale+"/alphabet/"
                                                                        + Core.getSoundFilenamForChar(letter)))
 }

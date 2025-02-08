@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2024-05-31 00:36+0000\n"
+"POT-Creation-Date: 2025-02-07 00:38+0000\n"
 "PO-Revision-Date: 2024-04-22 16:04\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -75,7 +75,7 @@ msgstr "单击表上缺少的项目，然后按照其上方显示的逻辑顺序
 msgid ""
 "Click on the column where you wish your token to fall and try to align 4 "
 "tokens before Tux."
-msgstr ""
+msgstr "单击您希望硬币落入的列，并尝试在 Tux 完成对齐之前对齐 4 个硬币。"
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "align4_2players"
 #: activities/align4_2players/ActivityInfo.qml:18
@@ -1074,6 +1074,12 @@ msgid ""
 "Select a color and paint the rectangles as you like to create a drawing."
 msgstr "选择一种颜色并为您喜欢的矩形上色，尝试着组合成一幅画。"
 
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "sketch"
+#: activities/sketch/ActivityInfo.qml:21
+#, kde-format
+msgid "Use the tools to draw images."
+msgstr "使用工具绘制图像。"
+
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "smallnumbers"
 #: activities/smallnumbers/ActivityInfo.qml:18
 #, kde-format
@@ -1196,6 +1202,20 @@ msgstr "单击要标记的方块，试着在Tux之前标记3个连续的方块�
 msgid ""
 "Slide the cars to make a space so that the red car can go out of the box."
 msgstr "滑动汽车以腾出空间，这样红色的车就可以从箱子里出来了。"
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_addition"
+#: activities/vertical_addition/ActivityInfo.qml:18
+#, kde-format
+msgid "Solve the given addition."
+msgstr "解决给定的加法。"
+
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_subtraction_compensation"
+#. i18n: intro voices, see GCompris-voices/README.md - activity: "vertical_subtraction"
+#: activities/vertical_subtraction/ActivityInfo.qml:18
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:18
+#, kde-format
+msgid "Solve the given subtraction."
+msgstr "解决给定的减法。"
 
 #. i18n: intro voices, see GCompris-voices/README.md - activity: "watercycle"
 #: activities/watercycle/ActivityInfo.qml:18

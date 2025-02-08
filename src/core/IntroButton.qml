@@ -14,13 +14,14 @@
  */
 
 import QtQuick 2.12
+import GCompris 1.0
 
 Rectangle {
     id: button
-    color: "#d8ffffff"
-    border.color: "#2a2a2a"
-    border.width: 3
-    radius: 8
+    color: GCStyle.lightBg
+    border.color: GCStyle.blueBorder
+    border.width: GCStyle.midBorder
+    radius: GCStyle.halfMargins
 
     property alias text: buttonText.text
 
@@ -28,8 +29,9 @@ Rectangle {
 
     GCText {
         id: buttonText
-        width: parent.width
-        height: parent.height
+        width: parent.width - 2 * GCStyle.baseMargins
+        height: parent.height - GCStyle.baseMargins
+        anchors.centerIn: parent
         horizontalAlignment: Text.AlignHCenter
         verticalAlignment: Text.AlignVCenter
         wrapMode: Text.WordWrap
@@ -38,6 +40,7 @@ Rectangle {
 
     MouseArea {
         id: buttonArea
+        hoverEnabled: true
         anchors.fill: parent
         onClicked: parent.clicked()
     }
@@ -47,6 +50,7 @@ Rectangle {
         PropertyChanges {
             button {
                 scale: 1.0
+                color: GCStyle.lightBg
             }
         }
     },
@@ -56,6 +60,7 @@ Rectangle {
         PropertyChanges {
             button {
                 scale: 0.9
+                color: GCStyle.focusColor
             }
         }
     },
@@ -64,7 +69,8 @@ Rectangle {
         when: buttonArea.containsMouse
         PropertyChanges {
             button {
-                scale: 1.1
+                scale: 1.0
+                color: GCStyle.focusColor
             }
         }
     }

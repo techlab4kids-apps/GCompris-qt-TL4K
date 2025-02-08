@@ -18,11 +18,10 @@ import GCompris 1.0
  *
  * @inherit QtQuick.Image
  */
-Rectangle {
+Item {
     id: scrollButtons
-    color: "#00000000"
-    width: (isHorizontal ? 110 : 50) * ApplicationInfo.ratio
-    height: (isHorizontal ? 50 : 110) * ApplicationInfo.ratio
+    width: defaultWidth
+    height: defaultHeight
 
     signal up
     signal down
@@ -30,6 +29,8 @@ Rectangle {
     property bool upVisible: false
     property bool downVisible: false
 
+    readonly property int defaultWidth: (isHorizontal ? 110 : 50) * ApplicationInfo.ratio
+    readonly property int defaultHeight: (isHorizontal ? 50 : 110) * ApplicationInfo.ratio
     property bool isHorizontal: false
     property real heightRatio: isHorizontal ? (50 / 110) : (110 / 50)
     property real widthRatio: 1 / heightRatio
@@ -37,10 +38,7 @@ Rectangle {
     BarButton {
         id: scrollUp
         width: isHorizontal ? parent.height : parent.width
-        height: width
         source: "qrc:/gcompris/src/core/resource/scroll_down.svg";
-        sourceSize.width: scrollUp.width
-        sourceSize.height: scrollUp.height
         rotation: 180
         anchors.top: isHorizontal ? undefined : parent.top
         anchors.left: isHorizontal ? parent.left : undefined
@@ -51,10 +49,7 @@ Rectangle {
     BarButton {
         id: scrollDown
         width: isHorizontal ? parent.height : parent.width
-        height: width
         source: "qrc:/gcompris/src/core/resource/scroll_down.svg";
-        sourceSize.width: scrollDown.width
-        sourceSize.height: scrollDown.height
         anchors.bottom: parent.bottom
         anchors.right: isHorizontal ? parent.right : undefined
         onClicked: down()

@@ -301,10 +301,9 @@ ActivityBase {
                 text: qsTr("I am Ready")
                 opacity: (!enabled) ? 0.0 : 1.0
                 theme: "dark"
-                MouseArea {
-                    anchors.fill: parent
-                    onClicked: items.toggleReady()
-                    enabled: !items.buttonsBlocked
+                onClicked: {
+                    if(!items.buttonsBlocked)
+                        items.toggleReady()
                 }
             }
 
@@ -380,9 +379,6 @@ ActivityBase {
             anchors.verticalCenter: score.verticalCenter
             source: "qrc:/gcompris/src/core/resource/bar_ok.svg"
             width: background.baseSizeValue
-            height: background.baseSizeValue
-            sourceSize.height: background.baseSizeValue
-            sourceSize.width: background.baseSizeValue
             onClicked: Activity.checkResult()
             visible: (items.currentAnswer === answerModel.count)
             mouseArea.enabled: !items.buttonsBlocked

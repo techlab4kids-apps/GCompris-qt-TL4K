@@ -313,7 +313,7 @@ ActivityBase {
                 height:  width * 2 + width * rocket.leftAccel
                 sourceSize.width: width
                 sourceSize.height: height
-                visible: ApplicationInfo.useOpenGL ? false : true
+                visible: ApplicationInfo.useSoftwareRenderer
             }
 
             ParticleSystem {
@@ -355,7 +355,7 @@ ActivityBase {
                 height:  width * 2 + width * rocket.rightAccel
                 sourceSize.width: width
                 sourceSize.height: height
-                visible: ApplicationInfo.useOpenGL ? false : true
+                visible: ApplicationInfo.useSoftwareRenderer
             }
 
             ParticleSystem {
@@ -396,7 +396,7 @@ ActivityBase {
                 height: rocket.accel > 0 ? width * 2 : 0
                 sourceSize.width: width
                 sourceSize.height: height
-                visible: ApplicationInfo.useOpenGL ? false : true
+                visible: ApplicationInfo.useSoftwareRenderer
             }
 
             ParticleSystem {
@@ -769,20 +769,12 @@ ActivityBase {
                 items.world.running = true;
             }
             z: 20
-            anchors {
-                top: parent.top
-                topMargin: 10
-                right: parent.right
-                rightMargin: 5
-                left: parent.left
-                leftMargin: 5
-            }
         }
 
         BarButton {
             id: ok
             source: "qrc:/gcompris/src/core/resource/bar_ok.svg";
-            sourceSize.width: 75 * ApplicationInfo.ratio
+            width: 75 * ApplicationInfo.ratio
             visible: false
             anchors.centerIn: background
             onClicked: {

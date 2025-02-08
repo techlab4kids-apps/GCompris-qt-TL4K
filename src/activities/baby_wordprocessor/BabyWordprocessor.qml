@@ -158,15 +158,14 @@ ActivityBase {
                 bottom: bar.top
                 margins: 10
             }
-            contentWidth: edit.paintedWidth
-            contentHeight: edit.paintedHeight
+            contentWidth: edit.contentWidth
+            contentHeight: edit.contentHeight
             clip: true
             flickableDirection: Flickable.VerticalFlick
             maximumFlickVelocity: activity.height
             boundsBehavior: Flickable.StopAtBounds
 
-            function ensureVisible(r: real)
-            {
+            function ensureVisible(r: var) {
                 if (contentX >= r.x)
                     contentX = r.x;
                 else if (contentX+width <= r.x+r.width)
@@ -190,7 +189,7 @@ ActivityBase {
                     pointSize: (18 + ApplicationSettings.baseFontSize) * ApplicationInfo.fontRatio
                     capitalization: ApplicationSettings.fontCapitalization
                     weight: Font.DemiBold
-                    family: GCSingletonFontLoader.fontLoader.name
+                    family: GCSingletonFontLoader.fontName
                     letterSpacing: ApplicationSettings.fontLetterSpacing
                     wordSpacing: 10
                 }

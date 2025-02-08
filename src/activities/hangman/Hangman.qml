@@ -318,7 +318,7 @@ ActivityBase {
         BarButton {
             id: ok
             source: "qrc:/gcompris/src/core/resource/bar_ok.svg";
-            sourceSize.width: Math.min(score.width, clock.width)
+            width: Math.min(score.width, clock.width)
             visible: false
             anchors {
                 top: score.bottom
@@ -340,7 +340,7 @@ ActivityBase {
                 top: guessedTextBg.bottom
                 margins: 0.025 * parent.width
             }
-            sourceSize.width: 66 * bar.barZoom
+            sourceSize.width: 66 * ApplicationInfo.ratio
             property int remainingLife: items.remainingLife
             onRemainingLifeChanged: {
                 if(remainingLife >= 0) {

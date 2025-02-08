@@ -22,8 +22,6 @@ ActivityBase {
     onStop: {}
     isMusicalActivity: true
 
-    property bool horizontalLayout: width >= height
-
     pageComponent: Rectangle {
         id: background
         anchors.fill: parent
@@ -33,6 +31,7 @@ ActivityBase {
 
         // if audio is disabled, we display a dialog to tell users this activity requires audio anyway
         property bool audioDisabled: false
+        readonly property bool horizontalLayout: width >= height
 
         Component.onCompleted: {
             activity.start.connect(start)
@@ -111,28 +110,30 @@ ActivityBase {
         Rectangle {
             id: instructionBox
             radius: 10
-            width: background.width * 0.7
-            height: background.height / 9
-            anchors.horizontalCenter: parent.horizontalCenter
+            width: instructionText.contentWidth + 20 * ApplicationInfo.ratio
+            height: instructionText.contentHeight + 10 * ApplicationInfo.ratio
+            anchors.centerIn: instructionText
             opacity: 0.8
-            border.width: 6
+            border.width: 2 * ApplicationInfo.ratio
             color: "white"
             border.color: "#87A6DD"
+        }
 
-            GCText {
-                id: instructionText
-                color: "black"
-                z: 3
-                anchors.fill: parent
-                anchors.rightMargin: parent.width * 0.02
-                anchors.leftMargin: parent.width * 0.02
-                horizontalAlignment: Text.AlignHCenter
-                verticalAlignment: Text.AlignVCenter
-                fontSizeMode: Text.Fit
-                wrapMode: Text.WordWrap
-                text: items.isMetronomeVisible ? qsTr("Use the metronome to estimate the time intervals and play the rhythm correctly.")
-                                               : qsTr("Follow the vertical line and click on the drum or press space key to play the rhythm correctly.")
-            }
+        GCText {
+            id: instructionText
+            color: "#303030"
+            anchors.right: score.left
+            anchors.left: parent.left
+            anchors.top: parent.top
+            anchors.margins: 20 * ApplicationInfo.ratio
+            height: score.height
+            horizontalAlignment: Text.AlignHCenter
+            verticalAlignment: Text.AlignVCenter
+            fontSize: mediumSize
+            fontSizeMode: Text.Fit
+            wrapMode: Text.WordWrap
+            text: items.isMetronomeVisible ? qsTr("Use the metronome to estimate the time intervals and play the rhythm correctly.")
+            : qsTr("Follow the vertical line and click on the drum or press space key to play the rhythm correctly.")
         }
 
         Timer {
@@ -201,21 +202,20 @@ ActivityBase {
             anchors.top: background.top
             anchors.bottom: undefined
             numberOfSubLevels: 3
-            width: horizontalLayout ? parent.width / 10 : (parent.width - instructionBox.x - instructionBox.width - 1.5 * anchors.rightMargin)
             onStop: Activity.nextSubLevel()
         }
 
         MultipleStaff {
             id: multipleStaff
-            width: horizontalLayout ? parent.width * 0.6 : parent.width * 0.9
-            height: horizontalLayout ? parent.height * 1.1 : parent.height * 0.76
+            width: background.horizontalLayout ? parent.width * 0.6 : parent.width * 0.9
+            height: background.horizontalLayout ? parent.height * 1.1 : parent.height * 0.76
             bpmValue: 90
             nbStaves: 1
             clef: clefType
             isFlickable: false
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.top: parent.top
-            anchors.topMargin: horizontalLayout ? 0 : parent.height * 0.1
+            anchors.topMargin: background.horizontalLayout ? 0 : parent.height * 0.1
             centerNotesPosition: true
             firstCenteredNotePosition: width / (2 * (musicElementModel.count - 1))
             spaceBetweenNotes: width / (2.5 * (musicElementModel.count - 1))
@@ -230,7 +230,7 @@ ActivityBase {
         Image {
             id: tempo
             source: "qrc:/gcompris/src/activities/play_rhythm/resource/drumhead.svg"
-            width: horizontalLayout ? parent.width / 7 : parent.width / 4
+            width: background.horizontalLayout ? parent.width / 7 : parent.width / 4
             sourceSize.width: width
             fillMode: Image.PreserveAspectFit
             anchors.top: metronome.top

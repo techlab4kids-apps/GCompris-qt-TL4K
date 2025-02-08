@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"PO-Revision-Date: 2024-09-02 16:37+0300\n"
+"PO-Revision-Date: 2024-12-16 16:48+0200\n"
 "Last-Translator: Toms Trasuns <toms.trasuns@posteo.net>\n"
 "Language-Team: Latvian <kde-i18n-doc@kde.org>\n"
 "Language: lv\n"
@@ -13,41 +13,41 @@ msgstr ""
 "2);\n"
 "X-Language: lv\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Lokalize 24.08.0\n"
+"X-Generator: Lokalize 24.08.3\n"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:19
-#: activities/clickanddraw/ActivityConfig.qml:21
-#: activities/drawletters/ActivityConfig.qml:21
-#: activities/drawnumbers/ActivityConfig.qml:21
-#: activities/enumerate/ActivityConfig.qml:21
-#: activities/erase/ActivityConfig.qml:21
-#: activities/erase_2clic/ActivityConfig.qml:21
-#: activities/erase_clic/ActivityConfig.qml:21
-#: activities/money/ActivityConfig.qml:21
-#: activities/money_back/ActivityConfig.qml:21
-#: activities/money_back_cents/ActivityConfig.qml:21
-#: activities/money_cents/ActivityConfig.qml:21
-#: activities/number_sequence/ActivityConfig.qml:22
+#: activities/clickanddraw/ActivityConfig.qml:22
+#: activities/drawletters/ActivityConfig.qml:22
+#: activities/drawnumbers/ActivityConfig.qml:22
+#: activities/enumerate/ActivityConfig.qml:22
+#: activities/erase/ActivityConfig.qml:22
+#: activities/erase_2clic/ActivityConfig.qml:22
+#: activities/erase_clic/ActivityConfig.qml:22
+#: activities/money/ActivityConfig.qml:22
+#: activities/money_back/ActivityConfig.qml:22
+#: activities/money_back_cents/ActivityConfig.qml:22
+#: activities/money_cents/ActivityConfig.qml:22
+#: activities/number_sequence/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "Automatic"
 msgstr "Automātiski"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:20
-#: activities/enumerate/ActivityConfig.qml:22
-#: activities/money/ActivityConfig.qml:22
-#: activities/money_back/ActivityConfig.qml:22
-#: activities/money_back_cents/ActivityConfig.qml:22
-#: activities/money_cents/ActivityConfig.qml:22
+#: activities/enumerate/ActivityConfig.qml:23
+#: activities/money/ActivityConfig.qml:23
+#: activities/money_back/ActivityConfig.qml:23
+#: activities/money_back_cents/ActivityConfig.qml:23
+#: activities/money_cents/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "OK button"
 msgstr "„Labi“ poga"
 
 #: activities/adjacent_numbers/ActivityConfig.qml:30
-#: activities/enumerate/ActivityConfig.qml:32
-#: activities/money/ActivityConfig.qml:32
-#: activities/money_back/ActivityConfig.qml:32
-#: activities/money_back_cents/ActivityConfig.qml:32
-#: activities/money_cents/ActivityConfig.qml:32
+#: activities/enumerate/ActivityConfig.qml:33
+#: activities/money/ActivityConfig.qml:33
+#: activities/money_back/ActivityConfig.qml:33
+#: activities/money_back_cents/ActivityConfig.qml:33
+#: activities/money_cents/ActivityConfig.qml:33
 msgctxt "ActivityConfig|"
 msgid "Validate answers"
 msgstr "Pārbaudīt atbildes"
@@ -140,7 +140,7 @@ msgstr "Atrodi skaitļus starp −10 un 10."
 #: activities/advanced_colors/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Advanced colors"
-msgstr "Papildu krāsas"
+msgstr "Neparastās krāsas"
 
 #. Help title
 #: activities/advanced_colors/ActivityInfo.qml:17
@@ -205,7 +205,7 @@ msgstr ""
 #: activities/graph-coloring/ActivityInfo.qml:25
 #: activities/gravity/ActivityInfo.qml:28
 #: activities/guess24/ActivityInfo.qml:24
-#: activities/guessnumber/ActivityInfo.qml:24
+#: activities/guessnumber/ActivityInfo.qml:25
 #: activities/instruments/ActivityInfo.qml:24
 #: activities/land_safe/ActivityInfo.qml:28 activities/lang/ActivityInfo.qml:33
 #: activities/learn_additions/ActivityInfo.qml:24
@@ -260,6 +260,7 @@ msgstr ""
 #: activities/redraw_symmetrical/ActivityInfo.qml:25
 #: activities/roman_numerals/ActivityInfo.qml:25
 #: activities/simplepaint/ActivityInfo.qml:24
+#: activities/sketch/ActivityInfo.qml:28
 #: activities/smallnumbers/ActivityInfo.qml:25
 #: activities/smallnumbers2/ActivityInfo.qml:25
 #: activities/solar_system/ActivityInfo.qml:27
@@ -334,7 +335,7 @@ msgstr "Atstarpes taustiņā vai „Enter“: atlasiet vienumu"
 #: activities/advanced_colors/advanced_colors.js:530
 msgctxt "advanced_colors|"
 msgid "Find the coral butterfly"
-msgstr "Sameklē koraļļu taureni"
+msgstr "Sameklē koraļkrāsas taureni"
 
 #. Color #7F1734
 #: activities/advanced_colors/advanced_colors.js:20
@@ -361,14 +362,14 @@ msgstr "Sameklē tumšzilo taureni"
 #: activities/advanced_colors/advanced_colors.js:67
 msgctxt "advanced_colors|"
 msgid "Find the corn butterfly"
-msgstr "Sameklē kukurūzas taureni"
+msgstr "Sameklē kukurūzas krāsas taureni"
 
 #. Color #0047AB
 #: activities/advanced_colors/advanced_colors.js:35
 #: activities/advanced_colors/advanced_colors.js:72
 msgctxt "advanced_colors|"
 msgid "Find the cobalt butterfly"
-msgstr "Sameklē kobalta taureni"
+msgstr "Sameklē kobalta krāsas taureni"
 
 #. Color #00FFFF
 #: activities/advanced_colors/advanced_colors.js:40
@@ -387,28 +388,28 @@ msgstr "Sameklē ciāna taureni"
 #: activities/advanced_colors/advanced_colors.js:688
 msgctxt "advanced_colors|"
 msgid "Find the chestnut butterfly"
-msgstr "Sameklē kastaņbrūnu taureni"
+msgstr "Sameklē kastaņbrūno taureni"
 
 #. Color #AB784E
 #: activities/advanced_colors/advanced_colors.js:50
 #: activities/advanced_colors/advanced_colors.js:87
 msgctxt "advanced_colors|"
 msgid "Find the almond butterfly"
-msgstr "Sameklē mandeļu taureni"
+msgstr "Sameklē mandeļu krāsas taureni"
 
 #. Color #0F52BA
 #: activities/advanced_colors/advanced_colors.js:62
 #: activities/advanced_colors/advanced_colors.js:844
 msgctxt "advanced_colors|"
 msgid "Find the sapphire butterfly"
-msgstr "Sameklē safīra taureni"
+msgstr "Sameklē safīra krāsas taureni"
 
 #. Color #E0115F
 #: activities/advanced_colors/advanced_colors.js:92
 #: activities/advanced_colors/advanced_colors.js:213
 msgctxt "advanced_colors|"
 msgid "Find the ruby butterfly"
-msgstr "Sameklē rubīna taureni"
+msgstr "Sameklē rubīna krāsas taureni"
 
 #. Color #882D17
 #: activities/advanced_colors/advanced_colors.js:99
@@ -421,7 +422,7 @@ msgstr "Sameklē sjēna taureni"
 #: activities/advanced_colors/advanced_colors.js:104
 msgctxt "advanced_colors|"
 msgid "Find the sage butterfly"
-msgstr "Sameklē salvijas taureni"
+msgstr "Sameklē salvijas krāsas taureni"
 
 #. Color #FF8C69
 #: activities/advanced_colors/advanced_colors.js:109
@@ -443,14 +444,14 @@ msgstr "Sameklē sēpijas taureni"
 #: activities/advanced_colors/advanced_colors.js:119
 msgctxt "advanced_colors|"
 msgid "Find the sulfur butterfly"
-msgstr "Sameklē sēra taureni"
+msgstr "Sameklē sēra krāsas taureni"
 
 #. Color #DB6D7B
 #: activities/advanced_colors/advanced_colors.js:124
 #: activities/advanced_colors/advanced_colors.js:814
 msgctxt "advanced_colors|"
 msgid "Find the tea butterfly"
-msgstr "Sameklē tējas taureni"
+msgstr "Sameklē tējas krāsas taureni"
 
 #. Color #BFFF00
 #: activities/advanced_colors/advanced_colors.js:129
@@ -468,13 +469,13 @@ msgstr "Sameklē tirkīza taureni"
 #: activities/advanced_colors/advanced_colors.js:141
 msgctxt "advanced_colors|"
 msgid "Find the absinthe butterfly"
-msgstr "Sameklē absinta taureni"
+msgstr "Sameklē absinta krāsas taureni"
 
 #. Color #C04000
 #: activities/advanced_colors/advanced_colors.js:146
 msgctxt "advanced_colors|"
 msgid "Find the mahogany butterfly"
-msgstr "Sameklē sarkankoka taureni"
+msgstr "Sameklē sarkankoka krāsas taureni"
 
 #. Color #7FFFD4
 #: activities/advanced_colors/advanced_colors.js:151
@@ -488,20 +489,20 @@ msgstr "Sameklē akvamarīna taureni"
 #: activities/advanced_colors/advanced_colors.js:520
 msgctxt "advanced_colors|"
 msgid "Find the alabaster butterfly"
-msgstr "Sameklē alabastra taureni"
+msgstr "Sameklē alabastra krāsas taureni"
 
 #. Color #FFBF00
 #: activities/advanced_colors/advanced_colors.js:161
 #: activities/advanced_colors/advanced_colors.js:708
 msgctxt "advanced_colors|"
 msgid "Find the amber butterfly"
-msgstr "Sameklē dzintara taureni"
+msgstr "Sameklē dzintara krāsas taureni"
 
 #. Color #9966CC
 #: activities/advanced_colors/advanced_colors.js:166
 msgctxt "advanced_colors|"
 msgid "Find the amethyst butterfly"
-msgstr "Sameklē ametista taureni"
+msgstr "Sameklē ametista krāsas taureni"
 
 #. Color #F5EACC
 #: activities/advanced_colors/advanced_colors.js:171
@@ -509,7 +510,7 @@ msgstr "Sameklē ametista taureni"
 #: activities/advanced_colors/advanced_colors.js:772
 msgctxt "advanced_colors|"
 msgid "Find the anise butterfly"
-msgstr "Sameklē anīsa taureni"
+msgstr "Sameklē anīsa krāsas taureni"
 
 #. Color #E34234
 #: activities/advanced_colors/advanced_colors.js:176
@@ -557,14 +558,14 @@ msgstr "Sameklē smaragda taureni"
 #: activities/advanced_colors/advanced_colors.js:829
 msgctxt "advanced_colors|"
 msgid "Find the aubergine butterfly"
-msgstr "Sameklē baklažāna taureni"
+msgstr "Sameklē baklažāna krāsas taureni"
 
 #. Color #CC397B
 #: activities/advanced_colors/advanced_colors.js:208
 #: activities/advanced_colors/advanced_colors.js:797
 msgctxt "advanced_colors|"
 msgid "Find the fuchsia butterfly"
-msgstr "Sameklē fuksija taureni"
+msgstr "Sameklē fuksīna taureni"
 
 #. Color #6082B6
 #: activities/advanced_colors/advanced_colors.js:218
@@ -577,7 +578,7 @@ msgstr "Sameklē zilpelēku taureni"
 #: activities/advanced_colors/advanced_colors.js:441
 msgctxt "advanced_colors|"
 msgid "Find the auburn butterfly"
-msgstr "Sameklē kastaņbrūnu taureni"
+msgstr "Sameklē kastaņbrūno taureni"
 
 #. Color #458AC6
 #: activities/advanced_colors/advanced_colors.js:235
@@ -604,13 +605,13 @@ msgstr "Sameklē tumšbrūnu taureni"
 #: activities/advanced_colors/advanced_colors.js:671
 msgctxt "advanced_colors|"
 msgid "Find the crimson butterfly"
-msgstr "Sameklē tumšsarkanu taureni"
+msgstr "Sameklē tumšsarkano taureni"
 
 #. Color #ACE1AF
 #: activities/advanced_colors/advanced_colors.js:255
 msgctxt "advanced_colors|"
 msgid "Find the celadon butterfly"
-msgstr "Sameklē zaļpelēku taureni"
+msgstr "Sameklē zaļpelēko taureni"
 
 #. Color #007BA7
 #: activities/advanced_colors/advanced_colors.js:260
@@ -618,20 +619,20 @@ msgstr "Sameklē zaļpelēku taureni"
 #: activities/advanced_colors/advanced_colors.js:777
 msgctxt "advanced_colors|"
 msgid "Find the cerulean butterfly"
-msgstr "Sameklē debeszilu taureni"
+msgstr "Sameklē debeszilo taureni"
 
 #. Color #8B8E8D
 #: activities/advanced_colors/advanced_colors.js:267
 #: activities/advanced_colors/advanced_colors.js:666
 msgctxt "advanced_colors|"
 msgid "Find the dove butterfly"
-msgstr "Sameklē baloža taureni"
+msgstr "Sameklē dūjas krāsas taureni"
 
 #. Color #943543
 #: activities/advanced_colors/advanced_colors.js:272
 msgctxt "advanced_colors|"
 msgid "Find the garnet butterfly"
-msgstr "Sameklē granāta taureni"
+msgstr "Sameklē granāta krāsas taureni"
 
 #. Color #4B0082
 #: activities/advanced_colors/advanced_colors.js:277
@@ -652,19 +653,19 @@ msgstr "Sameklē ziloņkaula taureni"
 #: activities/advanced_colors/advanced_colors.js:287
 msgctxt "advanced_colors|"
 msgid "Find the jade butterfly"
-msgstr "Sameklē nefrīta taureni"
+msgstr "Sameklē nefrīta krāsas taureni"
 
 #. Color #B57EDC
 #: activities/advanced_colors/advanced_colors.js:292
 msgctxt "advanced_colors|"
 msgid "Find the lavender butterfly"
-msgstr "Sameklē lavandas taureni"
+msgstr "Sameklē lavandas krāsas taureni"
 
 #. Color #9BC4AF
 #: activities/advanced_colors/advanced_colors.js:297
 msgctxt "advanced_colors|"
 msgid "Find the lichen butterfly"
-msgstr "Sameklē ķērpja taureni"
+msgstr "Sameklē ķērpja krāsas taureni"
 
 #. Color #722F37
 #: activities/advanced_colors/advanced_colors.js:302
@@ -672,14 +673,14 @@ msgstr "Sameklē ķērpja taureni"
 #: activities/advanced_colors/advanced_colors.js:624
 msgctxt "advanced_colors|"
 msgid "Find the wine butterfly"
-msgstr "Sameklē vīna taureni"
+msgstr "Sameklē vīna krāsas taureni"
 
 #. Color #9955BB
 #: activities/advanced_colors/advanced_colors.js:309
 #: activities/advanced_colors/advanced_colors.js:755
 msgctxt "advanced_colors|"
 msgid "Find the lilac butterfly"
-msgstr "Sameklē ceriņu taureni"
+msgstr "Sameklē ceriņu krāsas taureni"
 
 #. Color #FF00FF
 #: activities/advanced_colors/advanced_colors.js:314
@@ -700,28 +701,28 @@ msgstr "Sameklē malahīta taureni"
 #: activities/advanced_colors/advanced_colors.js:329
 msgctxt "advanced_colors|"
 msgid "Find the larch butterfly"
-msgstr "Sameklē lapegles taureni"
+msgstr "Sameklē lapegles krāsas taureni"
 
 #. Color #EFC050
 #: activities/advanced_colors/advanced_colors.js:334
 #: activities/advanced_colors/advanced_colors.js:493
 msgctxt "advanced_colors|"
 msgid "Find the mimosa butterfly"
-msgstr "Sameklē mimozas taureni"
+msgstr "Sameklē mimozas krāsas taureni"
 
 #. Color #CC7722
 #: activities/advanced_colors/advanced_colors.js:339
 #: activities/advanced_colors/advanced_colors.js:498
 msgctxt "advanced_colors|"
 msgid "Find the ochre butterfly"
-msgstr "Sameklē okera taureni"
+msgstr "Sameklē okera krāsas taureni"
 
 #. Color #808000
 #: activities/advanced_colors/advanced_colors.js:344
 #: activities/advanced_colors/advanced_colors.js:436
 msgctxt "advanced_colors|"
 msgid "Find the olive butterfly"
-msgstr "Sameklē olīvu taureni"
+msgstr "Sameklē olīvu krāsas taureni"
 
 #. Color #F7F9F4
 #: activities/advanced_colors/advanced_colors.js:351
@@ -729,7 +730,7 @@ msgstr "Sameklē olīvu taureni"
 #: activities/advanced_colors/advanced_colors.js:619
 msgctxt "advanced_colors|"
 msgid "Find the opaline butterfly"
-msgstr "Sameklē pienstikla taureni"
+msgstr "Sameklē opalīna krāsas taureni"
 
 #. Color #120A8F
 #: activities/advanced_colors/advanced_colors.js:361
@@ -744,7 +745,7 @@ msgstr "Sameklē ultramarīna taureni"
 #: activities/advanced_colors/advanced_colors.js:540
 msgctxt "advanced_colors|"
 msgid "Find the mauve butterfly"
-msgstr "Sameklē gaišsārti violetu taureni"
+msgstr "Sameklē gaišsārti violeto taureni"
 
 #. Color #91A3B0
 #: activities/advanced_colors/advanced_colors.js:371
@@ -752,7 +753,7 @@ msgstr "Sameklē gaišsārti violetu taureni"
 #: activities/advanced_colors/advanced_colors.js:745
 msgctxt "advanced_colors|"
 msgid "Find the grayish blue butterfly"
-msgstr "Sameklē pelēcīgi zilu taureni"
+msgstr "Sameklē pelēcīgi zilo taureni"
 
 #. Color #93C572
 #: activities/advanced_colors/advanced_colors.js:376
@@ -760,14 +761,14 @@ msgstr "Sameklē pelēcīgi zilu taureni"
 #: activities/advanced_colors/advanced_colors.js:839
 msgctxt "advanced_colors|"
 msgid "Find the pistachio butterfly"
-msgstr "Sameklē pistācijas taureni"
+msgstr "Sameklē pistācijas krāsas taureni"
 
 #. Color #AEADA5
 #: activities/advanced_colors/advanced_colors.js:381
 #: activities/advanced_colors/advanced_colors.js:656
 msgctxt "advanced_colors|"
 msgid "Find the platinum butterfly"
-msgstr "Sameklē platīna taureni"
+msgstr "Sameklē platīna krāsas taureni"
 
 #. Color #32004A
 #: activities/advanced_colors/advanced_colors.js:386
@@ -775,7 +776,7 @@ msgstr "Sameklē platīna taureni"
 #: activities/advanced_colors/advanced_colors.js:807
 msgctxt "advanced_colors|"
 msgid "Find the purple butterfly"
-msgstr "Sameklē purpura taureni"
+msgstr "Sameklē purpura krāsas taureni"
 
 #. Color #5C3960
 #: activities/advanced_colors/advanced_colors.js:393
@@ -792,7 +793,7 @@ msgstr "Sameklē plūmes krāsas taureni"
 #: activities/advanced_colors/advanced_colors.js:503
 msgctxt "advanced_colors|"
 msgid "Find the prussian blue butterfly"
-msgstr "Sameklē prūšu zilu taureni"
+msgstr "Sameklē prūšu zilo taureni"
 
 #. Color #B7410E
 #: activities/advanced_colors/advanced_colors.js:403
@@ -801,19 +802,19 @@ msgstr "Sameklē prūšu zilu taureni"
 #: activities/advanced_colors/advanced_colors.js:834
 msgctxt "advanced_colors|"
 msgid "Find the rust butterfly"
-msgstr "Sameklē rūsas taureni"
+msgstr "Sameklē rūsas krāsas taureni"
 
 #. Color #F4C430
 #: activities/advanced_colors/advanced_colors.js:408
 msgctxt "advanced_colors|"
 msgid "Find the saffron butterfly"
-msgstr "Sameklē safrāna taureni"
+msgstr "Sameklē safrāna krāsas taureni"
 
 #. Color #F3E5AB
 #: activities/advanced_colors/advanced_colors.js:413
 msgctxt "advanced_colors|"
 msgid "Find the vanilla butterfly"
-msgstr "Sameklē vaniļas taureni"
+msgstr "Sameklē vaniļas krāsas taureni"
 
 #. Color #40826D
 #: activities/advanced_colors/advanced_colors.js:418
@@ -827,7 +828,7 @@ msgstr "Sameklē veroneses taureni"
 #: activities/advanced_colors/advanced_colors.js:792
 msgctxt "advanced_colors|"
 msgid "Find the verdigris butterfly"
-msgstr "Sameklē apsūbējušu taureni"
+msgstr "Sameklē apsūbējušo taureni"
 
 #. Color #32004A
 #: activities/advanced_colors/advanced_colors.js:428
@@ -837,18 +838,18 @@ msgstr "Sameklē apsūbējušu taureni"
 #: activities/advanced_colors/advanced_colors.js:819
 msgctxt "advanced_colors|"
 msgid "Find the dark purple butterfly"
-msgstr "Sameklē tumši purpura taureni"
+msgstr "Sameklē tumšā purpura krāsas taureni"
 
-#: activities/algebra_by/ActivityConfig.qml:26
-#: activities/algebra_div/ActivityConfig.qml:27
-#: activities/algebra_minus/ActivityConfig.qml:27
-#: activities/algebra_plus/ActivityConfig.qml:27
+#: activities/algebra_by/ActivityConfig.qml:27
+#: activities/algebra_div/ActivityConfig.qml:28
+#: activities/algebra_minus/ActivityConfig.qml:28
+#: activities/algebra_plus/ActivityConfig.qml:28
 #: activities/gletters/ActivityConfig.qml:49
-#: activities/note_names/ActivityConfig.qml:28
+#: activities/note_names/ActivityConfig.qml:29
 #: activities/readingh/ActivityConfig.qml:43
 #: activities/readingv/ActivityConfig.qml:43
-#: activities/smallnumbers/ActivityConfig.qml:28
-#: activities/smallnumbers2/ActivityConfig.qml:41
+#: activities/smallnumbers/ActivityConfig.qml:29
+#: activities/smallnumbers2/ActivityConfig.qml:42
 #: activities/wordsgame/ActivityConfig.qml:49
 msgctxt "ActivityConfig|"
 msgid "Speed"
@@ -899,7 +900,7 @@ msgstr ""
 #: activities/smallnumbers2/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Digits: type your answer"
-msgstr "Cipari: ieraksti atbildi"
+msgstr "Cipari: raksti atbildi"
 
 #: activities/algebra_by/ActivityInfo.qml:27
 #: activities/algebra_div/ActivityInfo.qml:27
@@ -1311,7 +1312,7 @@ msgstr ""
 #: activities/align4/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Align four (against Tux)"
-msgstr "Izkārto četrus (pret Tuksu)"
+msgstr "Četri rindā (pret Tuksu)"
 
 #. Help title
 #: activities/align4/ActivityInfo.qml:17
@@ -1335,7 +1336,7 @@ msgid ""
 "token. The first player to create a line of 4 tokens wins."
 msgstr ""
 "Spēlē spēli ar Tuksu. Pēc kārtas klikšķini uz rindas, kurā vēlies nomest "
-"žetonu. Uzvar pirmais spēlētājs, kurš izveidot rindu ar četriem žetoniem."
+"žetonu. Uzvar pirmais spēlētājs, kurš izveido rindu ar četriem žetoniem."
 
 #: activities/align4/ActivityInfo.qml:23
 #: activities/align4_2players/ActivityInfo.qml:23
@@ -1390,7 +1391,7 @@ msgid ""
 "token. The first player to create a line of 4 tokens wins."
 msgstr ""
 "Spēlē spēli ar draugu. Pēc kārtas klikšķiniet uz rindas, kurā vēlaties "
-"nomest žetonu. Uzvar pirmais spēlētājs, kurš izveidot rindu ar četriem "
+"nomest žetonu. Uzvar pirmais spēlētājs, kurš izveido rindu ar četriem "
 "žetoniem."
 
 #. Activity title
@@ -1444,25 +1445,25 @@ msgctxt "AlphabetSequence|"
 msgid "a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z"
 msgstr "a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z"
 
-#: activities/analog_electricity/ActivityConfig.qml:22
-#: activities/digital_electricity/ActivityConfig.qml:22
+#: activities/analog_electricity/ActivityConfig.qml:23
+#: activities/digital_electricity/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "Tutorial Mode"
 msgstr "Mācību režīms"
 
-#: activities/analog_electricity/ActivityConfig.qml:23
-#: activities/digital_electricity/ActivityConfig.qml:23
+#: activities/analog_electricity/ActivityConfig.qml:24
+#: activities/digital_electricity/ActivityConfig.qml:24
 msgctxt "ActivityConfig|"
 msgid "Free Mode"
 msgstr "Brīvais režīms"
 
-#: activities/analog_electricity/ActivityConfig.qml:32
-#: activities/digital_electricity/ActivityConfig.qml:32
-#: activities/graph-coloring/ActivityConfig.qml:31
+#: activities/analog_electricity/ActivityConfig.qml:33
+#: activities/digital_electricity/ActivityConfig.qml:33
+#: activities/graph-coloring/ActivityConfig.qml:32
 #: activities/guesscount/ActivityConfig.qml:39
-#: activities/solar_system/ActivityConfig.qml:31
-#: activities/superbrain/ActivityConfig.qml:31
-#: activities/traffic/ActivityConfig.qml:31
+#: activities/solar_system/ActivityConfig.qml:32
+#: activities/superbrain/ActivityConfig.qml:32
+#: activities/traffic/ActivityConfig.qml:32
 msgctxt "ActivityConfig|"
 msgid "Select your mode"
 msgstr "Atlasi režīmu"
@@ -1769,8 +1770,8 @@ msgid ""
 "Turn on the bulb using the provided battery. To connect two terminals, click "
 "on a terminal, then on a second terminal."
 msgstr ""
-"Ieslēdziet spuldzi, izmantojot sniegto bateriju. Lai savienotu divus galus, "
-"spiediet uz viena gala, bet pēc tam uz otra gala."
+"Ieslēdz spuldzi, izmantojot sniegto bateriju. Lai savienotu divus galus, "
+"spied uz viena gala, bet pēc tam uz otra gala."
 
 #: activities/analog_electricity/TutorialDataset.qml:117
 msgctxt "TutorialDataset|"
@@ -1778,8 +1779,8 @@ msgid ""
 "When connecting two terminals which are not supposed to be connected, it "
 "creates a short circuit (also called short) in the electrical circuit."
 msgstr ""
-"Kad savienojat divus termināļus, kurus nav paredzēts savienot, elektriskajā "
-"ķēdē iegūstat īssavienojumu."
+"Savienojot divus termināļus, kurus nav paredzēts savienot, elektriskajā ķēdē "
+"rodas īssavienojums."
 
 #: activities/analog_electricity/TutorialDataset.qml:118
 msgctxt "TutorialDataset|"
@@ -2094,7 +2095,7 @@ msgid ""
 "    Other keys will just play a click sound.\n"
 "    "
 msgstr ""
-"Ieraksti jebkuru tastatūras taustiņu.\n"
+"Nospied jebkuru tastatūras taustiņu.\n"
 "    Burti, skaitļi un citi rakstzīmju taustiņu ekrānā parādīs atbilstošo "
 "rakstzīmi.\n"
 "    Ja taustiņam ir atbilstoša balss, tad programma to atskaņos, bet pretējā "
@@ -2120,7 +2121,7 @@ msgctxt "ActivityInfo|"
 msgid ""
 "Provide audio-visual feedback when using the mouse to help discovering its "
 "usage for young children."
-msgstr "Audiovizuāla atgriezeniskā saite bērnam palīdz iemācīties lietot peli."
+msgstr "Audiovizuāla atgriezeniskā saite palīdz bērnam mācīties lietot peli."
 
 #. Help prerequisite
 #: activities/baby_mouse/ActivityInfo.qml:21
@@ -2205,7 +2206,7 @@ msgstr ""
 "Pārvieto gabaliņu, to velkot. Ja nepieciešams, izmanto pagriešanas pogu. "
 "„Tangram“ aktivitāte satur sarežģītākus līmeņus."
 
-#: activities/baby_wordprocessor/ActivityConfig.qml:26
+#: activities/baby_wordprocessor/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
 msgid "Play characters' sound when typed"
 msgstr "Rakstot atskaņo rakstzīmes skaņu"
@@ -2316,13 +2317,13 @@ msgstr "Saglabāt"
 #: activities/babymatch/ActivityInfo.qml:18
 msgctxt "ActivityInfo|"
 msgid "Matching items"
-msgstr "Atbilstošie vienumi"
+msgstr "Atbilstošie priekšmeti"
 
 #. Help title
 #: activities/babymatch/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Drag and drop the items to match them."
-msgstr "Velc un nomet vienumus, norādot atbilstību."
+msgstr "Velc un nomet, lai tie atbilstu"
 
 #. Help goal
 #: activities/babymatch/ActivityInfo.qml:23
@@ -2345,20 +2346,21 @@ msgid ""
 "logically to one object in the main board area. Drag each object from the "
 "side panel to the correct spot in the main area."
 msgstr ""
-"Pamata zonā parādās dažādi objekti. Sānu panelī redzami citi objekti. Katrs "
-"objekts sānu panelī loģiski atbilst vienam objektam pamata spēles zonā. Velc "
-"katru objektu no sānu paneļa uz attiecīgo vietu galvenajā spēles zonā."
+"Galvenajā zonā parādās dažādi objekti. Sānu panelī redzami citi objekti. "
+"Katrs objekts sānu panelī loģiski atbilst vienam objektam galvenajā spēles "
+"zonā. Velc katru objektu no sānu paneļa uz attiecīgo vietu galvenajā spēles "
+"zonā."
 
 #: activities/babymatch/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
 msgid "Drag and drop the items to match them."
-msgstr "Velc un nomet vienumus, lai norādītu to atbilstības."
+msgstr "Velc un nomet, lai norādītu to atbilstības."
 
 #. Activity title
 #: activities/babyshapes/ActivityInfo.qml:19
 msgctxt "ActivityInfo|"
 msgid "Complete the puzzle"
-msgstr "Pabeidziet puzli"
+msgstr "Saliec puzli"
 
 #. Help title
 #: activities/babyshapes/ActivityInfo.qml:21
@@ -2382,12 +2384,12 @@ msgstr "Saliec puzli, velkot katru sānos esošo gabalu uz atbilstošo vietu."
 #: activities/babyshapes/ActivityInfo.qml:28
 msgctxt "ActivityInfo|"
 msgid "The dog is provided by Andre Connes and released under the GPL"
-msgstr "Suni nodrošināja Andre Connes un tas ir licencēts ar GPL licenci"
+msgstr "Sunīti sniedza Andre Connes un tas ir licencēts ar GPL licenci"
 
 #: activities/babyshapes/resource/board/board1_0.qml:14
 msgctxt "board1_0|"
 msgid "Drag and Drop the items to match them."
-msgstr "Velc un nomet vienumus, lai atrastu to atbilstības."
+msgstr "Velc un nomet, lai norādītu to atbilstības."
 
 #: activities/babyshapes/resource/board/board5_0.qml:14
 msgctxt "board5_0|"
@@ -2644,7 +2646,7 @@ msgstr ""
 
 #: activities/balancebox/Balancebox.qml:72
 msgctxt "Balancebox|"
-msgid "Ok"
+msgid "OK"
 msgstr "Labi"
 
 #: activities/balancebox/editor/balanceboxeditor.js:254
@@ -2694,8 +2696,8 @@ msgid ""
 "Press the left and right arrow keys at the same time, to make the ball go in "
 "a straight line."
 msgstr ""
-"Spied bultu pogas pa kreisi un pa labi reizē, lai liktu bumbai ripot taisnā "
-"līnijā."
+"Spied bultiņu pogas pa kreisi un pa labi reizē, lai liktu bumbai ripot "
+"taisnā līnijā."
 
 #. Help goal
 #: activities/ballcatch/ActivityInfo.qml:20
@@ -2714,41 +2716,41 @@ msgstr ""
 "Spied reizē kreiso un labo pogu, lai liktu bumbiņai ripot taisnā līnijā. Ja "
 "lieto skārienjutīgu ekrānu, pieskaries tam ar abām rokām vienlaicīgi."
 
-#: activities/ballcatch/Ballcatch.qml:228
+#: activities/ballcatch/Ballcatch.qml:226
 msgctxt "Ballcatch|"
 msgid ""
 "Tap both hands at the same time, to make the ball go in a straight line."
 msgstr "Spied ar abām rokām reizē, lai liktu bumbai ripot taisnā līnijā."
 
-#: activities/ballcatch/Ballcatch.qml:230
+#: activities/ballcatch/Ballcatch.qml:228
 msgctxt "Ballcatch|"
 msgid ""
 "Press left and right arrow keys at the same time, to make the ball go in a "
 "straight line."
 msgstr ""
-"Spied bultas pa kreisi un pa labi reizē, lai liktu bumbai ripot taisnā "
+"Spied bultiņas pa kreisi un pa labi reizē, lai liktu bumbai ripot taisnā "
 "līnijā."
-
-#: activities/bargame/ActivityConfig.qml:21
-#: activities/bargame_2players/ActivityConfig.qml:21
-msgctxt "ActivityConfig|"
-msgid "Easy"
-msgstr "Viegli"
 
 #: activities/bargame/ActivityConfig.qml:22
 #: activities/bargame_2players/ActivityConfig.qml:22
 msgctxt "ActivityConfig|"
-msgid "Medium"
-msgstr "Vidēji"
+msgid "Easy"
+msgstr "Viegli"
 
 #: activities/bargame/ActivityConfig.qml:23
 #: activities/bargame_2players/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
+msgid "Medium"
+msgstr "Vidēji"
+
+#: activities/bargame/ActivityConfig.qml:24
+#: activities/bargame_2players/ActivityConfig.qml:24
+msgctxt "ActivityConfig|"
 msgid "Difficult"
 msgstr "Sarežģītība"
 
-#: activities/bargame/ActivityConfig.qml:32
-#: activities/bargame_2players/ActivityConfig.qml:32
+#: activities/bargame/ActivityConfig.qml:33
+#: activities/bargame_2players/ActivityConfig.qml:33
 msgctxt "ActivityConfig|"
 msgid "Select your difficulty"
 msgstr "Atlasiet sarežģītību"
@@ -2861,9 +2863,9 @@ msgid ""
 "and 1. Mathematically, these states are represented by 0 and 1, which makes "
 "up the binary system of numeration."
 msgstr ""
-"Datori skaitīšanai izmanto tranzistorus, bet tiem ir tikai divi stāvokļi — 0 "
-"un 1. Matemātiski šos stāvokļus reprezentē ar 0 un 1, kas veido pamatu "
-"skaitīšanai binārajā sistēmā."
+"Datori skaitīšanai izmanto tranzistorus, bet tiem ir tikai divi stāvokļi — "
+"izslēgts un ieslēgts. Matemātiski šos stāvokļus reprezentē ar 0 un 1, kas "
+"veido pamatu skaitīšanai binārajā sistēmā."
 
 #: activities/binary_bulb/binary_bulb.js:28
 msgctxt "binary_bulb|"
@@ -2889,7 +2891,7 @@ msgid ""
 "bit 4 → 2³=8 , bit 5 → 2⁴=16 , bit 6 → 2⁵=32 , bit 7 → 2⁶=64 , bit 8 → "
 "2⁷=128."
 msgstr ""
-"Katrs bits pievieno papildu vērtību atbilstoši kāpināšanai ar divi un labās "
+"Katrs bits pievieno papildu vērtību atbilstoši kāpināšanai ar divi no labās "
 "uz kreiso pusi: 1. bits → 2⁰=1, 2. bits → 2¹=2 , 3. bits → 2²=4 , 4. bits → "
 "2³=8 , 5. bits → 2⁴=16 , 6. bits → 2⁵=32 , 7. bits → 2⁶=64 , 8. bits → "
 "2⁷=128."
@@ -2905,8 +2907,8 @@ msgid ""
 "Their corresponding bits are set to 1, the others are set to 0. Decimal 5 is "
 "equal to binary 101."
 msgstr ""
-"To atbilstoši biti ir 1, bet pārējie ir 0. Decimālskaitlis 5 binārā "
-"izteiksmē ir 101."
+"Šiem skaitļiem atbilstošie biti ir 1, bet pārējie ir 0. Decimālskaitlis 5 "
+"binārā izteiksmē ir 101."
 
 #: activities/binary_bulb/binary_bulb.js:48
 msgctxt "binary_bulb|"
@@ -2917,7 +2919,7 @@ msgstr "Šis attēls ļaus aprēķināt bitu vērtību."
 #, qt-format
 msgctxt "BinaryBulb|"
 msgid "What is the binary representation of %1?"
-msgstr "Kāda ir %1 izteiksme binārā formā?"
+msgstr "Pārveido skaitli %1 binārā formā!"
 
 #: activities/binary_bulb/resource/tutorial4.qml:29
 msgctxt "tutorial4|"
@@ -3266,37 +3268,37 @@ msgctxt "ActivityInfo|"
 msgid "Space or Enter: validate your answer"
 msgstr "Atstarpe vai „Enter“: pārbaudīt atbildi"
 
-#: activities/calendar/Calendar.qml:322
+#: activities/calendar/Calendar.qml:316
 msgctxt "Calendar|"
 msgid "Sunday"
 msgstr "Svētdiena"
 
-#: activities/calendar/Calendar.qml:323
+#: activities/calendar/Calendar.qml:317
 msgctxt "Calendar|"
 msgid "Monday"
 msgstr "Pirmdiena"
 
-#: activities/calendar/Calendar.qml:324
+#: activities/calendar/Calendar.qml:318
 msgctxt "Calendar|"
 msgid "Tuesday"
 msgstr "Otrdiena"
 
-#: activities/calendar/Calendar.qml:325
+#: activities/calendar/Calendar.qml:319
 msgctxt "Calendar|"
 msgid "Wednesday"
 msgstr "Trešdiena"
 
-#: activities/calendar/Calendar.qml:326
+#: activities/calendar/Calendar.qml:320
 msgctxt "Calendar|"
 msgid "Thursday"
 msgstr "Ceturtdiena"
 
-#: activities/calendar/Calendar.qml:327
+#: activities/calendar/Calendar.qml:321
 msgctxt "Calendar|"
 msgid "Friday"
 msgstr "Piektdiena"
 
-#: activities/calendar/Calendar.qml:328
+#: activities/calendar/Calendar.qml:322
 msgctxt "Calendar|"
 msgid "Saturday"
 msgstr "Sestdiena"
@@ -3573,48 +3575,48 @@ msgstr ""
 "Tavs uzdevums ir vadīt kanāla slūžas. Atver vārtus un slūžas pareizā secībā, "
 "lai Tukss var izbraukt cauri slūžām abos virzienos."
 
-#: activities/canal_lock/CanalLock.qml:82
+#: activities/canal_lock/CanalLock.qml:74
 msgctxt "CanalLock|"
 msgid ""
 "Your goal is to lead Tux across the canal lock to get the wooden logs, using "
 "the different types of water locks available."
 msgstr ""
-"Tavs mērķis ir vadīt Tuksu pāri kanāla slūžām, lai iegūtu malku, izveidojot "
-"dažāda veida ūdens slūžas."
+"Tavs mērķis ir vadīt Tuksu pāri kanāla slūžām pēc malkas, izmantojot dažāda "
+"veida ūdens slūžas."
 
-#: activities/canal_lock/CanalLock.qml:84
+#: activities/canal_lock/CanalLock.qml:76
 msgctxt "CanalLock|"
 msgid ""
 "The vertical colored bars represent the water locks, which can be operated "
 "by clicking on them. Two locks of the same type cannot be operated "
 "simultaneously."
 msgstr ""
-"Vertikālās joslas norāda uz slūžām, kuras vari vadīt, uz tām spiežot. "
-"Vienlaicīgi nevar darbināt viena veida slūžas."
+"Vertikālās joslas ir slūžas. Tās vari vadīt, uz tām spiežot. Vienlaicīgi "
+"nevari darbināt divas viena veida slūžas."
 
-#: activities/canal_lock/CanalLock.qml:86
+#: activities/canal_lock/CanalLock.qml:78
 msgctxt "CanalLock|"
 msgid ""
 "The water level inside the lock will change according to the side of the "
 "canal it is connected to. Use this property to help Tux get the job done."
 msgstr ""
-"Ūdens līmenis slūžās mainīsies atbilstoši kanāla malai, ar kuru tās ir "
-"savienotas. Izmanto šo īpašību, lai palīdzētu Tuksam padarīt darbu."
+"Ūdens līmenis slūžās mainīsies atbilstoši tai kanāla pusei, ar kuru tās ir "
+"savienotas. Izmanto šo īpašību, lai palīdzētu Tuksam izdarīt darbu."
 
 #: activities/categorization/ActivityConfig.qml:38
 msgctxt "ActivityConfig|"
 msgid "Put together all the items from a category (with score)"
-msgstr "Savienot visus vienumus kategorijā (ar punktiem)"
+msgstr "Saliec kopā visu no kategorijas (ar punktiem)"
 
 #: activities/categorization/ActivityConfig.qml:50
 msgctxt "ActivityConfig|"
 msgid "Put together all the items from a category (without score)"
-msgstr "Savieno visus vienumus kategorijā (bez punktiem)"
+msgstr "Saliec kopā visu kategorijā (bez punktiem)"
 
 #: activities/categorization/ActivityConfig.qml:62
 msgctxt "ActivityConfig|"
 msgid "Discover a category, grouping items together"
-msgstr "Atklāj kategoriju, apvienojot vienumus"
+msgstr "Atklāj kategoriju, apvienojot līdzīgos"
 
 #. Activity title
 #: activities/categorization/ActivityInfo.qml:15
@@ -3626,7 +3628,7 @@ msgstr "Sakārtošana pēc veida"
 #: activities/categorization/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Categorize the items into correct and incorrect groups."
-msgstr "Sakārto vienumus pēc veida pareizās un nepareizās grupās."
+msgstr "Sakārto pēc veida pareizās un nepareizās grupās."
 
 #. Help goal
 #: activities/categorization/ActivityInfo.qml:20
@@ -3638,13 +3640,13 @@ msgstr "Attīsti konceptuālo domāšanu un bagātini zināšanas."
 #: activities/categorization/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Can drag items using a mouse or touchscreen."
-msgstr "Vari vilkt vienumus, izmantojot peli vai skārienekrānu."
+msgstr "Vari attēlus vilkt, izmantojot peli vai skārienekrānu."
 
 #. Help manual
 #: activities/categorization/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Review the instructions and then drag and drop the items as specified."
-msgstr "Pārskati instrukcijas un velc un nomet vienumus."
+msgstr "Izlasi instrukcijas un velc un nomet attēlus."
 
 #: activities/categorization/Categorization.qml:157
 msgctxt "Categorization|"
@@ -4253,9 +4255,9 @@ msgstr ""
 "kauliņi, bet otram ir baltie. Spēlētāji iet viens pēc otra. Spēlētājs "
 "nedrīkst kustināt pretinieka kauliņus. Gājienu veido sava kauliņa pabīdīšana "
 "diagonāli uz tuvāko neaizņemto lauciņu. Ja tuvākais lauciņš satur pretinieka "
-"kauliņu, bet lauciņš uzreiz aiz tā ir tukšs, tad šo kauliņu var noņemt no "
+"kauliņu, bet lauciņš uzreiz aiz tā ir tukšs, tad šo kauliņu ir jānoņem no "
 "spēles, tam pārlecot pāri.\n"
-"Dambretē izmanto tikai spēles tumšos lauciņus. Kauliņu var pārvietoties "
+"Dambretē izmanto tikai spēles tumšos lauciņus. Kauliņi var pārvietoties "
 "tikai diagonāli uz brīvu lauciņu. Citu kauliņu noņemšana no spēles ir "
 "obligāta, kad tas ir iespējams. Spēlētājs, kurš paliek bez kauliņiem vai "
 "kuram beidzas gājieni, jo visi kauliņi ir nobloķēti, zaudē partiju.\n"
@@ -4337,9 +4339,9 @@ msgstr ""
 "kauliņi, bet otram ir baltie. Spēlētāji iet viens pēc otra. Spēlētājs "
 "nedrīkst kustināt pretinieka kauliņus. Gājienu veido sava kauliņa pabīdīšana "
 "diagonāli uz tuvāko neaizņemto lauciņu. Ja tuvākais lauciņš satur pretinieka "
-"kauliņu, bet lauciņš uzreiz aiz tā ir tukšs, tad šo kauliņu var noņemt no "
+"kauliņu, bet lauciņš uzreiz aiz tā ir tukšs, tad šo kauliņu ir jānoņem no "
 "spēles, tam pārlecot pāri.\n"
-"Dambretē izmanto tikai spēles tumšos lauciņus. Kauliņu var pārvietoties "
+"Dambretē izmanto tikai spēles tumšos lauciņus. Kauliņi var pārvietoties "
 "tikai diagonāli uz brīvu lauciņu. Citu kauliņu noņemšana no spēles ir "
 "obligāta, kad tas ir iespējams. Spēlētājs, kurš paliek bez kauliņiem vai "
 "kuram beidzas gājieni, jo visi kauliņi ir nobloķēti, zaudē partiju.\n"
@@ -4399,7 +4401,7 @@ msgstr ""
 "lielākas iespējas uzvarēt. Līmenim palielinoties, dators spēlē aizvien "
 "labāk. Varat izmantot bultas, lai manuāli atlasītu grūtības līmeni.\n"
 "\n"
-"Matu vari pieteikt ātrāk, ievērojot šos vienkāršos noteikumu:\n"
+"Matu vari pieteikt ātrāk, ievērojot šos vienkāršos noteikumus:\n"
 "    Mēģini pretinieka karali iedzīt stūrī.\n"
 "<b>Skaidrojums</b>: šādi tava pretinieka karalim būs tikai trīs virzieni, "
 "kuros iet, bet ne astoņi, ja tas atrodas šaha dēlīša vidū.\n"
@@ -4419,9 +4421,9 @@ msgid ""
 "will redo one move. To undo all the moves, press and hold the undo button "
 "for 3 seconds."
 msgstr ""
-"Viens klikšķis vai atsaukšana poga atsauks vienu gājienu. Viens klikšķis vai "
-"atatsaukšanas poga atatsauks vienu gājienu. Lai atsauktu visus gājienus, "
-"spied un trīs sekundes paturi atsaukšanas pogu."
+"Viens klikšķis uz atsaukšana pogas atsauks vienu gājienu. Viens klikšķis uz "
+"atatsaukšanas pogas atatsauks vienu gājienu. Lai atsauktu visus gājienus, "
+"spied un trīs sekundes paturi nospiestu atsaukšanas pogu."
 
 #: activities/chess/ActivityInfo.qml:32
 #: activities/chess_partyend/ActivityInfo.qml:32
@@ -4455,33 +4457,33 @@ msgctxt "chess|"
 msgid "Drawn game"
 msgstr "Neizšķirta partija"
 
-#: activities/chess/chess.js:136
+#: activities/chess/chess.js:141
 msgctxt "chess|black king is under attack"
 msgid "White checks"
 msgstr "Baltie piesaka šahu"
 
-#: activities/chess/chess.js:136
+#: activities/chess/chess.js:141
 msgctxt "chess|white king is under attack"
 msgid "Black checks"
 msgstr "Melnie piesaka šahu"
 
-#: activities/chess/chess.js:139
+#: activities/chess/chess.js:144
 msgctxt "chess|"
 msgid "Invalid, your king may be in check"
 msgstr "Nederīgs gājiens — karalis atrastos šahā"
 
 #. Translators: undo all the moves in chess activity
-#: activities/chess/Chess.qml:137
+#: activities/chess/Chess.qml:140
 msgctxt "Chess|"
 msgid "Do you really want to undo all the moves?"
 msgstr "Vai tiešām vēlies atsaukt visus gājienus?"
 
-#: activities/chess/Chess.qml:138
+#: activities/chess/Chess.qml:141
 msgctxt "Chess|"
 msgid "Yes"
 msgstr "Jā"
 
-#: activities/chess/Chess.qml:139
+#: activities/chess/Chess.qml:142
 msgctxt "Chess|"
 msgid "No"
 msgstr "Nē"
@@ -4516,7 +4518,7 @@ msgstr ""
 "lauciņus, uz kuriem kauliņš var iet, kas palīdzēs apgūt kauliņu "
 "pārvietošanos.\n"
 "\n"
-"Matu vari pieteikt ātrāk, ievērojot šos vienkāršos noteikumu:\n"
+"Matu vari pieteikt ātrāk, ievērojot šos vienkāršos noteikumus:\n"
 "    Mēģini pretinieka karali iedzīt stūrī.\n"
 "<b>Skaidrojums</b>: šādi tava pretinieka karalim būs tikai trīs virzieni, "
 "kuros iet, bet ne astoņi, ja tas atrodas šaha dēlīša vidū.\n"
@@ -4569,7 +4571,7 @@ msgstr ""
 "parāda lauciņus, uz kuriem kauliņš var iet, kas palīdzēs apgūt kauliņu "
 "pārvietošanos.\n"
 "\n"
-"Matu vari pieteikt ātrāk, ievērojot šos vienkāršos noteikumu:\n"
+"Matu vari pieteikt ātrāk, ievērojot šos vienkāršos noteikumus:\n"
 "    Mēģini pretinieka karali iedzīt stūrī.\n"
 "<b>Skaidrojums</b>: šādi tava pretinieka karalim būs tikai trīs virzieni, "
 "kuros iet, bet ne astoņi, ja tas atrodas šaha dēlīša vidū.\n"
@@ -4590,7 +4592,7 @@ msgstr "Kronoss"
 #: activities/chronos/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Drag and Drop the items to organize the story."
-msgstr "Velc un nomet vienumus, lai sakārtotu stāstu."
+msgstr "Velc un nomet daļas, lai sakārtotu stāstu."
 
 #. Help goal
 #: activities/chronos/ActivityInfo.qml:24
@@ -4904,15 +4906,15 @@ msgctxt "board6_3|"
 msgid "1955 Citroën DS 19"
 msgstr "1955. gads. „Citroën DS 19“"
 
-#: activities/click_on_letter/ActivityConfig.qml:35
-#: activities/click_on_letter_up/ActivityConfig.qml:35
+#: activities/click_on_letter/ActivityConfig.qml:36
+#: activities/click_on_letter_up/ActivityConfig.qml:36
 #: activities/gletters/ActivityConfig.qml:40
 #: activities/grammar_analysis/ActivityConfig.qml:36
 #: activities/grammar_classes/ActivityConfig.qml:36
 #: activities/hangman/ActivityConfig.qml:38
-#: activities/lang/ActivityConfig.qml:35
+#: activities/lang/ActivityConfig.qml:36
 #: activities/letter-in-word/ActivityConfig.qml:69
-#: activities/missing-letter/ActivityConfig.qml:35
+#: activities/missing-letter/ActivityConfig.qml:36
 #: activities/readingh/ActivityConfig.qml:38
 #: activities/readingv/ActivityConfig.qml:38
 #: activities/wordsgame/ActivityConfig.qml:40
@@ -4984,24 +4986,24 @@ msgctxt "ActivityInfo|"
 msgid "Recognize the name of uppercase letters."
 msgstr "Atpazīsti lielos burtus."
 
-#: activities/clickanddraw/ActivityConfig.qml:22
-#: activities/drawletters/ActivityConfig.qml:22
-#: activities/drawnumbers/ActivityConfig.qml:22
-#: activities/erase/ActivityConfig.qml:22
-#: activities/erase_2clic/ActivityConfig.qml:22
-#: activities/erase_clic/ActivityConfig.qml:22
-#: activities/number_sequence/ActivityConfig.qml:23
+#: activities/clickanddraw/ActivityConfig.qml:23
+#: activities/drawletters/ActivityConfig.qml:23
+#: activities/drawnumbers/ActivityConfig.qml:23
+#: activities/erase/ActivityConfig.qml:23
+#: activities/erase_2clic/ActivityConfig.qml:23
+#: activities/erase_clic/ActivityConfig.qml:23
+#: activities/number_sequence/ActivityConfig.qml:24
 msgctxt "ActivityConfig|"
 msgid "Manual"
 msgstr "Manuāli"
 
-#: activities/clickanddraw/ActivityConfig.qml:31
-#: activities/drawletters/ActivityConfig.qml:31
-#: activities/drawnumbers/ActivityConfig.qml:31
-#: activities/erase/ActivityConfig.qml:31
-#: activities/erase_2clic/ActivityConfig.qml:31
-#: activities/erase_clic/ActivityConfig.qml:31
-#: activities/number_sequence/ActivityConfig.qml:32
+#: activities/clickanddraw/ActivityConfig.qml:32
+#: activities/drawletters/ActivityConfig.qml:32
+#: activities/drawnumbers/ActivityConfig.qml:32
+#: activities/erase/ActivityConfig.qml:32
+#: activities/erase_2clic/ActivityConfig.qml:32
+#: activities/erase_clic/ActivityConfig.qml:32
+#: activities/number_sequence/ActivityConfig.qml:33
 msgctxt "ActivityConfig|"
 msgid "Go to the next level"
 msgstr "Iet uz nākamo līmeni"
@@ -5016,7 +5018,7 @@ msgstr "Spied un zīmē"
 #: activities/clickanddraw/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Draw the picture by clicking on the selected points."
-msgstr "Zīmē attēlu, spiežot uz atlasītajiem punktiem."
+msgstr "Zīmē attēlu, spiežot uz norādītajiem punktiem."
 
 #. Help goal
 #: activities/clickanddraw/ActivityInfo.qml:20
@@ -5036,10 +5038,12 @@ msgstr "Prot pārvietot peli un nospiest precīzi uz punktiem."
 msgctxt "ActivityInfo|"
 msgid ""
 "Draw the picture by clicking on each point in sequence. Each time a point is "
-"selected the next blue one appears."
+"selected the next blue one appears. You can click and drag from one point to "
+"the next ones, or click on each point one after the other."
 msgstr ""
-"Zīmē attēlu, spiežot uz katra no punktiem pēc kārtas. Katru reizi, kad "
-"atlasiet punktu, parādās nākamais zilais."
+"Zīmē attēlu, spiežot uz katra no punktiem pēc kārtas. Katru reizi pēc punkta "
+"nospiešanas, parādās nākamais zilais punkts. Vari spiest un vilkt no viena "
+"punkta uz nākamajiem, vai arī klikšķināt pēc kārtas uz katra punkta."
 
 #. Activity title
 #: activities/clickgame/ActivityInfo.qml:15
@@ -5074,17 +5078,17 @@ msgid ""
 msgstr ""
 "Notver visas kustīgās zivis, klikšķinot vai pieskaroties tām ar pirkstu."
 
-#: activities/clockgame/ActivityConfig.qml:23
+#: activities/clockgame/ActivityConfig.qml:24
 msgctxt "ActivityConfig|"
 msgid "12 hours"
 msgstr "12 stundu"
 
-#: activities/clockgame/ActivityConfig.qml:24
+#: activities/clockgame/ActivityConfig.qml:25
 msgctxt "ActivityConfig|"
 msgid "24 hours"
 msgstr "24 stundu"
 
-#: activities/clockgame/ActivityConfig.qml:33
+#: activities/clockgame/ActivityConfig.qml:34
 msgctxt "ActivityConfig|"
 msgid "Select a clock system"
 msgstr "Atlasi pulksteņa sistēmu"
@@ -5251,67 +5255,67 @@ msgstr ""
 "ir ciāna (īpaša zilās krāsas nokrāsa), fuksīns (īpaša rozā krāsas nokrāsa) "
 "un dzeltenā krāsa."
 
-#: activities/color_mix/ColorMix.qml:93
+#: activities/color_mix/ColorMix.qml:91
 msgctxt "ColorMix|"
 msgid "Match the color"
-msgstr "Saskaņo krāsu"
+msgstr "Izveido šādu krāsu"
 
-#: activities/color_mix/ColorMix.qml:206
+#: activities/color_mix/ColorMix.qml:223
 msgctxt "ColorMix|"
 msgid "Not enough red"
 msgstr "Nepietiek sarkanās"
 
-#: activities/color_mix/ColorMix.qml:208
+#: activities/color_mix/ColorMix.qml:225
 msgctxt "ColorMix|"
 msgid "Too much red"
 msgstr "Par daudz sarkanās"
 
-#: activities/color_mix/ColorMix.qml:211
+#: activities/color_mix/ColorMix.qml:228
 msgctxt "ColorMix|"
 msgid "Not enough green"
 msgstr "Nepietiek zaļās"
 
-#: activities/color_mix/ColorMix.qml:213
+#: activities/color_mix/ColorMix.qml:230
 msgctxt "ColorMix|"
 msgid "Too much green"
 msgstr "Par daudz zaļās"
 
-#: activities/color_mix/ColorMix.qml:216
+#: activities/color_mix/ColorMix.qml:233
 msgctxt "ColorMix|"
 msgid "Not enough blue"
 msgstr "Nepietiek zilās"
 
-#: activities/color_mix/ColorMix.qml:218
+#: activities/color_mix/ColorMix.qml:235
 msgctxt "ColorMix|"
 msgid "Too much blue"
 msgstr "Par daudz zilās"
 
-#: activities/color_mix/ColorMix.qml:222
+#: activities/color_mix/ColorMix.qml:239
 msgctxt "ColorMix|"
 msgid "Not enough magenta"
 msgstr "Nepietiek fuksīna"
 
-#: activities/color_mix/ColorMix.qml:224
+#: activities/color_mix/ColorMix.qml:241
 msgctxt "ColorMix|"
 msgid "Too much magenta"
 msgstr "Par daudz fuksīna"
 
-#: activities/color_mix/ColorMix.qml:227
+#: activities/color_mix/ColorMix.qml:244
 msgctxt "ColorMix|"
 msgid "Not enough yellow"
 msgstr "Nepietiek dzeltenās"
 
-#: activities/color_mix/ColorMix.qml:229
+#: activities/color_mix/ColorMix.qml:246
 msgctxt "ColorMix|"
 msgid "Too much yellow"
 msgstr "Par daudz dzeltenās"
 
-#: activities/color_mix/ColorMix.qml:232
+#: activities/color_mix/ColorMix.qml:249
 msgctxt "ColorMix|"
 msgid "Not enough cyan"
 msgstr "Nepietiek ciāna"
 
-#: activities/color_mix/ColorMix.qml:234
+#: activities/color_mix/ColorMix.qml:251
 msgctxt "ColorMix|"
 msgid "Too much cyan"
 msgstr "Par daudz ciāna"
@@ -5624,10 +5628,10 @@ msgid ""
 "arrows that let you move the selected item. You can also swipe up/down/left/"
 "right to move the selected item."
 msgstr ""
-"Pārvieto vienumus zilajā rāmī, lai tie atbilstu atrašanās vietām modeļa "
-"rāmī. Lai paņemtu vienumu, nospied uz tā. Pēc tam uz ceļamkrāna atradīsi "
-"četras bultas, kas ļaus pārvietot atlasīto vienumu. Vari arī vilkt augšup/"
-"lejup/pa kreisi/pa labi, lai pārvietotu atlasīto vienumu."
+"Pārvieto daļas zilajā rāmī, lai tie atbilstu atrašanās vietām modeļa rāmī. "
+"Lai paņemtu daļu, nospied uz tās. Pēc tam uz ceļamkrāna atradīsi četras "
+"bultas, kas ļaus pārvietot atlasīto daļu. Vari arī vilkt augšup/lejup/pa "
+"kreisi/pa labi, lai atlasīto daļu pārvietotu."
 
 #: activities/crane/ActivityInfo.qml:31
 msgctxt "ActivityInfo|"
@@ -5850,8 +5854,11 @@ msgstr "Digitālā elektrība"
 
 #. Help title
 #: activities/digital_electricity/ActivityInfo.qml:17
+#, fuzzy
+#| msgctxt "ActivityInfo|"
+#| msgid "Create and simulate a digital logic circuit"
 msgctxt "ActivityInfo|"
-msgid "Create and simulate a digital logic circuit"
+msgid "Create and simulate a digital logic circuit."
 msgstr "Izveido un simulē digitālo loģisko shēmu"
 
 #. Help goal
@@ -6147,12 +6154,12 @@ msgstr ""
 "darbībai. Patiesībā 0 visbiežāk reprezentē spriegums, kas ir tuvs zemējuma "
 "spriegumam, bet 1 reprezentē ķēdē pievadītais spriegums."
 
-#: activities/digital_electricity/DigitalElectricity.qml:248
+#: activities/digital_electricity/DigitalElectricity.qml:249
 msgctxt "DigitalElectricity|"
 msgid "Input"
 msgstr "Ievade"
 
-#: activities/digital_electricity/DigitalElectricity.qml:266
+#: activities/digital_electricity/DigitalElectricity.qml:267
 msgctxt "DigitalElectricity|"
 msgid "Output"
 msgstr "Izvade"
@@ -6258,7 +6265,7 @@ msgstr "AND vārti veido izvadi 1, kad abi ievades termināļi ir vērtība 1."
 #: activities/digital_electricity/TutorialDataset.qml:160
 msgctxt "TutorialDataset|"
 msgid "Turn on the digital light using an AND gate and the provided inputs."
-msgstr "Ieslēdziet digitālo gaismu, izmantojot AND vārtus un sniegtās ievades."
+msgstr "Ieslēdz digitālo gaismu, izmantojot AND vārtus un sniegtās ievades."
 
 #: activities/digital_electricity/TutorialDataset.qml:173
 msgctxt "TutorialDataset|"
@@ -6270,7 +6277,7 @@ msgstr "OR vārti rada izvadi 1, ja vismaz viens no ievades termināliem ir 1."
 #: activities/digital_electricity/TutorialDataset.qml:174
 msgctxt "TutorialDataset|"
 msgid "Turn on the digital light using an OR gate and the provided inputs."
-msgstr "Ieslēdziet digitālo gaismu, izmantojot OR vārtus un sniegtās ievades."
+msgstr "Ieslēdz digitālo gaismu, izmantojot OR vārtus un sniegtās ievades."
 
 #: activities/digital_electricity/TutorialDataset.qml:187
 msgctxt "TutorialDataset|"
@@ -6588,8 +6595,13 @@ msgstr "Mācies rakstīt burtus interesantā veidā."
 #. Help manual
 #: activities/drawletters/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
-msgid "Draw the letters by connecting the dots in the correct order."
-msgstr "Raksti burtus, savienojot punktus pareizajā secībā."
+msgid ""
+"Draw the letters by connecting the dots in the correct order. You can click "
+"and drag from one point to the next ones, or click on each point one after "
+"the other."
+msgstr ""
+"Raksti burtus, pareizā secībā savienojot punktus. Vari spiest un vilkt no "
+"viena punkta uz nākamajiem, vai arī pēc kārtas klikšķināt uz katra punkta."
 
 #. Activity title
 #: activities/drawnumbers/ActivityInfo.qml:15
@@ -6612,8 +6624,13 @@ msgstr "Mācies rakstīt skaitļus interesantā veidā."
 #. Help manual
 #: activities/drawnumbers/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
-msgid "Draw the numbers by connecting the dots in the correct order."
-msgstr "Raksti skaitļus, savienojot punktus pareizā secībā."
+msgid ""
+"Draw the numbers by connecting the dots in the correct order. You can click "
+"and drag from one point to the next ones, or click on each point one after "
+"the other."
+msgstr ""
+"Raksti skaitļus, pareizā secībā savienojot punktus. Vari spiest un vilkt no "
+"viena punkta uz nākamajiem, vai arī pēc kārtas klikšķināt uz katra punkta."
 
 #. Activity title
 #: activities/enumerate/ActivityInfo.qml:15
@@ -6625,7 +6642,7 @@ msgstr "Saskaiti objektus"
 #: activities/enumerate/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Place the items in the best way to count them."
-msgstr "Novieto vienumus labākajā veidā, lai tos saskaitītu."
+msgstr "Novieto elementus labākajā veidā, lai tos saskaitītu."
 
 #. Help goal
 #: activities/enumerate/ActivityInfo.qml:20
@@ -6637,7 +6654,7 @@ msgstr "Mācies skaitīt mazus daudzumus."
 #: activities/enumerate/ActivityInfo.qml:22
 msgctxt "ActivityInfo|"
 msgid "Basic enumeration."
-msgstr "Pamata uzskaitīšana."
+msgstr "Pamata skaitīšana."
 
 #. Help manual
 #: activities/enumerate/ActivityInfo.qml:24
@@ -6679,17 +6696,17 @@ msgstr ""
 #: activities/enumerate/resource/1/Data.qml:29
 msgctxt "Data|"
 msgid "Enumerate up to 4 fruit."
-msgstr "Uzskaiti līdz 4 augļiem."
+msgstr "Saskaiti līdz 4 augļiem."
 
 #: activities/enumerate/resource/1/Data.qml:17
 msgctxt "Data|"
 msgid "Enumerate up to 2 fruit."
-msgstr "Uzskaiti līdz 2 augļiem."
+msgstr "Saskaiti līdz 2 augļiem."
 
 #: activities/enumerate/resource/1/Data.qml:23
 msgctxt "Data|"
 msgid "Enumerate up to 3 fruit."
-msgstr "Uzskaiti līdz 3 augļiem."
+msgstr "Saskaiti līdz 3 augļiem."
 
 #: activities/enumerate/resource/2/Data.qml:13
 #: activities/enumerate/resource/2/Data.qml:29
@@ -6697,61 +6714,62 @@ msgstr "Uzskaiti līdz 3 augļiem."
 msgctxt "Data|"
 msgid "Group 2 types of fruit and enumerate each group (5 fruit max)."
 msgstr ""
-"Sagrupē divus augļu tipus un uzskaiti katru grupu (līdz pieciem augļiem)."
+"Sagrupē divus augļu tipus un saskaiti katru grupu (līdz pieciem augļiem)."
 
 #: activities/enumerate/resource/2/Data.qml:17
 msgctxt "Data|"
 msgid "Group 2 types of fruit and enumerate each group (3 fruit max)."
-msgstr "Sagrupē divus augļu tipus un uzskaiti katru grupu (līdz trīs augļiem)."
+msgstr ""
+"Sagrupē divus augļu veidus un saskaiti katru grupu (līdz trīs augļiem)."
 
 #: activities/enumerate/resource/2/Data.qml:23
 msgctxt "Data|"
 msgid "Group 2 types of fruit and enumerate each group (4 fruit max)."
 msgstr ""
-"Sagrupē divus augļu tipus un uzskaiti katru grupu (līdz četriem augļiem)."
+"Sagrupē divus augļu veidus un saskaiti katru grupu (līdz četriem augļiem)."
 
 #: activities/enumerate/resource/3/Data.qml:13
 #: activities/enumerate/resource/3/Data.qml:35
 msgctxt "Data|"
 msgid "Group 3 types of fruit and enumerate each group (6 fruit max)."
 msgstr ""
-"Sagrupē trīs augļu tipus un uzskaiti katru grupu (līdz sešiem augļiem)."
+"Sagrupē trīs augļu veidus un saskaiti katru grupu (līdz sešiem augļiem)."
 
 #: activities/enumerate/resource/3/Data.qml:17
 msgctxt "Data|"
 msgid "Group 3 types of fruit and enumerate each group (3 fruit max)."
-msgstr "Sagrupē trīs augļu tipus un uzskaiti katru grupu (līdz trim augļiem)."
+msgstr "Sagrupē trīs augļu veidus un saskaiti katru grupu (līdz trim augļiem)."
 
 #: activities/enumerate/resource/3/Data.qml:23
 msgctxt "Data|"
 msgid "Group 3 types of fruit and enumerate each group (4 fruit max)."
 msgstr ""
-"Sagrupē trīs augļu tipus un uzskaiti katru grupu (līdz četriem augļiem)."
+"Sagrupē trīs augļu veidus un saskaiti katru grupu (līdz četriem augļiem)."
 
 #: activities/enumerate/resource/4/Data.qml:13
 #: activities/enumerate/resource/4/Data.qml:35
 msgctxt "Data|"
 msgid "Group 4 types of fruit and enumerate each group (9 fruit max)."
 msgstr ""
-"Sagrupē četrus augļu tipus un uzskaiti katru grupu (līdz deviņiem augļiem)."
+"Sagrupē četrus augļu veidus un saskaiti katru grupu (līdz deviņiem augļiem)."
 
 #: activities/enumerate/resource/4/Data.qml:17
 msgctxt "Data|"
 msgid "Group 4 types of fruit and enumerate each group (6 fruit max)."
 msgstr ""
-"Sagrupē četrus augļu tipus un uzskaiti katru grupu (līdz sešiem augļiem)."
+"Sagrupē četrus augļu veidus un saskaiti katru grupu (līdz sešiem augļiem)."
 
 #: activities/enumerate/resource/4/Data.qml:23
 msgctxt "Data|"
 msgid "Group 4 types of fruit and enumerate each group (7 fruit max)."
 msgstr ""
-"Sagrupē četrus augļu tipus un uzskaiti katru grupu (līdz septiņiem augļiem)."
+"Sagrupē četrus augļu veidus un saskaiti katru grupu (līdz septiņiem augļiem)."
 
 #: activities/enumerate/resource/4/Data.qml:29
 msgctxt "Data|"
 msgid "Group 4 types of fruit and enumerate each group (8 fruit max)."
 msgstr ""
-"Sagrupē četrus augļu tipus un uzskaiti katru grupu (līdz astoņiem augļiem)."
+"Sagrupē četrus augļu veidus un saskaiti katru grupu (līdz astoņiem augļiem)."
 
 #. Activity title
 #: activities/erase/ActivityInfo.qml:15
@@ -6766,7 +6784,7 @@ msgid ""
 "Move the mouse or touch the screen to erase the blocks and discover the "
 "hidden picture."
 msgstr ""
-"Pārvieto peli vai pieskaries ekrānam, lai dzēstu blokus un atklāt apslēpto "
+"Pārvieto peli vai pieskaries ekrānam, lai dzēstu blokus un atklātu apslēpto "
 "attēlu."
 
 #. Help goal
@@ -6783,14 +6801,13 @@ msgstr "Attīsti sīkās motorikas un koordinācijas prasmes."
 msgctxt "ActivityInfo|"
 msgid ""
 "Move the mouse or touch the screen on the blocks to make them disappear."
-msgstr ""
-"Pārvieto peli vai pieskaries ekrānam uz blokiem, lai liktu tiem pazust."
+msgstr "Pārvieto peli vai pieskaries ekrānam uz blokiem, lai tie pazustu."
 
 #. Activity title
 #: activities/erase_2clic/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Double tap or double click"
-msgstr "Divi uzsitieni vai dubultklikšķis"
+msgstr "Divi pieskārieni vai dubultklikšķis"
 
 #. Help title
 #: activities/erase_2clic/ActivityInfo.qml:17
@@ -6799,32 +6816,33 @@ msgid ""
 "Double tap or double click to erase the blocks and discover the hidden "
 "picture."
 msgstr ""
-"Veic divus uzsitienus vai dubultklikšķi, lai dzēstu blokus un atklātu slēpto "
-"attēlu."
+"Veic divus pieskārienus vai dubultklikšķi, lai dzēstu blokus un atklātu "
+"slēpto attēlu."
 
 #. Help manual
 #: activities/erase_2clic/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Double tap or double click on the blocks to make them disappear."
-msgstr "Divi uzsitieni vai dubultklikšķis uz blokiem, lai liktu tiem izzust."
+msgstr "Divi pieskārieni vai dubultklikšķis uz blokiem, lai tie pazustu."
 
 #. Activity title
 #: activities/erase_clic/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Click or tap"
-msgstr "Klikšķini vai uzsit"
+msgstr "Klikšķini vai pieskaries"
 
 #. Help title
 #: activities/erase_clic/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Click or tap to erase the blocks and discover the hidden picture."
-msgstr "Klikšķini vai uzsit, lai dzēstu blokus un atklātu slēpto attēlu."
+msgstr ""
+"Klikšķini vai pieskaries, lai dzēstu blokus un atklātu paslēpto attēlu."
 
 #. Help manual
 #: activities/erase_clic/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid "Click or tap on the blocks to make them disappear."
-msgstr "Klikšķini vai uzsit uz blokiem, lai tie pazustu."
+msgstr "Klikšķini vai pieskaries blokiem, lai tie pazustu."
 
 #. Activity title
 #: activities/explore_farm_animals/ActivityInfo.qml:15
@@ -6884,10 +6902,10 @@ msgid ""
 "In level three, a random text prompt is displayed and you must click on the "
 "animal that matches the text."
 msgstr ""
-"Trešajā līmenī redzams teksts, bet tev ir jānospiež uz dzīvnieka, kas tam "
+"Trešajā līmenī redzams apraksts, bet tev ir jānospiež uz dzīvnieka, kas tam "
 "atbilst."
 
-#: activities/explore_farm_animals/ExploreLevels.qml:345
+#: activities/explore_farm_animals/ExploreLevels.qml:331
 msgctxt "ExploreLevels|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -6896,12 +6914,12 @@ msgstr ""
 "Šai aktivitātei ir vajadzīga skaņa, tāpēc tajā programma atskaņos skaņu pat "
 "tad, ja pamata konfigurācijā balsis un efekti ir izslēgti."
 
-#: activities/explore_farm_animals/ExploreLevels.qml:346
+#: activities/explore_farm_animals/ExploreLevels.qml:332
 msgctxt "ExploreLevels|"
 msgid "Quit"
 msgstr "Iziet"
 
-#: activities/explore_farm_animals/ExploreLevels.qml:347
+#: activities/explore_farm_animals/ExploreLevels.qml:333
 msgctxt "ExploreLevels|"
 msgid "Continue"
 msgstr "Turpināt"
@@ -6925,7 +6943,7 @@ msgstr ""
 #: activities/explore_farm_animals/resource/board/board1.qml:25
 msgctxt "board1|"
 msgid "This animal has single-toed hooves."
-msgstr "Šim dzīvnieka kājai ir tikai viens nags"
+msgstr "Šī dzīvnieka kājai ir tikai viens nags"
 
 #: activities/explore_farm_animals/resource/board/board1.qml:33
 msgctxt "board1|"
@@ -6939,7 +6957,7 @@ msgid ""
 "of long-distance flight. They have a comb on their head."
 msgstr ""
 "Vista saka „Ko-ko-ko!“. Māju vistām ir spārni, bet tās nespēj tālu lidot. "
-"Viņām uz galvas ir sekste."
+"Tām uz galvas ir sekste."
 
 #: activities/explore_farm_animals/resource/board/board1.qml:37
 msgctxt "board1|"
@@ -6959,8 +6977,8 @@ msgid ""
 "odours 8km away."
 msgstr ""
 "Govs saka „Mū-mū!“. Govīm ir plats redzes leņķis — 330°. Tāpat tām ir "
-"attīstīta garšas izjūta, ko nodrošin 20000 garša kārpiņu. Govis spēj sajust "
-"smaržas pat 8 kilometru attālumā."
+"attīstīta garšas izjūta, ko nodrošina 20000 garšas kārpiņu. Govis spēj "
+"sajust smaržas pat 8 kilometru attālumā."
 
 #: activities/explore_farm_animals/resource/board/board1.qml:49
 msgctxt "board1|"
@@ -7018,7 +7036,7 @@ msgid ""
 "The duck goes 'quack'. Ducks are mostly aquatic birds. They have waterproof "
 "feathers and webbed feet which enable them to swim on the water."
 msgstr ""
-"Pīle saka „Pēk-pēk!“. Pīles ir pamatā ūdensputni. Viņām ir ūdensdrošas "
+"Pīle saka „Pēk-pēk!“. Gandrīz visas pīles ir ūdensputni. Tām ir ūdensdrošas "
 "spalvas un pleznas starp kāju pirkstiem, lai būtu vieglāk peldēt."
 
 #: activities/explore_farm_animals/resource/board/board1.qml:85
@@ -7055,7 +7073,9 @@ msgctxt "board1|"
 msgid ""
 "The dog goes 'woof'. Dogs are probably the oldest domesticated species. They "
 "are descendants of the wolf."
-msgstr "Suns saka „Vau-vau!“."
+msgstr ""
+"Suns saka „Vau-vau!“. Suņi, iespējams, ir senākie cilvēku pieradinātie "
+"dzīvnieki. To savvaļas radinieki ir vilki."
 
 #: activities/explore_farm_animals/resource/board/board1.qml:109
 msgctxt "board1|"
@@ -7074,7 +7094,7 @@ msgid ""
 "can be sheared and used to produce textile fibre."
 msgstr ""
 "Aita saka „Mē-mē“. Lielākai aitu daļai ir biezs vilnas kažoks. Vilnu "
-"iespējams griezt un izmantot tekstila šķiedru ražošanā."
+"iespējams cirpt un izmantot tekstila šķiedru ražošanā."
 
 #: activities/explore_farm_animals/resource/board/board1.qml:121
 msgctxt "board1|"
@@ -7174,8 +7194,8 @@ msgid ""
 "arena the Classical world had yet seen."
 msgstr ""
 "Kolizejs ir viena no mūsdienās atpazīstamākajām celtnēm Romā. Tā ir būvēta "
-"pirms 2000 gadu un neskatoties uz gadsimtiem, kuros pamestā ēka tika "
-"izlaupīta, lai tās materiālus izmantotu citām ēkām, Kolizejs joprojām ir "
+"pirms 2000 gadu un, neskatoties uz gadsimtiem, kuros pamesto celtni "
+"izlaupīja, lai tās materiālus izmantotu citām ēkām, Kolizejs joprojām ir "
 "atpazīstams antīko laiku stadions. Tas bija pirmais pastāvīgais amfiteātris "
 "Romā, kā arī iespaidīgākā arēna, kādu antīkā pasaule bija redzējusi."
 
@@ -7254,7 +7274,7 @@ msgid ""
 "of the Arab Nabataeans, it is a symbol of Jordan, as well as Jordan's most-"
 "visited tourist attraction."
 msgstr ""
-"Petra ir vēsturiska un arheoloģiska pilsēta Jordānijā —Maānas muhāfazā. Tā "
+"Petra ir vēsturiska un arheoloģiska pilsēta Jordānijā — Maānas muhāfazā. Tā "
 "ir slavena ar klintī izcirstu arhitektūru un ūdensvadu sistēmu. Tiek lēsts, "
 "ka pilsētu dibināja 312. gadā pirms mūsu ēras kā Arābu Nabatejas "
 "galvaspilsētu. Šobrīd tā ir Jordānas simbols un tūristu visapmeklētākā vieta "
@@ -8308,8 +8328,8 @@ msgid ""
 "The jaguar's jaw is well developed. Because of this, it has the strongest "
 "bite of all the felines, being able to break even a tortoise shell!"
 msgstr ""
-"Jaguāram ir labi attīstīts žokli. Pateicoties tam, šim dzīvniekam ir "
-"spēcīgākais sakodiens no visiem kaķveidīgajiem un tas var pat pārkost "
+"Jaguāram ir labi attīstīts žoklis. Pateicoties tam, šim dzīvniekam ir "
+"spēcīgākais sakodiens starp visiem kaķveidīgajiem un tas var pat pārkost "
 "bruņurupuča čaulu."
 
 #: activities/explore_world_animals/resource/board/board1.qml:30
@@ -8342,7 +8362,7 @@ msgid ""
 "their legs, which are usually 1.8 meters long, are taller than most humans!"
 msgstr ""
 "Žirafe dzīvo Āfrikā un ir garākais dzīvnieks pasaulē. Jau tikai šī dzīvnieka "
-"kājas mēdz būt 1,8 metru garas, kas ir garākas par lielāko daļu cilvēku!"
+"kājas mēdz būt 1,8 metrus garas, kas ir garākas par lielāko daļu cilvēku!"
 
 #: activities/explore_world_animals/resource/board/board1.qml:52
 #: activities/explore_world_animals/resource/board/board1.qml:55
@@ -8396,7 +8416,7 @@ msgid ""
 "The chameleon lives in Africa and Madagascar and is well-known for its "
 "ability to change its skin color in a couple of seconds."
 msgstr ""
-"Hameleons dzīvo Ārikā un Madagaskarā un ir pazīstams ar prasmi dažu sekunžu "
+"Hameleons dzīvo Āfrikā un Madagaskarā un ir pazīstams ar prasmi dažu sekunžu "
 "laikā mainīt ādas krāsu."
 
 #: activities/explore_world_animals/resource/board/board2.qml:30
@@ -8412,7 +8432,7 @@ msgid ""
 "to a ton and can be as long as 3 meters!"
 msgstr ""
 "Polārlācis ir viens no lielākajiem plēsējiem zīdītājiem. Tas var svērt līdz "
-"vienai tonnai un garumā var būt līdz trim gadiem."
+"vienai tonnai un var būt līdz trīs metrus garš!"
 
 #: activities/explore_world_animals/resource/board/board2.qml:41
 #: activities/explore_world_animals/resource/board/board2.qml:44
@@ -8459,8 +8479,8 @@ msgid ""
 msgstr ""
 "Būdams viens no lielākajiem briežu dzimtas dzīvniekiem, alnis dienā apēd ap "
 "25 kilogramiem ēdiena. Tomēr ne vienmēr to var viegli aizsniegt, tāpēc alnis "
-"spēj nostāties uz pakaļkājām, lai aizsniegtu zarus līdz pat četru metru "
-"augstumā."
+"spēj nostāties uz pakaļkājām, lai aizsniegtu zarus, kas atrodas pat četru "
+"metru augstumā."
 
 #: activities/explore_world_animals/resource/board/board2.qml:76
 msgctxt "board2|"
@@ -8514,7 +8534,7 @@ msgid ""
 "Koalas are herbivore marsupials that live in the eucalyptus forests of "
 "eastern Australia."
 msgstr ""
-"Koalas ir zālēdāji somaiņi, kas dzīvo Austrumaustrālijas eikaliptu mežos."
+"Koalas ir zālēdāji somaiņi. Tās dzīvo Austrumaustrālijas eikaliptu mežos."
 
 #: activities/explore_world_animals/resource/board/board3.qml:52
 #: activities/explore_world_animals/resource/board/board3.qml:55
@@ -8528,7 +8548,7 @@ msgid ""
 "The ring-tailed lemur is a primate that lives in the dry regions of "
 "southwest Madagascar. Its striped tail makes it easy to recognize."
 msgstr ""
-"Kaļu lemurs ir primāts, kas dzīvie dienvidrietumu Madagaskaras sausajos "
+"Kaķu lemurs ir primāts, kas dzīvo dienvidrietumu Madagaskaras sausajos "
 "reģionos. To ir viegli atpazīt pēc dzīvnieka strīpainās astes."
 
 #: activities/explore_world_animals/resource/board/board3.qml:63
@@ -8543,8 +8563,8 @@ msgid ""
 "The panda is a bear with black and white fur that lives in a few mountain "
 "ranges in central China. Pandas mostly eat bamboo."
 msgstr ""
-"Panda ir lācis ar melnbaltu kažoku, kas dzīvo dažos kalnu masīvos Ķīnas "
-"vidienē. Pandas lielākoties pārtiek no bambusa."
+"Panda ir lācis ar melnbaltu kažoku. Šis dzīvnieks dzīvo dažos kalnu masīvos "
+"Ķīnas vidienē. Pandas lielākoties pārtiek no bambusa."
 
 #: activities/explore_world_animals/resource/board/board3.qml:76
 msgctxt "board3|"
@@ -9305,8 +9325,8 @@ msgid ""
 "of the field."
 msgstr ""
 "Nospied uz bumbas, tad velc aiz tās, lai iezīmētu mērķēšanas līniju. Jo "
-"garāka ir līnija, jo stiprāks ir spēriens. Kad atlaid līniju, bumba sekos "
-"tās virzienam. Tu gūsti vārtus, kad bumba sasniedz otru lauka galu."
+"garāka ir līnija, jo stiprāks ir spēriens. Pēc pogas atlaišanas, bumba sekos "
+"līnijas virzienam. Tu gūsi vārtus, ja bumba sasniegs otru laukuma galu."
 
 #. Activity title
 #: activities/fractions_create/ActivityInfo.qml:14
@@ -14531,15 +14551,15 @@ msgctxt "ActivityInfo|"
 msgid "Leave the box blank if the class doesn't match."
 msgstr "Atstāj tukšu, ja klasei nekas neatbilst."
 
-#: activities/graph-coloring/ActivityConfig.qml:21
-#: activities/superbrain/ActivityConfig.qml:21
-#: activities/traffic/ActivityConfig.qml:21
+#: activities/graph-coloring/ActivityConfig.qml:22
+#: activities/superbrain/ActivityConfig.qml:22
+#: activities/traffic/ActivityConfig.qml:22
 msgctxt "ActivityConfig|"
 msgid "Colors"
 msgstr "Krāsas"
 
-#: activities/graph-coloring/ActivityConfig.qml:22
-#: activities/superbrain/ActivityConfig.qml:22
+#: activities/graph-coloring/ActivityConfig.qml:23
+#: activities/superbrain/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "Shapes"
 msgstr "Figūras"
@@ -14628,7 +14648,7 @@ msgctxt "ActivityInfo|"
 msgid "Left and Right arrows: move the spaceship"
 msgstr "Bultiņa pa kreisi un pa labi: pārvieto kosmosa kuģi"
 
-#: activities/gravity/Gravity.qml:216
+#: activities/gravity/Gravity.qml:219
 msgctxt "Gravity|"
 msgid ""
 "Gravity is universal and Newton's law of universal gravitation extends "
@@ -14641,7 +14661,7 @@ msgstr ""
 "no abu objektu masas un ir apgriezti proporcionāla to attāluma no objektu "
 "centra kvadrātam."
 
-#: activities/gravity/Gravity.qml:220
+#: activities/gravity/Gravity.qml:223
 msgctxt "Gravity|"
 msgid ""
 "Since the gravitational force is directly proportional to the mass of both "
@@ -14651,7 +14671,7 @@ msgstr ""
 "Tā kā gravitācijas spēks ir tieši proporcionāls abu objektu masai, tad "
 "objekti ar lielāku masu viens otru pievilks ar lielāku gravitācijas spēku."
 
-#: activities/gravity/Gravity.qml:223
+#: activities/gravity/Gravity.qml:226
 msgctxt "Gravity|"
 msgid ""
 "But as this force is inversely proportional to the square of the distance "
@@ -14661,7 +14681,7 @@ msgstr ""
 "Bet tā kā šis spēks ir apgriezti proporcionāls attālumam starp objektiem, "
 "tad lielāks attālums nozīmē mazāku gravitācijas spēku."
 
-#: activities/gravity/Gravity.qml:226
+#: activities/gravity/Gravity.qml:229
 msgctxt "Gravity|"
 msgid ""
 "Your goal is to move the spaceship and avoid hitting the planets until you "
@@ -14672,7 +14692,7 @@ msgstr ""
 "planētās līdz sasniegsi kosmosa staciju. Bultiņa tava kuģa sajustās "
 "gravitācijas stiprumu un virzienu."
 
-#: activities/gravity/Gravity.qml:229
+#: activities/gravity/Gravity.qml:232
 msgctxt "Gravity|"
 msgid ""
 "Try to stay near the center of the screen, and anticipate by looking at the "
@@ -14781,12 +14801,12 @@ msgctxt "ActivityConfig|"
 msgid "BuiltIn"
 msgstr "Iebūvēts"
 
-#: activities/guesscount/ActivityConfig.qml:68
+#: activities/guesscount/ActivityConfig.qml:72
 msgctxt "ActivityConfig|"
 msgid "Selected"
 msgstr "Atlasīts"
 
-#: activities/guesscount/ActivityConfig.qml:68
+#: activities/guesscount/ActivityConfig.qml:72
 msgctxt "ActivityConfig|"
 msgid "Not Selected"
 msgstr "Nav atlasīts"
@@ -14825,7 +14845,7 @@ msgstr ""
 "Velc skaitļus un operatorus uz lauciņiem, lai iegūtu skaitli, kas norādīts "
 "uzdevumā."
 
-#: activities/guesscount/Admin.qml:30
+#: activities/guesscount/Admin.qml:33
 #, qt-format
 msgctxt "Admin|"
 msgid "Level %1"
@@ -14841,18 +14861,18 @@ msgctxt "guesscount|"
 msgid "result is not an integer"
 msgstr "rezultāts nav vesels skaitlis"
 
-#: activities/guesscount/Guesscount.qml:160
+#: activities/guesscount/Guesscount.qml:155
 #, qt-format
 msgctxt "Guesscount|"
 msgid "Guesscount: %1"
 msgstr "Minējumu skaits: %1"
 
-#: activities/guesscount/OperandRow.qml:40
+#: activities/guesscount/OperandRow.qml:36
 msgctxt "OperandRow|"
 msgid "Numbers"
 msgstr "Skaitļi"
 
-#: activities/guesscount/OperatorRow.qml:41
+#: activities/guesscount/OperatorRow.qml:37
 msgctxt "OperatorRow|"
 msgid "Operators"
 msgstr "Operatori"
@@ -14889,13 +14909,14 @@ msgctxt "ActivityInfo|"
 msgid "Help Tux escape the cave by finding the hidden number."
 msgstr "Atrodi paslēpto skaitli, lai Tukss varētu izkļūt no alas."
 
-#: activities/guessnumber/ActivityInfo.qml:19
+#. Help goal
+#: activities/guessnumber/ActivityInfo.qml:20
 msgctxt "ActivityInfo|"
 msgid "Practice comparing numbers."
 msgstr "Trenējies salīdzināt skaitļus."
 
 #. Help manual
-#: activities/guessnumber/ActivityInfo.qml:23
+#: activities/guessnumber/ActivityInfo.qml:24
 msgctxt "ActivityInfo|"
 msgid ""
 "Read the instructions that give you the range of the number to find. Enter a "
@@ -14913,28 +14934,27 @@ msgstr ""
 "vai zem ekrāna centra, tas nozīmē, ka skaitlis ir vai virs vai zem "
 "atrodamajam skaitlim."
 
-#: activities/guessnumber/ActivityInfo.qml:25
+#: activities/guessnumber/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Digits: enter a number"
 msgstr "Cipari: ieraksta skaitli"
 
-#: activities/guessnumber/ActivityInfo.qml:26
+#: activities/guessnumber/ActivityInfo.qml:27
 msgctxt "ActivityInfo|"
 msgid "Backspace: erase a number"
 msgstr "„Backspace“ taustiņš: dzēš skaitli"
 
 #: activities/guessnumber/guessnumber.js:57
-#: activities/guessnumber/guessnumber.js:61
 msgctxt "guessnumber|"
 msgid "Your number is too high"
 msgstr "Tavs skaitlis ir par lielu"
 
-#: activities/guessnumber/guessnumber.js:64
+#: activities/guessnumber/guessnumber.js:60
 msgctxt "guessnumber|"
 msgid "Your number is too low"
 msgstr "Tavs skaitlis ir par mazu"
 
-#: activities/guessnumber/guessnumber.js:68
+#: activities/guessnumber/guessnumber.js:65
 msgctxt "guessnumber|"
 msgid "You found the number!"
 msgstr "Tu atradi skaitli!"
@@ -15195,7 +15215,7 @@ msgstr "Velc un nomet katru vienumu virs tā nosaukuma."
 #: activities/imagename/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Enrich your vocabulary and practice reading."
-msgstr "Bagātini savu vārdnīcu un trenējies lasīšanā."
+msgstr "Bagātini savu vārdu krājumu un trenējies lasīšanā."
 
 #. Help prerequisite
 #: activities/imagename/ActivityInfo.qml:25 activities/lang/ActivityInfo.qml:28
@@ -15818,19 +15838,19 @@ msgstr ""
 #: activities/lang/ActivityInfo.qml:21
 msgctxt "ActivityInfo|"
 msgid "Enrich your vocabulary"
-msgstr "Bagātini savu vārdnīcu"
+msgstr "Bagātini savu vārdu krājumu"
 
 #. Help title
 #: activities/lang/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid "Complete language learning activities."
-msgstr "Pabeidz valodas mācīšanās aktivitātes."
+msgstr "Valodas apguves aktivitātes"
 
 #. Help goal
 #: activities/lang/ActivityInfo.qml:26
 msgctxt "ActivityInfo|"
 msgid "Enrich your vocabulary in your native language or in a foreign one."
-msgstr "Bagātini savu vārdnīcu savā valodā vai svešvalodā."
+msgstr "Bagātini savu vārdu krājumu savā valodā vai svešvalodā."
 
 #. Help manual
 #: activities/lang/ActivityInfo.qml:30
@@ -15841,9 +15861,9 @@ msgid ""
 "voice and the image, then only from the voice, and finally an exercise to "
 "type the text."
 msgstr ""
-"Pārskati vārdu kopas. Katrs vārds ir parādīts ar balsi, tekstu un attēlu.<br/"
-">Kad pabeigsi, varēsi mēģināt vingrinājumu, kurā tev būs jāatpazīst teksts "
-"no balss un attēla, tad tikai no balss, bet beigās būs teksta atpazīšanas "
+"Pārskati vārdus. Katram vārdam ir balss, teksts un attēls.<br/>Pēc vārdu "
+"apskates mēģini izpildīt vingrinājumu, kurā tev būs jāatpazīst vārds pēc "
+"balss un attēla, tad tikai no balss, bet beigās būs teksta rakstīšanas "
 "vingrinājums."
 
 #: activities/lang/ActivityInfo.qml:32
@@ -16342,29 +16362,29 @@ msgctxt "Data|"
 msgid "Subtract decimal numbers up to 5."
 msgstr "Decimālskaitļu atņemšana līdz 5."
 
-#: activities/learn_digits/ActivityConfig.qml:23
+#: activities/learn_digits/ActivityConfig.qml:24
 msgctxt "ActivityConfig|"
 msgid "Arabic numerals"
 msgstr "Arābu skaitļi"
 
-#: activities/learn_digits/ActivityConfig.qml:24
-#: activities/reversecount/ActivityConfig.qml:21
+#: activities/learn_digits/ActivityConfig.qml:25
+#: activities/reversecount/ActivityConfig.qml:22
 #: activities/smallnumbers2/ActivityConfig.qml:20
 msgctxt "ActivityConfig|"
 msgid "Dots"
 msgstr "Punkti"
 
-#: activities/learn_digits/ActivityConfig.qml:25
+#: activities/learn_digits/ActivityConfig.qml:26
 msgctxt "ActivityConfig|"
 msgid "Fingers"
 msgstr "Pirksti"
 
-#: activities/learn_digits/ActivityConfig.qml:34
+#: activities/learn_digits/ActivityConfig.qml:35
 msgctxt "ActivityConfig|"
 msgid "Digits representation"
 msgstr "Ciparu reprezentācija"
 
-#: activities/learn_digits/ActivityConfig.qml:38
+#: activities/learn_digits/ActivityConfig.qml:39
 msgctxt "ActivityConfig|"
 msgid "Enable voices"
 msgstr "Ieslēgt balsis"
@@ -16373,7 +16393,7 @@ msgstr "Ieslēgt balsis"
 #: activities/learn_digits/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Learn digits"
-msgstr "Apgūt ciparus"
+msgstr "Apgūsti ciparus"
 
 #. Help title
 #: activities/learn_digits/ActivityInfo.qml:17
@@ -16581,7 +16601,7 @@ msgstr "Peles klikšķināšanas treniņš"
 msgctxt "ActivityInfo|"
 msgid ""
 "Move animals to their homes using a left click or right click on your mouse."
-msgstr "Pārvieto dzīvniekus uz viņu mājām, spiežot peles labo un kreiso pogu."
+msgstr "Pārvieto dzīvniekus uz viņu mājām, spiežot peles labo vai kreiso pogu."
 
 #. Help goal
 #: activities/left_right_click/ActivityInfo.qml:19
@@ -16716,12 +16736,12 @@ msgstr ""
 "Uz karoga, kas ir piestiprināts pie lidmašīnas, ir redzams burts. Atlasi "
 "visus sarakstā esošos vārdus, kas satur šo burtu, uz spied „Labi“."
 
-#: activities/letter-in-word/LetterInWord.qml:322
+#: activities/letter-in-word/LetterInWord.qml:320
 msgctxt "LetterInWord|"
 msgid "We are sorry, we don't have yet a translation for your language."
 msgstr "Diemžēl tavai valodai vēl nav tulkojuma."
 
-#: activities/letter-in-word/LetterInWord.qml:323
+#: activities/letter-in-word/LetterInWord.qml:321
 #, qt-format
 msgctxt "LetterInWord|"
 msgid ""
@@ -16731,7 +16751,7 @@ msgstr ""
 "„GCompris“ izstrādā KDE kopiena. Vari palīdzēt tulkot „GCompris“, "
 "pievienojoties tulkotāju komandai <a href=\"%2\">%2</a>"
 
-#: activities/letter-in-word/LetterInWord.qml:325
+#: activities/letter-in-word/LetterInWord.qml:323
 msgctxt "LetterInWord|"
 msgid ""
 "We switched to English for this activity but you can select another language "
@@ -16829,7 +16849,7 @@ msgstr "9×9 režģi, ļoti grūti."
 #: activities/louis-braille/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "The history of Louis Braille"
-msgstr "Luija Braila vēsture"
+msgstr "Luija Braila dzīve"
 
 #. Help title
 #: activities/louis-braille/ActivityInfo.qml:17
@@ -16949,8 +16969,8 @@ msgid ""
 "He died of tuberculosis. He is buried in the Pantheon in Paris. A monument "
 "is erected to honor him."
 msgstr ""
-"Viņš nomira no tuberkulozes. Viņš ir apglabāts Parīzes panteonā. Viņa "
-"piemiņai ir uzstādīts piemineklis."
+"Luijs Brails nomira no tuberkulozes. Viņš ir apglabāts Parīzes panteonā. "
+"Viņa piemiņai ir uzstādīts piemineklis."
 
 #: activities/louis-braille/louis_braille_data.js:62
 msgctxt "louis_braille_data|"
@@ -16959,7 +16979,7 @@ msgid ""
 "you have motivation you can do incredible things."
 msgstr ""
 "Braila raksts ir pieņemts kā vispasaules standarts. Luijs Brails pierādīja, "
-"ka ar motivācijas palīdzību katrs var izdarīt neticamas lietas."
+"ka ar motivāciju katrs var izdarīt neticamas lietas."
 
 #: activities/louis-braille/ReorderList.qml:164
 msgctxt "ReorderList|"
@@ -17010,7 +17030,7 @@ msgstr ""
 "Klikšķini uz apakšējās daļas, lai ierakstītu savu atbildi, bet pēc tam uz "
 "„Labi“, lai to pārbaudītu."
 
-#: activities/magic-hat-minus/MagicHat.qml:99
+#: activities/magic-hat-minus/MagicHat.qml:263
 msgctxt "MagicHat|"
 msgid "Click on the hat to begin the game"
 msgstr "Klikšķini uz cepures, lai sāktu spēli"
@@ -17059,7 +17079,7 @@ msgid "Calculate remaining stars up to 10000 with coefficients."
 msgstr "Aprēķini atlikušās zvaigznes līdz 10000 ar koeficientiem."
 
 #. text displaying coefficient with which the set of stars is to be multiplied along with multiplication symbol.
-#: activities/magic-hat-minus/StarsBar.qml:37
+#: activities/magic-hat-minus/StarsBar.qml:35
 #, qt-format
 msgctxt "StarsBar|"
 msgid "%1x"
@@ -17216,7 +17236,7 @@ msgstr ""
 "spied uz basu kāju / sporta kurpju“ ikonas augšējā kreisajā ekrāna stūrī, "
 "lai ieslēgtu / izslēgtu skriešanas režīmu.\t"
 
-#: activities/maze/Maze.qml:319
+#: activities/maze/Maze.qml:339
 msgctxt "Maze|"
 msgid ""
 "Look at your position, then switch back to invisible mode to continue your "
@@ -17444,22 +17464,6 @@ msgctxt "ActivityInfo|"
 msgid "Space or Enter: flip the selected card"
 msgstr "Atstarpes vai „Enter“ taustiņš: apgriezt atlasīto kartiņu"
 
-#: activities/memory-case-association/ActivityConfig.qml:23
-#: activities/memory-enumerate/ActivityConfig.qml:23
-#: activities/memory-math-add-minus-mult-div/ActivityConfig.qml:23
-#: activities/memory-math-add-minus/ActivityConfig.qml:23
-#: activities/memory-math-add/ActivityConfig.qml:23
-#: activities/memory-math-div/ActivityConfig.qml:23
-#: activities/memory-math-minus/ActivityConfig.qml:23
-#: activities/memory-math-mult-div/ActivityConfig.qml:23
-#: activities/memory-math-mult/ActivityConfig.qml:23
-#: activities/memory-sound/ActivityConfig.qml:23
-#: activities/memory-wordnumber/ActivityConfig.qml:23
-#: activities/memory/ActivityConfig.qml:23
-msgctxt "ActivityConfig|"
-msgid "1 player"
-msgstr "1 spēlētājs"
-
 #: activities/memory-case-association/ActivityConfig.qml:24
 #: activities/memory-enumerate/ActivityConfig.qml:24
 #: activities/memory-math-add-minus-mult-div/ActivityConfig.qml:24
@@ -17473,21 +17477,37 @@ msgstr "1 spēlētājs"
 #: activities/memory-wordnumber/ActivityConfig.qml:24
 #: activities/memory/ActivityConfig.qml:24
 msgctxt "ActivityConfig|"
+msgid "1 player"
+msgstr "1 spēlētājs"
+
+#: activities/memory-case-association/ActivityConfig.qml:25
+#: activities/memory-enumerate/ActivityConfig.qml:25
+#: activities/memory-math-add-minus-mult-div/ActivityConfig.qml:25
+#: activities/memory-math-add-minus/ActivityConfig.qml:25
+#: activities/memory-math-add/ActivityConfig.qml:25
+#: activities/memory-math-div/ActivityConfig.qml:25
+#: activities/memory-math-minus/ActivityConfig.qml:25
+#: activities/memory-math-mult-div/ActivityConfig.qml:25
+#: activities/memory-math-mult/ActivityConfig.qml:25
+#: activities/memory-sound/ActivityConfig.qml:25
+#: activities/memory-wordnumber/ActivityConfig.qml:25
+#: activities/memory/ActivityConfig.qml:25
+msgctxt "ActivityConfig|"
 msgid "2 players"
 msgstr "2 spēlētāji"
 
-#: activities/memory-case-association/ActivityConfig.qml:33
-#: activities/memory-enumerate/ActivityConfig.qml:33
-#: activities/memory-math-add-minus-mult-div/ActivityConfig.qml:33
-#: activities/memory-math-add-minus/ActivityConfig.qml:33
-#: activities/memory-math-add/ActivityConfig.qml:33
-#: activities/memory-math-div/ActivityConfig.qml:33
-#: activities/memory-math-minus/ActivityConfig.qml:33
-#: activities/memory-math-mult-div/ActivityConfig.qml:33
-#: activities/memory-math-mult/ActivityConfig.qml:33
-#: activities/memory-sound/ActivityConfig.qml:33
-#: activities/memory-wordnumber/ActivityConfig.qml:33
-#: activities/memory/ActivityConfig.qml:33
+#: activities/memory-case-association/ActivityConfig.qml:34
+#: activities/memory-enumerate/ActivityConfig.qml:34
+#: activities/memory-math-add-minus-mult-div/ActivityConfig.qml:34
+#: activities/memory-math-add-minus/ActivityConfig.qml:34
+#: activities/memory-math-add/ActivityConfig.qml:34
+#: activities/memory-math-div/ActivityConfig.qml:34
+#: activities/memory-math-minus/ActivityConfig.qml:34
+#: activities/memory-math-mult-div/ActivityConfig.qml:34
+#: activities/memory-math-mult/ActivityConfig.qml:34
+#: activities/memory-sound/ActivityConfig.qml:34
+#: activities/memory-wordnumber/ActivityConfig.qml:34
+#: activities/memory/ActivityConfig.qml:34
 msgctxt "ActivityConfig|"
 msgid "Choose number of players"
 msgstr "Atlasi spēlētāju skaitu"
@@ -18357,7 +18377,7 @@ msgid ""
 msgstr ""
 "Katrai kartiņai otrā pusē ir attēls, kā arī katrai ir otra „dvīņu“ kartiņa "
 "ar tādu pašu attēlu. Klikšķini uz kartiņas, lai redzētu zem tās paslēpto "
-"attēlu, un mēģini atrast pāri. Vienlaicīgi vai apgriezt tikai divas "
+"attēlu, un mēģini atrast pāri. Vienlaicīgi vari apgriezt tikai divas "
 "kartiņas, tāpēc tev būs jāiegaumē, kur atrodas katrs attēls. Atrodot pāri, "
 "abas kartiņas pazudīs."
 
@@ -18557,7 +18577,7 @@ msgstr "„GCompris“ galvenā izvēlne"
 #: activities/menu/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Select an activity to run it."
-msgstr "Atlasi aktivitāti, kuru palaist."
+msgstr "Atlasi aktivitāti, kuru atvērt."
 
 #. Help goal
 #: activities/menu/ActivityInfo.qml:17
@@ -18584,9 +18604,9 @@ msgid ""
 "At the bottom of the screen is the GCompris control bar. Notice that you can "
 "hide or show the bar by touching its anchor."
 msgstr ""
-"Atlasi ikonu, lai ieietu aktivitātei vai parādītu aktivitāšu sarakstu "
+"Atlasi ikonu, lai atvērtu aktivitāti vai parādītu aktivitāšu sarakstu "
 "kategorijā.\n"
-"Ekrāna apakšā r „GCompris“ vadības josla. Joslu var paslēpt vai parādīt, "
+"Ekrāna apakšā ir „GCompris“ vadības josla. Joslu var paslēpt vai parādīt, "
 "pieskaroties tās enkuram."
 
 #: activities/menu/ActivityInfo.qml:23
@@ -18743,7 +18763,7 @@ msgstr "Grūtības filtrs"
 #: activities/menu/ConfigurationItem.qml:109
 msgctxt "ConfigurationItem|"
 msgid "Language selector"
-msgstr "Valodas izvēlētājs"
+msgstr "Valodas atlase"
 
 #: activities/menu/ConfigurationItem.qml:116
 msgctxt "ConfigurationItem|"
@@ -18819,7 +18839,7 @@ msgstr "Fona mūzikas skaļums"
 #: activities/menu/ConfigurationItem.qml:306
 msgctxt "ConfigurationItem|"
 msgid "Full word image set is installed"
-msgstr "Ieinstalēts pilns vārdu attēlu komplekts"
+msgstr "Ir ieinstalēts pilns vārdu attēlu komplekts"
 
 #: activities/menu/ConfigurationItem.qml:306
 msgctxt "ConfigurationItem|"
@@ -18865,7 +18885,7 @@ msgstr "Fonta izmērs"
 #: activities/menu/ConfigurationItem.qml:433
 msgctxt "ConfigurationItem|"
 msgid "Default"
-msgstr "Noklusējuma"
+msgstr "Noklusējums"
 
 #: activities/menu/ConfigurationItem.qml:408
 msgctxt "ConfigurationItem|"
@@ -18892,91 +18912,86 @@ msgctxt "ConfigurationItem|"
 msgid "All lowercase"
 msgstr "Tikai mazie burti"
 
-#: activities/menu/Menu.qml:93
-#, fuzzy
-#| msgctxt "Menu|"
-#| msgid ""
-#| "You selected a new locale, you need to restart GCompris to use it.<br/>Do "
-#| "you want to download the corresponding sound files now?"
+#: activities/menu/Menu.qml:90
 msgctxt "Menu|"
 msgid ""
 "You selected a new locale, do you want to download the corresponding sound "
 "files now?"
 msgstr ""
-"Lai izmantotu jauno lokāli, „GCompris“ ir jāpārstartē.<br/>Vai vēlies tagad "
-"lejupielādēt attiecīgās skaņas datnes?"
+"Atlasījāt jaunu lokāli, vai vēlaties lejupielādēt arī atbilstošās skaņas "
+"datnes?"
 
-#: activities/menu/Menu.qml:94
+#: activities/menu/Menu.qml:91
 msgctxt "Menu|"
 msgid "Yes"
 msgstr "Jā"
 
-#: activities/menu/Menu.qml:101
+#: activities/menu/Menu.qml:98
 msgctxt "Menu|"
 msgid "No"
 msgstr "Nē"
 
-#: activities/menu/Menu.qml:120
+#: activities/menu/Menu.qml:117
 msgctxt "Menu|"
 msgid "Logic"
 msgstr "Loģika"
 
-#: activities/menu/Menu.qml:121
+#: activities/menu/Menu.qml:118
 msgctxt "Menu|"
 msgid "Fine Arts"
 msgstr "Tēlotāja māksla"
 
-#: activities/menu/Menu.qml:122
+#: activities/menu/Menu.qml:119
 msgctxt "Menu|"
 msgid "Music"
 msgstr "Mūzika"
 
-#: activities/menu/Menu.qml:128
+#: activities/menu/Menu.qml:125
 msgctxt "Menu|"
 msgid "Experiment"
-msgstr "Eksperiments"
+msgstr "Eksperimentē"
 
-#: activities/menu/Menu.qml:129
+#: activities/menu/Menu.qml:126
 msgctxt "Menu|"
 msgid "History"
 msgstr "Vēsture"
 
-#: activities/menu/Menu.qml:130
+#: activities/menu/Menu.qml:127
 msgctxt "Menu|"
 msgid "Geography"
 msgstr "Ģeogrāfija"
 
-#: activities/menu/Menu.qml:140
+#: activities/menu/Menu.qml:137
 msgctxt "Menu|"
 msgid "Numeration"
 msgstr "Skaitīšana"
 
-#: activities/menu/Menu.qml:141
+#: activities/menu/Menu.qml:138
 msgctxt "Menu|"
 msgid "Arithmetic"
 msgstr "Aritmētika"
 
-#: activities/menu/Menu.qml:142
+#: activities/menu/Menu.qml:139
 msgctxt "Menu|"
 msgid "Measures"
 msgstr "Mērīšana"
 
-#: activities/menu/Menu.qml:152
+#: activities/menu/Menu.qml:149
 msgctxt "Menu|"
 msgid "Letters"
 msgstr "Burti"
 
-#: activities/menu/Menu.qml:153
+#: activities/menu/Menu.qml:150
 msgctxt "Menu|"
 msgid "Words"
 msgstr "Vārdi"
 
-#: activities/menu/Menu.qml:154
+#: activities/menu/Menu.qml:151
 msgctxt "Menu|"
 msgid "Vocabulary"
-msgstr "Vārdnīca"
+msgstr "Vārdu krājums"
 
-#: activities/menu/Menu.qml:372
+#: activities/menu/Menu.qml:376
 msgctxt "Menu|"
 msgid ""
 "Put your favorite activities here by clicking on the sun at the top right of "
@@ -19035,7 +19050,7 @@ msgid ""
 msgstr ""
 "Apskatot akmens sienu, vari tajā atrast kaut ko mirdzošu. Pārvieto peli uz "
 "šo mirdzumu un izmanto peles rullīti vai tuvināšanas žestu, lai tuvinātu. "
-"Kas sasniegsi maksimālo tuvinājuma līmeni, mirdzuma vietā redzēs zelta "
+"Kas sasniegsi maksimālo tuvinājuma līmeni, mirdzuma vietā redzēsi zelta "
 "tīrradni. Klikšķini uz tā, lai to savāktu."
 
 #: activities/mining/ActivityInfo.qml:25
@@ -19048,7 +19063,7 @@ msgid ""
 msgstr ""
 "Pēc tīrradņa savākšanas izmanto peles rullīti vai tālināšanas žestu, lai "
 "atkal tālinātu. Kad sasniegsi minimālo tālinājuma līmeni, parādīsies jauns "
-"mirdzums, uzrādot nākamo savācamo zelta tīrradni. Savā tīrradņus, lai "
+"mirdzums, uzrādot nākamo savācamo zelta tīrradni. Savāc tīrradņus, lai "
 "pabeigtu līmeni."
 
 #: activities/mining/ActivityInfo.qml:26
@@ -19107,7 +19122,7 @@ msgstr "Uzmanīgi — tu tuvini pārāk tālu no mirdzuma."
 #: activities/mining/Mining.qml:466
 msgctxt "Mining|"
 msgid "Now you see the nugget, click on it to catch it."
-msgstr "Tagad redzi tīrradni, klikšķini uz tā, lai to paņemtu."
+msgstr "Tagad redzi tīrradni — klikšķini uz tā, lai to paņemtu!"
 
 #: activities/mining/Mining.qml:474
 msgctxt "Mining|"
@@ -19131,7 +19146,7 @@ msgstr "Turpini tālināt līdz redzi mirdzumu."
 #: activities/mining/Mining.qml:498
 msgctxt "Mining|"
 msgid "Now you see the sparkle, go ahead, you can zoom on it."
-msgstr "Tagad vari redzēt mirdzumu, turpini un tuvini uz tā."
+msgstr "Tagad vari redzēt mirdzumu, turpini un tuvini pie tā."
 
 #. Activity title
 #: activities/missing-letter/ActivityInfo.qml:16
@@ -19229,7 +19244,7 @@ msgid ""
 "pay. If you want to remove a coin or a note, click or tap on it on the upper "
 "screen area."
 msgstr ""
-"Klikšķini vai uzsit uz monētām vai piezīmēm ekrāna apakšējā daļā, lai "
+"Klikšķini vai pieskaries monētām vai piezīmēm ekrāna apakšējā daļā, lai "
 "samaksātu. Ja vēlies noņemt monētu vai banknoti, klikšķini vai uzsit uz tās "
 "ekrāna augšējā daļā."
 
@@ -19602,7 +19617,7 @@ msgid ""
 msgstr ""
 "Spēlē ar Tuksu. Vispirms pēc kārtas uzlieciet deviņus kauliņus, bet pēc tam "
 "pēc kārtas pārvietojiet savus kauliņus. Ja Tev ir tikai trīs kauliņi, vari "
-"tos pārvietot uz jebkuru brīvo vietu. Spēlētājs uzvar, kad citi spēlētāji "
+"tos pārvietot uz jebkuru brīvo vietu. Spēlētājs uzvar, kad otrs spēlētājs "
 "vairs nevar pārvietot nevienu kauliņu vai ir atlikuši tikai divi kauliņi."
 
 #: activities/nine_men_morris/nine_men_morris.js:29
@@ -19622,7 +19637,7 @@ msgid ""
 "are left on the board."
 msgstr ""
 "Ja tev izdodas izveidot dzirnavas (rindu ar trim kauliņiem), tad vari "
-"uzklikšķināt uz kāda no Tuksa kauliņiem, lai ot noņemtu. Kauliņi, kas veido "
+"uzklikšķināt uz kāda no Tuksa kauliņiem, lai to noņemtu. Kauliņi, kas veido "
 "dzirnavas, nav noņemami, izņemot, ja laukumā nav neviena cita brīva kauliņa."
 
 #: activities/nine_men_morris/nine_men_morris.js:37
@@ -19632,10 +19647,10 @@ msgid ""
 "Click on one of your pieces, and then on an adjacent empty spot to move it "
 "there. Green color spots indicates where you can move."
 msgstr ""
-"Pēc visu kauliņu novietošanas tu un Tukss pēc kārtas tos pārvietos. "
-"Klikšķini uz kāda no saviem kauliņiem un pēc tam uz blakus esoša brīva "
-"laukuma, lai to pārvietotu uz šo vietu. Zaļie krāsainie lauciņi norāda uz "
-"vietu, kur vari kauliņu pārvietot."
+"Pēc visu kauliņu novietošanas tu un Tukss pēc kārtas tos pārvieto. Klikšķini "
+"uz kāda no saviem kauliņiem un pēc tam uz blakus esoša brīva laukuma, lai to "
+"pārvietotu uz šo vietu. Zaļie krāsainie lauciņi norāda uz vietu, kur vari "
+"kauliņu pārvietot."
 
 #: activities/nine_men_morris/nine_men_morris.js:41
 msgctxt "nine_men_morris|"
@@ -19644,7 +19659,7 @@ msgid ""
 "moved to any vacant spot on the board."
 msgstr ""
 "Ja Tev ir atlikuši tikai trīs kauliņi, vari iegūt iespēju „lidot“, proti, "
-"vari kauliņu pārvietot uz jebkuru brīvo vietu laukumā."
+"vari kauliņu pārvietot uz jebkuru brīvu vietu laukumā."
 
 #: activities/nine_men_morris/nine_men_morris.js:45
 msgctxt "nine_men_morris|"
@@ -19653,7 +19668,7 @@ msgid ""
 "win the game."
 msgstr ""
 "Ja tev izdodas radīt situāciju, kad datoram trūkst gājienu vai paliek mazāk "
-"par trim gabaliem, tad tu uzvari."
+"par trim kauliņiem, tad tu uzvari."
 
 #: activities/nine_men_morris/nine_men_morris.js:262
 #: activities/nine_men_morris/nine_men_morris.js:1108
@@ -19715,7 +19730,7 @@ msgid ""
 msgstr ""
 "Spēlē ar draugu. Vispirms pēc kārtas uzlieciet deviņus kauliņus, bet pēc tam "
 "pēc kārtas pārvietojiet savus kauliņus. Ja Tev ir tikai trīs kauliņi, vari "
-"tos pārvietot uz jebkuru brīvo vietu. Spēlētājs uzvar, kad citi spēlētāji "
+"tos pārvietot uz jebkuru brīvo vietu. Spēlētājs uzvar, kad otrs spēlētājs "
 "vairs nevar pārvietot nevienu kauliņu vai ir atlikuši tikai divi kauliņi."
 
 #. Activity title
@@ -19757,13 +19772,13 @@ msgid "New note: %1"
 msgstr "Jauna nots: %1"
 
 #. The following translation represents percentage.
-#: activities/note_names/NoteNames.qml:264
+#: activities/note_names/NoteNames.qml:256
 #, qt-format
 msgctxt "NoteNames|"
 msgid "%1%"
 msgstr "%1 %"
 
-#: activities/note_names/NoteNames.qml:451
+#: activities/note_names/NoteNames.qml:443
 msgctxt "NoteNames|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -19772,12 +19787,12 @@ msgstr ""
 "Šai aktivitātei ir vajadzīga skaņa, tāpēc tajā programma atskaņos skaņu pat "
 "tad, ja pamata konfigurācijā balsis un efekti ir izslēgti."
 
-#: activities/note_names/NoteNames.qml:452
+#: activities/note_names/NoteNames.qml:444
 msgctxt "NoteNames|"
 msgid "Quit"
 msgstr "Iziet"
 
-#: activities/note_names/NoteNames.qml:453
+#: activities/note_names/NoteNames.qml:445
 msgctxt "NoteNames|"
 msgid "Continue"
 msgstr "Turpināt"
@@ -19795,7 +19810,7 @@ msgstr ""
 "<br>Atsauces notis ir iekrāsotas sarkanas un palīdzēs nolasīt tām apkārt "
 "esošās notis."
 
-#: activities/number_sequence/ActivityConfig.qml:36
+#: activities/number_sequence/ActivityConfig.qml:37
 msgctxt "ActivityConfig|"
 msgid "Highlight next point"
 msgstr "Iekrāsot nākamo punktu"
@@ -19823,8 +19838,12 @@ msgstr "Iemācies skaitlisko secību."
 #: activities/number_sequence/ActivityInfo.qml:23
 msgctxt "ActivityInfo|"
 msgid ""
-"Draw the picture by clicking on the points in the numerical sequence order."
-msgstr "Zīmē attēlu, klikšķinot uz punktiem, ievērojot skaitļu secību."
+"Draw the picture by clicking on the points in the numerical sequence order. "
+"You can click and drag from one point to the next ones, or click on each "
+"point one after the other."
+msgstr ""
+"Zīmē attēlu, pareizā secībā savienojot punktus. Vari spiest un vilkt no "
+"viena punkta uz nākamajiem, vai arī pēc kārtas klikšķināt uz katra punkta."
 
 #. Activity title
 #: activities/numbers-odd-even/ActivityInfo.qml:15
@@ -19856,9 +19875,9 @@ msgid ""
 msgstr ""
 "Seko instrukcijām: noķer mākoņus ar nepāra vai pāra skaitļiem pareizajā "
 "secībā. Ja izmanto tastatūru, helikopteru pārvieto ar bultiņu taustiņiem. Ja "
-"izmanto peli vai citu rādītāju ierīci, vienkārši klikšķini vai uzsit uz "
-"mērķa vietu. Pirmajos līmeņos labajā apakšējā stūrī vari redzēt, kāds cipars "
-"ir jāķer nākamais. Vēlākos līmeņos tev tas būs jāiegaumē."
+"izmanto peli vai citu rādītāju ierīci, vienkārši klikšķini vai pieskaries "
+"mērķa vietai. Pirmajos līmeņos labajā apakšējā stūrī vari redzēt, kāds "
+"cipars ir jāķer nākamais. Vēlākos līmeņos tev tas būs jāiegaumē."
 
 #: activities/numbers-odd-even/NumbersOddEven.qml:14
 msgctxt "NumbersOddEven|"
@@ -20141,27 +20160,27 @@ msgstr ""
 #: activities/ordering_numbers/ordering.js:66
 msgctxt "ordering|"
 msgid "Drag and drop the items in ascending order."
-msgstr "Velc un nomet vienumus augošā secībā."
+msgstr "Velc un nomet augošā secībā."
 
 #: activities/ordering_numbers/ordering.js:67
 msgctxt "ordering|"
 msgid "Drag and drop the items in descending order."
-msgstr "Velc un nomet vienumus dilstošā secībā."
+msgstr "Velc un nomet dilstošā secībā."
 
 #: activities/ordering_numbers/ordering.js:68
 msgctxt "ordering|"
 msgid "Drag and drop the letters in alphabetical order."
-msgstr "Velc un nomet vienumus alfabētiskā secībā."
+msgstr "Velc un nomet alfabētiskā secībā."
 
 #: activities/ordering_numbers/ordering.js:69
 msgctxt "ordering|"
 msgid "Drag and drop the letters in reverse alphabetical order."
-msgstr "Velc un nomet vienumus apgrieztā alfabētiskā secībā."
+msgstr "Velc un nomet apgrieztā alfabētiskā secībā."
 
 #: activities/ordering_numbers/ordering.js:70
 msgctxt "ordering|"
 msgid "Drag and drop the items in chronological order."
-msgstr "Velc un nomet vienumus hronoloģiskā secībā."
+msgstr "Velc un nomet hronoloģiskā secībā."
 
 #: activities/ordering_numbers/ordering.js:71
 msgctxt "ordering|"
@@ -20331,9 +20350,8 @@ msgid ""
 msgstr ""
 "Spēle sākas ar četrām sēklām katrā mājā. Spēles uzdevums ir iegūt vairāk "
 "sēklu par pretinieku. Tā kā spēlē kopā ir tikai 48 sēklas, tad ar 25 sēklu "
-"iegūšanu pietiek, lai tajā uzvarētu. Tā kā sēklu skaits ir pāra skaitlis, "
-"tad iespējams spēli beigt ar neizšķirtu, katram spēlētājam iegūstot 25 "
-"sēklas."
+"iegūšanu pietiek, lai tajā uzvarētu. Sēklu skaits ir pāra skaitlis, tāpēc ir "
+"iespējams spēli beigt ar neizšķirtu, katram spēlētājam iegūstot 24 sēklas."
 
 #: activities/oware/ActivityInfo.qml:23
 #: activities/oware_2players/ActivityInfo.qml:23
@@ -20348,12 +20366,12 @@ msgid ""
 "seed is placed in the next house."
 msgstr ""
 "Spēlētāji pēc kārtas pārvieto sēklas. Katrā gājienā spēlētājs izvēlas kādu "
-"no sešām viņu kontrolētajām mājām. Spēlētājs izņem visas sēklas no šīs mājas "
-"un tās sadala — šo procesu sauc sēšana — nākamajās mājās (skaitoties pretēji "
+"no sešām savām mājām. Spēlētājs izņem visas sēklas no šīs mājas un tās "
+"sadala — šo procesu sauc sēšana — nākamajās mājās (skaitoties pretēji "
 "pulksteņrādītāja kustības virzienam). Sēklas nesadala beigu punktu mājās un "
-"mājās, no kurām tās izņem. Sākuma māja vienmēr ir atstājama puse. Ja tā "
-"satur 12 (vai vairāk) sēklu, to izlaiž, bet divpadsmito sēklu ievieto "
-"nākamajā mājā."
+"mājās, no kurām tās izņem. Māja, no kuras sēklas paņem, pēc gājiena vienmēr "
+"paliek tukša. Ja māja satur 12 (vai vairāk) sēklu, to izlaiž, bet "
+"divpadsmito sēklu ievieto nākamajā mājā."
 
 #: activities/oware/ActivityInfo.qml:24
 #: activities/oware_2players/ActivityInfo.qml:24
@@ -20370,17 +20388,17 @@ msgid ""
 "this would prevent the opponent from continuing the game, and the seeds are "
 "instead left on the board."
 msgstr ""
-"Sēklu iegūšana notiek tikai tad, kad spēlētājs pretinieka mājā esošo sēklu "
-"skaitu savā pēdējā sēšanas gājienā palielina līdz divām vai trim. Šādi "
-"vienmēr iegūstamas sēklas no attiecīgās mājas un reizēm vēl vairāk — ja "
-"viena sēkla pirms tam sēkla arī ir iepriekšējā pretinieka mājā sēklas "
-"palielinājusi līdz divām vai trim, tad tiek iegūtas arī tās, un tā tālāk "
-"līdz, skatoties atpakaļ (pulksteņrādītāja kustības virzienā) tiek sasniegta "
-"māja, kura nesatur divas vai trīs sēklas vai nepieder pretiniekam. Iegūtās "
-"sēklas ir novietojamas spēlētāja punktu mājā. Tomēr, ja gājiena rezultātā "
-"tiktu iegūtas visas pretinieka sēklas, tad iegūšana nenotiek, jo tās "
-"rezultātā pretinieks vairs nevarētu veikt gājienu, tāpēc sēklas paliek "
-"laukumā."
+"Sēklu iegūšana notiek tikai tad, kad spēlētājs izliek savas sēklas pēc "
+"kārtas un pēdējā sēkla pretinieka mājā esošo sēklu skaitu palielina līdz "
+"divām vai trim. Šādi vienmēr iegūstamas visas sēklas no attiecīgās "
+"pretinieka mājas, bet reizēm vēl vairāk — ja iepriekšējā mājā pēc gājiena "
+"sēklu skaits arī ir palielinājies līdz divām vai trim, tad iegūstamas arī "
+"tās. Pēc tam skatās sēklu skaitu vēl vienu māju atpakaļ (pulksteņrādītāja "
+"kustības virzienā) līdz kādā mājā sēklu skaits nav divas vai trīs (vai māja "
+"nepieder pretiniekam). Iegūtās sēklas ir novietojamas spēlētāja punktu mājā. "
+"Tomēr, ja gājiena rezultātā sanāktu paņemt visas pretinieku sēklas un "
+"pretinieks nevarētu veikt savu gājienu, tad šīs sēklas paņemt nedrīkst un "
+"tās paliek laukumā."
 
 #: activities/oware/ActivityInfo.qml:25
 #: activities/oware_2players/ActivityInfo.qml:25
@@ -20696,8 +20714,7 @@ msgstr "Soda sitiens"
 msgctxt "ActivityInfo|"
 msgid "Double click or double tap on any side of the goal in order to score."
 msgstr ""
-"Veic dubultklikšķi vai divus uzsitienus jebkurā vārtu pusē, lai veiktu "
-"sitienu."
+"Lai sistu, veic dubultklikšķi vai divus pieskārienus jebkurā vārtu pusē."
 
 #. Help manual
 #: activities/penalty/ActivityInfo.qml:23
@@ -20708,8 +20725,8 @@ msgid ""
 "click fast enough, Tux catches the ball. You must click on it to bring it "
 "back to its initial position."
 msgstr ""
-"Veic dubultklikšķi vai divus sitienus uz kādā no vārtu pusēm, lai spertu pa "
-"bumbu. Dubultklikšķi vari veikt ar peles kreiso, vidējo un labo pogu. Ja "
+"Lai spertu pa bumbu, veic dubultklikšķi vai divus sitienus kādā no vārtu "
+"pusēm. Dubultklikšķi vari veikt ar peles kreiso, vidējo un labo pogu. Ja "
 "dubultklikšķi neveic pietiekami ātri, Tukss bumbu noķer. Tev ir jāklikšķina "
 "uz bumbas, lai to atgriezto sākuma stāvoklī."
 
@@ -20719,13 +20736,13 @@ msgid ""
 "Double click or double tap on the side of the goal you want to put the ball "
 "in."
 msgstr ""
-"Veic dubultklikšķi vai divus uzsitienus uz vārtu puses, kurā vēlies sist "
+"Veic dubultklikšķi vai divus pieskārienus vārtu pusei, kurā vēlies sist "
 "bumbu."
 
 #: activities/penalty/Penalty.qml:256
 msgctxt "Penalty|"
 msgid "Click or tap on the ball to bring it back to its initial position."
-msgstr "Klikšķini vai uzsit uz bumbas, lai to atgrieztu sākuma vietā."
+msgstr "Klikšķini vai pieskaries bumbai, lai to atgrieztu sākuma vietā."
 
 #. Activity title
 #: activities/photo_hunter/ActivityInfo.qml:15
@@ -20755,15 +20772,15 @@ msgstr ""
 "Rūpīgi aplūko abus attēlus. Tajos ir nelielas izmaiņas. Kad atrodi šīs "
 "vietas, klikšķini uz tām."
 
-#: activities/photo_hunter/PhotoHunter.qml:104
+#: activities/photo_hunter/PhotoHunter.qml:102
 msgctxt "PhotoHunter|"
 msgid "Drag the slider to show the differences."
 msgstr "Velc slīdni, lai parādītu atšķirības."
 
-#: activities/photo_hunter/PhotoHunter.qml:105
+#: activities/photo_hunter/PhotoHunter.qml:103
 msgctxt "PhotoHunter|"
 msgid "Click on the differences between the two images."
-msgstr "Klikšķini uz atšķirībām abos attēlos."
+msgstr "Klikšķini uz atšķirībām attēlos."
 
 #. Activity title
 #: activities/piano_composition/ActivityInfo.qml:16
@@ -20911,29 +20928,29 @@ msgstr ""
 "Oriģinālais sintezatora kods ir ņemts no „https://github.com/vsr83/miniSynth“"
 
 #. BPM is the abbreviation for Beats Per Minute.
-#: activities/piano_composition/BpmMeter.qml:48
+#: activities/piano_composition/BpmMeter.qml:47
 #, qt-format
 msgctxt "BpmMeter|"
 msgid "%1 BPM"
 msgstr "%1 BPM"
 
 #. Treble clef and Bass clef are the notations to indicate the pitch of the sound written on it.
-#: activities/piano_composition/KeyOption.qml:47
+#: activities/piano_composition/KeyOption.qml:46
 msgctxt "KeyOption|"
 msgid "Treble clef"
 msgstr "Vijoles atslēga"
 
-#: activities/piano_composition/KeyOption.qml:47
+#: activities/piano_composition/KeyOption.qml:46
 msgctxt "KeyOption|"
 msgid "Bass clef"
 msgstr "Basa atslēga"
 
-#: activities/piano_composition/KeyOption.qml:63
+#: activities/piano_composition/KeyOption.qml:61
 msgctxt "KeyOption|"
 msgid "Treble clef added"
 msgstr "Pievienota vijoles atslēga"
 
-#: activities/piano_composition/KeyOption.qml:63
+#: activities/piano_composition/KeyOption.qml:61
 msgctxt "KeyOption|"
 msgid "Bass clef added"
 msgstr "Pievienota basa atslēga"
@@ -21156,12 +21173,12 @@ msgid "Undo"
 msgstr "Atsaukt"
 
 #. Sharp notes and Flat notes represents the accidental style of the notes in the music.
-#: activities/piano_composition/OptionsRow.qml:166
+#: activities/piano_composition/OptionsRow.qml:165
 msgctxt "OptionsRow|"
 msgid "Sharp notes"
 msgstr "Notis ar diēzu"
 
-#: activities/piano_composition/OptionsRow.qml:166
+#: activities/piano_composition/OptionsRow.qml:165
 msgctxt "OptionsRow|"
 msgid "Flat notes"
 msgstr "Notis ar bemolu"
@@ -21226,37 +21243,37 @@ msgctxt "piano_composition|"
 msgid "Melody saved to your file (%1)"
 msgstr "Melodija ir saglabāta datnē (%1)"
 
-#: activities/piano_composition/Piano_composition.qml:359
+#: activities/piano_composition/Piano_composition.qml:361
 msgctxt "Piano_composition|"
 msgid "You have not selected any note. Do you want to erase all the notes?"
 msgstr "Tu neatlasīji nevienu noti. Vai vēlies dzēst visas notis?"
 
-#: activities/piano_composition/Piano_composition.qml:360
+#: activities/piano_composition/Piano_composition.qml:362
 msgctxt "Piano_composition|"
 msgid "Yes"
 msgstr "Jā"
 
-#: activities/piano_composition/Piano_composition.qml:366
+#: activities/piano_composition/Piano_composition.qml:368
 msgctxt "Piano_composition|"
 msgid "No"
 msgstr "Nē"
 
-#: activities/piano_composition/Piano_composition.qml:416
+#: activities/piano_composition/Piano_composition.qml:418
 msgctxt "Piano_composition|"
 msgid "Select the type of melody to load."
 msgstr "Spied uz ielādējamās melodijas veida."
 
-#: activities/piano_composition/Piano_composition.qml:421
+#: activities/piano_composition/Piano_composition.qml:423
 msgctxt "Piano_composition|"
 msgid "Pre-defined melodies"
 msgstr "Iepriekš definētas melodijas"
 
-#: activities/piano_composition/Piano_composition.qml:439
+#: activities/piano_composition/Piano_composition.qml:441
 msgctxt "Piano_composition|"
 msgid "Your saved melodies"
 msgstr "Tavas saglabātās melodijas"
 
-#: activities/piano_composition/Piano_composition.qml:553
+#: activities/piano_composition/Piano_composition.qml:555
 msgctxt "Piano_composition|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -21265,12 +21282,12 @@ msgstr ""
 "Šai aktivitātei ir vajadzīga skaņa, tāpēc tajā programma atskaņos skaņu pat "
 "tad, ja pamata konfigurācijā balsis un efekti ir izslēgti."
 
-#: activities/piano_composition/Piano_composition.qml:554
+#: activities/piano_composition/Piano_composition.qml:556
 msgctxt "Piano_composition|"
 msgid "Quit"
 msgstr "Iziet"
 
-#: activities/piano_composition/Piano_composition.qml:555
+#: activities/piano_composition/Piano_composition.qml:557
 msgctxt "Piano_composition|"
 msgid "Continue"
 msgstr "Turpināt"
@@ -21462,8 +21479,8 @@ msgid ""
 msgstr ""
 "Ķer mākoņus augošā secībā. Tastatūrā izmanto bultiņu taustiņus, lai "
 "pārvietotu helikopteru. Ar peli vai līdzīgu ierīci vienkārši klikšķini vai "
-"uzsit uz mērķa vietu. Lai zinātu, kādu skaitli jāķer, vari to iegaumēt vai "
-"pārbaudīt skaitli labajā apakšējā stūrī."
+"pieskaries uz mērķa vietai. Lai zinātu, kādu skaitli jāķer, vari to iegaumēt "
+"vai pārbaudīt skaitli labajā apakšējā stūrī."
 
 #: activities/planegame/Sequence.qml:13
 msgctxt "Sequence|"
@@ -21475,12 +21492,12 @@ msgctxt "Sequence|"
 msgid "Catch the numbers starting from 10."
 msgstr "Ķer skaitļus, sākot no 10."
 
-#: activities/play_piano/ActivityConfig.qml:34
+#: activities/play_piano/ActivityConfig.qml:35
 msgctxt "ActivityConfig|"
 msgid "Display colored notes."
 msgstr "Parādīt krāsainas piezīmes."
 
-#: activities/play_piano/ActivityConfig.qml:46
+#: activities/play_piano/ActivityConfig.qml:47
 msgctxt "ActivityConfig|"
 msgid "Display colorless notes."
 msgstr "Parādīt nekrāsainas piezīmes."
@@ -21535,12 +21552,12 @@ msgctxt "ActivityInfo|"
 msgid "Backspace or Delete: undo"
 msgstr "Dzēšanas taustiņš: atceļ"
 
-#: activities/play_piano/PlayPiano.qml:198
+#: activities/play_piano/PlayPiano.qml:197
 msgctxt "PlayPiano|"
 msgid "Click on the piano keys that match the given notes."
 msgstr "Spied uz klavieru taustiņiem, kas atbilst dotajām notīm."
 
-#: activities/play_piano/PlayPiano.qml:311
+#: activities/play_piano/PlayPiano.qml:310
 msgctxt "PlayPiano|"
 msgid ""
 "This activity requires sound, so it will play some sounds even if the audio "
@@ -21549,12 +21566,12 @@ msgstr ""
 "Šai aktivitātei ir vajadzīga skaņa, tāpēc tajā programma atskaņos skaņu pat "
 "tad, ja pamata konfigurācijā balsis un efekti ir izslēgti."
 
-#: activities/play_piano/PlayPiano.qml:312
+#: activities/play_piano/PlayPiano.qml:311
 msgctxt "PlayPiano|"
 msgid "Quit"
 msgstr "Iziet"
 
-#: activities/play_piano/PlayPiano.qml:313
+#: activities/play_piano/PlayPiano.qml:312
 msgctxt "PlayPiano|"
 msgid "Continue"
 msgstr "Turpināt"
@@ -21640,7 +21657,7 @@ msgctxt "ActivityInfo|"
 msgid "Tab: Start or stop the metronome if it is visible"
 msgstr "Tabulācijas taustiņš: sākt vai apturēt metronomu, ja tas ir redzams"
 
-#: activities/play_rhythm/PlayRhythm.qml:133
+#: activities/play_rhythm/PlayRhythm.qml:135
 msgctxt "PlayRhythm|"
 msgid ""
 "Use the metronome to estimate the time intervals and play the rhythm "
@@ -21649,7 +21666,7 @@ msgstr ""
 "Izmanto metronomu, lai vieglāk saprastu laika intervālus un pareizi "
 "nospēlētu ritmu."
 
-#: activities/play_rhythm/PlayRhythm.qml:134
+#: activities/play_rhythm/PlayRhythm.qml:136
 msgctxt "PlayRhythm|"
 msgid ""
 "Follow the vertical line and click on the drum or press space key to play "
@@ -21921,7 +21938,7 @@ msgstr ""
 #: activities/programmingMaze/InstructionArea.qml:27
 msgctxt "InstructionArea|"
 msgid "Choose the instructions"
-msgstr "Izvēlies instrukcijas"
+msgstr "Izmanto instrukcijas"
 
 #: activities/programmingMaze/programmingMaze.js:96
 msgctxt "programmingMaze|"
@@ -21933,7 +21950,7 @@ msgctxt "programmingMaze|"
 msgid ""
 "There are 3 instructions which you can use to code and lead Tux to the fish:"
 msgstr ""
-"Lai programmētu Tuksa ceļu līdz zivij, vari izmantot trīs veidu instrukcijas:"
+"Lai programmētu Tuksa ceļu līdz zivij, izmanto šādas trīs instrukcijas:"
 
 #: activities/programmingMaze/programmingMaze.js:98
 msgctxt "programmingMaze|"
@@ -22036,7 +22053,7 @@ msgstr ""
 #, qt-format
 msgctxt "ProgrammingMaze|"
 msgid "Reach the fish in less than %1 instructions."
-msgstr "Sasniedz zivi ar mazāk kā %1 instrukcijām."
+msgstr "Sasniedz zivi ar mazāk nekā %1 instrukcijām."
 
 #: activities/programmingMaze/ProgrammingMaze.qml:267
 msgctxt "ProgrammingMaze|"
@@ -22066,7 +22083,7 @@ msgstr "Izmantojot gan pamata zonu, gan procedūru zonu"
 #: activities/programmingMaze/resource/3/Data.qml:14
 msgctxt "Data|"
 msgid "Using both the main area and the loop area."
-msgstr "Izmantojot gan pamata zonu, gan cikla zonu."
+msgstr "sIzmantojot gan pamata zonu, gan cikla zonu."
 
 #. Activity title
 #: activities/railroad/ActivityInfo.qml:17
@@ -22113,7 +22130,7 @@ msgid ""
 "Space: add an item from the samples to the answer area, or swap two items in "
 "the answer area"
 msgstr ""
-"Atstarpes taustiņš: pievienot vienumu no paraugiem uz atbilžu zonu vai "
+"Atstarpes taustiņš: pievienot elementus no paraugiem uz atbilžu zonu vai "
 "nomainīt divus vienumus atbilžu zonā"
 
 #: activities/railroad/ActivityInfo.qml:29
@@ -22127,7 +22144,7 @@ msgctxt "ActivityInfo|"
 msgid "Enter or Return: submit your answer"
 msgstr "„Enter“ vai „Return“ taustiņš: apstiprināt atbildi"
 
-#: activities/railroad/Railroad.qml:132
+#: activities/railroad/Railroad.qml:125
 msgctxt "Railroad|"
 msgid ""
 "Observe and remember the train before the timer ends and then drag the items "
@@ -22136,7 +22153,7 @@ msgstr ""
 "Apskati un iegaumē vilcienu pirms beidzas laiks, bet pēc tam velc elementus, "
 "lai izveidotu līdzīgu vilcienu."
 
-#: activities/railroad/Railroad.qml:133
+#: activities/railroad/Railroad.qml:126
 msgctxt "Railroad|"
 msgid ""
 "If you forgot the model, you can click on the Hint button to view it again."
@@ -22350,7 +22367,7 @@ msgstr ""
 "viņam gaismas slēdzi. Lai uzvarētu, tev ir jāieslēdz visi patērētāji, kad ir "
 "pieslēgti visi ražotāji."
 
-#: activities/renewable_energy/RenewableEnergy.qml:310
+#: activities/renewable_energy/RenewableEnergy.qml:302
 msgctxt "RenewableEnergy|"
 msgid ""
 "Tux has come back from fishing on his boat. Bring the electrical system back "
@@ -22359,7 +22376,7 @@ msgstr ""
 "Tukss ir atgriezies no makšķerēšanas laivā. Atjaunot elektrosistēmu, lai "
 "viņam mājās būtu gaisma."
 
-#: activities/renewable_energy/RenewableEnergy.qml:312
+#: activities/renewable_energy/RenewableEnergy.qml:304
 msgctxt "RenewableEnergy|"
 msgid ""
 "Click on different active elements: sun, cloud, dam, solar array, wind farm "
@@ -22369,7 +22386,7 @@ msgstr ""
 "paneļi, vēja ferma un transformatori — noteiktā secībā, lai atjaunotu "
 "elektrosistēmu."
 
-#: activities/renewable_energy/RenewableEnergy.qml:314
+#: activities/renewable_energy/RenewableEnergy.qml:306
 msgctxt "RenewableEnergy|"
 msgid ""
 "When the system is back up and Tux is in his home, push the light button for "
@@ -22380,14 +22397,14 @@ msgstr ""
 "slēdzi. Lai uzvarētu, tev ir jāieslēdz visi patērētāji, kad ir pieslēgti "
 "visi ražotāji."
 
-#: activities/renewable_energy/RenewableEnergy.qml:316
+#: activities/renewable_energy/RenewableEnergy.qml:308
 msgctxt "RenewableEnergy|"
 msgid "Learn about an electrical system based on renewable energy. Enjoy."
 msgstr ""
 "Uzzini vairāk par elektrosistēmām, kas balstās atjaunīgajā enerģijā. "
 "Izklaidējies!"
 
-#: activities/renewable_energy/RenewableEnergy.qml:340
+#: activities/renewable_energy/RenewableEnergy.qml:332
 msgctxt "RenewableEnergy|"
 msgid ""
 "It is not possible to consume more electricity than what is produced. There "
@@ -22408,27 +22425,27 @@ msgstr ""
 "aprīkojums var izslēgties, kas sliktākajā gadījumā var pat izraisīt "
 "elektrības pazušanu veselam reģionam."
 
-#: activities/reversecount/ActivityConfig.qml:22
+#: activities/reversecount/ActivityConfig.qml:23
 #: activities/smallnumbers2/ActivityConfig.qml:21
 msgctxt "ActivityConfig|"
 msgid "Arabic numbers"
 msgstr "Arābu skaitļi"
 
-#: activities/reversecount/ActivityConfig.qml:23
+#: activities/reversecount/ActivityConfig.qml:24
 #: activities/smallnumbers2/ActivityConfig.qml:22
 msgctxt "ActivityConfig|"
 msgid "Roman numbers"
 msgstr "Romiešu skaitļi"
 
-#: activities/reversecount/ActivityConfig.qml:24
+#: activities/reversecount/ActivityConfig.qml:25
 #: activities/smallnumbers2/ActivityConfig.qml:23
-#: activities/traffic/ActivityConfig.qml:22
+#: activities/traffic/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "Images"
 msgstr "Attēli"
 
-#: activities/reversecount/ActivityConfig.qml:33
-#: activities/smallnumbers2/ActivityConfig.qml:36
+#: activities/reversecount/ActivityConfig.qml:34
+#: activities/smallnumbers2/ActivityConfig.qml:37
 msgctxt "ActivityConfig|"
 msgid "Select Domino Representation"
 msgstr "Atlasi domino reprezentāciju"
@@ -22437,7 +22454,7 @@ msgstr "Atlasi domino reprezentāciju"
 #: activities/reversecount/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Count intervals"
-msgstr "Skaitīt intervālus"
+msgstr "Skaiti intervālus"
 
 #. Help title
 #: activities/reversecount/ActivityInfo.qml:17
@@ -22555,7 +22572,7 @@ msgid ""
 "number 0."
 msgstr ""
 "Visus romiešu skaitļus veido šie septiņi skaitļi:\n"
-"I un V (vienības, 1 un 5)\n"
+"I un V (cipari 1 un 5)\n"
 "X un L (desmiti, 10 un 50)\n"
 "C un D (simti, 100 un 500)\n"
 " un M (1000).\n"
@@ -22594,10 +22611,10 @@ msgid ""
 " The 4 and the 9 units are built using differences:\n"
 "IV (5 – 1) and IX (10 – 1)."
 msgstr ""
-"Visas vienības, izņemot 4 un 9 veido I un V summas:\n"
+"Visus mazos ciparus, izņemot 4 un 9 veido I un V summas:\n"
 "I, II, III, V, VI, VII, VIII.\n"
 " Tikmēr 4 un 9 veido ar atņemšanu:\n"
-"IV (5 − 1) un IX (10 − 1)."
+"IV (5−1) un IX (10−1)."
 
 #: activities/roman_numerals/RomanNumerals.qml:103
 #: activities/roman_numerals/RomanNumerals.qml:109
@@ -22651,13 +22668,13 @@ msgstr ""
 "Tagad, kad zini visus noteikumus, vari lasīt un rakstīt skaitļus ar romiešu "
 "cipariem."
 
-#: activities/roman_numerals/RomanNumerals.qml:388
+#: activities/roman_numerals/RomanNumerals.qml:386
 #, qt-format
 msgctxt "RomanNumerals|"
 msgid "Roman value: %1"
 msgstr "Romiešu skaitlis: %1"
 
-#: activities/roman_numerals/RomanNumerals.qml:389
+#: activities/roman_numerals/RomanNumerals.qml:387
 #, qt-format
 msgctxt "RomanNumerals|"
 msgid "Arabic value: %1"
@@ -23197,7 +23214,7 @@ msgstr ""
 "Atceries, ka viena mārciņa („lb“) ir vienāda ar sešpadsmit uncēm („oz“). \n"
 " Nomet atsvarus svaru kreisajā pusē, lai tos līdzsvarotu."
 
-#: activities/share/ActivityConfig.qml:26
+#: activities/share/ActivityConfig.qml:27
 msgctxt "ActivityConfig|"
 msgid "Display counters"
 msgstr "Parādīt skaitītājus"
@@ -23744,6 +23761,266 @@ msgid "Tab: switch between the color selector and the painting area"
 msgstr "„Tab“ taustiņš: pārslēdzas starp krāsu atlasīšanas un krāsošanas zonu"
 
 #. Activity title
+#: activities/sketch/ActivityInfo.qml:18
+msgctxt "ActivityInfo|"
+msgid "Sketch"
+msgstr "Skice"
+
+#. Help title
+#: activities/sketch/ActivityInfo.qml:20
+msgctxt "ActivityInfo|"
+msgid "Use the various digital painting tools to draw images."
+msgstr "Zīmē attēlus ar dažādiem digitālās zīmēšanas rīkiem."
+
+#. Help goal
+#: activities/sketch/ActivityInfo.qml:23
+msgctxt "ActivityInfo|"
+msgid "Learn about some digital painting tools."
+msgstr "Apgūsti dažādus digitālās zīmēšanas rīkus."
+
+#. Help manual
+#: activities/sketch/ActivityInfo.qml:27
+msgctxt "ActivityInfo|"
+msgid ""
+"Select tools and colors from the foldable panels and draw images.<br><br>"
+msgstr "Atlasi rīkus un krāsas no sakļaujamiem paneļiem un zīmē.<br><br>"
+
+#: activities/sketch/ActivityInfo.qml:29
+msgctxt "ActivityInfo|"
+msgid "Ctrl + Z: undo last action"
+msgstr "„Ctrl“ + Z: atsauc pēdējo darbību"
+
+#: activities/sketch/ActivityInfo.qml:30
+msgctxt "ActivityInfo|"
+msgid "Ctrl + Y: redo last action"
+msgstr "„Ctrl“ + Y: atatsauc pēdējo darbību"
+
+#: activities/sketch/ActivityInfo.qml:31
+msgctxt "ActivityInfo|"
+msgid "Ctrl + S: save the image"
+msgstr "„Ctrl“ + S: saglabā zīmējumu"
+
+#: activities/sketch/ActivityInfo.qml:32
+msgctxt "ActivityInfo|"
+msgid "Ctrl + O: open an image"
+msgstr "„Ctrl“ + O: atver attēlu"
+
+#: activities/sketch/ActivityInfo.qml:33
+msgctxt "ActivityInfo|"
+msgid "Ctrl + N, Delete or Backspace: create a new image"
+msgstr "„Ctrl“ + N, „Delete“ vai „Backspace“: izveido jaunu attēlu"
+
+#: activities/sketch/ActivityInfo.qml:34
+msgctxt "ActivityInfo|"
+msgid "Brush smoothing concept from:"
+msgstr "Otas līdzināšanas ideja no:"
+
+#: activities/sketch/ActivityInfo.qml:35
+msgctxt "ActivityInfo|"
+msgid "Sketch brush concept from:"
+msgstr "Skiču otras ideja no:"
+
+#: activities/sketch/BackgroundColorSelector.qml:40
+msgctxt "BackgroundColorSelector|"
+msgid "Background color"
+msgstr "Fona krāsa"
+
+#: activities/sketch/BackgroundSelector.qml:42
+msgctxt "BackgroundSelector|"
+msgid "Background image"
+msgstr "Fona attēls"
+
+#: activities/sketch/BrushToolPanel.qml:17
+msgctxt "BrushToolPanel|"
+msgid "Eraser Tools"
+msgstr "Dzēšanas rīks"
+
+#: activities/sketch/BrushToolPanel.qml:17
+msgctxt "BrushToolPanel|"
+msgid "Drawing Tools"
+msgstr "Zīmēšanas rīks"
+
+#: activities/sketch/ColorSelector.qml:76
+msgctxt "ColorSelector|"
+msgid "Palette Colors"
+msgstr "Paletes krāsas"
+
+#: activities/sketch/ColorSelector.qml:160
+msgctxt "ColorSelector|"
+msgid "Reset palette"
+msgstr "Atiestatīt paleti"
+
+#: activities/sketch/ColorSelector.qml:211
+msgctxt "ColorSelector|"
+msgid "Selected Color"
+msgstr "Atlasīt krāsu"
+
+#. Color hue
+#: activities/sketch/ColorSelector.qml:235
+msgctxt "ColorSelector|color hue"
+msgid "Hue"
+msgstr "Nokrāsa"
+
+#. Color saturation
+#: activities/sketch/ColorSelector.qml:262
+msgctxt "ColorSelector|color saturation"
+msgid "Saturation"
+msgstr "Piesātinājums"
+
+#. Color lightness
+#: activities/sketch/ColorSelector.qml:287
+msgctxt "ColorSelector|color lightness"
+msgid "Lightness"
+msgstr "Gaišums"
+
+#. Reload default color for selected slot
+#: activities/sketch/ColorSelector.qml:324
+msgctxt "ColorSelector|"
+msgid "Reset Color"
+msgstr "Atiestatīt krāsu"
+
+#: activities/sketch/ColorsPanel.qml:157
+msgctxt "ColorsPanel|"
+msgid "Palettes"
+msgstr "Paletes"
+
+#: activities/sketch/FilesPanel.qml:46
+msgctxt "FilesPanel|"
+msgid "Save your image"
+msgstr "Saglabā savu zīmējumu"
+
+#: activities/sketch/FilesPanel.qml:85
+msgctxt "FilesPanel|"
+msgid "Open an image"
+msgstr "Atvērt zīmējumu"
+
+#: activities/sketch/FilesPanel.qml:116
+msgctxt "FilesPanel|"
+msgid "New image settings"
+msgstr "Jauna zīmējuma iestatījumi"
+
+#: activities/sketch/FilesPanel.qml:144
+msgctxt "FilesPanel|"
+msgid "Background color"
+msgstr "Fona krāsa"
+
+#: activities/sketch/FilesPanel.qml:190
+msgctxt "FilesPanel|"
+msgid "Background image"
+msgstr "Fona attēls"
+
+#: activities/sketch/FilesPanel.qml:231
+msgctxt "FilesPanel|"
+msgid "Create a new image"
+msgstr "Izveidot jaunu attēlu"
+
+#. Rectangle or Square radius size
+#: activities/sketch/GeometryTool.qml:23
+msgctxt "GeometryTool|"
+msgid "Rounded Corners"
+msgstr "Noapaļoti stūri"
+
+#: activities/sketch/GeometryToolPanel.qml:17
+msgctxt "GeometryToolPanel|"
+msgid "Geometry Tools"
+msgstr "Ģeometrijas rīki"
+
+#: activities/sketch/GradientTool.qml:22
+msgctxt "GradientTool|"
+msgid "Inner Circle Size"
+msgstr "Iekšējā apļa izmērs"
+
+#: activities/sketch/GradientToolPanel.qml:17
+msgctxt "GradientToolPanel|"
+msgid "Gradient Tools"
+msgstr "Gradienta rīks"
+
+#: activities/sketch/Sketch.qml:673
+msgctxt "Sketch|"
+msgid "You did not save this image. Do you want to close this activity?"
+msgstr "Tu vēl nesaglabāji zīmējumu. Vai vēlies aizvērt šo aktivitāti?"
+
+#: activities/sketch/Sketch.qml:674
+msgctxt "Sketch|"
+msgid "Do you want to erase this image?"
+msgstr "Vai vēlies dzēst šo zīmējumu?"
+
+#: activities/sketch/Sketch.qml:675
+msgctxt "Sketch|"
+msgid "Yes"
+msgstr "Jā"
+
+#: activities/sketch/Sketch.qml:676
+msgctxt "Sketch|"
+msgid "No"
+msgstr "Nē"
+
+#: activities/sketch/StampToolPanel.qml:18
+msgctxt "StampToolPanel|"
+msgid "Stamp Tool"
+msgstr "Spiedoga rīks"
+
+#: activities/sketch/TextToolPanel.qml:17
+msgctxt "TextToolPanel|"
+msgid "Text Tool"
+msgstr "Teksta rīks"
+
+#: activities/sketch/TextToolPanel.qml:33
+msgctxt "TextToolPanel|"
+msgid "Type your text here"
+msgstr "Raksti šeit tekstu"
+
+#: activities/sketch/ToolsPanel.qml:253
+msgctxt "ToolsPanel|"
+msgid "Tools"
+msgstr "Rīki"
+
+#: activities/sketch/ToolsPanel.qml:427
+msgctxt "ToolsPanel|"
+msgid "Reset tool settings"
+msgstr "Atiestatīt rīka iestatījumus"
+
+#: activities/sketch/ToolsPanel.qml:483
+msgctxt "ToolsPanel|"
+msgid "Opacity"
+msgstr "Necaurspīdība"
+
+#: activities/sketch/ToolsPanel.qml:506
+msgctxt "ToolsPanel|"
+msgid "Size"
+msgstr "Izmērs"
+
+#: activities/sketch/ToolsPanel.qml:526
+msgctxt "ToolsPanel|"
+msgid "Speed"
+msgstr "Ātrums"
+
+#: activities/sketch/ToolsPanel.qml:546
+msgctxt "ToolsPanel|"
+msgid "Density"
+msgstr "Blīvums"
+
+#: activities/sketch/ToolsPanel.qml:566
+msgctxt "ToolsPanel|"
+msgid "Dots Size"
+msgstr "Punktu izmērs"
+
+#: activities/sketch/ToolsPanel.qml:585
+msgctxt "ToolsPanel|"
+msgid "Smoothing"
+msgstr "Izlīdzināšana"
+
+#: activities/sketch/ToolsPanel.qml:646
+msgctxt "ToolsPanel|"
+msgid "Rotation"
+msgstr "Pagriešana"
+
+#: activities/sketch/ToolsPanel.qml:662
+msgctxt "ToolsPanel|"
+msgid "Mirror image"
+msgstr "Spoguļot attēlu"
+
+#. Activity title
 #: activities/smallnumbers/ActivityInfo.qml:15
 msgctxt "ActivityInfo|"
 msgid "Numbers with dice"
@@ -23931,12 +24208,12 @@ msgctxt "Data|"
 msgid "Type the number on the domino, from 0 to 9."
 msgstr "Ieraksti skaitli uz domino kauliņa — no 0 līdz 9."
 
-#: activities/solar_system/ActivityConfig.qml:21
+#: activities/solar_system/ActivityConfig.qml:22
 msgctxt "ActivityConfig|"
 msgid "Learning Mode"
 msgstr "Mācību režīms"
 
-#: activities/solar_system/ActivityConfig.qml:22
+#: activities/solar_system/ActivityConfig.qml:23
 msgctxt "ActivityConfig|"
 msgid "Assessment Mode"
 msgstr "Vērtēšanas režīms"
@@ -24950,25 +25227,25 @@ msgctxt "Dataset|"
 msgid "How large is Neptune compared to other planets in the Solar System?"
 msgstr "Cik liels ir Neptūns, salīdzinot ar citām Saules sistēmas planētām?"
 
-#: activities/solar_system/QuizScreen.qml:216
+#: activities/solar_system/QuizScreen.qml:214
 #, qt-format
 msgctxt "QuizScreen|"
 msgid "Accuracy: %1%"
 msgstr "Precizitāte: %1 %"
 
-#: activities/solar_system/QuizScreen.qml:256
+#: activities/solar_system/QuizScreen.qml:253
 #, qt-format
 msgctxt "QuizScreen|"
 msgid "%1%"
 msgstr "%1 %"
 
-#: activities/solar_system/QuizScreen.qml:291
+#: activities/solar_system/QuizScreen.qml:288
 #, qt-format
 msgctxt "QuizScreen|"
 msgid "Your final score is: <font color=\"#3bb0de\">%1%</font>.<br><br>%2"
 msgstr "Tavs rezultāts ir: <font color=\"#3bb0de\">%1 %</font>.<br><br>%2"
 
-#: activities/solar_system/QuizScreen.qml:291
+#: activities/solar_system/QuizScreen.qml:288
 msgctxt "QuizScreen|"
 msgid ""
 "You should score above 90% to become a Solar System expert!<br>Retry to test "
@@ -24979,7 +25256,7 @@ msgstr ""
 "<b>Mēģini nokārtot testu vēlreiz vai trenējies normālajā režīmā, lai par "
 "Saules sistēmu uzzinātu vairāk."
 
-#: activities/solar_system/QuizScreen.qml:291
+#: activities/solar_system/QuizScreen.qml:288
 msgctxt "QuizScreen|"
 msgid ""
 "Great! You can replay the assessment to test your knowledge on more "
@@ -24988,7 +25265,7 @@ msgstr ""
 "Lieliski! Tu vari vēlreiz iziet testu, lai novērtētu savas zināšanas citos "
 "jautājumos."
 
-#: activities/solar_system/SolarSystem.qml:160
+#: activities/solar_system/SolarSystem.qml:152
 #, qt-format
 msgctxt "SolarSystem|"
 msgid ""
@@ -25004,17 +25281,17 @@ msgstr ""
 "<br><b>2. Novērtēšanas režīms</b> — šajā režīmā vari pārbaudīt savas "
 "zināšanas par Saules sistēmu."
 
-#: activities/solar_system/SolarSystem.qml:160
+#: activities/solar_system/SolarSystem.qml:152
 msgctxt "SolarSystem|"
 msgid "Assessment"
 msgstr "Novērtēšana"
 
-#: activities/solar_system/SolarSystem.qml:160
+#: activities/solar_system/SolarSystem.qml:152
 msgctxt "SolarSystem|"
 msgid "Learning"
 msgstr "Mācīšanās"
 
-#: activities/solar_system/SolarSystem.qml:164
+#: activities/solar_system/SolarSystem.qml:156
 msgctxt "SolarSystem|"
 msgid ""
 "Click on the Sun or any planet to reveal questions. Each question has 4 "
@@ -25023,7 +25300,7 @@ msgstr ""
 "Klikšķini uz Saules vai jebkuras planētas, lai atklātu jautājumu. Katram "
 "jautājumam ir četri atbilžu variantu, no kuriem pareizs ir viens."
 
-#: activities/solar_system/SolarSystem.qml:165
+#: activities/solar_system/SolarSystem.qml:157
 msgctxt "SolarSystem|"
 msgid ""
 "After a planet is clicked, the Closeness meter at the bottom-right corner of "
@@ -25038,7 +25315,7 @@ msgstr ""
 "iegūsti 100 % precizitāti. Ja redzi padomu pogu, vari uz tās klikšķināt, lai "
 "iegūtu padomu par pareizo atbildi."
 
-#: activities/solar_system/SolarSystem.qml:170
+#: activities/solar_system/SolarSystem.qml:162
 msgctxt "SolarSystem|"
 msgid ""
 "There are 20 questions initially with 4 options each. The progress bar at "
@@ -25047,7 +25324,7 @@ msgstr ""
 "Sākotnēji ir 20 jautājumu ar četriem atbilžu variantiem. Progresa josla "
 "ekrāna apakšējā labajā pusē rāda punktus izteiktus procentuāli."
 
-#: activities/solar_system/SolarSystem.qml:171
+#: activities/solar_system/SolarSystem.qml:163
 msgctxt "SolarSystem|"
 msgid ""
 "If your answer is correct, your score increases.<br>If your answer is wrong, "
@@ -25060,7 +25337,7 @@ msgstr ""
 "atbildēto jautājumu.<br>Saņemsi līdz 25 jautājumiem, bet vairāk jautājumi "
 "uzdoti netiks."
 
-#: activities/solar_system/SolarSystem.qml:172
+#: activities/solar_system/SolarSystem.qml:164
 msgctxt "SolarSystem|"
 msgid ""
 "You should score above 90% to pass the assessment and become a Solar System "
@@ -25069,7 +25346,7 @@ msgstr ""
 "Lai noliktu pārbaudījumu un kļūtu par Saules sistēmas ekspertu, tavam "
 "vērtējumam ir jāpārsniedz 90%."
 
-#: activities/solar_system/SolarSystem.qml:357
+#: activities/solar_system/SolarSystem.qml:349
 #, qt-format
 msgctxt "SolarSystem|"
 msgid ""
@@ -25079,7 +25356,7 @@ msgstr ""
 "1. Jo <b>tālāk</b> planēta atrodas no Saules, jo <b>zemāka</b> ir tās "
 "temperatūra.<br><font color=\"#3bb0de\">%1</font>"
 
-#: activities/solar_system/SolarSystem.qml:358
+#: activities/solar_system/SolarSystem.qml:350
 #, qt-format
 msgctxt "SolarSystem|"
 msgid ""
@@ -25090,7 +25367,7 @@ msgstr ""
 "<br><font color=\"#3bb0de\">%1</font>"
 
 #. find an equivalent rhyme in your language where the first letter of each word corresponds to the first letter of the planet in proper sequence
-#: activities/solar_system/SolarSystem.qml:361
+#: activities/solar_system/SolarSystem.qml:353
 msgctxt "SolarSystem|"
 msgid ""
 "3. Always remember this rhyme to learn the position of planets, examine the "
@@ -25101,12 +25378,12 @@ msgstr ""
 "pirmo burtu — <b>M</b>ans <b>v</b>ecais <b>z</b>aļais <b>m</b>arsietis "
 "<b>ja</b>utri <b>s</b>tāda <b>u<b>pē <b>n</b>iedres.<br>"
 
-#: activities/solar_system/SolarSystem.qml:363
+#: activities/solar_system/SolarSystem.qml:355
 msgctxt "SolarSystem|"
 msgid "Hint"
 msgstr "Padoms"
 
-#: activities/solar_system/SolarSystem.qml:371
+#: activities/solar_system/SolarSystem.qml:363
 msgctxt "SolarSystem|"
 msgid "View the solar system"
 msgstr "Apskati Saules sistēmu"
@@ -25408,7 +25685,7 @@ msgstr "Supersmadzenes"
 #: activities/superbrain/ActivityInfo.qml:17
 msgctxt "ActivityInfo|"
 msgid "Tux has hidden several items. Find them in the correct order."
-msgstr "Tukss ir paslēpis dažādus vienumus. Atrodi tos pareizajā kārtībā."
+msgstr "Tukss ir paslēpis dažādus elementus. Atrodi tos pareizajā kārtībā."
 
 #. Help goal
 #: activities/superbrain/ActivityInfo.qml:20
@@ -25450,12 +25727,12 @@ msgstr ""
 "automātiski atlasīti pašreizējos un nākotnes minējumos līdz tu noņem šo "
 "atzīmi, uz tiem vēlreiz veicot dubultklikšķi."
 
-#: activities/superbrain/Superbrain.qml:146
+#: activities/superbrain/Superbrain.qml:150
 msgctxt "Superbrain|"
 msgid "This item is well placed."
 msgstr "Šis vienums ir pareizi novietots."
 
-#: activities/superbrain/Superbrain.qml:148
+#: activities/superbrain/Superbrain.qml:152
 msgctxt "Superbrain|"
 msgid "This item is misplaced."
 msgstr "Šis vienums ir nepareizi novietots."
@@ -25832,8 +26109,8 @@ msgid ""
 "Play with a friend. Take turns to click on the square which you want to "
 "mark. The first player to create a line of 3 marks wins."
 msgstr ""
-"Spēlē pret draugu. Pēc kārtas klikšķini uz lauciņa, kurā vēlies iezīmēt savu "
-"zīmi. Uzvar pirmais spēlētājs, kuram izdodas izveidot rindiņu ar trīs zīmēm."
+"Spēlē pret draugu. Pēc kārtas klikšķini uz lauciņa, kurā vēlies uzlikt savu "
+"zīmi. Uzvar pirmais spēlētājs, kuram izdodas izveidot rindiņu ar trim zīmēm."
 
 #. Activity title
 #: activities/traffic/ActivityInfo.qml:15
@@ -25859,6 +26136,352 @@ msgstr ""
 "Katrs automobilis var pārvietoties horizontāli vai vertikāli. Tev ir "
 "jāatbrīvo vieta, lai varētu sarkano automobili pārvietot uz vārtiem labajā "
 "pusē."
+
+#. Activity title
+#: activities/vertical_addition/ActivityInfo.qml:15
+msgctxt "ActivityInfo|"
+msgid "Vertical addition"
+msgstr "Saskaitīšana rakstos"
+
+#. Help title
+#: activities/vertical_addition/ActivityInfo.qml:17
+msgctxt "ActivityInfo|"
+msgid "Solve the given addition."
+msgstr "Saskaiti."
+
+#. Help goal
+#: activities/vertical_addition/ActivityInfo.qml:20
+msgctxt "ActivityInfo|"
+msgid "Learn to solve vertical additions."
+msgstr "Mācies saskaitīt stabiņos"
+
+#. Help prerequisite
+#: activities/vertical_addition/ActivityInfo.qml:22
+msgctxt "ActivityInfo|"
+msgid "Addition tables."
+msgstr "Saskaitīšanas tabulas."
+
+#. Help manual
+#: activities/vertical_addition/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid ""
+"In a vertical addition, numbers are written one below the other. They need "
+"to be lined-up properly, starting from the column on the right-hand side. "
+"The result is written on the bottom line. To solve the addition, start by "
+"adding up the numbers of the first column (on the right-hand side), and "
+"write the result on the bottom line of the same column. If the result gives "
+"a two digit number, write only the units digit on the result, and add the "
+"tens digit next to the top number of the next column: this is called the "
+"carry. Then add up the numbers of the next column, including the carry "
+"number, and repeat the process until the operation is finished. Once you "
+"have found the result, click on the OK button to validate your answer. In "
+"some levels, you will be need to write the given operation before solving "
+"it; in this case, click on the Ready button when the operation is written "
+"correctly and then solve it."
+msgstr ""
+"Skaitot rakstos, cipari ir rakstāmi viens zem otra. Tie ir jāizkārto "
+"stabiņā, izlīdzinot pret labu posu. Rezultātu raksta zem apakšējās līnijas. "
+"Lai saskaitītu, sāc skaitīt ciparus pirmajā stabiņā (stabiņš labajā pusē), "
+"tad pieraksti rezultātu šī stabiņā apakšā zem līnijas. Ja rezultātā iegūsti "
+"divciparu skaitli, pie rezultātiem raksti tikai skaitļa otro daļu, bet pirmo "
+"daļu (desmitus) pievieno nākamā stabiņa augšpusē — to sauc par atlikumu. Pēc "
+"tam saskaiti nākamo stabiņu, ieskaitot arī atlikumu, un atkārto šo procesu "
+"līdz ir saskaitīti visi stabiņi. Pēc gala rezultāta iegūšanas spied „Labi“ "
+"pogu, lai atbildi pārbaudītu. Dažos līmeņos pirms atrisinājuma ir "
+"jāpieraksta dotā operācija — šādā gadījumā, kad visa darbība ir pareizi "
+"pierakstīta, spied uz „Gatavs“ pogas un to atrisini."
+
+#: activities/vertical_addition/resource/1/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 2 digits, 2 lines, without carry."
+msgstr "Saskaiti divciparu skaitļus divās rindās bez atlikuma."
+
+#: activities/vertical_addition/resource/10/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 4 digits, 3 lines."
+msgstr "Saskaiti četrciparu skaitļus trīs rindās"
+
+#: activities/vertical_addition/resource/11/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 4 digits, 4 lines."
+msgstr "Saskaiti četrciparu skaitļus četrās rindās."
+
+#: activities/vertical_addition/resource/12/Data.qml:12
+msgctxt "Data|"
+msgid "Write your own addition and solve it."
+msgstr "Uzraksti savu saskaitīšanas darbību un to atrisini."
+
+#: activities/vertical_addition/resource/2/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve addition, 2 digits, 2 lines, without carry."
+msgstr ""
+"Pieraksti darbības un saskaiti ar divciparu skaitļiem divās rindās bez "
+"atlikuma."
+
+#: activities/vertical_addition/resource/3/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 2 digits, 2 lines."
+msgstr "Saskaiti ar divciparu skaitļiem divās rindās."
+
+#: activities/vertical_addition/resource/4/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve addition, 2 digits, 2 lines."
+msgstr "Pieraksti darbības un atrisini divciparus skaitļus divās rindās."
+
+#: activities/vertical_addition/resource/5/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve addition, 2 digits, 3 lines."
+msgstr "Pieraksti darbības un saskaiti divciparu skaitļus trīs rindās."
+
+#: activities/vertical_addition/resource/6/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 3 digits, 2 lines."
+msgstr "Saskaiti trīsciparu skaitļus divās rindās."
+
+#: activities/vertical_addition/resource/7/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve addition, 3 digits, 2 lines."
+msgstr "Pieraksti darbības un saskaiti trīsciparu skaitļus divās rindās."
+
+#: activities/vertical_addition/resource/8/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 3 digits, 3 lines."
+msgstr "Saskaiti trīsciparu skaitļus trijās rindās."
+
+#: activities/vertical_addition/resource/9/Data.qml:12
+msgctxt "Data|"
+msgid "Solve addition, 4 digits, 2 lines."
+msgstr "Saskaiti četrciparu skaitļus divās rindās."
+
+#. Activity title
+#: activities/vertical_subtraction/ActivityInfo.qml:15
+msgctxt "ActivityInfo|"
+msgid "Vertical subtraction"
+msgstr "Atņemšana rakstos"
+
+#. Help title
+#: activities/vertical_subtraction/ActivityInfo.qml:17
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:17
+msgctxt "ActivityInfo|"
+msgid "Solve the given subtraction."
+msgstr "Veic doto atņemšanu"
+
+#. Help goal
+#: activities/vertical_subtraction/ActivityInfo.qml:20
+msgctxt "ActivityInfo|"
+msgid ""
+"Learn to solve vertical subtractions, with the borrowing by regrouping "
+"method."
+msgstr "Mācies atņemt rakstos ar aizņemšanās un pārkārtošanas metodi."
+
+#. Help prerequisite
+#: activities/vertical_subtraction/ActivityInfo.qml:22
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:22
+msgctxt "ActivityInfo|"
+msgid "Subtraction tables."
+msgstr "Atņemšanas tabulas."
+
+#. Help manual
+#: activities/vertical_subtraction/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid ""
+"In a vertical subtraction, numbers are written one below the other. They "
+"need to be lined-up properly, starting from the column on the right-hand "
+"side. The top number is called the minuend: it is the amount that we are "
+"starting with, that another number is being subtracted from to get the "
+"difference. The number below is called the subtrahend: it is the amount to "
+"substract from the minuend to get the difference. The result is written on "
+"the bottom line. To solve the subtraction, start by subtracting the bottom "
+"number of the first column from the top number of the first column (on the "
+"right-hand side), and write the result on the bottom line of the same "
+"column. If the top number is smaller than the bottom number, you can borrow "
+"from the minuend on the next column: for example, if you add 10 units to the "
+"top number, you need to remove one unit from the top number of the next "
+"column. This is called the borrowing by regrouping method. To do that in "
+"this activity, click on the empty rectangle on the left of the top number, "
+"select 1, and on the next column click on the empty rectangle on the right "
+"of the top number and select -1. Then write the result of the column on the "
+"bottom line, and do the same on the next columns until the operation is "
+"finished. Once you have found the result, click on the OK button to validate "
+"your answer. In some levels, you will be need to write the given operation "
+"before solving it; in this case, click on the Ready button when the "
+"operation is written correctly and then solve it."
+msgstr ""
+"Atņemot rakstos, skaitļi ir rakstāmi viens zem otra. Tiem ir jābūt "
+"izkārtotiem pret labo pusi tā, lai tie veidotu stabiņus. Augšējo skaitli "
+"sauc par mazināmo — tas ir sākotnējais daudzums, no kura atņemam otru "
+"skaitli, lai iegūtu starpību. Apakšā esošo skaitli sauc par mazinātāju — tas "
+"ir daudzums, par kādu samazinās mazināmais, aprēķinot starpību. Rezultātu "
+"raksta apakšējā rindā zem līnijas. Atņemšanu sāc, atņemot apakšējo ciparu no "
+"augšējā pirmajā stabiņā (stabiņš labajā pusē), Rezultātā iegūto ciparu "
+"raksti tajā pašā stabiņā zem līnijas. Ja augšējais cipars ir mazāks par "
+"apakšējo, vari aizņemties no mazināmā nākamajā kolonnā. Piemēram, ja "
+"pieskaiti 10 vienību augšējam ciparam, tev ir jānoņem viena vienība no "
+"nākamajā stabiņā esošā cipara. To sauc par aizņemšanos ar pārkārtošanu. Lai "
+"to izdarītu šajā aktivitātē, klikšķini uz tukšā taisnstūra augšējā cipara "
+"kreisajā pusē, atlasi 1, bet tad klikšķini uz nākamā tukšā taisnstūra cipara "
+"augšā labajā pusē un atlasi −1. Pēc tam raksti stabiņā rezultātu zem "
+"apakšējās līnijas. Turpini šīs darbības līdz ir izdevies atņemt visus "
+"stabiņus. Pēc rezultāta iegūšanas spied uz „Labi“ un pārbaudi iegūto "
+"atbildi. Dažos līmeņus pirms atbildes ierakstīšanas būs jāpieraksta dotā "
+"darbība. Šādā gadījumā pēc darbības pierakstīšanas spied uz „Gatavs“ pogas "
+"un pēc tam veic atņemšanu."
+
+#: activities/vertical_subtraction/resource/1/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/1/Data.qml:12
+msgctxt "Data|"
+msgid "Solve subtraction, 2 digits, 2 lines, without carry."
+msgstr "Atņem divciparu skaitļus divās rindās bez aizņemšanās."
+
+#: activities/vertical_subtraction/resource/10/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/10/Data.qml:12
+msgctxt "Data|"
+msgid "Solve subtraction, 4 or 5 digits, 3 lines."
+msgstr "Atņemšana ar četrciparu un piecciparu skaitļiem trijās rindās."
+
+#: activities/vertical_subtraction/resource/11/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/11/Data.qml:12
+msgctxt "Data|"
+msgid "Solve subtraction, 4 or 5 digits, 4 lines."
+msgstr "Atņemšana ar četrciparu un piecciparu skaitļiem četrās rindās."
+
+#: activities/vertical_subtraction/resource/12/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/12/Data.qml:12
+msgctxt "Data|"
+msgid "Write your own subtraction and solve it."
+msgstr "Pieraksti savu atņemšanas darbību un to atrisini."
+
+#: activities/vertical_subtraction/resource/2/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/2/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve subtraction, 2 digits, 2 lines, without carry."
+msgstr ""
+"Pieraksti un atrisini atņemšanu ar divciparu skaitļiem divās rindās bez "
+"aizņemšanās."
+
+#: activities/vertical_subtraction/resource/3/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/3/Data.qml:12
+msgctxt "Data|"
+msgid "Solve subtraction, 2 or 3 digits, 2 lines."
+msgstr "Atņem ar divciparu vai trīsciparu skaitļiem divās rindās."
+
+#: activities/vertical_subtraction/resource/4/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/4/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve subtraction, 2 or 3 digits, 2 lines."
+msgstr "Pieraksti un atņem divciparu vai trīsciparu skaitļus divās rindās."
+
+#: activities/vertical_subtraction/resource/5/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/5/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve subtraction, 2 or 3 digits, 3 lines."
+msgstr "Pieraksti un atņem divciparu vai trīsciparu skaitļus trijās rindās."
+
+#: activities/vertical_subtraction/resource/6/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/6/Data.qml:12
+msgctxt "Data|"
+msgid "Solve subtraction, 3 or 4 digits, 2 lines."
+msgstr "Atņem trīsciparu vai četrciparu skaitļus divās rindās."
+
+#: activities/vertical_subtraction/resource/7/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/7/Data.qml:12
+msgctxt "Data|"
+msgid "Write and solve subtraction, 3 or 4 digits, 2 lines."
+msgstr "Pieraksti un atņem trīsciparu vai četrciparu skaitļus divās rindās."
+
+#: activities/vertical_subtraction/resource/8/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/8/Data.qml:12
+msgctxt "Data|"
+msgid "Solve subtraction, 3 or 4 digits, 3 lines."
+msgstr "Atņem trīsciparu vai četrciparu skaitļus trijās rindās."
+
+#: activities/vertical_subtraction/resource/9/Data.qml:12
+#: activities/vertical_subtraction_compensation/resource/9/Data.qml:12
+msgctxt "Data|"
+msgid "Solve subtraction, 4 or 5 digits, 2 lines."
+msgstr "Atņem četrciparu vai piecciparu skaitļus divās rindās."
+
+#: activities/vertical_subtraction/subtraction.js:71
+msgctxt "subtraction|"
+msgid "Write:"
+msgstr "Pieraksti:"
+
+#: activities/vertical_subtraction/subtraction.js:71
+msgctxt "subtraction|"
+msgid "Solve:"
+msgstr "Atrisini:"
+
+#. Solve (= Find the result of): %1 (= the operation to solve)
+#: activities/vertical_subtraction/subtraction.js:169
+#, qt-format
+msgctxt "subtraction|"
+msgid "Solve: %1"
+msgstr "Atrisini: %1"
+
+#: activities/vertical_subtraction/VerticalSubtraction.qml:399
+msgctxt "VerticalSubtraction|"
+msgid "Ready"
+msgstr "Gatavs"
+
+#. Activity title
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:15
+msgctxt "ActivityInfo|"
+msgid "Vertical subtraction (compensation)"
+msgstr "Atņemšana rakstos (kompensācija)"
+
+#. Help goal
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:20
+msgctxt "ActivityInfo|"
+msgid ""
+"Learn to solve vertical subtractions, with the borrowing by compensation "
+"method."
+msgstr "Mācies atņemt rakstos, izmantojot aizņemšanās un kompensācijas metodi."
+
+#. Help manual
+#: activities/vertical_subtraction_compensation/ActivityInfo.qml:24
+msgctxt "ActivityInfo|"
+msgid ""
+"In a vertical subtraction, numbers are written one below the other. They "
+"need to be lined-up properly, starting from the column on the right-hand "
+"side. The top number is called the minuend: it is the amount that we are "
+"starting with, that another number is being subtracted from to get the "
+"difference. The number below is called the subtrahend: it is the amount to "
+"substract from the minuend to get the difference. The result is written on "
+"the bottom line. To solve the subtraction, start by subtracting the bottom "
+"number of the first column from the top number of the first column (on the "
+"right-hand side), and write the result on the bottom line of the same "
+"column. If the top number is smaller than the bottom number, you can borrow "
+"from the subtrahend on the next column: for example, if you add 10 units to "
+"the top number, you need to add one unit to the bottom number of the next "
+"column. This is called the borrowing by compensation method. To do that in "
+"this activity, click on the empty rectangle on the left of the top number, "
+"select 1, and on the next column click on the empty rectangle on the right "
+"of the bottom number and select +1. Then write the result of the column on "
+"the bottom line, and do the same on the next columns until the operation is "
+"finished. Once you have found the result, click on the OK button to validate "
+"your answer. In some levels, you will be need to write the given operation "
+"before solving it; in this case, click on the Ready button when the "
+"operation is written correctly and then solve it."
+msgstr ""
+"Atņemot rakstos, skaitļi ir rakstāmi viens zem otra. Tiem ir jābūt "
+"izkārtotiem pret labo pusi tā, lai tie veidotu stabiņus un izlīdzinātiem "
+"pret kreiso malu. Augšējo skaitli sauc par mazināmo — tas ir sākotnējais "
+"daudzums, no kura atņemam otru skaitli, lai iegūtu starpību. Apakšā esošo "
+"skaitli sauc par mazinātāju — tas ir daudzums, par kādu samazinās "
+"mazināmais, aprēķinot starpību. Rezultātu raksta apakšējā rindā zem līnijas. "
+"Atņemšanu sāc, atņemot apakšējo ciparu no augšējā pirmajā stabiņā (stabiņš "
+"labajā pusē), Rezultātā iegūto ciparu raksti tajā pašā stabiņā zem līnijas. "
+"Ja augšējais cipars ir mazāks par apakšējo, vari aizņemties no mazināmā "
+"nākamajā kolonnā. Piemēram, ja pieskaiti 10 vienību augšējam ciparam, tev ir "
+"jānoņem viena vienība no nākamajā stabiņā esošā cipara. To sauc par "
+"aizņemšanos ar kompensēšanu. Lai to izdarītu šajā aktivitātē, klikšķini uz "
+"tukšā taisnstūra apakšējā cipara kreisajā pusē, atlasi 1, bet tad klikšķini "
+"uz nākamā tukšā taisnstūra cipara labajā pusē apakšā un atlasi +1. Pēc tam "
+"stabiņā zem apakšējās līnijas raksti rezultātu. Turpini šīs darbības līdz ir "
+"izdevies atņemt visus stabiņus. Pēc rezultāta iegūšanas spied uz „Labi“ un "
+"pārbaudi iegūto atbildi. Dažos līmeņus pirms atbildes ierakstīšanas būs "
+"jāpieraksta dotā darbība. Šādā gadījumā pēc darbības pierakstīšanas spied uz "
+"„Gatavs“ pogas un pēc tam veic atņemšanu."
 
 #. Activity title
 #: activities/watercycle/ActivityInfo.qml:15
@@ -25949,7 +26572,7 @@ msgid ""
 msgstr ""
 "Fantastiski! Tev ir izdevies pabeigt ūdens ciklu. Vari turpināt spēlēt."
 
-#: activities/watercycle/Watercycle.qml:147
+#: activities/watercycle/Watercycle.qml:139
 msgctxt "Watercycle|"
 msgid ""
 "The water cycle (also known as the hydrologic cycle) is the journey water "
@@ -25958,31 +26581,31 @@ msgid ""
 msgstr ""
 "Ūdens cikls (reizēm to dēvē arī par hidroloģisko ciklu) ir ūdens ceļš, tam "
 "cirkulējot no zemes uz debesīm un atpakaļ uz zemi. Saules siltums sniedz "
-"enerģiju ūdenim iztvaikot no ūdenstilpēm, piemēram, okeāna."
+"ūdenim enerģiju, lai tas varētu iztvaikot no ūdenstilpēm, piemēram, okeāna."
 
-#: activities/watercycle/Watercycle.qml:150
+#: activities/watercycle/Watercycle.qml:142
 msgctxt "Watercycle|"
 msgid ""
 "Plants also lose water to the air through transpiration. The water vapor "
 "cools down forming tiny droplets in clouds. When the clouds meet cool air "
 "over the land, precipitation is triggered and falls down as rain."
 msgstr ""
-"Augi zaudē ūdeni arī gaisā caur iztvaikošanu. Ūdens tvaiks atdziest un "
+"Arī augi atdod gaisam ūdeni caur iztvaikošanu. Ūdens tvaiks atdziest un "
 "izveido sīkus pilieniņus, kas veido mākoņus. Kad mākoņi virs zemes satiekas "
 "ar vēsu gaisu, sākas nokrišņi un līst."
 
-#: activities/watercycle/Watercycle.qml:153
+#: activities/watercycle/Watercycle.qml:145
 msgctxt "Watercycle|"
 msgid ""
 "Some of the water is trapped between rock or clay layers, called "
 "groundwater. But most of the water flows as runoff, eventually returning to "
 "the seas via rivers."
 msgstr ""
-"Daļa no ūdens tiek iesprostota starp a akmeņu un māla slāņiem, ko dēvē par "
+"Daļa no ūdens paliek starp a akmeņu un māla slāņiem, ko dēvē par "
 "gruntsūdeni. Bet lielākā daļa ūdens aizplūst tālāk un no grāvjiem un upēm "
 "nonāk jūrā."
 
-#: activities/watercycle/Watercycle.qml:155
+#: activities/watercycle/Watercycle.qml:147
 msgctxt "Watercycle|"
 msgid ""
 "Your goal is to complete the water cycle before Tux reaches home. Click on "
@@ -26026,37 +26649,71 @@ msgid "Type the complete word as it falls, before it reaches the ground."
 msgstr "Ieraksti krītošo vārdu pirms tas sasniedz zemi."
 
 #: core/ChangeLog.qml:30
+#, fuzzy
+#| msgctxt "ChangeLog|"
+#| msgid "Translation added for Latvian"
 msgctxt "ChangeLog|"
-msgid "Translation added for Latvian"
+msgid "Translation added for Sanskrit"
 msgstr "Pievienots latviešu valodas tulkojums"
 
-#: core/ChangeLog.qml:31 core/ChangeLog.qml:36 core/ChangeLog.qml:42
-#: core/ChangeLog.qml:71 core/ChangeLog.qml:106 core/ChangeLog.qml:109
-#: core/ChangeLog.qml:115
+#: core/ChangeLog.qml:31 core/ChangeLog.qml:40 core/ChangeLog.qml:46
+#: core/ChangeLog.qml:51 core/ChangeLog.qml:57 core/ChangeLog.qml:86
+#: core/ChangeLog.qml:121 core/ChangeLog.qml:124 core/ChangeLog.qml:130
 msgctxt "ChangeLog|"
 msgid "Many usability improvements"
 msgstr "Daudzi lietojamības uzlabojumi"
 
-#: core/ChangeLog.qml:32 core/ChangeLog.qml:37 core/ChangeLog.qml:44
-#: core/ChangeLog.qml:53 core/ChangeLog.qml:60 core/ChangeLog.qml:73
-#: core/ChangeLog.qml:111 core/ChangeLog.qml:117
-msgctxt "ChangeLog|"
-msgid "Many bug fixes"
-msgstr "Daudzi kļūdu labojumi"
-
-#: core/ChangeLog.qml:41
-msgctxt "ChangeLog|"
-msgid "Translations added for Bulgarian, Galician and Swahili"
-msgstr "Pievienots tulkojums bulgāru, galisiešu un svahili valodā"
-
-#: core/ChangeLog.qml:43 core/ChangeLog.qml:52 core/ChangeLog.qml:59
-#: core/ChangeLog.qml:72 core/ChangeLog.qml:90 core/ChangeLog.qml:105
-#: core/ChangeLog.qml:110 core/ChangeLog.qml:116
+#: core/ChangeLog.qml:32 core/ChangeLog.qml:58 core/ChangeLog.qml:67
+#: core/ChangeLog.qml:74 core/ChangeLog.qml:87 core/ChangeLog.qml:105
+#: core/ChangeLog.qml:120 core/ChangeLog.qml:125 core/ChangeLog.qml:131
 msgctxt "ChangeLog|"
 msgid "Many new images"
 msgstr "Daudzi jauni attēli"
 
+#: core/ChangeLog.qml:33 core/ChangeLog.qml:41 core/ChangeLog.qml:47
+#: core/ChangeLog.qml:52 core/ChangeLog.qml:59 core/ChangeLog.qml:68
+#: core/ChangeLog.qml:75 core/ChangeLog.qml:88 core/ChangeLog.qml:126
+#: core/ChangeLog.qml:132
+msgctxt "ChangeLog|"
+msgid "Many bug fixes"
+msgstr "Daudzi kļūdu labojumi"
+
+#: core/ChangeLog.qml:34
+#, fuzzy
+#| msgctxt "ChangeLog|"
+#| msgid ""
+#| "Automatic application of new language when changing in the menu (no need "
+#| "to restart GCompris)"
+msgctxt "ChangeLog|"
+msgid ""
+"Automatic application of new language when changing it in the menu (no need "
+"to restart GCompris)"
+msgstr ""
+"Automātiska jaunas valodas pielietošana, mainot izvēlni (nav nepieciešamas "
+"pārstartēt „GCompris“)"
+
+#: core/ChangeLog.qml:35
+msgctxt "ChangeLog|"
+msgid "Add splash screen at startup"
+msgstr "Ieslēdzoties parāda sākuma ekrānu"
+
+#: core/ChangeLog.qml:36
+msgctxt "ChangeLog|"
+msgid "New command-line option to switch the renderer (--renderer renderer)"
+msgstr ""
+"Jauna komandrindas opcija, lai pārslēgtu atveidotāju (--renderer atveidotājs)"
+
 #: core/ChangeLog.qml:45
+msgctxt "ChangeLog|"
+msgid "Translation added for Latvian"
+msgstr "Pievienots latviešu valodas tulkojums"
+
+#: core/ChangeLog.qml:56
+msgctxt "ChangeLog|"
+msgid "Translations added for Bulgarian, Galician and Swahili"
+msgstr "Pievienots tulkojums bulgāru, galisiešu un svahili valodā"
+
+#: core/ChangeLog.qml:60
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to directly start an activity at a specific level (--"
@@ -26065,17 +26722,17 @@ msgstr ""
 "Jaunas komandrindas iespējas, lai tiešā veidā sāktu darbību noteiktā līmenī "
 "(„--start-level“ līmenis izmantošanai ar „--launch“ aktivitāti)"
 
-#: core/ChangeLog.qml:50
+#: core/ChangeLog.qml:65
 msgctxt "ChangeLog|"
 msgid "Translations added for Arabic and Esperanto"
 msgstr "Pievienots arābu un esperanto tulkojums"
 
-#: core/ChangeLog.qml:51 core/ChangeLog.qml:58
+#: core/ChangeLog.qml:66 core/ChangeLog.qml:73
 msgctxt "ChangeLog|"
 msgid "Many translation updates"
 msgstr "Daudzi tulkojumu atjauninājumi"
 
-#: core/ChangeLog.qml:57
+#: core/ChangeLog.qml:72
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option (--difficulty {value|min-max}) to start GCompris at "
@@ -26084,22 +26741,22 @@ msgstr ""
 "Jaunas komandrindas iespējas ((--difficulty {value|min-max}), lai „GCompris“ "
 "palaistu ar noteiktu grūtības līmeni"
 
-#: core/ChangeLog.qml:64
+#: core/ChangeLog.qml:79
 msgctxt "ChangeLog|"
 msgid "Fix issue in comparator activity"
 msgstr "Novērsta kļūme salīdzināšanas aktivitātē"
 
-#: core/ChangeLog.qml:68
+#: core/ChangeLog.qml:83
 msgctxt "ChangeLog|"
 msgid "Map of Spain added for geography activity"
 msgstr "Ģeogrāfijas aktivitātei pievienota Spānijas karte"
 
-#: core/ChangeLog.qml:69
+#: core/ChangeLog.qml:84
 msgctxt "ChangeLog|"
 msgid "Voices added for Ukrainian"
 msgstr "Ukraiņu valodai pievienotas balsis"
 
-#: core/ChangeLog.qml:70
+#: core/ChangeLog.qml:85
 msgctxt "ChangeLog|"
 msgid ""
 "New command-line option to list all the activities and start on a specific "
@@ -26108,38 +26765,38 @@ msgstr ""
 "Jauna komandrindas iespēja, lai uzskaitītu visas aktivitātes un sāktu ar "
 "noteiktu"
 
-#: core/ChangeLog.qml:77
+#: core/ChangeLog.qml:92
 msgctxt "ChangeLog|"
 msgid ""
 "Reduce the size of the packages for all platforms and of the external word "
 "images set"
 msgstr "Samazināts pakotnes izmērs visām platformām un ārējām attēlu kopām"
 
-#: core/ChangeLog.qml:78
+#: core/ChangeLog.qml:93
 msgctxt "ChangeLog|"
 msgid "Improve images quality in several activities"
 msgstr "Uzlabota attēlu kvalitāte vairākām aktivitātēm"
 
-#: core/ChangeLog.qml:79
+#: core/ChangeLog.qml:94
 msgctxt "ChangeLog|"
 msgid "Fix some transitions in renewable_energy/watercycle on some platforms"
 msgstr ""
 "Labotas atsevišķas pārejas dažās platformās atjaunīgās enerģijas/ūdens cikla"
 
-#: core/ChangeLog.qml:80
+#: core/ChangeLog.qml:95
 msgctxt "ChangeLog|"
 msgid "Fix dead keys ignored on Linux for typing activities"
 msgstr ""
 "Labotas diakritiskās zīmes taustiņa ignorēšana „Linux“ rakstīšanas "
 "aktivitātēs"
 
-#: core/ChangeLog.qml:81
+#: core/ChangeLog.qml:96
 msgctxt "ChangeLog|"
 msgid "Fix level reset when changing level manually in Logical associations"
 msgstr ""
 "Fiksēta līmeņa atiestatīšana, manuāli mainot līmeni Loģiskajās asociācijās"
 
-#: core/ChangeLog.qml:85
+#: core/ChangeLog.qml:100
 msgctxt "ChangeLog|"
 msgid ""
 "Fix Alphabet sequence, Even and odd numbers and Numbers in order activities"
@@ -26147,37 +26804,37 @@ msgstr ""
 "Labota alfabētiskā secība, nepāra un pāra skaitļi un skaitļi kārtošanas "
 "aktivitātēs"
 
-#: core/ChangeLog.qml:89 core/ChangeLog.qml:97
+#: core/ChangeLog.qml:104 core/ChangeLog.qml:112
 msgctxt "ChangeLog|"
 msgid "Several bug fixes"
 msgstr "Vairāku kļūdu labojumi"
 
-#: core/ChangeLog.qml:91
+#: core/ChangeLog.qml:106
 msgctxt "ChangeLog|"
 msgid "Translation updated for Russian"
 msgstr "Tulkojumu atjauninājumi krievu valodai"
 
-#: core/ChangeLog.qml:92
+#: core/ChangeLog.qml:107
 msgctxt "ChangeLog|"
 msgid "New voices for Norwegian Nynorsk"
 msgstr "Jaunas balsis jaunnorvēģu valodai"
 
-#: core/ChangeLog.qml:96
+#: core/ChangeLog.qml:111
 msgctxt "ChangeLog|"
 msgid "Translations added for Breton, Czech and Macedonian"
 msgstr "Tulkojumi bretoņu, čehu un maķedoniešu valodā."
 
-#: core/ChangeLog.qml:101
+#: core/ChangeLog.qml:116
 msgctxt "ChangeLog|"
 msgid "Translation added for Azerbaijani"
 msgstr "Pievienots azerbaidžāņu valodas tulkojums"
 
-#: core/ChangeLog.qml:102
+#: core/ChangeLog.qml:117
 msgctxt "ChangeLog|"
 msgid "New maps and update of the maps for geography activities"
 msgstr "Jaunas kartes un karšu atjauninājumi ģeogrāfijas aktivitātēm"
 
-#: core/ChangeLog.qml:103
+#: core/ChangeLog.qml:118
 msgctxt "ChangeLog|"
 msgid ""
 "New dataset containing loops operations for programming maze, and make "
@@ -26186,7 +26843,7 @@ msgstr ""
 "Jauna datu kopa, kas satur ciklu operācijas labirintu programmēšanai, un "
 "pamācītu attēli padarīti tulkojami"
 
-#: core/ChangeLog.qml:104
+#: core/ChangeLog.qml:119
 msgctxt "ChangeLog|"
 msgid ""
 "Addition of a level to teach voltage source loop in analog electricity "
@@ -26195,57 +26852,57 @@ msgstr ""
 "Līmeņa pievienošana, lai mācītu sprieguma avota ciklu analogās elektrības "
 "aktivitātē"
 
-#: core/ChangeLog.qml:114
+#: core/ChangeLog.qml:129
 msgctxt "ChangeLog|"
 msgid "New Activity Settings menu, with dataset selection"
 msgstr "Jauna aktivitāšu iestatījumu izvēlne ar datu kopas atlasi"
 
-#: core/ChangeLog.qml:120
+#: core/ChangeLog.qml:135
 msgctxt "ChangeLog|"
 msgid "New sub-categories to organize activities"
 msgstr "Jaunas apakškategorijas aktivitāšu organizēšanai"
 
-#: core/ChangeLog.qml:121
+#: core/ChangeLog.qml:136
 msgctxt "ChangeLog|"
 msgid "Translation added for Macedonian."
 msgstr "Pievienots tulkojums maķedoniešu valodai."
 
-#: core/ChangeLog.qml:122
+#: core/ChangeLog.qml:137
 msgctxt "ChangeLog|"
 msgid "New activities Programming Maze and Baby Tangram"
 msgstr "Jaunas aktivitātes: labirinta programmēšana un bērnu tangrams"
 
-#: core/ChangeLog.qml:123
+#: core/ChangeLog.qml:138
 msgctxt "ChangeLog|"
 msgid "New background music and volume settings."
 msgstr "Jauni fona mūzikas un skaļuma iestatījumi."
 
-#: core/ChangeLog.qml:124
+#: core/ChangeLog.qml:139
 msgctxt "ChangeLog|"
 msgid "New speed setting in several activities."
 msgstr "Jauni ātruma iestatījumi vairākās aktivitātēs."
 
-#: core/ChangeLog.qml:125
+#: core/ChangeLog.qml:140
 msgctxt "ChangeLog|"
 msgid "New option in chess to display captured pieces."
 msgstr "Jauna iespēja šahā parādīt paņemtās figūras."
 
-#: core/ChangeLog.qml:126
+#: core/ChangeLog.qml:141
 msgctxt "ChangeLog|"
 msgid "New images in Colors, Advanced colors and Target game."
 msgstr "Jauni attēli krāsu, papildu krāsu un mērķa spēlē."
 
-#: core/ChangeLog.qml:127
+#: core/ChangeLog.qml:142
 msgctxt "ChangeLog|"
 msgid "New voices for US English."
 msgstr "Jaunas balsis ASV angļu valodai."
 
-#: core/ChangeLog.qml:128 core/ChangeLog.qml:136
+#: core/ChangeLog.qml:143 core/ChangeLog.qml:151
 msgctxt "ChangeLog|"
 msgid "Many little fixes and improvements."
 msgstr "Daudzi sīki labojumi un uzlabojumi."
 
-#: core/ChangeLog.qml:129
+#: core/ChangeLog.qml:144
 msgctxt "ChangeLog|"
 msgid ""
 "Translation updated for multiple languages (Breton, Brazilian Portuguese, "
@@ -26254,18 +26911,18 @@ msgstr ""
 "Atjaunināts tulkojums vairākām valodām (bretoņu, Brazīlijas portugāļu, "
 "somu...)."
 
-#: core/ChangeLog.qml:130
+#: core/ChangeLog.qml:145
 msgctxt "ChangeLog|"
 msgid "Add Russian dataset for Click on letter activity."
 msgstr ""
 "Pievienota krievu valodas datu kopa klikšķināšanas uz burta aktivitātei."
 
-#: core/ChangeLog.qml:131
+#: core/ChangeLog.qml:146
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Dutch."
 msgstr "Valodu aktivitāte holandiešu valodā."
 
-#: core/ChangeLog.qml:132
+#: core/ChangeLog.qml:147
 msgctxt "ChangeLog|"
 msgid ""
 "Merge Norwegian counties Nord-Trøndelag and Sør-Trøndelag into Trøndelag in "
@@ -26274,17 +26931,17 @@ msgstr ""
 "Valstu aktivitātē apvienoti Norvēģijas novadi Nūrtrendelāga un Sērtrendelāga "
 "vienā Trendelāgas novadā."
 
-#: core/ChangeLog.qml:133
+#: core/ChangeLog.qml:148
 msgctxt "ChangeLog|"
 msgid "Fix in braille activities where the cells start at 1, not 0."
 msgstr "Labojums Braila aktivitātēs, šūnām sākoties ar 1, bet ne 0."
 
-#: core/ChangeLog.qml:134
+#: core/ChangeLog.qml:149
 msgctxt "ChangeLog|"
 msgid "Translation added for Basque, Hungarian and Malayalam."
 msgstr "Pievienots tulkojums basku, ungāru un malaju valodai."
 
-#: core/ChangeLog.qml:135
+#: core/ChangeLog.qml:150
 msgctxt "ChangeLog|"
 msgid ""
 "Loading/saving of creations (Baby Wordprocessor, Balance Box and Piano "
@@ -26293,47 +26950,47 @@ msgstr ""
 "Izveidotā satura ielāde/saglabāšana (bērnu tekstapstrādes programma, "
 "līdzsvara kaste un klavieru kompozīcija)."
 
-#: core/ChangeLog.qml:136
+#: core/ChangeLog.qml:151
 msgctxt "ChangeLog|"
 msgid "Translations added for Scottish Gaelic."
 msgstr "Pievienots tulkojums skotu gēlu valodai."
 
-#: core/ChangeLog.qml:137
+#: core/ChangeLog.qml:152
 msgctxt "ChangeLog|"
 msgid "License page added in configuration."
 msgstr "Konfigurācijai ir pievienota licences lapa."
 
-#: core/ChangeLog.qml:137
+#: core/ChangeLog.qml:152
 msgctxt "ChangeLog|"
 msgid "Multiple changes on layouts to improve the ergonomy."
 msgstr "Vairākas izkārtojuma izmaiņas ergonomikas uzlabošanai"
 
-#: core/ChangeLog.qml:138
+#: core/ChangeLog.qml:153
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in Polish, Swedish and Ukrainian."
 msgstr "Valodas aktivitāte ir pieejama poļu, zviedru un ukraiņu valodai."
 
-#: core/ChangeLog.qml:139
+#: core/ChangeLog.qml:154
 msgctxt "ChangeLog|"
 msgid "Search feature."
 msgstr "Meklēšanas iespēja."
 
-#: core/ChangeLog.qml:140
+#: core/ChangeLog.qml:155
 msgctxt "ChangeLog|"
 msgid "A Changelog."
 msgstr "Izmaiņu žurnāls."
 
-#: core/ChangeLog.qml:141
+#: core/ChangeLog.qml:156
 msgctxt "ChangeLog|"
 msgid "Many little fixes."
 msgstr "Daudzi sīki labojumi."
 
-#: core/ChangeLog.qml:141
+#: core/ChangeLog.qml:156
 msgctxt "ChangeLog|"
 msgid "Lang activity now available in French."
 msgstr "Valodas aktivitāte pieejama franču valodai."
 
-#: core/ChangeLog.qml:142
+#: core/ChangeLog.qml:157
 msgctxt "ChangeLog|"
 msgid ""
 "Adding a loading overlay to let the user know that some actions are taking "
@@ -26342,7 +26999,7 @@ msgstr ""
 "Pievienots ielādēšanās virsekrāns, lai lietotāju informētu par notiekošajām "
 "darbībām (piemēram, aktivitātes ielādi), kas var aizņemt kādu laiku."
 
-#: core/ChangeLog.qml:142
+#: core/ChangeLog.qml:157
 msgctxt "ChangeLog|"
 msgid ""
 "Translations added for: Catalan (Valencian), Chinese Traditional, Finnish "
@@ -26352,12 +27009,12 @@ msgstr ""
 "(92% iztulkoti), krievu (98% iztulkoti), slovāku (92% iztulkoti), turku "
 "valodai."
 
-#: core/ChangeLog.qml:143
+#: core/ChangeLog.qml:158
 msgctxt "ChangeLog|"
 msgid "Translations added for: Slovenian, German, Galician."
 msgstr "Pievienoti tulkojumi slovēņu, vācu un galisiešu valodai."
 
-#: core/ChangeLog.qml:197
+#: core/ChangeLog.qml:212
 #, qt-format
 msgctxt "ChangeLog|"
 msgid "Version %1:"
@@ -26379,7 +27036,8 @@ msgstr ""
 #: core/core.js:225
 msgctxt "core|"
 msgid "For downloading the needed sound files go to the Configuration dialog."
-msgstr "Lejupielādei nepieciešamās skaņas datnes iet uz konfigurācijas logu."
+msgstr ""
+"Lai lejupielādētu nepieciešamās skaņas datnes, atveriet konfigurācijas logu."
 
 #: core/core.js:257
 msgctxt "core|"
@@ -26594,17 +27252,17 @@ msgctxt "DialogChooseLevel|"
 msgid "Options"
 msgstr "Opcijas"
 
-#: core/DialogChooseLevel.qml:344
+#: core/DialogChooseLevel.qml:345
 msgctxt "DialogChooseLevel|"
 msgid "Cancel"
 msgstr "Atcelt"
 
-#: core/DialogChooseLevel.qml:352
+#: core/DialogChooseLevel.qml:353
 msgctxt "DialogChooseLevel|"
 msgid "Save"
 msgstr "Saglabāt"
 
-#: core/DialogChooseLevel.qml:366
+#: core/DialogChooseLevel.qml:367
 msgctxt "DialogChooseLevel|"
 msgid "Save and start"
 msgstr "Saglabāt un sākt"
@@ -26617,7 +27275,7 @@ msgstr "Autors:"
 #: core/DialogHelp.qml:53
 msgctxt "DialogHelp|"
 msgid "Prerequisite:"
-msgstr "Priekšnoteikums:"
+msgstr "Priekšnoteikumi:"
 
 #: core/DialogHelp.qml:58
 msgctxt "DialogHelp|"
@@ -26632,7 +27290,7 @@ msgstr "Pamācība:"
 #: core/DialogHelp.qml:67
 msgctxt "DialogHelp|"
 msgid "Credit:"
-msgstr "Kredīts:"
+msgstr "Pateicība:"
 
 #: core/DialogHelp.qml:71
 msgctxt "DialogHelp|"
@@ -26640,62 +27298,62 @@ msgid "Section:"
 msgstr "Nodaļa:"
 
 #. "Dots" is for representation of the points in a domino in the form of dots
-#: core/Domino.qml:57
+#: core/Domino.qml:58
 msgctxt "Domino|"
 msgid "Dots"
 msgstr "Punkti"
 
 #. "Arabic Numbers" is for representation of the points in a domino in the form of integer numbers
-#: core/Domino.qml:59
+#: core/Domino.qml:60
 msgctxt "Domino|"
 msgid "Arabic Numbers"
 msgstr "Arābu skaitļi"
 
 #. "Roman Numbers" is for representation of the points in a domino in the form of roman numbers
-#: core/Domino.qml:61
+#: core/Domino.qml:62
 msgctxt "Domino|"
 msgid "Roman Numbers"
 msgstr "Romiešu skaitļi"
 
 #. "Images" is for representation of the points in a domino in the form of an image (containing a specific count of same elements)
-#: core/Domino.qml:63
+#: core/Domino.qml:64
 msgctxt "Domino|"
 msgid "Images"
 msgstr "Attēli"
 
-#: core/DownloadDialog.qml:201
+#: core/DownloadDialog.qml:208
 msgctxt "DownloadDialog|"
 msgid "Downloading..."
 msgstr "Lejupielādē..."
 
 #. Run this task in background
-#: core/DownloadDialog.qml:253
+#: core/DownloadDialog.qml:238
 msgctxt "DownloadDialog|"
 msgid "Background"
 msgstr "Fons"
 
-#: core/DownloadDialog.qml:270
+#: core/DownloadDialog.qml:254
 msgctxt "DownloadDialog|"
 msgid "Abort"
 msgstr "Atcelt"
 
-#: core/DownloadDialog.qml:368
+#: core/DownloadDialog.qml:330
 #, qt-format
 msgctxt "DownloadDialog|"
 msgid "Download error (code: %1): %2"
 msgstr "Lejupielādes kļūda (kods: %1): %2"
 
-#: core/DownloadDialog.qml:396
+#: core/DownloadDialog.qml:358
 msgctxt "DownloadDialog|"
 msgid "Your download finished successfully. The data files are now available."
 msgstr "Jūsu lejupielāde ir pabeigta. Datnes tagad ir pieejamas."
 
-#: core/DownloadDialog.qml:398
+#: core/DownloadDialog.qml:360
 msgctxt "DownloadDialog|"
 msgid "Restart any currently active activity."
 msgstr "Pārstartēt pašreizējā aktivitātē."
 
-#: core/DownloadDialog.qml:400
+#: core/DownloadDialog.qml:362
 msgctxt "DownloadDialog|"
 msgid "Your local data files are up-to-date."
 msgstr "Jūsu lokālās datnēm ir jaunākās versijas."
@@ -26745,85 +27403,90 @@ msgctxt "QObject|"
 msgid "No data found for %1."
 msgstr "Nav atrasti %1 dati."
 
-#: core/GCCreationHandler.qml:134
+#: core/GCCreationHandler.qml:175
 #, qt-format
 msgctxt "GCCreationHandler|"
 msgid "%1 deleted successfully!"
 msgstr "%1 ir izdzēsts!"
 
-#: core/GCCreationHandler.qml:135 core/GCCreationHandler.qml:140
-#: core/GCCreationHandler.qml:181
+#: core/GCCreationHandler.qml:176 core/GCCreationHandler.qml:181
+#: core/GCCreationHandler.qml:234
 msgctxt "GCCreationHandler|"
-msgid "Ok"
+msgid "OK"
 msgstr "Labi"
 
-#: core/GCCreationHandler.qml:139
+#: core/GCCreationHandler.qml:180
 #, qt-format
 msgctxt "GCCreationHandler|"
 msgid "Unable to delete %1!"
 msgstr "Neizdodas dzēst %1!"
 
-#: core/GCCreationHandler.qml:172
+#: core/GCCreationHandler.qml:214
 msgctxt "GCCreationHandler|"
 msgid "A file with this name already exists. Do you want to replace it?"
 msgstr "Jau pastāv datne ar šādu nosaukumu. Vai vēlaties to aizstāt?"
 
-#: core/GCCreationHandler.qml:173
+#: core/GCCreationHandler.qml:215 core/GCCreationHandler.qml:222
 msgctxt "GCCreationHandler|"
 msgid "Yes"
 msgstr "Jā"
 
-#: core/GCCreationHandler.qml:173
+#: core/GCCreationHandler.qml:215 core/GCCreationHandler.qml:222
 msgctxt "GCCreationHandler|"
 msgid "No"
 msgstr "Nē"
 
-#: core/GCCreationHandler.qml:180
+#: core/GCCreationHandler.qml:221
+msgctxt "GCCreationHandler|"
+msgid "Do you really want to delete this file?"
+msgstr "Vai tiešām vēlies dzēst šo datni?"
+
+#: core/GCCreationHandler.qml:233
 msgctxt "GCCreationHandler|"
 msgid "Saved successfully!"
 msgstr "Saglabāts!"
 
-#: core/GCCreationHandler.qml:202
+#: core/GCCreationHandler.qml:264
 msgctxt "GCCreationHandler|"
 msgid "Enter file name"
 msgstr "Ierakstiet datnes nosaukumu"
 
-#: core/GCCreationHandler.qml:202
+#: core/GCCreationHandler.qml:264
 msgctxt "GCCreationHandler|"
 msgid "Search"
 msgstr "Meklēt"
 
-#: core/GCCreationHandler.qml:219
+#: core/GCCreationHandler.qml:278
 msgctxt "GCCreationHandler|"
 msgid "Save"
 msgstr "Saglabāt"
 
-#: core/GCCreationHandler.qml:325
+#: core/GCCreationHandler.qml:384
 msgctxt "GCCreationHandler|"
 msgid "Load"
 msgstr "Ielādēt"
 
-#: core/GCCreationHandler.qml:335
+#: core/GCCreationHandler.qml:394
 msgctxt "GCCreationHandler|"
 msgid "Delete"
 msgstr "Dzēst"
 
-#: core/IntroMessage.qml:137
+#: core/IntroMessage.qml:142
 msgctxt "IntroMessage|"
 msgid "Previous"
-msgstr "Iepriekšējais"
+msgstr "Iepriekšējā"
 
-#: core/IntroMessage.qml:153
+#: core/IntroMessage.qml:157
 msgctxt "IntroMessage|"
 msgid "Next"
-msgstr "Nākamais"
+msgstr "Nākamā"
 
-#: core/IntroMessage.qml:168
+#: core/IntroMessage.qml:171
 msgctxt "IntroMessage|"
 msgid "Skip"
 msgstr "Izlaist"
 
-#: core/IntroMessage.qml:168
+#: core/IntroMessage.qml:171
 msgctxt "IntroMessage|"
 msgid "Start"
 msgstr "Sākt"
@@ -26882,31 +27545,40 @@ msgstr "Ieslēgt kioska režīmu."
 msgctxt "QObject|"
 msgid ""
 "Use software renderer instead of openGL (slower but should run with any "
-"graphical card)."
+"graphical card). Deprecated, use --renderer=software instead."
 msgstr ""
 "„OpenGL“ vietā izmantot programmatūras atveidotāju (lēnāk, bet jādarbojas ar "
-"jebkuru grafikas karti)."
+"jebkuru grafikas karti). Novecojis iestatījums, tā vietā lietojiet „--"
+"renderer=software“."
 
 #: core/main.cpp:105
 msgctxt "QObject|"
 msgid ""
 "Use openGL renderer instead of software (faster but crash potentially "
-"depending on your graphical card)."
+"depending on your graphical card). Deprecated, use --renderer=opengl instead."
 msgstr ""
 "Izmantot „OpenGL“ atveidotāju programmatūras vietā (darbojas ātrāk, bet "
-"atkarībā no datora kartes var avarēt)."
+"atkarībā no datora kartes var avarēt). Novecojis iestatījums, tā vietā "
+"lietojiet „--renderer=opengl“."
 
 #: core/main.cpp:109
+msgctxt "QObject|"
+msgid "Select renderer (opengl, software, Direct3D11, Direct3D12, Metal)."
+msgstr ""
+"Norādiet atveidotāju („opengl“, programmatūras, „Direct3D11“, „Direct3D12“, "
+"„Metal“)."
+
+#: core/main.cpp:113
 msgctxt "QObject|"
 msgid "Specify the activity when starting GCompris."
 msgstr "Norādīt aktivitāti, ar kuru sākt „GCompris“."
 
-#: core/main.cpp:114
+#: core/main.cpp:118
 msgctxt "QObject|"
 msgid "Outputs all the available activities on the standard output."
 msgstr "Izvada visas pieejamās aktivitātes standarta izvadē."
 
-#: core/main.cpp:118
+#: core/main.cpp:122
 msgctxt "QObject|"
 msgid ""
 "Specify the range of activity difficulty to display for the session. Either "
@@ -26915,7 +27587,7 @@ msgstr ""
 "Noteikt aktivitāšu grūtības diapazonu sesijai. Vai nu viena vērtība (2) vai "
 "diapazons (3—6). Vērtībām jābūt starp 1 un 6."
 
-#: core/main.cpp:122
+#: core/main.cpp:126
 msgctxt "QObject|"
 msgid ""
 "Specify on which level to start the activity. Only used when --launch option "
@@ -26924,7 +27596,7 @@ msgstr ""
 "Norādi, ar kādu līmeni sākt aktivitāti. Izmanto tikai tad, ja ir pielietots "
 "„--launch“ parametrs."
 
-#: core/main.qml:263
+#: core/main.qml:235
 msgctxt "main|"
 msgid ""
 "Do you want to automatically download or update the following external "
@@ -26933,67 +27605,32 @@ msgstr ""
 "Vai vēlies automātiski lejupielādēt vai atjaunināt šos ārējos resursus, "
 "palaižot „GCompris“?"
 
-#: core/main.qml:265
+#: core/main.qml:237
 msgctxt "main|"
 msgid "Voices for your language"
 msgstr "Balsis tavai valodai"
 
-#: core/main.qml:266
+#: core/main.qml:238
 msgctxt "main|"
 msgid "Full word image set"
 msgstr "Pilna vārda attēlu kopa"
 
-#: core/main.qml:267
+#: core/main.qml:239
 msgctxt "main|"
 msgid "Background music"
 msgstr "Fona mūzika"
 
-#: core/main.qml:273
+#: core/main.qml:245
 msgctxt "main|"
 msgid "Yes"
 msgstr "Jā"
 
-#: core/main.qml:280
+#: core/main.qml:252
 msgctxt "main|"
 msgid "No"
 msgstr "Nē"
 
-#: core/main.qml:316
-msgctxt "main|"
-msgid "Welcome to GCompris!"
-msgstr "Laipni lūdzam „GCompris“!"
-
-#: core/main.qml:317
-msgctxt "main|"
-msgid "You are running GCompris for the first time."
-msgstr "Tu „GCompris“ ieslēdzi pirmo reizi."
-
-#: core/main.qml:318
-msgctxt "main|"
-msgid ""
-"You should verify that your application settings especially your language is "
-"set correctly. You can do this in the Configuration dialog."
-msgstr ""
-"Pārbaudi, vai programmas iestatījumi un jo īpaši valoda ir pareizi norādīta. "
-"Vari to izdarīt konfigurācijas logā."
-
-#: core/main.qml:320
-msgctxt "main|"
-msgid "Have Fun!"
-msgstr "Priecājies!"
-
-#: core/main.qml:322
-#, qt-format
-msgctxt "main|"
-msgid "Your current language is %1 (%2)."
-msgstr "Pašreizējā valoda ir %1 (%2)."
-
-#: core/main.qml:354
-msgctxt "main|"
-msgid "GCompris has been updated! Here are the new changes:<br/>"
-msgstr "„GCompris“ ir atjaunināts! Te ir jaunākās izmaiņas:<br/>"
-
-#: core/main.qml:382
+#: core/main.qml:274
 msgctxt "main|"
 msgid ""
 "Some activities have new dataset available. Do you want to reset their "
@@ -27002,40 +27639,108 @@ msgstr ""
 "Dažām aktivitātēm ir pieejamas jaunas datu kopas. Vai vēlies atiestatīt to "
 "datu kopas atlasi?"
 
-#: core/main.qml:383
+#: core/main.qml:275
 msgctxt "main|"
 msgid "Apply"
 msgstr "Pielietot"
 
-#: core/main.qml:384
+#: core/main.qml:276
 msgctxt "main|"
 msgid "Cancel"
 msgstr "Atcelt"
+
+#: core/main.qml:361
+msgctxt "main|"
+msgid "Welcome to GCompris!"
+msgstr "Laipni lūdzam „GCompris“!"
+
+#: core/main.qml:362
+msgctxt "main|"
+msgid "You are running GCompris for the first time."
+msgstr "Tu „GCompris“ ieslēdzi pirmo reizi."
+
+#: core/main.qml:363
+msgctxt "main|"
+msgid ""
+"You should verify that your application settings especially your language is "
+"set correctly. You can do this in the Configuration dialog."
+msgstr ""
+"Pārbaudi, vai programmas iestatījumi un jo īpaši valoda ir pareizi norādīta. "
+"Vari to izdarīt konfigurācijas logā."
+
+#: core/main.qml:365
+msgctxt "main|"
+msgid "Have Fun!"
+msgstr "Priecājies!"
+
+#: core/main.qml:367
+#, qt-format
+msgctxt "main|"
+msgid "Your current language is %1 (%2)."
+msgstr "Pašreizējā valoda ir %1 (%2)."
+
+#: core/main.qml:399
+msgctxt "main|"
+msgid "GCompris has been updated! Here are the new changes:<br/>"
+msgstr "„GCompris“ ir atjaunināts! Te ir jaunākās izmaiņas:<br/>"
 
 #: core/ReadyButton.qml:69
 msgctxt "ReadyButton|"
 msgid "I am Ready"
 msgstr "Esmu gatavs"
 
-#: core/Tutorial.qml:146
+#: core/Tutorial.qml:137
 msgctxt "Tutorial|"
 msgid "Previous"
-msgstr "Iepriekšējais"
+msgstr "Iepriekšējā"
 
-#: core/Tutorial.qml:166
+#: core/Tutorial.qml:155
 msgctxt "Tutorial|"
 msgid "Next"
-msgstr "Nākamais"
+msgstr "Nākamā"
 
-#: core/Tutorial.qml:185
+#: core/Tutorial.qml:172
 msgctxt "Tutorial|"
 msgid "Skip"
 msgstr "Izlaist"
 
-#: core/Tutorial.qml:185
+#: core/Tutorial.qml:172
 msgctxt "Tutorial|"
 msgid "Start"
 msgstr "Sākt"
+
+#~ msgctxt "ActivityInfo|"
+#~ msgid "<b>Keyboard controls:"
+#~ msgstr "<br>Tastatūras vadība:"
+
+#~ msgctxt "ActivityInfo|"
+#~ msgid "Draw the letters by connecting the dots in the correct order."
+#~ msgstr "Raksti burtus, savienojot punktus pareizajā secībā."
+
+#~ msgctxt "ActivityInfo|"
+#~ msgid "Draw the numbers by connecting the dots in the correct order."
+#~ msgstr "Raksti skaitļus, savienojot punktus pareizā secībā."
+
+#~ msgctxt "ActivityInfo|"
+#~ msgid ""
+#~ "Draw the picture by clicking on the points in the numerical sequence "
+#~ "order."
+#~ msgstr "Zīmē attēlu, klikšķinot uz punktiem, ievērojot skaitļu secību."
+
+#, fuzzy
+#~| msgctxt "Data|"
+#~| msgid "Subtractions with 1, 2 and 3."
+#~ msgctxt "Data|"
+#~ msgid "Solve subtraction, 2 digits, 2 lines."
+#~ msgstr "Atņemšana ar 1, 2 un 3."
+
+#~ msgctxt "Balancebox|"
+#~ msgid "Ok"
+#~ msgstr "Labi"
+
+#~ msgctxt "GCCreationHandler|"
+#~ msgid "Ok"
+#~ msgstr "Labi"
 
 #, fuzzy
 #~| msgctxt "ActivityInfo|"
@@ -27115,13 +27820,6 @@ msgstr "Sākt"
 #~ msgctxt "ActivityInfo|"
 #~ msgid "Numbers."
 #~ msgstr "Vienkārši burti"
-
-#, fuzzy
-#~| msgctxt "ActivityInfo|"
-#~| msgid "Draw the picture by clicking on each numbers in the right order."
-#~ msgctxt "ActivityInfo|"
-#~ msgid "Reproduce the given tower."
-#~ msgstr "Zīmē attēlu, klikšķinot pareizā secībā uz skaitļiem."
 
 #, fuzzy
 #~| msgctxt "ActivityInfo|"

@@ -74,8 +74,18 @@ endif()
 
 set(used_qt_modules ${QT_MAJOR}::Qml ${QT_MAJOR}::Quick ${QT_MAJOR}::Widgets ${QT_MAJOR}::Gui ${QT_MAJOR}::Multimedia ${QT_MAJOR}::Core ${QT_MAJOR}::Svg ${QT_MAJOR}::Sensors ${QT_MAJOR}::QuickControls2 ${QT_MAJOR}::QuickTemplates2 ${QT_MAJOR}::Charts ${QT_MAJOR}::QmlWorkerScript ${QT_MAJOR}::CorePrivate)
 
-if(TARGET Qt6::QuickControls2BasicPrivate)
-  set(used_qt_modules ${used_qt_modules} ${QT_MAJOR}::QuickControls2Basic)
+if(TARGET ${QT_MAJOR}::QuickControls2Basic)
+  set(used_qt_modules ${used_qt_modules} ${QT_MAJOR}::QuickControls2Basic ${QT_MAJOR}::QuickControls2BasicPrivate)
+  # This should not be needed! But for some reason, on windows it does not find
+  # automatically the library so we need to install it manually
+  if(WIN32)
+    get_target_property(QuickControls2BasicLibrary ${QT_MAJOR}::QuickControls2Basic IMPORTED_LOCATION)
+    install(FILES ${QuickControls2BasicLibrary} DESTINATION ${CMAKE_INSTALL_BINDIR})
+  endif()
+endif()
+
+if(TARGET ${QT_MAJOR}::WaylandClient)
+    set(used_qt_modules ${used_qt_modules} ${QT_MAJOR}::WaylandClient ${QT_MAJOR}::WaylandClientPrivate)
 endif()
 
 if(ANDROID)
@@ -145,26 +155,28 @@ endif()
 # ============
 
 install(TARGETS ${GCOMPRIS_EXECUTABLE_NAME}
-  ARCHIVE DESTINATION bin
-  RUNTIME DESTINATION bin
-  LIBRARY DESTINATION lib
+  ARCHIVE DESTINATION ${CMAKE_INSTALL_BINDIR}
+  RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+  LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
   BUNDLE DESTINATION .)
 
 if(BUILD_STANDALONE)
   # Qt plugins to install
   set(_qt_plugins "")
 
+  set(default_plugins ${QT_MAJOR}::QSvgPlugin ${QT_MAJOR}::QWebpPlugin ${QT_MAJOR}::QGifPlugin ${QT_MAJOR}::genericSensorPlugin ${QT_MAJOR}::QtSensorGesturePlugin ${QT_MAJOR}::QShakeSensorGesturePlugin)
+  if(WIN32)
+    set(default_plugins ${default_plugins} ${QT_MAJOR}::QICOPlugin ${QT_MAJOR}::QWindowsIntegrationPlugin ${QT_MAJOR}::QWindowsAudioPlugin ${QT_MAJOR}::AudioCaptureServicePlugin ${QT_MAJOR}::DSServicePlugin)
+  elseif(ANDROID)
+    set(default_plugins ${default_plugins} ${QT_MAJOR}::QAndroidIntegrationPlugin)
+  elseif(APPLE)
+    set(default_plugins ${default_plugins} ${QT_MAJOR}::QICNSPlugin ${QT_MAJOR}::QTgaPlugin ${QT_MAJOR}::QTiffPlugin ${QT_MAJOR}::QCocoaIntegrationPlugin)
+  else()
+    set(default_plugins ${default_plugins} ${QT_MAJOR}::QComposePlatformInputContextPlugin ${QT_MAJOR}::QXcbIntegrationPlugin ${QT_MAJOR}::QXcbEglIntegrationPlugin ${QT_MAJOR}::QXcbGlxIntegrationPlugin ${QT_MAJOR}::QAlsaPlugin ${QT_MAJOR}::QPulseAudioPlugin ${QT_MAJOR}::QWaylandIntegrationPlugin ${QT_MAJOR}::QWaylandXdgShellIntegrationPlugin ${QT_MAJOR}::QWaylandEglPlatformIntegrationPlugin ${QT_MAJOR}::QWaylandEglClientBufferPlugin)
+  endif()
+
   # First plugins should be used on all platforms
-  foreach(_plugin ${QT_MAJOR}::QSvgPlugin ${QT_MAJOR}::QWebpPlugin ${QT_MAJOR}::QICOPlugin ${QT_MAJOR}::QICNSPlugin ${QT_MAJOR}::QGifPlugin ${QT_MAJOR}::QJpegPlugin ${QT_MAJOR}::QWbmpPlugin ${QT_MAJOR}::genericSensorPlugin ${QT_MAJOR}::QtSensorGesturePlugin ${QT_MAJOR}::QShakeSensorGesturePlugin
-      # Should be specific plugins used on Linux
-      ${QT_MAJOR}::QComposePlatformInputContextPlugin ${QT_MAJOR}::QXcbIntegrationPlugin ${QT_MAJOR}::QXcbEglIntegrationPlugin ${QT_MAJOR}::QXcbGlxIntegrationPlugin ${QT_MAJOR}::QAlsaPlugin ${QT_MAJOR}::QPulseAudioPlugin
-      # Should be specific plugins used on MacOS
-      ${QT_MAJOR}::QTgaPlugin ${QT_MAJOR}::QTiffPlugin ${QT_MAJOR}::QCocoaIntegrationPlugin
-      # Should be specific plugins used on Windows
-      ${QT_MAJOR}::QWindowsIntegrationPlugin ${QT_MAJOR}::QWindowsAudioPlugin ${QT_MAJOR}::AudioCaptureServicePlugin ${QT_MAJOR}::DSServicePlugin
-      # Should be specific plugins used on Android
-      ${QT_MAJOR}::QAndroidIntegrationPlugin
-      )
+  foreach(_plugin ${default_plugins})
     if(TARGET ${_plugin})
       message(STATUS "${_plugin} will be included in the package")
       list(APPEND _qt_plugins ${_plugin})
@@ -185,9 +197,7 @@ if(BUILD_STANDALONE)
   list(APPEND _qt_plugins2 tls/${_lib_prefix}qopensslbackend)
   list(APPEND _qt_plugins2 multimedia/${_lib_prefix}ffmpegmediaplugin)
 
-  if(UNIX AND NOT ANDROID AND NOT APPLE AND NOT UBUNTUTOUCH)
-    list(APPEND _qt_plugins2 multimedia/${_lib_prefix}gstreamermediaplugin)
-  elseif(ANDROID)
+  if(ANDROID)
     list(APPEND _qt_plugins2 multimedia/${_lib_prefix}androidmediaplugin)
   elseif(WIN32)
     list(APPEND _qt_plugins2 multimedia/${_lib_prefix}windowsmediaplugin)
@@ -198,12 +208,15 @@ if(BUILD_STANDALONE)
    set(_qml_plugins
      QtQml/Models/${_lib_prefix}modelsplugin
      QtQml/WorkerScript/${_lib_prefix}workerscriptplugin
+     QtCore/${_lib_prefix}qtqmlcoreplugin
      QtQuick/Controls/Basic/impl/${_lib_prefix}qtquickcontrols2basicstyleimplplugin
+     QtQuick/Controls/Basic/${_lib_prefix}qtquickcontrols2basicstyleplugin
      QtQuick/Controls/impl/${_lib_prefix}qtquickcontrols2implplugin
      QtQuick/Effects/${_lib_prefix}effectsplugin
      QtQuick/Window/${_lib_prefix}quickwindowplugin
      QtQuick/Particles/${_lib_prefix}particlesplugin
      QtQuick/${_lib_prefix}qtquick2plugin
+     QtQuick/Shapes/${_lib_prefix}qmlshapesplugin
      QtMultimedia/${_lib_prefix}quickmultimediaplugin
      QtSensors/${_lib_prefix}sensorsquickplugin
      QtCharts/${_lib_prefix}qtchartsqml2plugin)
@@ -268,28 +281,21 @@ if(BUILD_STANDALONE)
     list(APPEND GCOMPRIS_OTHER_LIBS ${_lib})
   endforeach()
 
-  # Fix for Linux 'make package' that fails to link with libicu; also package OpenSSL libs from system
   if(UNIX AND NOT APPLE AND NOT ANDROID)
-    add_library( libicudata SHARED IMPORTED )
-    file(GLOB LIBICUDATA_SO "${Qt6_DIR}/../../libicudata.so.[0-9][0-9]")
-    if("${LIBICUDATA_SO}" STREQUAL "")
-      file(GLOB LIBICUDATA_SO "/usr/lib/*/libicudata.so.[0-9][0-9]")
+    if(SHIP_SYSTEM_ICU)
+      file(GLOB ICU_DATA_LIBRARY "${ICU_DATA_LIBRARY_RELEASE}.[0-9][0-9]")
+      file(GLOB ICU_I18N_LIBRARY "${ICU_I18N_LIBRARY_RELEASE}.[0-9][0-9]")
+      file(GLOB ICU_UC_LIBRARY "${ICU_UC_LIBRARY_RELEASE}.[0-9][0-9]")
+      install(FILES "${ICU_DATA_LIBRARY}" DESTINATION bin)
+      install(FILES "${ICU_DATA_LIBRARY}.1" DESTINATION bin)
+      install(FILES "${ICU_I18N_LIBRARY}" DESTINATION bin)
+      install(FILES "${ICU_I18N_LIBRARY}.1" DESTINATION bin)
+      install(FILES "${ICU_UC_LIBRARY}" DESTINATION bin)
+      install(FILES "${ICU_UC_LIBRARY}.1" DESTINATION bin)
+      target_link_libraries(${GCOMPRIS_EXECUTABLE_NAME} ${ICU_LIBRARIES})
     endif()
-    set_target_properties( libicudata PROPERTIES IMPORTED_LOCATION ${LIBICUDATA_SO} )
-    add_library( libicui18n SHARED IMPORTED )
-    file(GLOB LIBICUI18N_SO "${Qt6_DIR}/../../libicui18n.so.[0-9][0-9]")
-    if("${LIBICUI18N_SO}" STREQUAL "")
-      file(GLOB LIBICUI18N_SO "/usr/lib/*/libicui18n.so.[0-9][0-9]")
-    endif()
-    set_target_properties( libicui18n PROPERTIES IMPORTED_LOCATION ${LIBICUI18N_SO} )
-    add_library( libicuuc SHARED IMPORTED )
-    file(GLOB LIBICUUC_SO "${Qt6_DIR}/../../libicuuc.so.[0-9][0-9]")
-    if("${LIBICUUC_SO}" STREQUAL "")
-      file(GLOB LIBICUUC_SO "/usr/lib/*/libicuuc.so.[0-9][0-9]")
-    endif()
-    set_target_properties( libicuuc PROPERTIES IMPORTED_LOCATION ${LIBICUUC_SO} )
-    target_link_libraries(${GCOMPRIS_EXECUTABLE_NAME} libicudata libicui18n libicuuc)
-    # package installed OpenSSL libraries
+
+    # package OpenSSL libs from system
     install(FILES "${OPENSSL_SSL_LIBRARY}" DESTINATION bin)
     install(FILES "${OPENSSL_CRYPTO_LIBRARY}" DESTINATION bin)
     install(FILES "${OPENSSL_SSL_LIBRARY}.3" DESTINATION bin)
@@ -322,7 +328,7 @@ if(BUILD_STANDALONE AND NOT ANDROID)
 
   # install a startup script for linux bundle
   if(UNIX AND NOT APPLE AND NOT UBUNTUTOUCH)
-    install(PROGRAMS ../../tools/gcompris-qt.sh DESTINATION bin)
+    install(PROGRAMS ../../tools/gcompris-qt.sh DESTINATION ${CMAKE_INSTALL_BINDIR})
   endif()
 endif()
 
@@ -378,8 +384,8 @@ if(WIN32)
   set(CPACK_WIX_PROGRAM_MENU_FOLDER "GCompris Educational Software")
 
   # Create shortcuts in menu to be able to launch in software or opengl mode
-  list(APPEND CPACK_NSIS_CREATE_ICONS_EXTRA "  CreateShortCut '$SMPROGRAMS\\\\$STARTMENU_FOLDER\\\\GCompris (Safe Mode).lnk' '$INSTDIR\\\\bin\\\\${GCOMPRIS_EXECUTABLE_NAME}.exe' '--software-renderer'")
-  list(APPEND CPACK_NSIS_CREATE_ICONS_EXTRA "  CreateShortCut '$SMPROGRAMS\\\\$STARTMENU_FOLDER\\\\GCompris.lnk' '$INSTDIR\\\\bin\\\\${GCOMPRIS_EXECUTABLE_NAME}.exe' '--opengl-renderer'")
+  list(APPEND CPACK_NSIS_CREATE_ICONS_EXTRA "  CreateShortCut '$SMPROGRAMS\\\\$STARTMENU_FOLDER\\\\GCompris (Safe Mode).lnk' '$INSTDIR\\\\bin\\\\${GCOMPRIS_EXECUTABLE_NAME}.exe' '--renderer=software'")
+  list(APPEND CPACK_NSIS_CREATE_ICONS_EXTRA "  CreateShortCut '$SMPROGRAMS\\\\$STARTMENU_FOLDER\\\\GCompris.lnk' '$INSTDIR\\\\bin\\\\${GCOMPRIS_EXECUTABLE_NAME}.exe' '--renderer=direct3d11'")
   string(REPLACE ";" "\n" CPACK_NSIS_CREATE_ICONS_EXTRA "${CPACK_NSIS_CREATE_ICONS_EXTRA}")
 else()
   set(CPACK_PACKAGE_ICON "${PROJECT_SOURCE_DIR}/images/256-apps-gcompris-qt.png")

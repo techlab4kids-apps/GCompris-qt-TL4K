@@ -179,6 +179,7 @@ scalesboard_weight
 scalesboard_weight_avoirdupois
 share
 simplepaint
+sketch
 smallnumbers
 smallnumbers2
 solar_system
@@ -194,5 +195,8 @@ tens_complement_use
 tic_tac_toe
 tic_tac_toe_2players
 traffic
+vertical_addition
+vertical_subtraction
+vertical_subtraction_compensation
 watercycle
 wordsgame
